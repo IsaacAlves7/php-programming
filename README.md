@@ -9,7 +9,7 @@
 </ul>
 
 ## What's the PHP language?
-<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="270"></div>
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
