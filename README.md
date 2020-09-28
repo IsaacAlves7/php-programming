@@ -9,5 +9,5 @@
 </ul>
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
-## Composer
-<img src="https://miro.medium.com/max/807/1*NmdT4aRz4kW7mOMx_bzXQw.png"/>
+## PHP + Composer
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="300"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="300"/></div>
