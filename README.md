@@ -1,4 +1,4 @@
-# It's a repository of PHP language for Back-End Development
+## It's a repository of PHP language for Back-End Development
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"/>
 
 ## Introduction - PHP language and MySQL database:
@@ -11,8 +11,14 @@
 ## What's the PHP language?
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 
+## What's the MySQL Database?
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
+
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
 ## Composer
 <div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
+
+## PostgreSQL
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
