@@ -10,4 +10,4 @@
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
 ## PHP + Composer
-<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="300"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="300"/></div>
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="300"><img src="https://image.flaticon.com/icons/png/512/43/43371.png" height="300"/></div><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="300"/></div>
