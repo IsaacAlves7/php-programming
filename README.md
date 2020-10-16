@@ -1,7 +1,7 @@
 # It's a repository of PHP programming 📚🐘🔢
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"/>
 
-## Introduction - PHP language and MySQL database:
+## Introduction - PHP language:
 <b>Contents:</b>
 <ul>
   <li>The History of PHP language.</li>
