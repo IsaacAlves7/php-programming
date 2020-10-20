@@ -327,3 +327,14 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 ## PostgreSQL
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
 <p>O <b>PostgreSQL</b> é um banco de dados relacional</p>
+
+## Álgebra Relacional
+<p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>. No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de Sistemas Baseados em Arquivos para Sistemas Baseados em Banco de Dados.
+
+Não é possível conceber, atualmente, qualquer sistema que possa prescindir de um <b>Banco de Dados</b>. Os Sistemas de Banco de Dados atuais são, majoritariamente, baseados no <b>Modelo Relacional</b>.
+
+Entretanto, de que adiantaria termos uma estrutura de armazenamento se não conseguíssemos manipular os dados ali armazenados? Como o modelo relacional teve sua origem na matemática, essa mesma ciência nos fornece a ferramenta para manipulá-lo, a <b>Álgebra Relacional</b>.</p>
+
+## Linguagem SQL - DML e DDL
+<div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
+<p>O <b>PostgreSQL</b> é um banco de dados relacional</p>
