@@ -319,7 +319,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
 ## What's a Database?
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
+<div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Se baseiam em <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
   <li><strong>Registros</strong> fichas de informações;</li>
@@ -328,7 +328,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 </ul>
 
 ## What's the MySQL Database?
-<div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="200"></div>
+<div align="center"><img src="" height="200"></div>
 
 ## Configurações do Apache XAMPP?
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
