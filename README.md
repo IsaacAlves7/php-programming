@@ -315,14 +315,15 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 ## What's the PHP language?
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 
-## What's the MySQL Database?
-<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
-
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
-## Composer
-<div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
+## What's a Database?
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
+<p>Um <b>Banco de dados</b> é um banco </p>
+
+## What's the MySQL Database?
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 
 ## PostgreSQL Database
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
@@ -338,3 +339,6 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 ## Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>PostgreSQL</b> é um banco de dados relacional</p>
+
+## Composer
+<div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
