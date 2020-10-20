@@ -320,9 +320,15 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 
 ## What's a Database?
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
-<p>Um <b>Banco de dados</b> é um banco </p>
+<p>Um <b>Banco de dados</b></p>
 
 ## What's the MySQL Database?
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
+
+## Configurações do Apache XAMPP?
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
+
+## PhpMyAdmin
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 
 ## PostgreSQL Database
