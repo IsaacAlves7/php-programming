@@ -320,7 +320,12 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 
 ## What's a Database?
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
-<p>Um <b>Banco de dados</b></p>
+<p>Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Se baseiam em <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
+<ul>
+  <li><strong>Registros</strong> fichas de informações;</li>
+  <li><strong>Tabelas</strong> são pastas que armazenam os registros;</li>
+  <li><strong>Arquivos</strong> armazenam as tabelas;</li>
+</ul>
 
 ## What's the MySQL Database?
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
