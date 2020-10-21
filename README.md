@@ -335,7 +335,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 </ol>
 
 ## What's the MySQL Database?
-<div align="center"><img src="" height="200"></div>
+<div align="center"><img src="https://i1.wp.com/sempreupdate.com.br/wp-content/uploads/2017/10/MySQL-Logo-Large-Orignal.png?fit=1152%2C864&ssl=1" height="200"></div>
 
 ## Configurações do Apache XAMPP?
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
