@@ -343,7 +343,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conex√£o, que no caso √
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/220px-XAMPP_logo.svg.png" height="200"></div>
 
 ## PhpMyAdmin
-<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="200"></div>
 
 ## PostgreSQL Database
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="270"/></div>
