@@ -326,6 +326,13 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
   <li><strong>Tabelas</strong> são pastas que armazenam os registros;</li>
   <li><strong>Arquivos</strong> armazenam as tabelas;</li>
 </ul>
+<p>A estrutura do banco de dados é composta por:</p>
+<ol>
+  <li><strong>Base de dados</strong> são os dados propriamente de ditos.</li>
+  <li><strong>Sistema Gerenciador</strong> são os gerenciamento de dados.</li>  
+  <li><strong>Linguagem de Exploração</strong> é uma linguagem de acesso aos dados.</li>  
+  <li><strong>Programas Adicionais</strong> é uma linguagem de acesso aos dados.</li>  
+</ol>
 
 ## What's the MySQL Database?
 <div align="center"><img src="" height="200"></div>
