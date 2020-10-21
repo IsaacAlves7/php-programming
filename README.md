@@ -333,6 +333,8 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
   <li><strong>Linguagem de Exploração</strong> é uma linguagem de acesso aos dados.</li>  
   <li><strong>Programas Adicionais</strong> é uma linguagem de acesso aos dados.</li>  
 </ol>
+<p>Além disso, existem opções para banco de dados:</p>
+<div align="center"><img src="https://image.slidesharecdn.com/aws-esri-120923115607-phpapp01/95/aws-e-esri-solues-de-mapas-e-anlise-espacial-na-nuvem-48-728.jpg?cb=1348401582" height="200"></div>
 
 ## What's the MySQL Database?
 <div align="center"><img src="https://i1.wp.com/sempreupdate.com.br/wp-content/uploads/2017/10/MySQL-Logo-Large-Orignal.png?fit=1152%2C864&ssl=1" height="200"></div>
@@ -356,7 +358,7 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 
 ## Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
-<p>O <b>PostgreSQL</b> é um banco de dados relacional</p>
+<p>O <b>Structured Query Language (SQL)</b> é uma linguagem de consulta, ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
 ## Composer
 <div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
