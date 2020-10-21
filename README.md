@@ -358,7 +358,9 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 
 ## Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
-<p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre ele: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access. Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
+<p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
+
+Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
 ## Composer
 <div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
