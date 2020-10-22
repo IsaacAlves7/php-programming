@@ -360,7 +360,7 @@ Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará
 ## Configurações do Apache XAMPP?
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/220px-XAMPP_logo.svg.png" height="200"></div>
 
-## PhpMyAdmin
+## MySQL e phpMyAdmin
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="200"></div>
 
 ## Composer
