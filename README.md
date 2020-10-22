@@ -319,7 +319,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
-## 🏦🎲🎲🎲 What's a Database (DB)?
+## 🎲🏦🎲 What's a Database (DB)?
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Se baseiam em <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
