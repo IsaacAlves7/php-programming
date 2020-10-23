@@ -372,12 +372,17 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 <blockquote>Dado é o “princípio em que se assenta uma discussão” ou o “elemento ou base para a formação de um juízo”. Ainda, assumindo-se um ponto de vista mais filosófico, dado é “o que se apresenta à consciência como imediato, não construído ou não elaborado”, FERREIRA et al. (1999, p. 602).</blockquote>
 <p>Essas definições são úteis para exemplificar o termo "<strong>dado</strong>" e situar sua definição de um ponto de vista mais humanizado.
 
-Computacionalmente falando, pode-se definir dado como um valor armazenado e que por si só não quer dizer muita coisa. Uma lista de números - por exemplo, 10, 12, 20, 21, 23, 38 - não nos fornece nenhum significado, mas, por assim dizer, são os dados obtidos e anotados de alguma forma.
+Computacionalmente falando, pode-se definir <strong>dado</strong> como um valor armazenado e que por si só não quer dizer muita coisa. Uma lista de números - por exemplo, <strong>10, 12, 20, 21, 23, 38</strong> - não nos fornece nenhum significado, mas, por assim dizer, são os dados obtidos e anotados de alguma forma.
 
 A necessidade de armazenar os dados precede a criação do conceito de <strong>Sistemas de Banco de dados</strong>.
-
 </p>
 
+<blockquote>
+  <strong>ATENÇÃO!</strong>
+
+Antigamente, os dados eram armazenados em arquivos. Normalmente são associados a um único sistema de aplicação, trazendo, por consequência, redundância de dados quando os mesmos se faziam necessários em outros sistemas.
+
+A maioria das organizações desenvolve os seus Sistemas de Informação um por vez, à medida que se tornam necessários, utilizando cada um o seu próprio conjunto de programas, arquivos e usuários.</blockquote>
 
 ## 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
