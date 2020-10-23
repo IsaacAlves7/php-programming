@@ -344,10 +344,10 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 <div align="center"><img src="https://image.slidesharecdn.com/aws-esri-120923115607-phpapp01/95/aws-e-esri-solues-de-mapas-e-anlise-espacial-na-nuvem-48-728.jpg?cb=1348401582" height="400"></div>
 <p>Soluções pagas e empresariais de Banco de Dados:</p>
 <ul>
-  <li><strong>OracleDB</strong> fichas de informações;</li>
-  <li><strong>IBMDB2</strong> são pastas que armazenam os registros;</li>
-  <li><strong>dBASE</strong> armazenam as tabelas;</li>
-  <li><strong>SQL Server</strong> armazenam as tabelas;</li>
+  <li><strong>OracleDB</strong>;</li>
+  <li><strong>IBMDB2</strong>;</li>
+  <li><strong>dBASE</strong>;</li>
+  <li><strong>SQL Server</strong>;</li>
 </ul>
 
 ## PostgreSQL Database
