@@ -334,7 +334,13 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
   <li><strong>Linguagem de Exploração</strong> é uma linguagem de acesso aos dados.</li>  
   <li><strong>Programas Adicionais</strong> é uma linguagem de acesso aos dados.</li>  
 </ol>
-<p>Além disso, existem opções para banco de dados:</p>
+<p>Alguns paradigmas de Banco de Dados (Modelos de Banco de Dados):</p>
+<ul>
+  <li><strong>Modelo Hierárquico</strong> fichas de informações;</li>
+  <li><strong>Modelo em Redes</strong> são pastas que armazenam os registros;</li>
+  <li><strong>Modelo Relacional</strong> armazenam as tabelas;</li>
+</ul>
+<p>Com isso, existem opções para banco de dados:</p>
 <div align="center"><img src="https://image.slidesharecdn.com/aws-esri-120923115607-phpapp01/95/aws-e-esri-solues-de-mapas-e-anlise-espacial-na-nuvem-48-728.jpg?cb=1348401582" height="400"></div>
 
 ## PostgreSQL Database
