@@ -378,7 +378,7 @@ A necessidade de armazenar os dados precede a criação do conceito de <strong>S
 </p>
 
 <blockquote>
-  <strong>ATENÇÃO!</strong>
+  <strong>⚠️ ATENÇÃO!</strong>
 
 Antigamente, os dados eram armazenados em arquivos. Normalmente são associados a um único sistema de aplicação, trazendo, por consequência, redundância de dados quando os mesmos se faziam necessários em outros sistemas.
 
