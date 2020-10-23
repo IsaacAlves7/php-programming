@@ -354,6 +354,10 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 
 Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
+## 💉🎲 SQL Injection
+<div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
+<p>O <b>SQL Injection</b></p>
+
 ## What's the MySQL Database?
 <div align="center"><img src="https://i1.wp.com/sempreupdate.com.br/wp-content/uploads/2017/10/MySQL-Logo-Large-Orignal.png?fit=1152%2C864&ssl=1" height="200"></div>
 
