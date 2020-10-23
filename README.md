@@ -392,6 +392,11 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 </ol>
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/97049881-c9ad2000-1552-11eb-8e19-67592bcd49ae.jpg" height="270"/></div>
 
+<p>O esquema apresentado acaba acarretando em:</p>
+
+#### Redundância de dados
+<p>Trata-se da duplicação dos mesmos dados em dois ou mais arquivos. O problema com a redundância é que as mudanças, ao serem feitas no arquivo de uma aplicação, não são automaticamente realizadas nos arquivos das outras aplicações, gerando a falta de integridade dos dados.</p>
+
 ## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
