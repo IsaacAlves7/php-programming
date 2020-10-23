@@ -363,7 +363,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 ### PostgreSQL Database
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="210"/></div>
 
-Não é possível conceber, atualmente, qualquer sistema que possa prescindir de um <b>Banco de Dados</b>. Os Sistemas de Banco de Dados atuais são, majoritariamente, baseados no <b>Modelo Relacional</b>.
+Não é possível conceber, atualmente, qualquer sistema que possa prescindir de um <b>Banco de Dados</b>. Os Sistemas de Banco de Dados atuais são, majoritariamente, baseados no <b>Modelo Relacional</b>. Por isso, iremos utilizar o <strong>PostgreSQL</strong> como alternativa gratuita de modelo relacional de banco de dados.
 
 Entretanto, de que adiantaria termos uma estrutura de armazenamento se não conseguíssemos manipular os dados ali armazenados? Como o modelo relacional teve sua origem na matemática, essa mesma ciência nos fornece a ferramenta para manipulá-lo, a <b>Álgebra Relacional</b>.</p>
 
