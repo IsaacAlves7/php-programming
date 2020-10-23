@@ -340,7 +340,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
   <li><strong>Modelo em Redes</strong> Armazenam os dados em forma de rede inteligente, sem grau de superioridade ou inferioridade;</li>
   <li><strong>Modelo Relacional</strong> Armazenam os dados em relação entre eles, ou seja, armazena um conjunto de registros a outro conjunto de registros que está em outra tabela;</li>
 </ul>
-<p>Com isso, existem opções para banco de dados:</p>
+<p>Com isso, existem muitas opções para banco de dados:</p>
 <div align="center"><img src="https://image.slidesharecdn.com/aws-esri-120923115607-phpapp01/95/aws-e-esri-solues-de-mapas-e-anlise-espacial-na-nuvem-48-728.jpg?cb=1348401582" height="400"></div>
 
 ## PostgreSQL Database
