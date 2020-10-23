@@ -390,7 +390,7 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
   <li>Se uma aplicação compartilha dados com outras, esses têm que ser duplicados;</li>
   <li>Qualquer alteração no modelo de dados implica em alteração do código da aplicação.</li>
 </ol>
-
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/97049881-c9ad2000-1552-11eb-8e19-67592bcd49ae.jpg"/></div>
 
 ## 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
