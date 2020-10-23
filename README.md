@@ -384,6 +384,14 @@ Antigamente, os dados eram armazenados em arquivos. Normalmente são associados 
 
 A maioria das organizações desenvolve os seus Sistemas de Informação um por vez, à medida que se tornam necessários, utilizando cada um o seu próprio conjunto de programas, arquivos e usuários.</blockquote>
 
+<p>A figura 1 mostra a estrutura de um sistema baseado em arquivo. Nela podemos notar que:</p>
+<ol>
+  <li>Cada aplicação possui seus próprios arquivos de dados;</li>
+  <li>Se uma aplicação compartilha dados com outras, esses têm que ser duplicados;</li>
+  <li>Qualquer alteração no modelo de dados implica em alteração do código da aplicação.</li>
+</ol>
+
+
 ## 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
