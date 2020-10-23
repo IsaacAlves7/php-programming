@@ -16,7 +16,7 @@ Com essa combinação e com a apropriação da tecnologia que vem se estabelecen
 
 São novos hábitos e costumes gerando novas demandas e oportunidades, bem como as soluções criativas e a inovação, principalmente, aquelas que se utilizam da Internet, como os portais de conhecimento, as salas de aula virtuais e os jogos para Internet. Os sistemas de e-commerce têm grande apreço no mercado de trabalho do profissional de informática.</p>
 
-## What's the Internet?
+## 1. What's the Internet?
 <img src="https://img.ibxk.com.br/2020/06/29/29100837408091.jpg?w=1120&h=420&mode=crop&scale=both"/>
 <p>O acúmulo de conhecimento adquirido em função de estratégias usadas no período da <strong>Segunda Guerra</strong> e da necessidade de comunicação segura fomentou o desenvolvimento de ferramentas e códigos que viabilizassem a circulação de informações no meio militar, sem o risco de vazamento que pudesse colocar toda a estratégia em perigo.
 
@@ -357,7 +357,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
   <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
-## Álgebra Relacional
+## 1. Álgebra Relacional
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>. No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de Sistemas Baseados em Arquivos para Sistemas Baseados em Banco de Dados.
 
 ### PostgreSQL Database
@@ -392,7 +392,7 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 </ol>
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/97049881-c9ad2000-1552-11eb-8e19-67592bcd49ae.jpg" height="270"/></div>
 
-## 🏦🎲🔢 Linguagem SQL - DML e DDL
+## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
 
