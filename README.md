@@ -342,12 +342,19 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 </ul>
 <p>Com isso, existem muitas opções para banco de dados:</p>
 <div align="center"><img src="https://image.slidesharecdn.com/aws-esri-120923115607-phpapp01/95/aws-e-esri-solues-de-mapas-e-anlise-espacial-na-nuvem-48-728.jpg?cb=1348401582" height="400"></div>
-<p>Soluções pagas e empresariais de Banco de Dados:</p>
+<p>Soluções pagas e empresariais de Banco de Dados Relacional:</p>
 <ul>
   <li><strong>OracleDB</strong>;</li>
   <li><strong>IBMDB2</strong>;</li>
   <li><strong>dBASE</strong>;</li>
-  <li><strong>SQL Server</strong>;</li>
+  <li><strong>Microsoft SQL Server</strong>;</li>
+</ul>
+<p>Soluções gratuitas de Banco de Dados Relacional:</p>
+<ul>
+  <li><strong>MySQL</strong>;</li>
+  <li><strong>MariaDB</strong>;</li>
+  <li><strong>Firebird</strong>;</li>
+  <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
 ## PostgreSQL Database
