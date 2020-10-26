@@ -400,6 +400,9 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 #### Dependência entre programas e dados
 <p>Os aplicativos tradicionais de banco de dados de arquivos são caracterizados pela dependência entre programas e dados, isso é, programas e dados desenvolvidos e organizados para uma aplicação são incompatíveis com os programas e dados organizados diferentemente para um outro aplicativo.</p>
 
+#### Custo excessivo em software
+<p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
+
 ## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
