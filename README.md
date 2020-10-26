@@ -411,6 +411,7 @@ Um <strong>banco de dados</strong> é uma coleção de dados organizados de tal 
 A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi necessário um software adicional – um <b>sistema de gerenciamento de banco de dados (SGBD)</b>. O <b>SGBD</b> consiste em um grupo de programas que podem ser usados como uma interface entre o banco de dados e um usuário ou um banco de dados e um programa aplicativo.
 </p>
 
+<img src="https://user-images.githubusercontent.com/61624336/97218661-b941b300-17a7-11eb-925d-885085b82124.jpg"/>
 
 
 
