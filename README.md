@@ -333,7 +333,7 @@ Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com re
   <li><strong>Base de dados</strong> são os dados propriamente de ditos.</li>
   <li><strong>Sistema Gerenciador</strong> são os gerenciamento de dados.</li>  
   <li><strong>Linguagem de Exploração</strong> é uma linguagem de acesso aos dados.</li>  
-  <li><strong>Programas Adicionais</strong> é uma linguagem de acesso aos dados.</li>  
+  <li><strong>Programas Adicionais</strong> é tudo que for extra no banco de dados, como gerência de usuários ou utilizadores de dados.</li>  
 </ol>
 <p>Alguns paradigmas de Banco de Dados (Modelos de Banco de Dados):</p>
 <ul>
