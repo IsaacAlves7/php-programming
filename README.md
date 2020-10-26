@@ -403,6 +403,7 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 
 #### Custo excessivo em software
 <p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
+<hr>
 
 <p>A evolução da tecnologia associada ao grande aumento do volume de dados a ser armazenado e processado levou à criação de uma nova abordagem para o problema, <strong>o Sistema de Banco de Dados</strong>.
 
