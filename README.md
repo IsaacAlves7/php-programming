@@ -319,7 +319,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 
-## 🎲🏦🎲 What's a Database (DB)?
+## 🎲🏦🎲 Implementação com Banco de dados (DB)
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Imagine da seguinte forma, um <b>dado</b> é um pequeno item de uma informação, como por exemplo: um nome, um número ou endereço. Já uma <b>informação</b> é um conjunto desses dados. E um <b>arquivo</b> é um conjunto dessas informações. Cada um desses significados de dados podem ser organizados da seguinte categoria: <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
