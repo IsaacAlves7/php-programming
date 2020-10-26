@@ -321,12 +321,13 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 
 ## 🎲🏦🎲 What's a Database (DB)?
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
-<p>Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Se baseiam em <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
+<p>Um <b>dado</b> é um pequeno item de uma informação, como por exemplo um nome, um número ou endereço. Já uma <b>informação</b> é um conjunto desses dados. E um <b>arquivo</b> é um conjunto dessas informações. Cada um desses itens de dados são organizados da categoria: <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
   <li><strong>Registros</strong> fichas de informações;</li>
   <li><strong>Tabelas</strong> são pastas que armazenam os registros;</li>
   <li><strong>Arquivos</strong> armazenam as tabelas;</li>
 </ul>
+Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. 
 <p>A estrutura do banco de dados é composta por:</p>
 <ol>
   <li><strong>Base de dados</strong> são os dados propriamente de ditos.</li>
