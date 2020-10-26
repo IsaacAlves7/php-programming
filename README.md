@@ -403,6 +403,35 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 #### Custo excessivo em software
 <p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
 
+<p>A evolução da tecnologia associada ao grande aumento do volume de dados a ser armazenado e processado levou à criação de uma nova abordagem para o problema, <strong>o Sistema de Banco de Dados</strong>.
+
+Um <strong>banco de dados</strong> é uma coleção de dados organizados de tal forma que possam ser acessados e utilizados por muitas aplicações diferentes. Ou seja, em vez de armazenar dados em arquivos separados para utilização, os <strong>dados</strong> são armazenados e organizados em um só local, permitindo compartilhamento e inter-relacionamento por múltiplos usuários.
+
+A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi necessário um software adicional – um <b>sistema de gerenciamento de banco de dados (SGBD)</b>. O <b>SGBD</b> consiste em um grupo de programas que podem ser usados como uma interface entre o banco de dados e um usuário ou um banco de dados e um programa aplicativo.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
