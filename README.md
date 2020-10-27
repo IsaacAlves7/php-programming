@@ -433,8 +433,11 @@ No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <
 <img src="https://user-images.githubusercontent.com/61624336/97340292-5c570300-1862-11eb-9581-fc7f2cf5c765.jpg"/>
 
 ## Regras de Integridade relacional
-
-
+<p>As <strong>regras de Integridade Relacional</strong> visam garantir a fidelidade de informações em um banco de dados. Basicamente, são três as formas mais comuns:</p>
+<ul>
+  <li><strong>Integridade de Domínio</strong> diz respeito aos <b>dados que são permitidos nas colunas da relação (tabela)</b>. Um <b>domínio</b> é um conjunto de valores do mesmo tipo. Os domínios são, portanto, conjuntos/faixas de valores a partir dos quais os valores reais são adicionados às colunas de uma tabela.</li>
+  <li><strong>Integridade de Continuidade</strong> diz respeito à <b>unicidade de linhas da relação</b>. Para tal, cada tabela deve ter uma chave primária (Primary Key - PK). Dessa forma., as colunas escolhidas para PK devem ser únicas e de preenchimento obrigatório (não nulas), como, por exemplo, as colunas Código na tabela Emp e Codigodepto na tabela Depto (Fig 3);</li>
+</ul>
 
 
 
