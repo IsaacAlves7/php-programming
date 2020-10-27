@@ -430,6 +430,7 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 Podemos melhorar ainda mais essa representação, criando uma tabela com as colunas <b>NOME, NÚMERO DE MATRÍCULA e CLASSE</b>. Cada linha da tabela representa várias informações de um <b>ALUNO</b> e cada coluna isoladamente, representa uma informação específica desse aluno. Assim o nome da tabela e os nomes das colunas são capazes de dizer o que cada linha representa e também o que o conjunto representa.
 
 No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <b>tupla</b>, o <b>nome da coluna</b> é conhecido como <b>atributo ou variável</b>, e a <b>tabela, relação</b>. (FONSECA, 2016)</p>
+<img src="https://user-images.githubusercontent.com/61624336/97340292-5c570300-1862-11eb-9581-fc7f2cf5c765.jpg"/>
 
 ## Regras de Integridade relacional
 
