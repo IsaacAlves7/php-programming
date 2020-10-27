@@ -441,9 +441,22 @@ No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <
 </ul>
 
 ## Álgebra Relacional
-<p>É o conjunto básico de operações para o modelo relacional. Essas operações permitem a recuperação de tuplas mediante instruções de consulta aplicadas ao banco de dados. O resultado dessa recuperação também será uma relação, que pode ser usada em outras operações de consulta.</p>
+<p>É o conjunto básico de operações para o modelo relacional. Essas operações permitem a recuperação de tuplas mediante instruções de consulta aplicadas ao banco de dados. O resultado dessa recuperação também será uma relação, que pode ser usada em outras operações de consulta.
 
+A importância da álgebra relacional:</p>
+<ul>
+  <li>Provê fundamento formal para operações do modelo relacional;</li>
+  <li>Alguns de seus conceitos são incorporados na linguagem SQL padrão.</li>
+  <li>E o mais importante: é usada como base para implementar e otimizar as consultas em sistemas de banco de dados relacional. (FONSECA, 2016, p. 15)</li>
+</ul>
 
+<p>As principais operações da álgebra relacional são:</p>
+<ul>
+  <li>Seleção;</li>
+  <li>Projeção;</li>
+  <li>Produto Cartesiano;</li>
+  <li>Operações de Conjunto (União, Intersecção, Diferença).</li>  
+</ul>
 
 
 
