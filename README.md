@@ -318,6 +318,7 @@ Como pode ver o atributo <b>rel=""</b> indica o valor da conexão, que no caso �
 
 ## PHP em 2020
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
+<p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta é não irá! Pois o PHP ainda é amplamente usada por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas e templates Web. E sua versão chegou a 8° em 2020.</p>
 
 ## 🎲🏦🎲 Implementação com Banco de dados (DB)
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
