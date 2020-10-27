@@ -425,11 +425,14 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 
 <blockquote>“O modelo relacional representa o banco de dados como uma coleção de relações.” ELMASRI, R.; NAVATHE, S., 2015.</blockquote>
 
-<p>Da afirmativa acima. pode-se depreender uma relação como uma tabela de valores onde cada linha representa uma coleção de dados ou valores relacionados. Cada <b>linha da tabela</b> representa uma <b>realidade ligada ao mundo real</b>. O nome da tabela e o nome das colunas são definidos de forma que representem essa realidade. Pode-se ter uma tabela chamada <strong>ALUNO</strong> onde cada linha venha a ser o Nome de um Aluno a ser armazenado.
+<p>Da afirmativa acima. pode-se depreender uma relação como uma tabela de valores onde cada linha representa uma coleção de dados ou valores relacionados. Cada <b>linha da tabela</b> representa uma <b>realidade ligada ao mundo real</b>. O nome da tabela e o nome das colunas são definidos de forma que representem essa realidade. Pode-se ter uma tabela chamada <strong>ALUNO</strong> onde cada linha venha a ser o <b>Nome de um Aluno</b> a ser armazenado.
 
-Podemos melhorar ainda mais essa representação, criando uma tabela com as colunas NOME, NÚMERO DE MATRÍCULA e CLASSE. Cada linha da tabela representa várias informações de um ALUNO e cada coluna isoladamente, representa uma informação específica desse aluno. Assim o nome da tabela e os nomes das colunas são capazes de dizer o que cada linha representa e também o que o conjunto representa.
+Podemos melhorar ainda mais essa representação, criando uma tabela com as colunas <b>NOME, NÚMERO DE MATRÍCULA e CLASSE</b>. Cada linha da tabela representa várias informações de um <b>ALUNO</b> e cada coluna isoladamente, representa uma informação específica desse aluno. Assim o nome da tabela e os nomes das colunas são capazes de dizer o que cada linha representa e também o que o conjunto representa.
 
-No modelo relacional formal (Figura 3), cada linha é chamada de tupla, o nome da coluna é conhecido como atributo ou variável, e a tabela, relação. (FONSECA, 2016)</p>
+No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <b>tupla</b>, o <b>nome da coluna</b> é conhecido como <b>atributo ou variável</b>, e a <b>tabela, relação</b>. (FONSECA, 2016)</p>
+
+## Regras de Integridade relacional
+
 
 
 
