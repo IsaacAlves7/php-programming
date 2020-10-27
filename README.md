@@ -415,9 +415,15 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 
 <img src="https://user-images.githubusercontent.com/61624336/97218661-b941b300-17a7-11eb-925d-885085b82124.jpg"/>
 
+## Modelo Relacional
+<p>Nos maiores <strong>SGBD comerciais</strong>, o modelo de dados utilizado é o <b>Modelo Relacional</b> criado com base na Teoria Matemática dos Conjuntos e na Álgebra Relacional, O Modelo de Dados Relacional tem as seguintes vantagens:</p>
+<ul>
+  <li>É independente das linguagens de programação;</li>
+  <li>É independente dos sistemas de gestão de bases de dados;</li>
+  <li>É independente dos Sistemas Operacionais.</li> 
+</ul>
 
-
-
+<blockquote>“O modelo relacional representa o banco de dados como uma coleção de relações.” ELMASRI, R.; NAVATHE, S., 2015.</blockquote>
 
 
 
