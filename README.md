@@ -435,8 +435,9 @@ No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <
 ## Regras de Integridade relacional
 <p>As <strong>regras de Integridade Relacional</strong> visam garantir a fidelidade de informações em um banco de dados. Basicamente, são três as formas mais comuns:</p>
 <ul>
-  <li><strong>Integridade de Domínio</strong> diz respeito aos <b>dados que são permitidos nas colunas da relação (tabela)</b>. Um <b>domínio</b> é um conjunto de valores do mesmo tipo. Os domínios são, portanto, conjuntos/faixas de valores a partir dos quais os valores reais são adicionados às colunas de uma tabela.</li>
-  <li><strong>Integridade de Continuidade</strong> diz respeito à <b>unicidade de linhas da relação</b>. Para tal, cada tabela deve ter uma chave primária (Primary Key - PK). Dessa forma., as colunas escolhidas para PK devem ser únicas e de preenchimento obrigatório (não nulas), como, por exemplo, as colunas Código na tabela Emp e Codigodepto na tabela Depto (Fig 3);</li>
+  <li><strong>Integridade de Domínio</strong> <i>diz respeito aos dados que são permitidos nas colunas da relação (tabela)</i>. Um <b>domínio</b> é um conjunto de valores do mesmo tipo. Os domínios são, portanto, conjuntos/faixas de valores a partir dos quais os valores reais são adicionados às colunas de uma tabela.</li>
+  <li><strong>Integridade de Continuidade</strong> <em>diz respeito à unicidade de linhas da relação</em>. Para tal, cada tabela deve ter uma chave primária (Primary Key - PK). Dessa forma., as colunas escolhidas para PK devem ser únicas e de preenchimento obrigatório (não nulas), como, por exemplo, as colunas Código na tabela Emp e Codigodepto na tabela Depto (Fig 3);</li>
+  <li><strong>Integridade Referencial</strong> <i>diz respeito à consistência entre as tuplas de relações</i>. Para tal, as tabelas devem possuir chaves estrangeiras (Foreign Key – FK). A FK de uma tabela com, por exemplo, CodigoDepto na tabela EMP (Fig3) deve referenciar uma PK de outra tabela, no caso CodigoDepto da tabela Depto.(Fig3). Os valores possíveis em uma FK são limitados aos existentes na PK referenciada. Se em um banco de dados você tentar incluir uma linha com valor de FK não existente na PK da outra tabela, o SGBD gerará um erro e não permitirá a operação, garantindo assim a consistência dos dados.</li>
 </ul>
 
 
