@@ -442,7 +442,7 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
 ## 3. 💉🏦🎲 SQL Injection
-<div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
+<div align="center"><img src="https://trustaira.com/files/2018/03/sql-injection-protection-300x263.png" height="270"/></div>
 <p>O <b>SQL Injection</b></p>
 
 ## What's the MySQL Database?
