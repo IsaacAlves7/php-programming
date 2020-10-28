@@ -458,7 +458,7 @@ A importância da álgebra relacional:</p>
   <li>Operações de Conjunto (União, Intersecção, Diferença).</li>  
 </ul>
 
-
+<blockquote>As operações de <strong>SELECT</strong> (SELEÇÃO) E <strong>PROJECT</strong> (PROJEÇÃO) são ditas operações unárias, pois atuam em relações únicas (ELMASRI, R.; NAVATHE, S., 2015).</blockquote>
 
 
 
