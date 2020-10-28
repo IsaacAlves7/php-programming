@@ -483,9 +483,11 @@ A forma geral de uma operação de seleção é:</p>
 
 As <b>cláusulas</b> podem ser utilizadas em conjunto com os <b>operadores lógicos {AND, OR NOT}</b>, seguindo a <b>Lógica Booleana</b>, para formar uma condição de seleção composta.</p></div>
 
-<div align="right"><img src="https://user-images.githubusercontent.com/61624336/97483248-fa67cd80-1935-11eb-9deb-8ed7f747fdff.jpg"/></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/97483248-fa67cd80-1935-11eb-9deb-8ed7f747fdff.jpg"/></div>
 
+<p>&lt;nome da relação&gt; é o nome da relação sobre a qual será aplicada a operação de <b>Seleção</b>.
 
+A relação resultante da operação tem os mesmos atributos da relação especificada em nome da &lt;relação&gt;.</p>
 
 
 
