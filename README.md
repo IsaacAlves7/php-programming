@@ -487,10 +487,17 @@ As <b>cláusulas</b> podem ser utilizadas em conjunto com os <b>operadores lógi
 
 <p>&lt;nome da relação&gt; é o nome da relação sobre a qual será aplicada a operação de <b>Seleção</b>.
 
-A relação resultante da operação tem os mesmos atributos da relação especificada em nome da &lt;relação&gt;.</p>
+A <strong>relação resultante</strong> da operação tem os mesmos atributos da relação especificada em nome da <strong>&lt;relação&gt;</strong>.</p>
 
-
-
+### Exemplo:
+<p>Considere a Tabela Disciplina_Nota:</p>
+<table border="2">
+  <tr>
+    <td>&nbsp;</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
 
 
 
