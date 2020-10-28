@@ -470,8 +470,7 @@ A forma geral de uma operação de seleção é:</p>
 
 <p>Constituindo-se em uma expressão lógica, é construída a partir de cláusulas da forma:</p>
 
-<p>&lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;valor constante&gt;, ou
-&lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;nome de atributo&gt;</p>
+<p><strong>&lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;valor constante&gt;, ou &lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;nome de atributo&gt;</strong></p>
 
 
 
