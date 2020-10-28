@@ -491,7 +491,7 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
 
 ### Exemplo:
 <p>Considere a Tabela Disciplina_Nota:</p>
-<table border="2">
+<table border="2" align="center">
   <tr>
     <td>&nbsp;</td>
     <td>NOME_ALUNO</td>
