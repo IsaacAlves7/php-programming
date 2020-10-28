@@ -494,8 +494,9 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
 <table border="2">
   <tr>
     <td>&nbsp;</td>
-    <td>1</td>
-    <td>2</td>
+    <td>NOME_ALUNO</td>
+    <td>NOME_DISCIPLINA</td>
+    <td>NOTA</td>
   </tr>
 </table>
 
