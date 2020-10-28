@@ -474,7 +474,7 @@ A forma geral de uma operação de seleção é:</p>
 
 <p>Onde:</p>
 
-<p><strong>&lt;nome de atributo&lt;</strong> é um atributo da relação definida em <strong>&lt;nome da relação&lt;</strong></p>
+<p><strong>&lt;nome de atributo&lt;</strong> é um atributo da relação definida em <strong>&lt;nome da relação&gt;</strong></p>
 
 
 
