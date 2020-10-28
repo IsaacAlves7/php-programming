@@ -466,6 +466,45 @@ A importância da álgebra relacional:</p>
 A forma geral de uma operação de seleção é:</p>
 <pre>(nome da relação) &lt;condição de seleção&gt; σ</pre>
 
+<p>Onde: <strong>&lt;condição de seleção&gt;</strong> é a condição que a linha deve atender para ser selecionada.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
