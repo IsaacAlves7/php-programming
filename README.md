@@ -468,8 +468,10 @@ A forma geral de uma operação de seleção é:</p>
 
 <p>Onde: <strong>&lt;condição de seleção&gt;</strong> é a condição que a linha deve atender para ser selecionada.</p>
 
+<p>Constituindo-se em uma expressão lógica, é construída a partir de cláusulas da forma:</p>
 
-
+<p>&lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;valor constante&gt;, ou
+&lt;nome de atributo&gt; &lt;operador de comparação&gt; &lt;nome de atributo&gt;</p>
 
 
 
