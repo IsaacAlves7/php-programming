@@ -478,11 +478,12 @@ A forma geral de uma operação de seleção é:</p>
 
 <p><strong>&lt;operador de comparação&gt;</strong> é normalmente um dos <strong>operadores relacionais {=, <, ≤, ≥, ≠} e</strong></p>
 
+<div align="left">
 <p><b>&lt;valor constante&gt;</b> é um literal.
 
-As <b>cláusulas</b> podem ser utilizadas em conjunto com os <b>operadores lógicos {AND, OR NOT}</b>, seguindo a <b>Lógica Booleana</b>, para formar uma condição de seleção composta.</p>
+As <b>cláusulas</b> podem ser utilizadas em conjunto com os <b>operadores lógicos {AND, OR NOT}</b>, seguindo a <b>Lógica Booleana</b>, para formar uma condição de seleção composta.</p></div>
 
-
+<div align="right"><img src="https://user-images.githubusercontent.com/61624336/97483248-fa67cd80-1935-11eb-9deb-8ed7f747fdff.jpg"/></div>
 
 
 
