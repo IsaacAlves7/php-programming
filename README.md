@@ -474,9 +474,9 @@ A forma geral de uma operação de seleção é:</p>
 
 <p>Onde:</p>
 
-<p><strong>&lt;nome de atributo&lt;</strong> é um atributo da relação definida em <strong>&lt;nome da relação&gt;</strong></p>
+<p><strong>&lt;nome de atributo&gt;</strong> é um atributo da relação definida em <strong>&lt;nome da relação&gt;</strong></p>
 
-
+<p><strong>&lt;operador de comparação&gt;</strong> é normalmente um dos <strong>operadores relacionais {=, <, ≤, ≥, ≠} e</strong></p>
 
 
 
