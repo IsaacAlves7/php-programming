@@ -464,7 +464,7 @@ A importância da álgebra relacional:</p>
 <p>A operação de Seleção recupera os dados de uma ou mais tabelas, selecionando um subconjunto de tuplas que satisfaça determinada condição de seleção. Essa condição de seleção é usada para dividir horizontalmente uma relação em dois conjuntos de tuplas – as tuplas que satisfazem a condição e são retornadas e as tuplas que não satisfazem a condição e são ignoradas. (FONSECA, 2016, p.16)
 
 A forma geral de uma operação de seleção é:</p>
-<strong>(nome da relação) <condição de seleção> σ</strong>
+<pre>(nome da relação) <condição de seleção> σ</pre>
 
 
 ## 2. 🏦🎲🔢 Linguagem SQL - DML e DDL
