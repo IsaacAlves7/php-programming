@@ -490,7 +490,7 @@ As <b>cláusulas</b> podem ser utilizadas em conjunto com os <b>operadores lógi
 A <strong>relação resultante</strong> da operação tem os mesmos atributos da relação especificada em nome da <strong>&lt;relação&gt;</strong>.</p>
 
 ### Exemplo:
-<p>Considere a Tabela Disciplina_Nota:</p>
+<p>Considere a Tabela <strong>Disciplina_Nota</strong>:</p>
 <table border="2" align="center">
   <tr>
     <td>&nbsp;</td>
