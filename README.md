@@ -498,6 +498,12 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
     <td>NOME_DISCIPLINA</td>
     <td>NOTA</td>
   </tr>
+    <tr>
+    <td>1</td>
+    <td>José Geraldo</td>
+    <td>Álgebra</td>
+    <td>8</td>
+  </tr>
 </table>
 
 
