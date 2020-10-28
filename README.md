@@ -1,5 +1,5 @@
 # It's a repository of PHP programming 📓🐘🔢
-<img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"/>
+<img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 
 ## Introduction - Overview about the Hypertext Preprocessor-PHP language 🐘
 <b>Contents:</b>
