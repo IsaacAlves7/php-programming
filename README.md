@@ -570,6 +570,7 @@ A forma geral da operação de projeção é:</p>
 
 <pre>π &lt;lista de atributos&gt; (&lt;nome da relação&gt;)</pre>
 
+<p>Onde:</p>
 
 
 
