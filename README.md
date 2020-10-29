@@ -630,9 +630,9 @@ Resultando na relação:</p>
 
 <strong>σ</strong> representa a operação de seleção;
 
-<condição de seleção> é a condição que a linha deve atender para ser selecionada;
+<strong><condição de seleção></strong> é a condição que a linha deve atender para ser selecionada;
 
-<nome da relação> é o nome da relação sobre a qual será aplicada a operação de Seleção e Projeção</p>
+<strong><nome da relação></strong> é o nome da relação sobre a qual será aplicada a operação de <strong>Seleção</strong> e <strong>Projeção</strong></p>
 
 
 
