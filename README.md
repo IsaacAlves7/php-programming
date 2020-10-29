@@ -536,7 +536,7 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
 <pre>NOME_DISCIPLINA = ‘ALGEBRA’ AND NOTA = 10</pre>
 
 ### Resultado:
-<table border="2">
+<table border="2" align="center">
   <tr>
     <td></td>
     <td>NOME_ALUNO</td>
