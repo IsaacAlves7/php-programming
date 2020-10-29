@@ -622,7 +622,17 @@ Resultando na relação:</p>
 <p>A <strong>Projeção</strong> e a <strong>Seleção</strong> podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
 <pre>π &lt;lista de atributos&gt; (σ &lt;condição de seleção&gt; (&lt;nome da relação&gt;) )</pre>
 
+<p>Onde:
 
+<strong>π</strong> representa a operação de projeção;
+
+<strong>&lt;lista de atributos&gt;</strong> representa a lista de atributos que o usuário deseja selecionar;
+
+<strong>σ</strong> representa a operação de seleção;
+
+<condição de seleção> é a condição que a linha deve atender para ser selecionada;
+
+<nome da relação> é o nome da relação sobre a qual será aplicada a operação de Seleção e Projeção</p>
 
 
 
