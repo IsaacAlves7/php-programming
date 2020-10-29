@@ -576,7 +576,7 @@ A forma geral da operação de projeção é:</p>
 
 <strong>&lt;nome da relação&gt;</strong> representa a relação sobre a qual a operação projeção será aplicada.</p>
 
-<img src="https://user-images.githubusercontent.com/61624336/97619999-afb28800-19ff-11eb-9a62-3dc7ab331e2e.jpg"/>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/97619999-afb28800-19ff-11eb-9a62-3dc7ab331e2e.jpg"/></div>
 
 ### Exemplo:
 <p>Para selecionar as disciplinas e as ocorrências de notas nas disciplinas na tabela da fig 4, teremos:
