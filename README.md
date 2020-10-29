@@ -530,11 +530,38 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
   </tr>
 </table>
 
+<p>Para selecionar os alunos da disciplina ‘álgebra’ cuja nota foi integral, pode-se especificar cada uma dessas condições em uma operação de SELEÇÃO:</p>
 
+<pre>NOME_DISCIPLINA = ‘ALGEBRA’ AND NOTA = 10 (Disciplina_Nota)</pre>
+<pre>NOME_DISCIPLINA = ‘ALGEBRA’ AND NOTA = 10</pre>
 
-
-
-
+### Resultado:
+<table border="2">
+  <tr>
+    <td></td>
+    <td>NOME_ALUNO</td>
+    <td>NOME_DISCIPLINA</td>
+    <td>NOTA</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Eduardo Tomaz</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Josué José</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Hernesto Paula</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+</table>
 
 
 
