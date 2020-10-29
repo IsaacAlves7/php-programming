@@ -599,15 +599,20 @@ Resultando na relação:</p>
   <tr>
     <td>2</td>
     <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Álgebra</td>
     <td>9</td>
   </tr>  
   <tr>
-    <td>3</td>
+    <td>4</td>
     <td>Álgebra</td>
     <td>10</td>
   </tr>
   <tr>
-    <td>4</td>
+    <td>5</td>
     <td>Álgebra</td>
     <td>10</td>
   </tr>  
@@ -616,6 +621,25 @@ Resultando na relação:</p>
 ## Sequencialidade de Operações
 <p>A <strong>Projeção</strong> e a <strong>Seleção</strong> podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
 <pre>π &lt;lista de atributos&gt; (σ &lt;condição de seleção&gt; (&lt;nome da relação&gt;) )</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
