@@ -589,7 +589,7 @@ Resultando na relação:</p>
   <tr>
     <td></td>
     <td>NOME_DISCIPLINA</td>
-    <td>NOTAS</td>
+    <td>NOTA</td>
   </tr>
   <tr>
     <td>1</td>
