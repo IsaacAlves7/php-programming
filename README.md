@@ -583,7 +583,7 @@ A forma geral da operação de projeção é:</p>
 
 Resultando na relação:</p>
 
-<table border="2">
+<table border="2" align="center">
   <tr>
     <td></td>
     <td>NOME_DISCIPLINA</td>
