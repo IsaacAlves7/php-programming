@@ -572,6 +572,16 @@ A forma geral da operação de projeção é:</p>
 
 <p>Onde:</p>
 
+<p><strong>&lt;lista de atributos&gt;</strong> representa a lista de atributos que o usuário deseja selecionar e
+
+<strong>&lt;nome da relação&gt;</strong> representa a relação sobre a qual a operação projeção será aplicada.</p>
+
+
+
+
+
+
+
 
 
 
