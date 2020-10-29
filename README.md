@@ -614,7 +614,7 @@ Resultando na relação:</p>
 </table>
 
 ## Sequencialidade de Operações
-<p>A Projeção e a Seleção podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
+<p>A <strong>Projeção</strong> e a <strong>Seleção</strong> podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
 <pre>π &lt;lista de atributos&gt; (σ &lt;condição de seleção&gt; (&lt;nome da relação&gt;) )</pre>
 
 
