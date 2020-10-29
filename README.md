@@ -563,9 +563,12 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
   </tr>
 </table>
 
+### Operação de Projeção
+<p>A <strong>operação de Projeção</strong> recupera os dados de certas colunas de uma tabela e descarta outras. Se existir a necessidade de mostrar apenas alguns atributos de uma tabela em detrimento de outros, usa-se a operação <strong>PROJEÇÃO</strong>. (FONSECA, 2016, p. 17)
 
+A forma geral da operação de projeção é:</p>
 
-
+<pre>π &lt;lista de atributos&gt; (&lt;nome da relação&gt;)</pre>
 
 
 
