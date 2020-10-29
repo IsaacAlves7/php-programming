@@ -576,10 +576,40 @@ A forma geral da operação de projeção é:</p>
 
 <strong>&lt;nome da relação&gt;</strong> representa a relação sobre a qual a operação projeção será aplicada.</p>
 
+### Exemplo:
+<p>Para selecionar as disciplinas e as ocorrências de notas nas disciplinas na tabela da fig 4, teremos:
 
+π &lt;Nome_Disciplina, Nota&gt; (&lt;Disciplina_Nota&gt;)
 
+Resultando na relação:</p>
 
-
+<table border="2">
+  <tr>
+    <td></td>
+    <td>NOME_DISCIPLINA</td>
+    <td>NOTAS</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Álgebra</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Álgebra</td>
+    <td>9</td>
+  </tr>  
+  <tr>
+    <td>3</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>  
+</table>
 
 
 
