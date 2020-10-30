@@ -639,7 +639,7 @@ Resultando na relação:</p>
 ### Exemplo:
 <p>Para projetar a partir da Tabela Disciplina_Nota, o nome das disciplinas e a nota para alunos com nota diferente de 10 a expressão seria:
 
-<strong>π Nome_Disciplina, Nota ( σ <> 10 (Disciplina_Nota) )</strong></p>
+<div align="center"><strong>π Nome_Disciplina, Nota ( σ <> 10 (Disciplina_Nota) )</strong></p></div>
   
 <table border="2" align="center">
   <tr>
