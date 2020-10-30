@@ -679,6 +679,7 @@ O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
 A forma geral da operação junção entre duas tabelas A e B é a seguinte:</p>
 
 <div align="center"><strong>A X B
+  
                   &lt;condição de junção&gt;</strong></div>
 
 
