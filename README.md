@@ -669,7 +669,7 @@ Resultando na relação:</p>
 <p>O <b>produto cartesiano</b> é uma operação binária que combina todas as tuplas de duas tabelas. O resultado de um produto cartesiano é uma nova tabela formada pela combinação das tuplas das tabelas sobre as quais aplicou-se a operação.
 
 O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
-<img src=""/>
+<img src="https://user-images.githubusercontent.com/61624336/97745534-c58b8000-1ac7-11eb-9e5d-231052a592bf.jpg"/>
 
 <hr>
 
