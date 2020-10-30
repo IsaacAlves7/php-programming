@@ -636,7 +636,8 @@ Resultando na relação:</p>
 
 <img src="https://user-images.githubusercontent.com/61624336/97651843-e27a7180-1a3b-11eb-9dbb-99ca416a1354.jpg"/>
 
-
+### Exemplo:
+<p>Para projetar a partir da Tabela Disciplina_Nota, o nome das disciplinas e a nota para alunos com nota diferente de 10 a expressão seria:</p>
 
 
 
