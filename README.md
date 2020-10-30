@@ -359,17 +359,17 @@ Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com re
   <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
-## 1. Álgebra Relacional
+# 1. Álgebra Relacional
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>.
 
-### PostgreSQL Database
+## PostgreSQL Database
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="210"/></div>
 
 Não é possível conceber, atualmente, qualquer sistema que possa prescindir de um <b>Banco de Dados</b>. Os Sistemas de Banco de Dados atuais são, majoritariamente, baseados no <b>Modelo Relacional</b>. Por isso, iremos utilizar o <strong>PostgreSQL</strong> como alternativa gratuita de modelo relacional de banco de dados.
 
 Entretanto, de que adiantaria termos uma estrutura de armazenamento se não conseguíssemos manipular os dados ali armazenados? Como o modelo relacional teve sua origem na matemática, essa mesma ciência nos fornece a ferramenta para manipulá-lo, a <b>Álgebra Relacional</b>.</p>
 
-### Sistema de Banco de Dados
+## Sistema de Banco de Dados
 <p>Definição de um dado:</p>
 <blockquote>Dado é o “princípio em que se assenta uma discussão” ou o “elemento ou base para a formação de um juízo”. Ainda, assumindo-se um ponto de vista mais filosófico, dado é “o que se apresenta à consciência como imediato, não construído ou não elaborado”, FERREIRA et al. (1999, p. 602).</blockquote>
 <p>Essas definições são úteis para exemplificar o termo "<strong>dado</strong>" e situar sua definição de um ponto de vista mais humanizado.
@@ -396,13 +396,13 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 
 <p>O esquema apresentado acaba acarretando em:</p>
 
-#### Redundância de dados
+### Redundância de dados
 <p>Trata-se da duplicação dos mesmos dados em dois ou mais arquivos. O problema com a redundância é que as mudanças, ao serem feitas no arquivo de uma aplicação, não são automaticamente realizadas nos arquivos das outras aplicações, gerando a falta de integridade dos dados.</p>
 
-#### Dependência entre programas e dados
+### Dependência entre programas e dados
 <p>Os aplicativos tradicionais de banco de dados de arquivos são caracterizados pela dependência entre programas e dados, isso é, programas e dados desenvolvidos e organizados para uma aplicação são incompatíveis com os programas e dados organizados diferentemente para um outro aplicativo.</p>
 
-#### Custo excessivo em software
+### Custo excessivo em software
 <p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
 <hr>
 
@@ -460,7 +460,7 @@ A importância da álgebra relacional:</p>
 
 <blockquote>As operações de <strong>SELECT</strong> (SELEÇÃO) E <strong>PROJECT</strong> (PROJEÇÃO) são ditas operações unárias, pois atuam em relações únicas (ELMASRI, R.; NAVATHE, S., 2015).</blockquote>
 
-### Operação de seleção (SELECT)
+## Operação de seleção (SELECT)
 <p>A <strong>operação de Seleção (SELECT)</strong> recupera os dados de uma ou mais tabelas, selecionando um subconjunto de tuplas que satisfaça determinada condição de seleção. Essa condição de seleção é usada para dividir horizontalmente uma relação em dois conjuntos de tuplas – as tuplas que satisfazem a condição e são retornadas e as tuplas que não satisfazem a condição e são ignoradas. (FONSECA, 2016, p.16)
 
 A forma geral de uma operação de seleção é:</p>
@@ -563,7 +563,7 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
   </tr>
 </table>
 
-### Operação de Projeção (PROJECT)
+## Operação de Projeção (PROJECT)
 <p>A <strong>operação de Projeção</strong> recupera os dados de certas colunas de uma tabela e descarta outras. Se existir a necessidade de mostrar apenas alguns atributos de uma tabela em detrimento de outros, usa-se a operação <strong>PROJEÇÃO</strong>. (FONSECA, 2016, p. 17)
 
 A forma geral da operação de projeção é:</p>
