@@ -678,9 +678,19 @@ O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
 
 A forma geral da operação junção entre duas tabelas A e B é a seguinte:</p>
 
-<div align="center"><strong>A X B
-  
-                  &lt;condição de junção&gt;</strong></div>
+<div align="center"><strong>A X B &lt;condição de junção&gt;</strong></div>
+
+<p>Onde: <strong>&lt;condição de junção&gt;</strong> é uma expressão relacional, normalmente utilizando o operador =, que determina qual coluna da tabela A deve ser comparada com qual coluna da tabela B.</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
