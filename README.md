@@ -674,9 +674,12 @@ O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
 <hr>
 
 ## Operação Junção
-<p>A <b>operação Join (Junção)</b> é usada para combinar as tuplas relacionadas em duas relações dentro de uma única tupla. Essa operação é uma das mais importantes em um banco de dados relacional, pois ela nos permite retornar os relacionamentos entre as relações (tabelas).</p>
+<p>A <b>operação Join (Junção)</b> é usada para combinar as tuplas relacionadas em duas relações dentro de uma única tupla. Essa operação é uma das mais importantes em um banco de dados relacional, pois ela nos permite retornar os relacionamentos entre as relações (tabelas).
 
+A forma geral da operação junção entre duas tabelas A e B é a seguinte:</p>
 
+<div align="center"><strong>A X B
+                  &lt;condição de junção&gt;</strong></div>
 
 
 
