@@ -634,7 +634,7 @@ Resultando na relação:</p>
 
 <strong><nome da relação></strong> é o nome da relação sobre a qual será aplicada a operação de <strong>Seleção</strong> e <strong>Projeção</strong></p>
 
-
+<img src="https://user-images.githubusercontent.com/61624336/97651843-e27a7180-1a3b-11eb-9dbb-99ca416a1354.jpg"/>
 
 
 
