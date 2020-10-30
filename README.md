@@ -563,6 +563,8 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
   </tr>
 </table>
 
+<hr>
+
 ## Operação de Projeção (PROJECT)
 <p>A <strong>operação de Projeção</strong> recupera os dados de certas colunas de uma tabela e descarta outras. Se existir a necessidade de mostrar apenas alguns atributos de uma tabela em detrimento de outros, usa-se a operação <strong>PROJEÇÃO</strong>. (FONSECA, 2016, p. 17)
 
@@ -618,6 +620,8 @@ Resultando na relação:</p>
   </tr>  
 </table>
 
+<hr>
+
 ## Sequencialidade de Operações
 <p>A <strong>Projeção</strong> e a <strong>Seleção</strong> podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
 <pre>π &lt;lista de atributos&gt; (σ &lt;condição de seleção&gt; (&lt;nome da relação&gt;) )</pre>
@@ -658,6 +662,8 @@ Resultando na relação:</p>
     <td>9</td>
   </tr>
 </table>
+
+<hr>
 
 ## Operação Produto Cartesiano
 <p>O <b>produto cartesiano</b> é uma operação binária que combina todas as tuplas de duas tabelas. O resultado de um produto cartesiano é uma nova tabela formada pela combinação das tuplas das tabelas sobre as quais aplicou-se a operação.</p>
