@@ -666,7 +666,15 @@ Resultando na relação:</p>
 <hr>
 
 ## Operação Produto Cartesiano
-<p>O <b>produto cartesiano</b> é uma operação binária que combina todas as tuplas de duas tabelas. O resultado de um produto cartesiano é uma nova tabela formada pela combinação das tuplas das tabelas sobre as quais aplicou-se a operação.</p>
+<p>O <b>produto cartesiano</b> é uma operação binária que combina todas as tuplas de duas tabelas. O resultado de um produto cartesiano é uma nova tabela formada pela combinação das tuplas das tabelas sobre as quais aplicou-se a operação.
+
+O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
+<img src=""/>
+
+<hr>
+
+## Operação Junção
+<p>A <b>operação Join (Junção)</b> é usada para combinar as tuplas relacionadas em duas relações dentro de uma única tupla. Essa operação é uma das mais importantes em um banco de dados relacional, pois ela nos permite retornar os relacionamentos entre as relações (tabelas).</p>
 
 
 
