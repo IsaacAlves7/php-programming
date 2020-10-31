@@ -607,11 +607,6 @@ Resultando na relação:</p>
     <td>Álgebra</td>
     <td>10</td>
   </tr>
-  <tr>
-    <td>5</td>
-    <td>Álgebra</td>
-    <td>10</td>
-  </tr>  
 </table>
 
 <hr>
