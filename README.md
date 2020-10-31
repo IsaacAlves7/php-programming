@@ -693,8 +693,8 @@ Imagine que nosso modelo de banco de dados definido anteriormente com a tabela D
 
 DISCIPLINA_NOTA, DISCIPLINA E PESSOA, inserindo uma chave primária (PK) que identifica unicamente um nome, a tabela DISCIPLINA_NOTA com a chave estrangeira (FK) FK_NOME_ALUNO relacionando com a tabela PESSOA e a FK_NOME_DISCIPLINA relacionando com a tabela DISCIPLINA. Temos, então, a seguinte melhoria em nosso banco de dados (FIG 8):
 
-<b>π</b> NOME_DISCIPLINA, NOME_ALUNO, NOTA(PESSOA <b>X</b> DISCIPLINA_NOTA <b>X</b> Disciplina)
-PK_NOME_PESSOA = FK_NOME_ALUNO FK_NOME DISCIPLINA = PK_DISCIPLINA</p>
+<pre><b>π</b> NOME_DISCIPLINA, NOME_ALUNO, NOTA(PESSOA <b>X</b> DISCIPLINA_NOTA <b>X</b> Disciplina)
+PK_NOME_PESSOA = FK_NOME_ALUNO FK_NOME DISCIPLINA = PK_DISCIPLINA</p></pre>
 
 <table border="2" align="center">
   <tr>
