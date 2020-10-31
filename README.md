@@ -555,12 +555,6 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
     <td>Álgebra</td>
     <td>10</td>
   </tr>
-  <tr>
-    <td>3</td>
-    <td>Hernesto Paula</td>
-    <td>Álgebra</td>
-    <td>10</td>
-  </tr>
 </table>
 
 <hr>
