@@ -743,6 +743,7 @@ A forma geral da operação junção entre duas tabelas A e B é a seguinte:
 
 A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de B U A.
 
+<img src="https://user-images.githubusercontent.com/61624336/97790460-7b79cb80-1ba7-11eb-9033-bdc2b758c832.jpg"/>
 
 
 
