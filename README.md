@@ -685,6 +685,7 @@ A forma geral da operação junção entre duas tabelas A e B é a seguinte:</p>
 Observação: normalmente as colunas envolvidas na condição de junção são a Chave Primária de uma tabela e a Chave Estrangeira na outra.</p>
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/97770723-92231280-1b14-11eb-85db-b19c9dab04f9.jpg"/></div>
 
+### Exemplo:
 
 
 
