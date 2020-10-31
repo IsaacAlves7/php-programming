@@ -583,7 +583,7 @@ A forma geral da operação de projeção é:</p>
 ### Exemplo:
 <p>Para selecionar as disciplinas e as ocorrências de notas nas disciplinas na tabela da fig 4, teremos:
 
-π &lt;Nome_Disciplina, Nota&gt; (&lt;Disciplina_Nota&gt;)
+<pre>π &lt;Nome_Disciplina, Nota&gt; (&lt;Disciplina_Nota&gt;)</pre>
 
 Resultando na relação:</p>
 
