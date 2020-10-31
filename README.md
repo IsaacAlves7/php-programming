@@ -686,11 +686,62 @@ Observação: normalmente as colunas envolvidas na condição de junção são a
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/97770723-92231280-1b14-11eb-85db-b19c9dab04f9.jpg"/></div>
 
 ### Exemplo:
+<p>
+Considere o banco de dados composto pela tabela Disciplina_Nota (Fig 4).
 
+Imagine que nosso modelo de banco de dados definido anteriormente com a tabela DISCIPLINA_NOTA (Fig4) seja redefinido para um modelo mais trabalhado com as tabelas:
 
+DISCIPLINA_NOTA, DISCIPLINA E PESSOA, inserindo uma chave primária (PK) que identifica unicamente um nome, a tabela DISCIPLINA_NOTA com a chave estrangeira (FK) FK_NOME_ALUNO relacionando com a tabela PESSOA e a FK_NOME_DISCIPLINA relacionando com a tabela DISCIPLINA. Temos, então, a seguinte melhoria em nosso banco de dados (FIG 8):
 
+<b>π</b> NOME_DISCIPLINA, NOME_ALUNO, NOTA(PESSOA <b>X</b> DISCIPLINA_NOTA <b>X</b> Disciplina)
+PK_NOME_PESSOA = FK_NOME_ALUNO FK_NOME DISCIPLINA = PK_DISCIPLINA</p>
 
+<table border="2" align="center">
+  <tr>
+    <td>NOME_ALUNO</td>
+    <td>NOME_DISCIPLINA</td>
+    <td>NOTA</td>
+  </tr>
+  <tr>
+    <td>José Geraldo</td>
+    <td>Álgebra</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Eduardo Tomaz</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Cleber Dutra</td>
+    <td>Álgebra</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Hernesto Paula</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Josué José</td>
+    <td>Álgebra</td>
+    <td>10</td>
+  </tr>
+</table>
 
+## Operação de Conjuntos
+<p>São operações derivadas das operações matemáticas padrão definidas a partir da teoria dos conjuntos. (FONSECA, 2016, p. 18)
+
+São elas:</p>
+
+### UNION
+<p><strong>UNION</strong> é a operação de UNIÃO da teoria de conjuntos. Se temos as relações R(A1, A2, ..., An) e S(B1, B2, ..., Bn) para haver a operação União, os atributos de cada relação devem ser compatíveis entre si, ou seja, devem ter o mesmo grau (n) e os domínios de cada atributo devem ser iguais ao domínio do outro atributo, ou seja, dom(A1) = dom(B1). Significando que cada relação possui o mesmo grau e que cada par de atributos possuem o mesmo domínio. Sendo assim, a operação UNION pode ser aplicada. (FONSECA, 2016, p. 18)
+
+A forma geral da operação junção entre duas tabelas A e B é a seguinte:
+
+<div align="center"><strong>A U B</strong></div>
+
+A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de B U A.
 
 
 
