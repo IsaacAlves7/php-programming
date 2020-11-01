@@ -817,7 +817,7 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
 
 <p>Essa operação é comutativa, ou seja, A ∩ B produz o mesmo resultado de B ∩ A.</p>
 
-
+<img src="https://user-images.githubusercontent.com/61624336/97796333-717bbb00-1bef-11eb-9a90-7bd664a5e1ce.jpg"/>
 
 
 
