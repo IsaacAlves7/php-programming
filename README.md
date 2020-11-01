@@ -763,6 +763,74 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
   </tr>
 </table>
 
+<div align="center"><strong>π NOME_ALUNO (DISCIPLINA_NOTA) U PROFESSOR</strong></div>
+
+<table border="2" align="center">
+  <tr>
+    <td></td>
+    <td>NOME_PESSOA</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Cleber Dutra</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Eduardo Tomaz</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Elmasri</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Fagundes Teles</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Ferreira</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Hernesto Paula</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>José Geraldo</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Josué José</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Navathe</td>
+  </tr>
+</table>
+
+<p><strong>Atenção:</strong> Repare que a operação UNION não trouxe o nome repetido do Professor e aluno Cleber Dutra, essa operação garante tuplas únicas.</p>
+
+### INTERSECTION
+<p>Da mesma forma como foi apresentada a operação UNION, pode-se usar a definição matemática de interseção para definirmos a operação de interseção entre as relações. As observações feitas para a operação UNION, no que diz respeito ao domínio dos atributos e ao grau da relação, também devem ser seguidas para a operação de INTERSECTION. (FONSECA, 2016, p. 20)</p>
+
+<div align="center"><strong>A ∩ B</strong></div>
+
+<p>Essa operação é comutativa, ou seja, A ∩ B produz o mesmo resultado de B ∩ A.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
