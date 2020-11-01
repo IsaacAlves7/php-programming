@@ -819,11 +819,23 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
 
 <img src="https://user-images.githubusercontent.com/61624336/97796333-717bbb00-1bef-11eb-9a90-7bd664a5e1ce.jpg"/>
 
+### Exemplo:
+<p>De acordo com Fonseca (2016), para a interseção entre os nomes de professores e alunos, temos:</p>
 
+<div align="center"><strong>π NOME_ALUNO (DISCIPLINA_NOTA) U PROFESSOR</strong></div>
 
+<table border="2" align="center">
+  <tr>
+    <td></td>
+    <td>NOME_PESSOA</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Cleber Dutra</td>
+  </tr>
+</table>
 
-
-
+## MINUS
 
 
 
