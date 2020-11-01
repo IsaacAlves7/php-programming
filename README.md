@@ -753,6 +753,14 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
     <td>3</td>
     <td>Elmasri</td>
   </tr>
+  <tr>
+    <td>4</td>
+    <td>Navathe</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Cleber Dutra</td>
+  </tr>
 </table>
 
 
