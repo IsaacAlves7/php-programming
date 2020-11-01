@@ -734,9 +734,26 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
 
 <img src="https://user-images.githubusercontent.com/61624336/97790460-7b79cb80-1ba7-11eb-9033-bdc2b758c832.jpg"/>
 
+<p><strong>Exemplo:</strong> Temos a tabela DISCIPLINA_NOTA (Fig 4) e a nova tabela PROFESSOR (Fig10). Podemos fazer a união dos domínios ‘NOME_PESSOA’ com os nomes dos alunos e os nomes dos professores.</p>
 
-
-
+<table border="2" align="center">
+  <tr>
+    <td></td>
+    <td>NOME_PROFESSOR</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Fagundes Teles</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ferreira</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Elmasri</td>
+  </tr>
+</table>
 
 
 
