@@ -850,7 +850,14 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 <div align="center"><p>PROFESSOR - π NOME_ALUNO (DISCIPLINA_NOTA)</p></div>
 
+<p>Resultando:</p>
 
+<table border="2" align="center">
+  <tr>
+    <td></td>
+    <td>NOME_PESSOA</td>
+  </tr>
+</table>
 
 
 
