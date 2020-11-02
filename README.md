@@ -836,7 +836,7 @@ A Operação de União é comutativa, ou seja, A U B produz o mesmo resultado de
 </table>
 
 ## MINUS
-
+<p>Por fim, apresentamos a operação MINUS (SUBTRAÇÃO), que representa a diferença de conjunto. O resultado dessa operação, tomando-se nossas relações S e R apresentadas anteriormente, é uma relação que inclui todas as tuplas que estão em R, mas não estão em S. As observações feitas para a operação UNION e INTERSECTION, no que diz respeito ao domínio dos atributos e ao grau da relação, também devem ser seguidas para a operação MINUS. (FONSECA, 2016, p. 20)</p>
 
 
 
