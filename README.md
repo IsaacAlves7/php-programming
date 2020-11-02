@@ -857,6 +857,26 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
     <td></td>
     <td>NOME_PESSOA</td>
   </tr>
+  <tr>
+    <td>1</td>
+    <td>Elmasri</td>
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>Elmasri</td>
+  </tr>  
+  <tr>
+    <td>2</td>
+    <td>Cleber Dutra</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Fagundes Teles</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Navathe</td>
+  </tr>
 </table>
 
 
