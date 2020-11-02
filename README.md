@@ -846,9 +846,9 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 <img src="https://user-images.githubusercontent.com/61624336/97823670-72b4f280-1c98-11eb-956d-3d0bb0d287f5.jpg"/>
 
+<p>Para obtermos o nome dos Professores que não são homônimos de alunos (FONSECA, 2016, p. 20), a expressão seria:</p>
 
-
-
+<div align="center"><p>PROFESSOR - π NOME_ALUNO (DISCIPLINA_NOTA)</p></div>
 
 
 
