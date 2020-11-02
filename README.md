@@ -844,7 +844,7 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 <p>Essa operação não é comutativa, ou seja, A - B produz um resultado diferente de B – A.</p>
 
-<img src="https://user-images.githubusercontent.com/61624336/97823670-72b4f280-1c98-11eb-956d-3d0bb0d287f5.jpg"/>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/97823670-72b4f280-1c98-11eb-956d-3d0bb0d287f5.jpg"/></div>
 
 <p>Para obtermos o nome dos Professores que não são homônimos de alunos (FONSECA, 2016, p. 20), a expressão seria:</p>
 
