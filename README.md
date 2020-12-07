@@ -11,7 +11,7 @@
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 <p><b>HyperText Preprocessor (PHP)</b> is a programming language.</p>
 
-## 🐘 PHP na atualidade 2️⃣0️⃣
+## 🐘 PHP na atualidade 📅
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
