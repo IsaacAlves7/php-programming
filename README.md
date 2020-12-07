@@ -1,4 +1,4 @@
-# It's a repository of PHP programming 📓🐘🔢
+<div align="center"><h1>It's a repository of PHP programming 📓🐘🔢</h1></div>
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 
 ## Introduction - Overview about the Hypertext Preprocessor-PHP language 🐘
