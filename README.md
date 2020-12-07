@@ -591,18 +591,8 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
-## 3. 💉🏦🎲 SQL Injection
+<!--
+<h1>3. 💉🏦🎲 SQL Injection</h1>
 <div align="center"><img src="https://trustaira.com/files/2018/03/sql-injection-protection-300x263.png" height="270"/></div>
 <p>O <b>SQL Injection</b></p>
-
-## What's the MySQL Database?
-<div align="center"><img src="https://i1.wp.com/sempreupdate.com.br/wp-content/uploads/2017/10/MySQL-Logo-Large-Orignal.png?fit=1152%2C864&ssl=1" height="200"></div>
-
-## Configurações do Apache XAMPP?
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/220px-XAMPP_logo.svg.png" height="200"></div>
-
-## MySQL e phpMyAdmin
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="200"></div>
-
-## Composer
-<div align="center"><img src="https://magenteiro.com/blog/wp-content/uploads/2017/07/Logo-composer-transparent.png" height="270"/></div>
+-->
