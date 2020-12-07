@@ -7,11 +7,11 @@
   <li>The History of PHP language.</li>
 </ul>
 
-## What's the PHP language?
+## 🐘 What's the PHP language? 🔢
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 <p><b>HyperText Preprocessor (PHP)</b> is a programming language.</p>
 
-## PHP em 2020
+## 🐘 PHP na atualidade 2️⃣0️⃣
 <img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
@@ -19,7 +19,7 @@
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Imagine da seguinte forma, um <b>dado</b> é um pequeno item de uma informação, como por exemplo: um nome, um número ou endereço. Já uma <b>informação</b> é um conjunto desses dados. E um <b>arquivo</b> é um conjunto dessas informações. Cada um desses significados de dados podem ser organizados da seguinte categoria: <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
-  <li><strong>Registros</strong> fichas de informações, iguais a que preenchemos em documentos;</li>
+  <li><strong>📋 Registros</strong> fichas de informações, iguais a que preenchemos em documentos;</li>
   <li><strong>📂 Tabelas</strong> são pastas que armazenam os registros;</li>
   <li><strong>🗃️ Arquivos</strong> armazenam as tabelas, como as gavetas de ferro;</li>
 </ul>
