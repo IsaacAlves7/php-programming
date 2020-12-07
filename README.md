@@ -64,7 +64,7 @@ Não é possível conceber, atualmente, qualquer sistema que possa prescindir de
 
 Entretanto, de que adiantaria termos uma estrutura de armazenamento se não conseguíssemos manipular os dados ali armazenados? Como o modelo relacional teve sua origem na matemática, essa mesma ciência nos fornece a ferramenta para manipulá-lo, a <b>Álgebra Relacional</b>.</p>
 
-## Sistema de Banco de Dados
+## 📇 Sistema de Banco de Dados 🏦
 <p>Definição de um dado:</p>
 <blockquote>Dado é o “princípio em que se assenta uma discussão” ou o “elemento ou base para a formação de um juízo”. Ainda, assumindo-se um ponto de vista mais filosófico, dado é “o que se apresenta à consciência como imediato, não construído ou não elaborado”, FERREIRA et al. (1999, p. 602).</blockquote>
 <p>Essas definições são úteis para exemplificar o termo "<strong>dado</strong>" e situar sua definição de um ponto de vista mais humanizado.
