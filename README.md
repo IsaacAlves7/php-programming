@@ -54,7 +54,7 @@ Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com re
   <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
-# 1. Álgebra Relacional
+# Cap 01: 🔠 Álgebra Relacional 🔣
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>.
 
 ## PostgreSQL Database
