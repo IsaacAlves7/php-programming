@@ -57,7 +57,7 @@ Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com re
 <div align="center"><h1>Cap 01: 🔠 Álgebra Relacional 🔣</h1></div>
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>.
 
-## PostgreSQL Database
+## 🐘 PostgreSQL Database 🏦
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="210"/></div>
 
 Não é possível conceber, atualmente, qualquer sistema que possa prescindir de um <b>Banco de Dados</b>. Os Sistemas de Banco de Dados atuais são, majoritariamente, baseados no <b>Modelo Relacional</b>. Por isso, iremos utilizar o <strong>PostgreSQL</strong> como alternativa gratuita de modelo relacional de banco de dados.
