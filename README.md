@@ -92,13 +92,13 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 
 <p>O esquema apresentado acaba acarretando em:</p>
 
-### Redundância de dados
+### 🎲🎲 Redundância de dados 🎲🎲
 <p>Trata-se da duplicação dos mesmos dados em dois ou mais arquivos. O problema com a redundância é que as mudanças, ao serem feitas no arquivo de uma aplicação, não são automaticamente realizadas nos arquivos das outras aplicações, gerando a falta de integridade dos dados.</p>
 
-### Dependência entre programas e dados
+### 🥺 Dependência entre programas e dados 🎲
 <p>Os aplicativos tradicionais de banco de dados de arquivos são caracterizados pela dependência entre programas e dados, isso é, programas e dados desenvolvidos e organizados para uma aplicação são incompatíveis com os programas e dados organizados diferentemente para um outro aplicativo.</p>
 
-### Custo excessivo em software
+### 💰 Custo excessivo em software 💰
 <p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
 <hr>
 
