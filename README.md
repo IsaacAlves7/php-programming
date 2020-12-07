@@ -23,7 +23,7 @@
   <li><strong>📂 Tabelas</strong> são pastas que armazenam os registros;</li>
   <li><strong>🗃️ Arquivos</strong> armazenam as tabelas, como as gavetas de ferro;</li>
 </ul>
-Um 🏦 <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Os bancos de dados armazenam informações de forma robusta, possuem segurança com os dados (Acesso com autorização), possuem integridade com os dados e integração com sistema Web.
+Um 🏦 <b>Banco de dados</b> 🎲 são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (Informação) e dar mais eficiência durante uma pesquisa ou estudo cientifico. Os bancos de dados armazenam informações de forma robusta, possuem segurança com os dados (Acesso com autorização), possuem integridade com os dados e integração com sistema Web.
 <p>A estrutura do banco de dados é composta por:</p>
 <ol>
   <li><strong>Base de dados</strong> são os dados propriamente de ditos.</li>
