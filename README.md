@@ -110,7 +110,7 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 
 <img src="https://user-images.githubusercontent.com/61624336/97218661-b941b300-17a7-11eb-925d-885085b82124.jpg"/>
 
-## Modelo Relacional 🔣
+## 🎲 Modelo Relacional 🔣
 <p>Nos maiores <strong>SGBD comerciais</strong>, o modelo de dados utilizado é o <b>Modelo Relacional</b> criado com base na Teoria Matemática dos Conjuntos e na Álgebra Relacional, O Modelo de Dados Relacional tem as seguintes vantagens:</p>
 <ul>
   <li>É independente das linguagens de programação;</li>
@@ -127,7 +127,7 @@ Podemos melhorar ainda mais essa representação, criando uma tabela com as colu
 No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <b>tupla</b>, o <b>nome da coluna</b> é conhecido como <b>atributo ou variável</b>, e a <b>tabela, relação</b>. (FONSECA, 2016)</p>
 <img src="https://user-images.githubusercontent.com/61624336/97340292-5c570300-1862-11eb-9581-fc7f2cf5c765.jpg"/>
 
-## Regras de Integridade relacional
+## 📖 Regras de Integridade relacional 🔣
 <p>As <strong>regras de Integridade Relacional</strong> visam garantir a fidelidade de informações em um banco de dados. Basicamente, são três as formas mais comuns:</p>
 <ul>
   <li><strong>Integridade de Domínio</strong> <i>diz respeito aos dados que são permitidos nas colunas da relação (tabela)</i>. Um <b>domínio</b> é um conjunto de valores do mesmo tipo. Os domínios são, portanto, conjuntos/faixas de valores a partir dos quais os valores reais são adicionados às colunas de uma tabela.</li>
