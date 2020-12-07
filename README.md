@@ -135,7 +135,7 @@ No <b>modelo relacional</b> formal (Figura 3), <b>cada linha</b> é chamada de <
   <li><strong>Integridade Referencial</strong> <i>diz respeito à consistência entre as tuplas de relações</i>. Para tal, as tabelas devem possuir chaves estrangeiras (Foreign Key – FK). A FK de uma tabela com, por exemplo, CodigoDepto na tabela EMP (Fig3) deve referenciar uma PK de outra tabela, no caso CodigoDepto da tabela Depto.(Fig3). Os valores possíveis em uma FK são limitados aos existentes na PK referenciada. Se em um banco de dados você tentar incluir uma linha com valor de FK não existente na PK da outra tabela, o SGBD gerará um erro e não permitirá a operação, garantindo assim a consistência dos dados.</li>
 </ul>
 
-## Álgebra Relacional
+## 🔣 Álgebra Relacional 🔣
 <p>É o conjunto básico de operações para o modelo relacional. Essas operações permitem a recuperação de tuplas mediante instruções de consulta aplicadas ao banco de dados. O resultado dessa recuperação também será uma relação, que pode ser usada em outras operações de consulta.
 
 A importância da álgebra relacional:</p>
