@@ -67,7 +67,7 @@ Entretanto, de que adiantaria termos uma estrutura de armazenamento se não cons
 
 ## 📇 Sistema de Banco de Dados 🏦
 <p>Definição de um dado:</p>
-<blockquote>Dado é o “princípio em que se assenta uma discussão” ou o “elemento ou base para a formação de um juízo”. Ainda, assumindo-se um ponto de vista mais filosófico, dado é “o que se apresenta à consciência como imediato, não construído ou não elaborado”, FERREIRA et al. (1999, p. 602).</blockquote>
+<blockquote><b>Dado</b> é o “princípio em que se assenta uma discussão” ou o “elemento ou base para a formação de um juízo”. Ainda, assumindo-se um ponto de vista mais filosófico, dado é “o que se apresenta à consciência como imediato, não construído ou não elaborado”, FERREIRA et al. (1999, p. 602).</blockquote>
 <p>Essas definições são úteis para exemplificar o termo "<strong>dado</strong>" e situar sua definição de um ponto de vista mais humanizado.
 
 Computacionalmente falando, pode-se definir <strong>dado</strong> como um valor armazenado e que por si só não quer dizer muita coisa. Uma lista de números - por exemplo, <strong>10, 12, 20, 21, 23, 38</strong> - não nos fornece nenhum significado, mas, por assim dizer, são os dados obtidos e anotados de alguma forma.
