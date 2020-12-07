@@ -7,7 +7,7 @@
   <li>The History of PHP language.</li>
 </ul>
 
-## 🐘 What's the PHP language? 🔢
+## 🐘 - PHP 🔢
 <div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
 <p><b>HyperText Preprocessor (PHP)</b> is a programming language.</p>
 
@@ -100,7 +100,6 @@ A maioria das organizações desenvolve os seus Sistemas de Informação um por 
 
 ### 💰 Custo excessivo em software 💰
 <p>Resulta da criação, documentação e acompanhamento de muitos arquivos e aplicações diferentes.</p>
-<hr>
 
 <p>A evolução da tecnologia associada ao grande aumento do volume de dados a ser armazenado e processado levou à criação de uma nova abordagem para o problema, <strong>o Sistema de Banco de Dados</strong>.
 
@@ -111,7 +110,7 @@ A fim de usar a abordagem de banco de dados para o gerenciamento de dados, foi n
 
 <img src="https://user-images.githubusercontent.com/61624336/97218661-b941b300-17a7-11eb-925d-885085b82124.jpg"/>
 
-## Modelo Relacional
+## Modelo Relacional 🔣
 <p>Nos maiores <strong>SGBD comerciais</strong>, o modelo de dados utilizado é o <b>Modelo Relacional</b> criado com base na Teoria Matemática dos Conjuntos e na Álgebra Relacional, O Modelo de Dados Relacional tem as seguintes vantagens:</p>
 <ul>
   <li>É independente das linguagens de programação;</li>
