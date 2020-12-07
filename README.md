@@ -1,4 +1,4 @@
-<div align="center"><h1>It's a repository of PHP programming 📓🐘🔢</h1></div>
+# It's a repository of PHP programming 📓🐘🔢
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 
 ## Introduction - Overview about the Hypertext Preprocessor-PHP language 🐘
@@ -54,7 +54,7 @@ Um <b>Banco de dados</b> são conjuntos de arquivos relacionados entre si com re
   <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
-# Cap 01: 🔠 Álgebra Relacional 🔣
+<div align="center"><h1>Cap 01: 🔠 Álgebra Relacional 🔣</h1></div>
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>.
 
 ## PostgreSQL Database
