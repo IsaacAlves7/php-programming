@@ -9,8 +9,8 @@
 [![Joomla](https://img.shields.io/badge/-Joomla-5091CD?style=for-the-badge&logo=Joomla&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Composer](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=Laravel&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
-[![CodeIgniter](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
-[![Zend](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![CodeIgniter](https://img.shields.io/badge/-CodeIgniter-EE4623?style=for-the-badge&logo=CodeIgniter&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![Zend](https://img.shields.io/badge/-Zend-68B604?style=for-the-badge&logo=Zend Framework&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 <p>Para sites de cálculo de álgebra relacional, recomendo:</p>
