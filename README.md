@@ -1,4 +1,6 @@
 # It's a repository of PHP programming 📓🐘🔢
+<p>I created this repository for my PHP language learning.</p>
+<blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3 or JS i recommend to access another repositories, click on links bellow!</blockquote>
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 <p>Para sites de cálculo de álgebra relacional, recomendo:</p>
 <ul>
