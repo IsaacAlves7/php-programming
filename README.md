@@ -4,8 +4,9 @@
 
 [![Web](https://img.shields.io/badge/-HTML5.and.css3.dev-orangered?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
-[![WordPress](https://img.shields.io/badge/-jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![JSON](https://img.shields.io/badge/-JSON-000000?style=for-the-badge&logo=JSON&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
+[![WordPress](https://img.shields.io/badge/-Wordpress-21759B?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![Joomla](https://img.shields.io/badge/-Joomla-5091CD?style=for-the-badge&logo=Joomla&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 <p>Para sites de cálculo de álgebra relacional, recomendo:</p>
