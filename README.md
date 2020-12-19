@@ -18,9 +18,10 @@
 </ul>
 
 ## Main menu - Overview about the PHP language 🐘
-<b>Contents:</b>
+<b>All topics:</b>
 <ul>
-  <li>The History of PHP language.</li>
+  <li>🎲 Implementação com Banco de dados 🏦</li>
+  <li>🐘 The History of PHP language 🔢</li>
 </ul>
 
 ## 🐘 - PHP 🔢
