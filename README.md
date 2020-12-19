@@ -17,7 +17,7 @@
   <li>https://dbis-uibk.github.io/relax/landing</li>
 </ul>
 
-## Introduction - Overview about the Hypertext Preprocessor-PHP language 🐘
+## Menu - Overview about the Hypertext Preprocessor (PHP) language 🐘
 <b>Contents:</b>
 <ul>
   <li>The History of PHP language.</li>
