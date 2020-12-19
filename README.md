@@ -264,7 +264,6 @@ A <strong>relação resultante</strong> da operação tem os mesmos atributos da
   </tr>
 </table>
 
-<hr>
 
 ## Operação de Projeção (PROJECT)
 <p>A <strong>operação de Projeção</strong> recupera os dados de certas colunas de uma tabela e descarta outras. Se existir a necessidade de mostrar apenas alguns atributos de uma tabela em detrimento de outros, usa-se a operação <strong>PROJEÇÃO</strong>. (FONSECA, 2016, p. 17)
@@ -316,7 +315,6 @@ Resultando na relação:</p>
   </tr>
 </table>
 
-<hr>
 
 ## Sequencialidade de Operações
 <p>A <strong>Projeção</strong> e a <strong>Seleção</strong> podem ser combinadas, de forma que apenas algumas linhas e algumas colunas retornem na operação. A forma geral de uma operação sequencializada é:</p>
@@ -359,7 +357,6 @@ Resultando na relação:</p>
   </tr>
 </table>
 
-<hr>
 
 ## Operação Produto Cartesiano
 <p>O <b>produto cartesiano</b> é uma operação binária que combina todas as tuplas de duas tabelas. O resultado de um produto cartesiano é uma nova tabela formada pela combinação das tuplas das tabelas sobre as quais aplicou-se a operação.
@@ -367,7 +364,6 @@ Resultando na relação:</p>
 O formato geral do produto cartesiano entre duas tabelas A e B é:</p>
 <img src="https://user-images.githubusercontent.com/61624336/97745534-c58b8000-1ac7-11eb-9e5d-231052a592bf.jpg"/>
 
-<hr>
 
 ## Operação Junção (JOIN)
 <p>A <b>operação Join (Junção)</b> é usada para combinar as tuplas relacionadas em duas relações dentro de uma única tupla. Essa operação é uma das mais importantes em um banco de dados relacional, pois ela nos permite retornar os relacionamentos entre as relações (tabelas).
@@ -603,7 +599,6 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 Ou seja, dar instruções ao meio ambiente do banco de dados e ele te retornará uma <i>Query</i>, ou seja, uma solicitação ou resposta.</p>
 
 <!--
-<h1>3. 💉🏦🎲 SQL Injection</h1>
 <div align="center"><img src="https://trustaira.com/files/2018/03/sql-injection-protection-300x263.png" height="270"/></div>
 https://storage.stfalcon.com/uploads/images/5b410f193a6a1.png
 https://v3b4d4f5.rocketcdn.me/wp-content/uploads/1/PHP-accelerators.png
