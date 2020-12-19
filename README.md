@@ -21,16 +21,9 @@
 <b>All topics:</b>
 <ul>
   <li>🎲 Implementação com Banco de dados 🏦</li>
+  <li>💉 SQL Injection 🎲</li>
   <li>🐘 The History of PHP language 🔢</li>
 </ul>
-
-## 🐘 - PHP 🔢
-<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
-<p><b>HyperText Preprocessor (PHP)</b> is a programming language.</p>
-
-## 🐘 PHP na atualidade 📅
-<img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
-<p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
 # 🎲 Implementação com Banco de dados 🏦
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
@@ -616,3 +609,12 @@ https://tedk.com.br/artigos/wp-content/uploads/2019/12/imagem-php.png
 https://becode.com.br/wp-content/uploads/2017/09/php-post-1.png
 <p>O <b>SQL Injection</b></p>
 -->
+
+
+## 🐘 - PHP 🔢
+<div align="center"><img src="https://adrisonluz.com/img/tecnologias/php.png" height="200"></div>
+<p><b>HyperText Preprocessor (PHP)</b> is a programming language.</p>
+
+## 🐘 PHP na atualidade 📅
+<img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/>
+<p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
