@@ -21,6 +21,7 @@
 <b>All topics:</b>
 <ul>
   <li>🎲 Implementação com Banco de dados 🏦</li>
+  <li>🔠 Álgebra Relacional 🔣</li>
   <li>🎲 Linguagem SQL - DML e DDL 🔢</li>
   <li>💉 SQL Injection 🎲</li>
   <li>🐘 The History of PHP language 🔢</li>
