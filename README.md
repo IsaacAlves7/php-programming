@@ -27,7 +27,7 @@
   <li>🐘 The History of PHP language 🔢</li>
 </ul>
 
-# 🎲 Implementação com Banco de dados 🏦
+# Cap 01: 🎲 Implementação com Banco de dados 🏦
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Imagine da seguinte forma, um 🎲 <b>dado</b> é um pequeno item de uma informação, como por exemplo: um nome, um número ou endereço. Já uma <b>informação</b> é um conjunto desses dados. E um <b>arquivo</b> é um conjunto dessas informações. Cada um desses significados de dados podem ser organizados da seguinte categoria: <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
@@ -67,7 +67,7 @@ Um 🏦 <b>Banco de dados</b> 🎲 são conjuntos de arquivos relacionados entre
   <li><strong>PostgreSQL</strong>;</li>
 </ul>
 
-<div align="center"><h1>Cap 01: 🔠 Álgebra Relacional 🔣</h1></div>
+<div align="center"><h1>Cap 02: 🔠 Álgebra Relacional 🔣</h1></div>
 <p>No mundo digital, nossas vidas são regidas por diversos sistemas. Para funcionar, esses sistemas necessitam de grande volume de dados. Os sistemas informatizados evoluíram ao longo do tempo de <B>Sistemas Baseados em Arquivos</b> para <b>Sistemas Baseados em Banco de Dados</b>.
 
 ## 🐘 PostgreSQL Database 🏦
@@ -592,7 +592,7 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 
 
-# Cap 02: 🎲 Linguagem SQL - DML e DDL 🔢
+# Cap 03: 🎲 Linguagem SQL - DML e DDL 🔢
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
 
