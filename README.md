@@ -19,13 +19,13 @@
 
 ## Main menu - Overview about the PHP language 🐘
 <b>All topics:</b>
-<ul>
+<ol>
   <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#-implementa%C3%A7%C3%A3o-com-banco-de-dados-">🎲 Implementação com Banco de dados 🏦</a></li>
   <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-01--%C3%A1lgebra-relacional-">🔠 Álgebra Relacional 🔣</a></li>
   <li>🎲 Linguagem SQL - DML e DDL 🔢</li>
   <li>💉 SQL Injection 🎲</li>
   <li>🐘 The History of PHP language 🔢</li>
-</ul>
+</ol>
 
 # Cap 01: 🎲 Implementação com Banco de dados 🏦
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
