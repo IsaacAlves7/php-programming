@@ -26,6 +26,7 @@
   <li>💉 SQL Injection 🎲</li>
   <li>🐘 The History of PHP language 🔢</li>
 </ol>
+<hr>
 
 <h1 align="center">Cap 01: 🎲 Implementação com Banco de dados 🏦</h1>
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
