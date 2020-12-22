@@ -12,7 +12,6 @@
 [![Css3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)](https://github.com/IsaacAlves7/css3-programming)
 [![Python](https://img.shields.io/badge/-Python-339AF0?style=for-the-badge&logo=Python&logoColor=white)](https://github.com/IsaacAlves7/python-programming)
 [![Java](https://img.shields.io/badge/-Java-red?style=for-the-badge&logo=Java&logoColor=white)](https://github.com/IsaacAlves7/java-programming)
-[![WordPress](https://img.shields.io/badge/-Wordpress-21759B?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
 [![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=Bootstrap&logoColor=white)](https://github.com/IsaacAlves7/php-programming)
 [![Sass](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
 [![SVG](https://img.shields.io/badge/-SVG-FFB13B?style=for-the-badge&logo=SVG&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
