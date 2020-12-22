@@ -592,7 +592,7 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
 
 
 
-# Cap 03: 🎲 Linguagem SQL - DML e DDL 🔢
+<h1 align="center">Cap 03: 🎲 Linguagem SQL - DML e DDL 🔢</h1>
 <div align="center"><img src="https://rapidthumbs.files.wordpress.com/2014/04/sql.png" height="270"/></div>
 <p>O <b>Structured Query Language (SQL)</b> é uma linguagem padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional, dentre eles: MySQL, PostgreSQL, Oracle, SQL Server, MariaDB e Access.
 
