@@ -9,7 +9,6 @@
 [![Composer](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=Laravel&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![CodeIgniter](https://img.shields.io/badge/-CodeIgniter-EE4623?style=for-the-badge&logo=CodeIgniter&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
-[![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-orangered?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![Css3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)](https://github.com/IsaacAlves7/css3-programming)
 [![Python](https://img.shields.io/badge/-Python-339AF0?style=for-the-badge&logo=Python&logoColor=white)](https://github.com/IsaacAlves7/python-programming)
 [![Java](https://img.shields.io/badge/-Java-red?style=for-the-badge&logo=Java&logoColor=white)](https://github.com/IsaacAlves7/java-programming)
