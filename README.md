@@ -27,7 +27,7 @@
   <li>🐘 The History of PHP language 🔢</li>
 </ol>
 
-# Cap 01: 🎲 Implementação com Banco de dados 🏦
+<h1 align="center">Cap 01: 🎲 Implementação com Banco de dados 🏦</h1>
 <div align="center"><img src="https://purepng.com/public/uploads/large/purepng.com-server-databaseservercomputingclientserverservice-providercommoditycloud-serverdatabasewindows-server-1701528389209cejn9.png" height="270"/></div>
 <p>Imagine da seguinte forma, um 🎲 <b>dado</b> é um pequeno item de uma informação, como por exemplo: um nome, um número ou endereço. Já uma <b>informação</b> é um conjunto desses dados. E um <b>arquivo</b> é um conjunto dessas informações. Cada um desses significados de dados podem ser organizados da seguinte categoria: <b>Registros</b>, <b>Tabelas</b> e <b>Arquivos</b>. Que se definem como:</p>
 <ul>
