@@ -41,7 +41,7 @@
 <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/>
 <p>Para sites de cálculo de álgebra relacional, recomendo:</p>
 
-[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=JavaScript&logoColor=white)](https://dbis-uibk.github.io/relax/landing)
+[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://dbis-uibk.github.io/relax/landing)
 
 ## Main menu - Overview about the PHP language 🐘
 <b>All topics:</b>
