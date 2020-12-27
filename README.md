@@ -2,6 +2,7 @@
 <p>I created this repository for my PHP language learning.</p>
 <blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
+## 🎒 Prerequisites and repositories 📚:
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-orangered?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
 [![WordPress](https://img.shields.io/badge/-Wordpress-21759B?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
