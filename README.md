@@ -610,7 +610,7 @@ A forma geral da operação Diferença entre duas tabelas A e B é a seguinte:</
   </tr>
 </table>
 
-## Sintese
+## Síntese
 
 
 <h1 align="center">Cap 03: 🎲 Linguagem SQL - DML e DDL 🔢</h1>
