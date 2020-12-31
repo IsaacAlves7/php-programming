@@ -31,15 +31,15 @@
 [![Angular.js](https://img.shields.io/badge/-Angular.js-E23237?style=for-the-badge&logo=AngularJS&logoColor=white)](https://github.com/IsaacAlves7/angular.js-programming)
 [![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
 [![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-4FC08D?style=for-the-badge&logo=Nuxt.js&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
-[![Vuetify.js](https://img.shields.io/badge/-Vuetify-1867C0?style=for-the-badge&logo=Vuetify&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
-[![Ionic](https://img.shields.io/badge/-Ionic-3880FF?style=for-the-badge&logo=Ionic&logoColor=white)](https://github.com/IsaacAlves7/ionic-programming)
-[![Electron](https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=Electron&logoColor=white)](https://github.com/IsaacAlves7/electron-programming)
-[![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
-[![ReactiveX](https://img.shields.io/badge/-ReactiveX-B7178C?style=for-the-badge&logo=ReactiveX&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
+[![Vuetify.js](https://img.shields.io/badge/-Vuetify-777BB4?style=for-the-badge&logo=Vuetify&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
+[![Ionic](https://img.shields.io/badge/-Ionic-777BB4?style=for-the-badge&logo=Ionic&logoColor=white)](https://github.com/IsaacAlves7/ionic-programming)
+[![Electron](https://img.shields.io/badge/-Electron-777BB4?style=for-the-badge&logo=Electron&logoColor=white)](https://github.com/IsaacAlves7/electron-programming)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-777BB4?style=for-the-badge&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
+[![ReactiveX](https://img.shields.io/badge/-ReactiveX-777BB4?style=for-the-badge&logo=ReactiveX&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
 [![Gatsby](https://img.shields.io/badge/-Gatsby-663399?style=for-the-badge&logo=Gatsby&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
-[![Gulp](https://img.shields.io/badge/-Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white)](https://github.com/IsaacAlves7/gulp-programming)
-[![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)](https://github.com/IsaacAlves7/webpack-programming)
-[![Jest](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white)](https://github.com/IsaacAlves7/webpack-programming)
+[![Gulp](https://img.shields.io/badge/-Gulp-777BB4?style=for-the-badge&logo=gulp&logoColor=white)](https://github.com/IsaacAlves7/gulp-programming)
+[![Webpack](https://img.shields.io/badge/-Webpack-777BB4?style=for-the-badge&logo=Webpack&logoColor=white)](https://github.com/IsaacAlves7/webpack-programming)
+[![Jest](https://img.shields.io/badge/-Jest-777BB4?style=for-the-badge&logo=Jest&logoColor=white)](https://github.com/IsaacAlves7/webpack-programming)
 
 ## 🔠 Para sites de cálculo de álgebra relacional, recomendo: 🔣
 
