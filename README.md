@@ -48,11 +48,11 @@
 ## 🐘 Main menu - Overview about the PHP language 🐘:
 <b>All topics:</b>
 <ol>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#-implementa%C3%A7%C3%A3o-com-banco-de-dados-">🎲 Implementação com Banco de dados 🏦</a></li>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-02--%C3%A1lgebra-relacional-">🔠 Álgebra Relacional 🔣</a></li>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-03--linguagem-sql---dml-e-ddl-">🎲 Linguagem SQL - DML e DDL 🔢</a></li>
-  <li>💉 SQL Injection 🎲</li>
-  <li>🐘 The History of PHP language 🔢</li>
+  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#-implementa%C3%A7%C3%A3o-com-banco-de-dados-">🐘 Hypertext Processor - PHP 🐘</a></li>
+  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-02--%C3%A1lgebra-relacional-"></a></li>
+  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-03--linguagem-sql---dml-e-ddl-"></a></li>
+  <li></li>
+  <li></li>
 </ol>
 <hr>
 
