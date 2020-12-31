@@ -28,7 +28,7 @@
 [![React.js](https://img.shields.io/badge/-React.js-6264A7?style=for-the-badge&logo=React&logoColor=white)](https://github.com/IsaacAlves7/react.js-programming)
 [![React Native](https://img.shields.io/badge/-React‍‍Native-6264A7?style=for-the-badge&logo=React&logoColor=white)](https://github.com/IsaacAlves7/react-native-programming)
 [![Redux](https://img.shields.io/badge/-Redux-6264A7?style=for-the-badge&logo=Redux&logoColor=white)](https://github.com/IsaacAlves7/typescript-programming)
-[![Angular.js](https://img.shields.io/badge/-Angular.js-E23237?style=for-the-badge&logo=AngularJS&logoColor=white)](https://github.com/IsaacAlves7/angular.js-programming)
+[![Angular.js](https://img.shields.io/badge/-Angular.js-665CAC?style=for-the-badge&logo=AngularJS&logoColor=white)](https://github.com/IsaacAlves7/angular.js-programming)
 [![Vue.js](https://img.shields.io/badge/-Vue.js-8669AE?style=for-the-badge&logo=Vue.js&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
 [![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-8669AE?style=for-the-badge&logo=Nuxt.js&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
 [![Vuetify.js](https://img.shields.io/badge/-Vuetify-777BB4?style=for-the-badge&logo=Vuetify&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
