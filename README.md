@@ -8,9 +8,9 @@
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-8B89CC?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
-[![WordPress](https://img.shields.io/badge/-Wordpress-21759B?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
-[![Joomla](https://img.shields.io/badge/-Joomla-5091CD?style=for-the-badge&logo=Joomla&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
-[![Composer](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![WordPress](https://img.shields.io/badge/-Wordpress-777BB4?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![Joomla](https://img.shields.io/badge/-Joomla-777BB4?style=for-the-badge&logo=Joomla&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
+[![Composer](https://img.shields.io/badge/-Composer-777BB4?style=for-the-badge&logo=Composer&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=Laravel&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![CodeIgniter](https://img.shields.io/badge/-CodeIgniter-EE4623?style=for-the-badge&logo=CodeIgniter&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Css3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)](https://github.com/IsaacAlves7/css3-programming)
