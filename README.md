@@ -7,7 +7,7 @@
 <blockquote>⚠️ <b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-8B89CC?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=black)](https://github.com/IsaacAlves7/javascript-programming)
+[![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-777BB4?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
 [![WordPress](https://img.shields.io/badge/-Wordpress-777BB4?style=for-the-badge&logo=WordPress&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
 [![Joomla](https://img.shields.io/badge/-Joomla-777BB4?style=for-the-badge&logo=Joomla&logoColor=white)](https://github.com/IsaacAlves7/jQuery-programming)
@@ -46,7 +46,7 @@
 
 [![GitHub](https://img.shields.io/badge/-RelaXCalc-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://dbis-uibk.github.io/relax/landing)
 
-## 🐘 Main menu - Overview about the PHP language 🐘:
+## 🐘 Main menu - Fundamentals about the PHP language 🐘:
 <b>All topics:</b>
 <ol>
   <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#-implementa%C3%A7%C3%A3o-com-banco-de-dados-">🐘 Hypertext Processor - PHP 🐘</a></li>
