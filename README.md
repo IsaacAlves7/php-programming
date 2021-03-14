@@ -1,4 +1,4 @@
-# <img src="https://emojis.slackmojis.com/emojis/images/1599551048/10416/elephpant.png?1599551048" height="30> It's a repository of PHP programming 🐘
+# <img src="https://emojis.slackmojis.com/emojis/images/1599551048/10416/elephpant.png?1599551048" height="30"> It's a repository of PHP programming 🐘
 [![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fff?style=social&logo=Postgresql&logoColor=336791)](#)
 [![SQL](https://img.shields.io/badge/-db.sql-fff?style=social&logo=MySQL&logoColor=336791)](#)
