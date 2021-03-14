@@ -78,6 +78,6 @@
 
 ## Guia de instalação
 
-### Erro no XAMPP devido outro programa usar a mesma porta
-<img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png">
+## Erro no XAMPP devido outro programa usar a mesma porta
+<img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png" height="170">
 Recomendo seguir os passos desse vídeo: https://youtu.be/4dK3rQiXsls
