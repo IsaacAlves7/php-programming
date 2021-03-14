@@ -84,3 +84,9 @@ Recomendo seguir os passos desse vídeo: https://youtu.be/4dK3rQiXsls
 
 ## 403 Forbidden
 Recomendo seguir os passos desse vídeo: https://youtu.be/GqzhXCKP3iQ
+
+## DocumentRoot
+Abrir o diretório do Apache na Área de Trabalho!
+
+<pre>DocumentRoot "C:/Users/user/Área de trabalho"</pre>
+<pre>&lt;Directory "C:/Users/user/Área de trabalho"&gt;</pre>
