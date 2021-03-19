@@ -79,8 +79,10 @@
 ## Guia de instalação
 
 ## Problema de UAC
-Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo: https://youtu.be/EPsmGZYBDEA
-https://youtu.be/AporimmfqMk
+Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo:
+
+- https://youtu.be/EPsmGZYBDEA
+- https://youtu.be/AporimmfqMk
 
 ## Erro no XAMPP devido outro programa usar a mesma porta
 <img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png" height="400">
