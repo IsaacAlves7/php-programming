@@ -92,5 +92,5 @@ Recomendo seguir os passos desse vídeo: https://youtu.be/GqzhXCKP3iQ
 ## DocumentRoot
 Abrir o diretório do Apache na Área de Trabalho!
 
-<pre>DocumentRoot "C:/Users/user/Área de trabalho"</pre>
-<pre>&lt;Directory "C:/Users/user/Área de trabalho"&gt;</pre>
+<pre>DocumentRoot "C:/Users/user/Área de trabalho"
+&lt;Directory "C:/Users/user/Área de trabalho"&gt;</pre>
