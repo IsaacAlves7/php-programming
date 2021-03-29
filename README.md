@@ -96,3 +96,7 @@ Abrir o diretório do Apache na Área de Trabalho!
 
 <pre>DocumentRoot "C:/Users/user/Área de trabalho"
 &lt;Directory "C:/Users/user/Área de trabalho"&gt;</pre>
+
+# Dia do programador 
+![php](https://user-images.githubusercontent.com/61624336/112904846-f21be600-90bf-11eb-9641-59fd388e42e8.jpg)
+
