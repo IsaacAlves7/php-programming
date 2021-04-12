@@ -68,18 +68,18 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <div align="justify"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="107"><img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/></div>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
-## Guia de instalação
+## 🐘 Guia de instalação ⬇️
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apache-13.svg" height="170"> <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="170"></div><br />
 
 Instale o servidor Apache e um programa que rode o código, no caso utilizarei o XAMPP, mas você pode usar qualquer outro de acordo com a sua preferência.
 
-## Problema de UAC
+## 🐘 Problema de UAC ⚠️
 Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo:
 
 - https://youtu.be/EPsmGZYBDEA
 - https://youtu.be/AporimmfqMk
 
-## Erro no XAMPP devido outro programa usar a mesma porta
+## 🐘 Erro no XAMPP devido outro programa usar a mesma porta ❌
 <img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png" height="400">
 Recomendo seguir os passos desse vídeo: https://youtu.be/4dK3rQiXsls
 
