@@ -103,6 +103,8 @@ Agora que você já conhece a parte do servidor, vamos programar!
 
 ## 🐘 PHP: - Hello, world! (Olá, Mundo!) 🐘
 
+[![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
+
 Primeiro, crie uma pasta para o documento e depois crie um arquivo, normalmente usamos o nome "<code>index</code>" como o arquivo principal e a extensão <code><b>.php</b></code>.
 
 ![diferentes maneiras de inserir o código php](https://user-images.githubusercontent.com/61624336/114467359-30d19600-9bc0-11eb-801c-762734774eef.jpg)
