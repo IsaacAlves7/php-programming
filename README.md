@@ -83,10 +83,10 @@ Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um 
 <img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png" height="400">
 Recomendo seguir os passos desse vídeo: https://youtu.be/4dK3rQiXsls
 
-## 403 Forbidden
+## 🐘 403 Forbidden ❌🚫
 Recomendo seguir os passos desse vídeo: https://youtu.be/GqzhXCKP3iQ
 
-## DocumentRoot
+## 🐘 DocumentRoot 🌳
 Abrir o diretório do Apache na Área de Trabalho!
 
 <pre>DocumentRoot "C:/Users/user/Área de trabalho"
