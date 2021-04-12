@@ -69,9 +69,9 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
 ## Guia de instalação
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apache-13.svg" height="170"> <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="170"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apache-13.svg" height="170"> <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="170"></div><br />
 
-Instale o servidor Apache e um programa que rode o código, no caso utilizarei o XAMPP.
+Instale o servidor Apache e um programa que rode o código, no caso utilizarei o XAMPP, mas você pode usar qualquer outro de acordo com a sua preferência.
 
 ## Problema de UAC
 Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo:
