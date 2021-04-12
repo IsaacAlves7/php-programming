@@ -99,8 +99,14 @@ Após a instalação, você deve iniciar apertando o botão <code>Apache</code>,
 
 ![localhost](https://user-images.githubusercontent.com/61624336/114467139-d89a9400-9bbf-11eb-929c-0c78858012ca.png)
 
+Agora que você já conhece a parte do servidor, vamos programar!
+
 ## 🐘 PHP: - Hello, world! (Olá, Mundo!) 🐘
+
+Primeiro, crie uma pasta para o documento e depois crie um arquivo, normalmente usamos o nome "<code>index</code>" como o arquivo principal e a extensão <code><b>.php</b></code>.
+
 ![diferentes maneiras de inserir o código php](https://user-images.githubusercontent.com/61624336/114467359-30d19600-9bc0-11eb-801c-762734774eef.jpg)
+
 
 <hr>
 
