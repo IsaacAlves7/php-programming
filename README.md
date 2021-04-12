@@ -90,7 +90,7 @@ Abrir o diretório do Apache na Área de Trabalho!
 
 ## 🐘 Servidor Apache XAMPP 🖥️
 
-<img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="170"><img src="https://user-images.githubusercontent.com/61624336/114465502-94a68f80-9bbd-11eb-9599-19fa00b1ec75.png" height="170"><br />
+<img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="200"><img src="https://user-images.githubusercontent.com/61624336/114465502-94a68f80-9bbd-11eb-9599-19fa00b1ec75.png" height="200"><br />
 
 Após a instalação você deve iniciar com o <code>Apache</code>.
 <hr>
