@@ -95,7 +95,7 @@ Abrir o diretório do Apache na Área de Trabalho!
 
 <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="227"><img src="https://user-images.githubusercontent.com/61624336/114465502-94a68f80-9bbd-11eb-9599-19fa00b1ec75.png" height="227"><br />
 
-Após a instalação, você deve iniciar apertando o botão <code>Apache</code>, a luz verde indica que o servidor reconheceu tudo e foi executado com sucesso. Em seguida, aperte o botão <code>Admin</code> que o endereço do localhost será aberto no browser e você poderá acessar a pasta do <a href="">DocumentRoot</a> onde ficarão os seus projetos e arquivos do PHP. E dai você pode ter um preview da sua aplicação.
+Após a instalação, você deve iniciar apertando o botão <code>Apache</code>, a luz verde indica que o servidor reconheceu tudo e foi executado com sucesso. Em seguida, aperte o botão <code>Admin</code> que o endereço do localhost será aberto no browser e você poderá acessar a pasta do <a href="https://github.com/IsaacAlves7/php-programming#-documentroot-">DocumentRoot</a> onde ficarão os seus projetos e arquivos do PHP. E dai você pode ter um preview da sua aplicação.
 <hr>
 
 # Dia do programador 
