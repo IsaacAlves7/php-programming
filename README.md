@@ -62,7 +62,7 @@
 # 🐘 O que é PHP? 🐘
 <div align="center"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="170"></div>
 
-O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por Rasmus Lerdorf, focada no desenvolvimento back-end para banco de dados.
+O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
 ## 🐘 PHP na atualidade 📅
 <div align="justify"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="107"><img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/></div>
