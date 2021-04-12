@@ -119,8 +119,13 @@ O comando <code>echo</code> exibe uma mensagem na tela.
 
 Perceba que não aparece o código do php pelo código-fonte do front-end, pois, como havia dito anteriormente, somente o servidor acessou e interpretou o código.
 
+## 🐘 Comentário no PHP 📝
+
 <hr>
 
+# Cap 02: 🐘 
+
+<hr>
 # Dia do programador 
 ![php](https://user-images.githubusercontent.com/61624336/112904846-f21be600-90bf-11eb-9641-59fd388e42e8.jpg)
 
