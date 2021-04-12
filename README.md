@@ -57,17 +57,6 @@
 
 [![GitHub](https://img.shields.io/badge/-RelaXCalc-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://dbis-uibk.github.io/relax/landing)
 
-## 🐘 Main menu - Fundamentals about the PHP language 🐘:
-<b>All topics:</b>
-<ol>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#-implementa%C3%A7%C3%A3o-com-banco-de-dados-">🐘 Hypertext Processor - PHP 🐘</a></li>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-02--%C3%A1lgebra-relacional-"></a></li>
-  <li><a href="https://github.com/IsaacAlves7/php-programming/blob/master/README.md#cap-03--linguagem-sql---dml-e-ddl-"></a></li>
-  <li></li>
-  <li></li>
-</ol>
-<hr>
-
 <hr>
 
 # O que é PHP?
