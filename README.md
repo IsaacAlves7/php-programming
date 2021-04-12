@@ -69,6 +69,9 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 Instale o **servidor Apache** e um programa que rode o código, no caso utilizarei o **XAMPP**, mas você pode usar qualquer outro de acordo com a sua preferência. Após a instalação recomendo você não alterar as portas do localhost e nem colocar o mesmo endereço da porta em outro programa, muitos bancos de dados já possuem o padrão do <code>localhost:8080</code>, caso isso ocorra, altere do outro programa para evitar possíveis conflitos futuros.
 
+### Versão do PHP pelo terminal
+<pre>php -v</pre>
+
 ## 🐘 Problema de UAC ⚠️
 Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo:
 
