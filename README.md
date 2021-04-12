@@ -111,8 +111,9 @@ Primeiro, crie uma pasta para o documento e depois crie um arquivo, normalmente 
 
 A primeira coisa que iremos fazer no arquivo é escrever a estrutura do HTML para o **Front-end** reconhecer a página, logo, podemos criar o código do php em qualquer parte do documento livremente, pois o código não será acessado pelo **front-end**, mas sim pelo **back-end** (servidor).
 
-O código do php é bem característico da linguagem, possui a inicialização <code>&lt;?php ?&gt;</code>, e ele é um pouco similar as tags do HTML, por isso facilita o entendimento. Além disso, dentro da tag e no meio desses sinais de interrogação ficará o nosso código.
+O código do php é bem característico da linguagem, possui a inicialização <code>&lt;?php ?&gt;</code>, e ele é um pouco similar as tags do HTML, por isso facilita o entendimento. Além disso, dentro da "tag" e no meio desses sinais de interrogação ficará o nosso código.
 
+O código <code>echo</code> exibe uma mensagem na tela.
 <hr>
 
 # Dia do programador 
