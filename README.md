@@ -126,6 +126,7 @@ Perceba que não aparece o código do php pelo código-fonte do front-end, pois,
 # Cap 02: 🐘 
 
 <hr>
-# Dia do programador 
+
+# 🐘 Dia do programador 🎂
 ![php](https://user-images.githubusercontent.com/61624336/112904846-f21be600-90bf-11eb-9641-59fd388e42e8.jpg)
 
