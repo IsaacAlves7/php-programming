@@ -114,6 +114,11 @@ A primeira coisa que iremos fazer no arquivo é escrever a estrutura do HTML par
 O código do php é bem característico da linguagem, possui a inicialização <code>&lt;?php ?&gt;</code>, e ele é um pouco similar as tags do HTML, por isso facilita o entendimento. Além disso, dentro da "tag" e no meio desses sinais de interrogação ficará o nosso código.
 
 O código <code>echo</code> exibe uma mensagem na tela.
+
+![Sem título](https://user-images.githubusercontent.com/61624336/114469393-717ede80-9bc3-11eb-827c-01e8f01bffe0.png)
+
+Perceba que não aparece o código do php pelo front-end, pois, como havia dito anteriormente, somente o servidor acessou e interpretou o código.
+
 <hr>
 
 # Dia do programador 
