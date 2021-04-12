@@ -97,7 +97,7 @@ Abrir o diretório do Apache na Área de Trabalho!
 
 Após a instalação, você deve iniciar apertando o botão <code>Apache</code>, a luz verde indica que o servidor reconheceu tudo e foi executado com sucesso. Em seguida, aperte o botão <code>Admin</code> que o endereço do localhost será aberto no browser e você poderá acessar a pasta do <a href="https://github.com/IsaacAlves7/php-programming#-documentroot-">DocumentRoot</a> onde ficarão os seus projetos e arquivos do PHP. E dai você pode ter um preview da sua aplicação.
 
-![localhost](https://user-images.githubusercontent.com/61624336/114467139-d89a9400-9bbf-11eb-929c-0c78858012ca.png)
+![localhost](https://user-images.githubusercontent.com/61624336/114467960-1946dd00-9bc1-11eb-93e1-63b600bc67be.png)
 
 Agora que você já conhece a parte do servidor, vamos programar!
 
