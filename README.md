@@ -59,7 +59,7 @@
 
 <hr>
 
-# O que é PHP?
+# 🐘 O que é PHP? 🐘
 
 ## 🐘 PHP na atualidade 📅
 <div align="justify"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="107"><img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/></div>
