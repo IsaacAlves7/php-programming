@@ -60,6 +60,8 @@
 <hr>
 
 # 🐘 O que é PHP? 🐘
+<img src="https://www.php.net/images/logos/php-logo.svg" height="70">
+
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por Rasmus Lerdorf, focada no desenvolvimento back-end para banco de dados.
 
 ## 🐘 PHP na atualidade 📅
