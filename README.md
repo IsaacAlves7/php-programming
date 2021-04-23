@@ -125,6 +125,12 @@ Perceba que não aparece o código do php pelo código-fonte do front-end, pois,
 
 ## Banco de Dados Relacionais
 ## MySQL
+
+### Inicializando o Apache e o MySQL no XAMPP
+
+<img width="688" alt="2249" src="https://user-images.githubusercontent.com/61624336/115929405-2637bc00-a45e-11eb-97b6-7a954b2b49b6.png">
+
+
 ## PhpMyAdmin
 
 
