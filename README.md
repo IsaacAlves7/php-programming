@@ -121,6 +121,13 @@ Perceba que não aparece o código do php pelo código-fonte do front-end, pois,
 
 ## 🐘 Comentário no PHP 📝
 
+# Banco de Dados
+
+## Banco de Dados Relacionais
+## MySQL
+## PhpMyAdmin
+
+
 <hr>
 
 # Cap 02: 🐘 
