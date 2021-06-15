@@ -96,7 +96,7 @@ Abrir o diretório do Apache na Área de Trabalho!
 <pre>DocumentRoot "C:/Users/user/Área de trabalho"
 &lt;Directory "C:/Users/user/Área de trabalho"&gt;</pre>
 
-## 🐘 Servidor Apache XAMPP 🖥️
+## 🐘 Servidor Apache XAMPP 🪶
 
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="247">&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/61624336/114465502-94a68f80-9bbd-11eb-9599-19fa00b1ec75.png" height="257"></div><br />
 
