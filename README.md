@@ -4,7 +4,7 @@
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fff?style=social&logo=Postgresql&logoColor=336791)](#)
 [![SQL](https://img.shields.io/badge/-db.sql-fff?style=social&logo=MySQL&logoColor=336791)](#)
 -->
-<p>I created this repository for my PHP language learning.</p>
+<blockquote>I created this repository for my PHP language learning.</blockquote>
 
 <a href="https://github.com/IsaacAlves7/php-programming"><img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/></a>
 
