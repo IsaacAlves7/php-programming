@@ -15,7 +15,7 @@
   <li>Programming logic;</li>
   <li>Desire to learn.</li>
 </ul>
-<blockquote>⚠️ <b>Warning:</b> It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
+<blockquote>⚠️ <b>WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-8B89CC?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
@@ -85,6 +85,10 @@ Agora que você já conhece a parte do servidor, vamos programar!
 [![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
 
 Primeiro, crie uma pasta para o documento e depois crie um arquivo, normalmente usamos o nome "<code>index</code>" como o arquivo principal e a extensão <code><b>.php</b></code>.
+
+```php
+echo 'Hello World'
+```
 
 ![diferentes maneiras de inserir o código php](https://user-images.githubusercontent.com/61624336/114467359-30d19600-9bc0-11eb-801c-762734774eef.jpg)
 
