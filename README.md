@@ -25,21 +25,21 @@
 
 <hr>
 
-# Cap 01: 🐘 O que é PHP? 🐘
+# 🐘 PHP - Hypertext Preprocessor (Personal Home Page) 🐘 
 <div align="center"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="170"></div>
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
-## 🐘 PHP na atualidade 📅
+## PHP na atualidade
 <div align="justify"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="107"><img src="https://www.webgeometrics.com/wp-content/uploads/2014/04/banner-php.jpg"/></div>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
-## 🐘 Web Dev Stacks 🔋
+## Web Dev Stacks
 Iremos utilizar o **LAMP** e o **LEMP** mais pra frente.
 
 ![36ed3e0f-5344-4a7e-b807-e6104c6d63be](https://user-images.githubusercontent.com/61624336/117226732-ad384d00-adeb-11eb-8d91-e3ea47b6050b.jpg)
 
-## 🐘 Guia de instalação ⬇️
+## Guia de instalação
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apache-13.svg" height="170"> <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="170"></div><br />
 
 Instale o **servidor Apache** e um programa que rode o código, no caso utilizarei o **XAMPP**, mas você pode usar qualquer outro de acordo com a sua preferência. Após a instalação recomendo você não alterar as portas do localhost e nem colocar o mesmo endereço da porta em outro programa, muitos bancos de dados já possuem o padrão do <code>localhost:8080</code>, caso isso ocorra, altere do outro programa para evitar possíveis conflitos futuros.
@@ -49,20 +49,20 @@ Instale o **servidor Apache** e um programa que rode o código, no caso utilizar
 php -v
 ```
 
-## 🐘 Problema de UAC ⚠️
+## Problema de UAC
 Caso você antes tenha instalado o Xampp e desinstalou incorretamente, gerou um problema no UAC, portanto recomendo seguir os passos de instalação desse vídeo:
 
 - https://youtu.be/EPsmGZYBDEA
 - https://youtu.be/AporimmfqMk
 
-## 🐘 Erro no XAMPP devido outro programa usar a mesma porta ❌
+## Erro no XAMPP devido outro programa usar a mesma porta
 <img src="https://www.ybierling.com/images/large/web/apachecannotstart/apachecannotstart2.png" height="400">
 Recomendo seguir os passos desse vídeo: https://youtu.be/4dK3rQiXsls
 
-## 🐘 403 Forbidden ❌🚫
+## 403 Forbidden
 Recomendo seguir os passos desse vídeo: https://youtu.be/GqzhXCKP3iQ
 
-## 🐘 DocumentRoot 🌳
+## DocumentRoot
 Abrir o diretório do Apache na Área de Trabalho!
 
 ```
@@ -70,7 +70,7 @@ DocumentRoot "C:/Users/user/Área de trabalho"
 Directory "C:/Users/user/Área de trabalho"
 ```
 
-## 🐘 Servidor Apache XAMPP 🪶 🦴
+## Servidor Apache XAMPP
 
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="247">&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/61624336/114465502-94a68f80-9bbd-11eb-9599-19fa00b1ec75.png" height="257"></div><br />
 
@@ -80,7 +80,7 @@ Após a instalação, você deve iniciar apertando o botão <code>Apache</code>,
 
 Agora que você já conhece a parte do servidor, vamos programar!
 
-## 🐘 PHP: - Hello, world! (Olá, Mundo!) 🐘
+## PHP: - Hello, world! (Olá, Mundo!)
 
 [![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
 
@@ -102,14 +102,14 @@ O comando <code>echo</code> exibe uma mensagem na tela. Pode ser inserido entre 
 
 Perceba que não aparece o código do php pelo código-fonte do front-end, pois, como havia dito anteriormente, somente o servidor acessou e interpretou o código.
 
-## 🐘 Comentário no PHP 📝
+## Comentário no PHP 
 
 # Banco de Dados
 
 ## Banco de Dados Relacionais
 ## MySQL
 
-### 🪶 🦴 Inicializando o Apache e o MySQL no XAMPP 🐬
+### Inicializando o Apache e o MySQL no XAMPP
 
 <img width="688" alt="2249" src="https://user-images.githubusercontent.com/61624336/115929405-2637bc00-a45e-11eb-97b6-7a954b2b49b6.png">
 
@@ -119,7 +119,7 @@ Perceba que não aparece o código do php pelo código-fonte do front-end, pois,
 
 <hr>
 
-# Cap 02: 🐘 
+# 🐘 
 
 <hr>
 
