@@ -42,7 +42,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # Zend
 
-# Symphony
+# Symfony
 
 <hr>
 
