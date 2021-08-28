@@ -42,6 +42,8 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # WAMPP
 
+# LAMP
+
 # XAMPP
 
 # PHP + MySQL
