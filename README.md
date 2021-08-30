@@ -6,7 +6,7 @@
 -->
 <blockquote>I created this repository for my PHP language Full-Stack Development learning.</blockquote>
 
-<a href="https://github.com/IsaacAlves7/php-programming"><img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png" width="1070"/></a>
+<a href="https://github.com/IsaacAlves7/php-programming"><img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"></a>
 
 ## 🎒 Prerequisites and repositories 📚:
 <ul>
@@ -16,6 +16,8 @@
   <li>Desire to learn.</li>
 </ul>
 <blockquote>⚠️ <b>WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
+
+<div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="277"></div>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-8B89CC?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
