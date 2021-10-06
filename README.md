@@ -53,9 +53,13 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # LAMP
 
+# LEMP
+
 # XAMPP
 
 # PHP + MySQL
+
+## PhpMyAdmin
 
 # CakePHP
 
