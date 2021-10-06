@@ -49,14 +49,17 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # NGINX Server
 
-# WAMPP
+# WAMP stack
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
 
-# LAMP
-
-# LEMP
+# LAMP stack
 <div align="center"><img src="https://ahex.co/wp-content/uploads/2017/11/Ahex-LEMP-1.png" height="277"></div>
 
-# XAMPP
+# LEMP stack
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="277"></div>
+
+# XAMPP stack
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
 
 # PHP + MySQL
 
