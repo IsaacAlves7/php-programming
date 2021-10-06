@@ -56,7 +56,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <div align="center"><img src="https://ahex.co/wp-content/uploads/2017/11/Ahex-LEMP-1.png" height="277"></div>
 
 # LEMP stack
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="277"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="287"></div>
 
 # XAMPP stack
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
