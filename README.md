@@ -54,7 +54,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 # LAMP
 
 # LEMP
-<div align="center"><img src="https://ahex.co/wp-content/uploads/2017/11/Ahex-LEMP-1.pngg" height="277"></div>
+<div align="center"><img src="https://ahex.co/wp-content/uploads/2017/11/Ahex-LEMP-1.png" height="277"></div>
 
 # XAMPP
 
