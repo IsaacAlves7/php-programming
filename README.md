@@ -28,7 +28,7 @@
 <hr>
 
 # 🐘 PHP - Hypertext Preprocessor 🐘 
-<div align="center"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="170"></div>
+<div align="center"><img src="https://symbols.getvecta.com/stencil_91/62_php-icon.a7e6e65051.svg" height="277"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="277"></div>
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
@@ -37,7 +37,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
 # Composer
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="207"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="277"></div>
 
 ## Instalação do Composer:
 - https://getcomposer.org/doc/00-intro.md
