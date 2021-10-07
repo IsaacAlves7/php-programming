@@ -42,12 +42,15 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 ## PhpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
 
-# Composer
+# 🐘 Composer 🎼
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="277"></div>
 
 ## Instalação do Composer:
 - https://getcomposer.org/doc/00-intro.md
 - https://youtu.be/XO5VFfiqOPI
+
+# 🐘 Packagist 📦
+<div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
 
 # ⬛ Bitnami ⬛
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
