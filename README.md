@@ -73,6 +73,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
 
 # CodeIgniter
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="277"></div>
 
 # Zend
 
