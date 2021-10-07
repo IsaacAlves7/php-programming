@@ -70,6 +70,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
 
 # Laravel
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
 
 # CodeIgniter
 
