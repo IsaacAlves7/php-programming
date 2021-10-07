@@ -49,14 +49,17 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 - https://getcomposer.org/doc/00-intro.md
 - https://youtu.be/XO5VFfiqOPI
 
-# Apache Server
+# ⬛ Bitnami ⬛
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
+
+# 🪶 Apache Server 🪶
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
 
-# Tomcat Server
+# 😾 Tomcat Server 😾
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
 
-# NGINX Server
-<div align="center"><img src="" height="277"></div>
+# 🚉 NGINX Server 🚉
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
 
 # 🪟 WAMP stack 🔋
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
@@ -82,7 +85,10 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 # 🟩 Zend 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="277"></div>
 
-# Symfony
-<div align="center"><img src="" height="277"></div>
+# ⚫ Symfony 🐘
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/symfony.svg" height="277"></div>
+
+# 💧 Drupal 🐘
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="277"></div>
 
 <hr>
