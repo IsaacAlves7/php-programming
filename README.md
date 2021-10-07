@@ -37,6 +37,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
 ## PHP + MySQL
+<div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div>
 
 ## PhpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
@@ -54,28 +55,29 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # NGINX Server
 
-# WAMP stack
+# 🪟 WAMP stack 🔋
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
 
-# LAMP stack
+# 💡 LAMP stack 🔋
 <div align="center"><img src="http://1.bp.blogspot.com/-WnxQWfiUFBo/UsnCpIfgrAI/AAAAAAAAANs/ffvc2iFx8ss/s1600/lamp.png" height="277"></div>
 
-# LEMP stack
+# 🕯️ LEMP stack 🔋
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="287"></div>
 
-# XAMPP stack
+# 🦴 XAMPP stack 🔋
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
 
-# CakePHP
+# 🍰 CakePHP 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
 
-# Laravel
+# 🟧 Laravel 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
 
-# CodeIgniter
+# 🔥 CodeIgniter 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="277"></div>
 
-# Zend
+# 🟩 Zend 🐘
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="277"></div>
 
 # Symfony
 
