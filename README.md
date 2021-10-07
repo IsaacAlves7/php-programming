@@ -58,6 +58,10 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 # 🐘 Packagist 📦
 <div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
 
+<hr>
+
+# Servers
+
 # 🪶 Apache Server 🪶
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
 
@@ -67,17 +71,25 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 # 🚉 NGINX Server 🚉
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
 
-# 🪟 WAMP stack 🔋
+<hr>
+
+# Web Stacks
+
+# 🪟 WAMP stack 🪟
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
 
-# 💡 LAMP stack 🔋
+# 💡 LAMP stack 💡
 <div align="center"><img src="http://1.bp.blogspot.com/-WnxQWfiUFBo/UsnCpIfgrAI/AAAAAAAAANs/ffvc2iFx8ss/s1600/lamp.png" height="277"></div>
 
-# 🕯️ LEMP stack 🔋
+# 🕯️ LEMP stack 🕯️
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="287"></div>
 
-# 🦴 XAMPP stack 🔋
+# 🦴 XAMPP stack 🦴
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
+
+<hr>
+
+# PHP Frameworks
 
 # 🍰 CakePHP 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
@@ -96,5 +108,3 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 # 💧 Drupal 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="277"></div>
-
-<hr>
