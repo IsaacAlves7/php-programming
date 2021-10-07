@@ -45,7 +45,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 # ⬛ Bitnami ⬛
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
 
-# 🐘🐬 WordPress ⓦ
+# ⓦ WordPress ⓦ
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
 
 # 🐘 Composer 🎼
