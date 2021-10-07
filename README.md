@@ -50,10 +50,13 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 - https://youtu.be/XO5VFfiqOPI
 
 # Apache Server
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Apache_Feather_Logo.svg" height="277"></div>
 
 # Tomcat Server
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
 
 # NGINX Server
+<div align="center"><img src="" height="277"></div>
 
 # 🪟 WAMP stack 🔋
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
@@ -80,5 +83,6 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="277"></div>
 
 # Symfony
+<div align="center"><img src="" height="277"></div>
 
 <hr>
