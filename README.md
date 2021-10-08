@@ -32,10 +32,10 @@
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
-## PHP + MySQL
+## 🐘 PHP + MySQL 🐬
 <div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div>
 
-## PhpMyAdmin
+## ⛵ PhpMyAdmin ⛵
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
 
 ## PHP na atualidade
@@ -73,7 +73,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 <hr>
 
-# Web Stacks
+# 🔋 Web Stacks 🔋
 
 # 🪟 WAMP stack 🪟
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
@@ -89,7 +89,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 <hr>
 
-# PHP Frameworks
+# 🐘 PHP Frameworks 💓
 
 # 🍰 CakePHP 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
