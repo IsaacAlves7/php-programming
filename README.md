@@ -35,7 +35,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 ## 🐘 PHP + MySQL 🐬
 <div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div>
 
-## ⛵ PhpMyAdmin ⛵
+## ⛵ phpMyAdmin ⛵
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
 
 ## PHP na atualidade
