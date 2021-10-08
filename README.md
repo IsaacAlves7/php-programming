@@ -32,14 +32,14 @@
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
-## 🐘 PHP + MySQL 🐬
+# 🐘 PHP + MySQL 🐬
 <div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div>
 
-## ⛵ phpMyAdmin ⛵
+# ⛵ phpMyAdmin ⛵
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
 
-## PHP na atualidade
-<div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="317"></div><br \>
+# 🐘 PHP na atualidade 🕰️
+<div align="center"><img src="" height="317"></div><br \>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
 # ⬛ Bitnami ⬛
@@ -61,6 +61,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <hr>
 
 # Servers
+<div align="center"><img src="https://www.kalhost.com/images/php-icon.png" height="277"></div>
 
 # 🪶 Apache Server 🪶
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
@@ -90,6 +91,7 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 <hr>
 
 # 🐘 PHP Frameworks 💓
+<div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="317"></div><br \>
 
 # 🍰 CakePHP 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
