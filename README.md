@@ -35,9 +35,9 @@
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
 # 🐘 PHP + MySQL 🐬
-<div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div>
+<div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div><br \>
 
-O casal perfeito na natureza é com dois mamíferos: Um elefante e um golfinho, certo? haha...é só uma brincadeira! A linguagem de programação **PHP** e o banco de dados relacional **MySQL** são um par muito bom de se trabalhar, até nos tempos atuais, pela facilidade de consulta e manipulação de dados entre os dois desde sempre. Lembrando, que assim como um casal, um não depende do outro para funcionar, apenas se integram.
+O casal perfeito na natureza é com dois mamíferos: Um elefante e um golfinho, certo? procede? haha...é só uma brincadeira! A linguagem de programação **PHP** e o banco de dados relacional **MySQL** são um par muito bom de se trabalhar, até nos tempos atuais, pela facilidade de consulta e manipulação de dados entre os dois desde sempre. Lembrando, que assim como um casal, um não depende do outro para funcionar, apenas se integram.
 
 # ⛵ phpMyAdmin ⛵
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div>
