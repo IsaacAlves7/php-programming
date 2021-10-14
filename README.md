@@ -34,7 +34,7 @@
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
-# Servers
+# 🖥️ Servers 🖥️
 <div align="center"><img src="https://www.kalhost.com/images/php-icon.png" height="277"></div>
 
 # 🪶 Apache Server 🪶
