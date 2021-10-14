@@ -34,6 +34,18 @@
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
+# Servers
+<div align="center"><img src="https://www.kalhost.com/images/php-icon.png" height="277"></div>
+
+# 🪶 Apache Server 🪶
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
+
+# 😾 Tomcat Server 😾
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
+
+# 🚉 NGINX Server 🚉
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
+
 # 🐘 PHP 💘 MySQL 🐬
 <div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div><br \>
 
@@ -45,7 +57,6 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div><br \>
 
 <h1 align="center">🐘 PHP na atualidade 🕰️</h1>
-
 <div align="center"><img src="https://www.hostinger.com/blog/wp-content/uploads/sites/4/2021/03/introducing-php-8.png"></div><br \>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
@@ -64,20 +75,6 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 
 # 🐘 Packagist 📦
 <div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
-
-<hr>
-
-# Servers
-<div align="center"><img src="https://www.kalhost.com/images/php-icon.png" height="277"></div>
-
-# 🪶 Apache Server 🪶
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
-
-# 😾 Tomcat Server 😾
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
-
-# 🚉 NGINX Server 🚉
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
 
 <hr>
 
