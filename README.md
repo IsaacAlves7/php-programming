@@ -26,8 +26,6 @@
 [![JSON](https://img.shields.io/badge/-JSON-777BB4?style=for-the-badge&logo=JSON&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![phpMyAdmin](https://img.shields.io/badge/-phpMyAdmin-6C78AF?style=for-the-badge&logo=phpMyAdmin&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-777BB4?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
-[![React.js](https://img.shields.io/badge/-React.js-6264A7?style=for-the-badge&logo=React&logoColor=white)](https://github.com/IsaacAlves7/react.js-programming)
-[![Vue.js](https://img.shields.io/badge/-Vue.js-665CAC?style=for-the-badge&logo=Vue.js&logoColor=white)](https://github.com/IsaacAlves7/vue.js-programming)
 
 <hr>
 
