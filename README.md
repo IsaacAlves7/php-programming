@@ -56,7 +56,7 @@ Um casal perfeito na natureza é com dois mamíferos: Um elefante e um golfinho,
 Lembrando, que assim como um casal, um não depende do outro para funcionar, apenas se integram.
 
 # ⛵ phpMyAdmin ⛵
-<div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.16d1888730.svg" height="207"><img src="https://symbols.getvecta.com/stencil_91/65_phpmyadmin-icon.ad0b8afa89.svg" height="207"></div><br \>
+<div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
 <h1 align="center">🐘 PHP na atualidade 🕰️</h1>
 <div align="center"><img src="https://www.hostinger.com/blog/wp-content/uploads/sites/4/2021/03/introducing-php-8.png"></div><br \>
