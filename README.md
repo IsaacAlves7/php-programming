@@ -21,12 +21,6 @@
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="277"></div>
 
-[![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-8B89CC?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![JS](https://img.shields.io/badge/-JavaScript-8B89CC?style=for-the-badge&logo=JavaScript&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
-[![JSON](https://img.shields.io/badge/-JSON-777BB4?style=for-the-badge&logo=JSON&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![phpMyAdmin](https://img.shields.io/badge/-phpMyAdmin-6C78AF?style=for-the-badge&logo=phpMyAdmin&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![SQL](https://img.shields.io/badge/-SQL‍‍language-777BB4?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
-
 <hr>
 
 # 🐘 PHP - Hypertext Preprocessor 🐘 
