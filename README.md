@@ -1,9 +1,5 @@
 # <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of PHP programming 🐘
-<!--
-[![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fff?style=social&logo=Postgresql&logoColor=336791)](#)
-[![SQL](https://img.shields.io/badge/-db.sql-fff?style=social&logo=MySQL&logoColor=336791)](#)
--->
+
 <blockquote>I created this repository for my PHP language Full-Stack Development learning.</blockquote>
 
 <a href="https://github.com/IsaacAlves7/php-programming"><img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"></a>
