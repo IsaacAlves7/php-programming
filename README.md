@@ -88,6 +88,9 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 # 🦴 XAMPP stack 🦴
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
 
+# 🧨 LNPP stack 🧨
+<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
+
 <hr>
 
 # 🐘 PHP Frameworks 💓
