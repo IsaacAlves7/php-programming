@@ -116,3 +116,19 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 
 # 🌱 Yii Framework 🐘
 <div align="center"><img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="277"></div>
+
+<hr>
+
+# MVC
+
+<hr>
+
+# PDO
+
+<hr>
+
+# Design Patterns
+
+<hr>
+
+# REST & RESTful API
