@@ -119,6 +119,11 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 
 <hr>
 
+# Hack
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="277"></div>
+
+<hr>
+
 # MVC
 
 <hr>
