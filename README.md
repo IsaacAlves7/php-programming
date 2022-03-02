@@ -107,7 +107,7 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 <hr>
 
 # 🐘 PHP Frameworks 💓
-<div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="337"></div><br \>
+<div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="377"></div><br \>
 
 # 🍰 CakePHP 🐘
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
