@@ -149,8 +149,8 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 
 <hr>
 
-# Cleam Code
+# Clean Code
 
 <hr>
 
-# REST & RESTful API
+# RESTful API (REST API)
