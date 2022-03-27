@@ -154,3 +154,9 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 <hr>
 
 # RESTful API (REST API)
+
+---
+
+## Author
+| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
+| :---: |
