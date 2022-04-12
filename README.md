@@ -1,6 +1,6 @@
 <a href="https://github.com/IsaacAlves7/php-programming"><img src="https://www.cloudways.com/blog/wp-content/uploads/Laravel-9.jpg" width="100%"></a>
 
-# <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of Laravel framework development
+# <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of Laravel framework dev
 <!--
 [![PHP](https://img.shields.io/badge/-index.php-000000?style=social&logo=PHP&logoColor=777BB4)](#)
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fff?style=social&logo=Postgresql&logoColor=336791)](#)
