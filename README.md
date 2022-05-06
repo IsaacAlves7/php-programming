@@ -53,13 +53,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # 🚉 NGINX Server
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
 
-# 🐘 PHP 💘 MySQL 🐬
-<div align="center"><img src="https://www.blueshoon.com/wp-content/uploads/2016/05/php-mysql-logo.png" height="207"></div><br \>
-
-Um casal perfeito na natureza é com dois mamíferos: Um elefante e um golfinho, certo? procede? haha...é só uma brincadeira! A linguagem de programação **PHP** e o banco de dados relacional **MySQL** são um par muito bom de se trabalhar, até nos tempos atuais, pela facilidade de consulta e manipulação de dados entre os dois desde sempre. 
-
-Lembrando, que assim como um casal, um não depende do outro para funcionar, apenas se integram.
-
 # ⛵ phpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
