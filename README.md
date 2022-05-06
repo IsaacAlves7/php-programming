@@ -122,7 +122,7 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 # ⚫ Symfony
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/symfony.svg" height="277"></div>
 
-# 💧 Drupa
+# 💧 Drupal
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="277"></div>
 
 # 🌱 Yii Framework
