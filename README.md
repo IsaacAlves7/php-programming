@@ -93,12 +93,8 @@ Lembrando, que assim como um casal, um não depende do outro para funcionar, ape
 # 💡 LAMP stack 💡
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/light-bulb_1f4a1.png" height="177"></div><br \>
 
-<div align="center"><img src="http://1.bp.blogspot.com/-WnxQWfiUFBo/UsnCpIfgrAI/AAAAAAAAANs/ffvc2iFx8ss/s1600/lamp.png" height="277"></div>
-
 # 🕯️ LEMP stack 🕯️
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/candle_1f56f-fe0f.png" height="177"></div><br \>
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/136299563-6a677a0b-aea3-42ae-8b7c-90eee829e04e.jpg" height="287"></div>
 
 # 🦴 XAMPP stack 🦴
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
