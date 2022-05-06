@@ -6,7 +6,7 @@
 
 - https://madewithlaravel.com/boilerplate
 
-## 🎒 Prerequisites and repositories 📚:
+## Prerequisites and repositories:
 <ul>
   <li>Good domains in English;</li>
   <li>Front-End: HTML5, CSS3, JS and Frameworks;</li>
@@ -34,23 +34,23 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ----
 
-# 🐘 PHP - Hypertext Preprocessor 🐘 
+# 🐘 PHP - Hypertext Preprocessor 
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" height="207"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="207"></div><br \>
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a>, focada no desenvolvimento back-end para banco de dados.
 
-# 🖥️ Servers 🖥️
+# 🖥️ Servers
 <div align="center"><img src="https://www.kalhost.com/images/php-icon.png" height="277"></div>
 
 Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de **cliente** (não confunda com Client-Side). O principal papel de um servidor é fornecer algo de maneira centralizada, acabando com a necessidade de se ter um programa ou sistema instalado em cada equipamento de cada um dos usuários de uma empresa. Atualmente servidores são adotados para fornecer praticamente tudo que se consiga imaginar e esteja relacionado com computação.
 
-# 🪶 Apache Server 🪶
+# 🪶 Apache Server
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
 
-# 😾 Tomcat Server 😾
+# 😾 Tomcat Server
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
 
-# 🚉 NGINX Server 🚉
+# 🚉 NGINX Server
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
 
 # 🐘 PHP 💘 MySQL 🐬
@@ -60,72 +60,72 @@ Um casal perfeito na natureza é com dois mamíferos: Um elefante e um golfinho,
 
 Lembrando, que assim como um casal, um não depende do outro para funcionar, apenas se integram.
 
-# ⛵ phpMyAdmin ⛵
+# ⛵ phpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
 <h1 align="center">🐘 PHP na atualidade 🕰️</h1>
 <div align="center"><img src="https://www.hostinger.com/blog/wp-content/uploads/sites/4/2021/03/introducing-php-8.png"></div><br \>
 <p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
 
-# ⬛ Bitnami ⬛
+# ⬛ Bitnami
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
 
-# ⓦ WordPress ⓦ
+# ⓦ WordPress
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
 
-# 🐘 Composer 🎼
+# 🎼 Composer
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="277"></div>
 
 ## Instalação do Composer:
 - https://getcomposer.org/doc/00-intro.md
 - https://youtu.be/XO5VFfiqOPI
 
-# 🐘 Packagist 📦
+# 📦 Packagist
 <div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
 
 <hr>
 
-# 🔋 Web Stacks 🔋
+# 🔋 Web Stacks
 
-# 🪟 WAMP stack 🪟
+# 🪟 WAMP stack
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
 
-# 💡 LAMP stack 💡
+# 💡 LAMP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/light-bulb_1f4a1.png" height="177"></div><br \>
 
-# 🕯️ LEMP stack 🕯️
+# 🕯️ LEMP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/candle_1f56f-fe0f.png" height="177"></div><br \>
 
-# 🦴 XAMPP stack 🦴
+# 🦴 XAMPP stack
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
 
-# 🧨 LNPP stack 🧨
+# 🧨 LNPP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
 
 <hr>
 
-# 🐘 PHP Frameworks 💓
+# 💓 PHP Frameworks
 <div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="377"></div><br \>
 
-# 🍰 CakePHP 🐘
+# 🍰 CakePHP
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
 
-# 🟧 Laravel 🐘
+# 🟧 Laravel
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
 
-# 🔥 CodeIgniter 🐘
+# 🔥 CodeIgniter
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="277"></div>
 
-# 🟩 Zend 🐘
+# 🟩 Zend
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="277"></div>
 
-# ⚫ Symfony 🐘
+# ⚫ Symfony
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/symfony.svg" height="277"></div>
 
-# 💧 Drupal 🐘
+# 💧 Drupa
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="277"></div>
 
-# 🌱 Yii Framework 🐘
+# 🌱 Yii Framework
 <div align="center"><img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="277"></div>
 
 <hr>
