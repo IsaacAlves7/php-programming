@@ -149,6 +149,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 
 ---
 
-## Author
+## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
 | :---: |
