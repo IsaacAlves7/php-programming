@@ -56,10 +56,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # ⛵ phpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
-<h1 align="center">🐘 PHP na atualidade 🕰️</h1>
-<div align="center"><img src="https://www.hostinger.com/blog/wp-content/uploads/sites/4/2021/03/introducing-php-8.png"></div><br \>
-<p>Muito se discute a respeito do PHP acabar em 2020 ou a partir dos anos futuros. E a resposta correta, para essa pergunta, é que não irá! Pois o PHP ainda é amplamente usado por empresas, seus frameworks e bibliotecas são amplamente utilizadas para páginas dinâmicas, templates Web e E-commerce. Além disso, sua versão chegou a 8° em 2020.</p>
-
 # ⬛ Bitnami
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
 
