@@ -44,15 +44,6 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de **cliente** (não confunda com Client-Side). O principal papel de um servidor é fornecer algo de maneira centralizada, acabando com a necessidade de se ter um programa ou sistema instalado em cada equipamento de cada um dos usuários de uma empresa. Atualmente servidores são adotados para fornecer praticamente tudo que se consiga imaginar e esteja relacionado com computação.
 
-# 🪶 Apache Server
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg" height="277"></div>
-
-# 😾 Tomcat Server
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/tomcat.svg" height="277"></div>
-
-# 🚉 NGINX Server
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nginx-1.svg" height="277"></div>
-
 # ⛵ phpMyAdmin
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
