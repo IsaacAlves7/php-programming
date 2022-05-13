@@ -147,8 +147,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # XHP
 <div align="center"><img src="https://camo.githubusercontent.com/b788fc3cc9e4d36a567f8c218e099f6e89a7840348f5d7755b51639081f222a8/68747470733a2f2f6868766d2e6769746875622e696f2f7868702d6c69622f696d616765732f7868705f6c6f676f2e706e67" height="277"></div>
 
----
-
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
 | :---: |
