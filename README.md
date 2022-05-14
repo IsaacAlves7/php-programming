@@ -129,10 +129,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 
 # Clean Code
 
-<hr>
-
-# RESTful API (REST API)
-
 ---
 
 # XHP
