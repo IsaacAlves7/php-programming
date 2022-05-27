@@ -6,22 +6,10 @@
 
 - https://madewithlaravel.com/boilerplate
 
-## Prerequisites and repositories:
-<ul>
-  <li>Good domains in English;</li>
-  <li>Front-End: HTML5, CSS3, JS and Frameworks;</li>
-  <li>Relational Databases and SQL language;</li>
-  <li>HTTP methods and APIs;</li>
-  <li>Programming logic and paradigms;</li>
-  <li>Desire to learn.</li>
-</ul>
-<blockquote>⚠️ <b>WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in PHP development, if you want to learn about HTML5, CSS3, JS or PHP Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
-
 <div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="277"></div>
 
 # 🐒 Paradigmas de desenvolvimento de software
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div><br \>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
 
