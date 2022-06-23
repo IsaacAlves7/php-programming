@@ -39,7 +39,7 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # ⓦ WordPress
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
 
-# 🎼 Composer
+# 📦 `composer`
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="277"></div>
 
 ## Instalação do Composer:
