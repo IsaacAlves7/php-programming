@@ -1,6 +1,6 @@
 <a href="https://github.com/IsaacAlves7/php-programming"><img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php.png"></a>
 
-# <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of PHP programming 🐘
+# <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of PHP language 🐘
 
 <blockquote>I created this repository for my PHP language Full-Stack Development learning.</blockquote>
 
