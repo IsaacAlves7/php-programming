@@ -2,7 +2,7 @@
 
 # <a href="#"><img src="https://www.php.net/images/logos/php-logo.svg" height="27"></a> It's a repository of PHP language 🐘
 
-<blockquote>I created this repository for my PHP language Full-Stack Development learning.</blockquote>
+> 🐘 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software PHP, com a versão mais recente, instalado na sua máquina local.
 
 - https://madewithlaravel.com/boilerplate
 
