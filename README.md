@@ -66,8 +66,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # 🧨 LNPP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
 
-<hr>
-
 # 💓 PHP Frameworks
 <div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="377"></div><br \>
 
@@ -92,32 +90,19 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # 🌱 Yii Framework
 <div align="center"><img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="277"></div>
 
-<hr>
-
 # Linguagem Hack
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="277"></div>
 
-<hr>
 
 # Arquitetura MVC
 
-<hr>
 
 # PDO
 
-<hr>
 
 # Design Patterns
 
-<hr>
-
 # Clean Code
-
----
 
 # XHP
 <div align="center"><img src="https://camo.githubusercontent.com/b788fc3cc9e4d36a567f8c218e099f6e89a7840348f5d7755b51639081f222a8/68747470733a2f2f6868766d2e6769746875622e696f2f7868702d6c69622f696d616765732f7868705f6c6f676f2e706e67" height="177"></div>
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
-| :---: |
