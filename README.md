@@ -4,7 +4,7 @@
 
 > 🐘 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software PHP, com a versão mais recente, instalado na sua máquina local.
 
-- https://madewithlaravel.com/boilerplate
+<!-- https://madewithlaravel.com/boilerplate -->
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="277"></div>
 
