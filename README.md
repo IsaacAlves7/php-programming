@@ -18,8 +18,6 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
-----
-
 # 🐘 PHP - Hypertext Preprocessor 
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" height="207"><img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="207"></div><br \>
 
