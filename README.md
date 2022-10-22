@@ -6,7 +6,7 @@
 
 <!-- https://madewithlaravel.com/boilerplate -->
 
-<div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="277"></div>
+<div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="177"></div>
 
 # 🐒 Paradigmas de desenvolvimento de software
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
