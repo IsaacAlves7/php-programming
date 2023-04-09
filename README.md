@@ -47,8 +47,6 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 # 📦 Packagist
 <div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
 
-<hr>
-
 # 🔋 Web Stacks
 
 # 🪟 WAMP stack
