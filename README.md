@@ -222,6 +222,145 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 # 🍰 CakePHP
 <img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="77" align="right">
 
+**CakePHP** é um framework de desenvolvimento rápido (RAD) para a linguagem PHP, projetado para facilitar a criação de aplicativos web robustos e escaláveis. Ele segue o padrão de design Model-View-Controller (MVC), o que ajuda a separar a lógica da aplicação da apresentação e dos dados, tornando o desenvolvimento mais organizado e manutenível. CakePHP é um framework poderoso e estruturado que facilita o desenvolvimento de aplicações web em PHP. Ele oferece diversas funcionalidades out-of-the-box que ajudam a acelerar o desenvolvimento, mantendo o código organizado e seguro. É uma excelente escolha para desenvolvedores que buscam uma abordagem estruturada e eficiente para construir suas aplicações web.
+
+Principais Características do CakePHP:
+
+1. **MVC (Model-View-Controller)**: O CakePHP adota o padrão MVC, que separa a lógica da aplicação (Model), a apresentação (View) e a manipulação de dados e interações do usuário (Controller). Isso facilita a manutenção e a escalabilidade do código.
+
+2. **Convention Over Configuration**: O CakePHP segue a filosofia de "Convenção sobre Configuração", o que significa que ele usa convenções sensatas para reduzir a necessidade de configuração explícita. Isso acelera o desenvolvimento, pois muitos aspectos do framework funcionam de forma padrão sem necessidade de configuração manual.
+
+3. **ORM (Object-Relational Mapping)**: CakePHP inclui um poderoso ORM que facilita o trabalho com bancos de dados, permitindo que os desenvolvedores interajam com o banco de dados usando objetos PHP em vez de SQL puro.
+
+4. **Templating**: O sistema de templates do CakePHP permite a criação de layouts reutilizáveis e views dinâmicas. Ele suporta a inclusão de elementos, helpers e layouts, tornando a construção da interface de usuário mais eficiente.
+
+5. **Componentes e Helpers**: CakePHP fornece um conjunto de componentes e helpers que ajudam a gerenciar a lógica de negócios e a interface do usuário, como autenticação, manipulação de formulários, validação, etc.
+
+6. **Segurança**: O CakePHP inclui várias funcionalidades de segurança, como proteção contra CSRF (Cross-Site Request Forgery), validação de dados, sanitização de entrada, proteção contra SQL Injection e mais.
+
+7. **Ferramentas de Linha de Comando (Bake)**: O CakePHP inclui a ferramenta `bake`, que é uma linha de comando poderosa para gerar código automaticamente, como modelos, controladores, views e outros arquivos comuns.
+
+Aqui está um exemplo básico de como começar com CakePHP, incluindo a criação de um projeto e a definição de um modelo simples:
+
+Instalação do CakePHP
+
+1. **Usando Composer**:
+   ```sh
+   composer create-project --prefer-dist cakephp/app meuprojeto
+   ```
+
+2. **Configuração do Banco de Dados**:
+   Após criar o projeto, configure seu banco de dados no arquivo `config/app.php`:
+
+   ```php
+   'Datasources' => [
+       'default' => [
+           'host' => 'localhost',
+           'username' => 'root',
+           'password' => '',
+           'database' => 'meubanco',
+           'driver' => 'Cake\Database\Driver\Mysql',
+           // Outros parâmetros de configuração...
+       ],
+   ],
+   ```
+
+Criando um Modelo, Controlador e View
+
+1. **Gerando Código com Bake**:
+   ```sh
+   bin/cake bake model Usuarios
+   bin/cake bake controller Usuarios
+   bin/cake bake template Usuarios
+   ```
+
+2. **Definindo o Modelo** (`src/Model/Entity/Usuario.php` e `src/Model/Table/UsuariosTable.php`):
+
+   ```php
+   namespace App\Model\Entity;
+
+   use Cake\ORM\Entity;
+
+   class Usuario extends Entity {
+       protected $_accessible = [
+           '*' => true,
+           'id' => false,
+       ];
+   }
+   ```
+
+   ```php
+   namespace App\Model\Table;
+
+   use Cake\ORM\Table;
+
+   class UsuariosTable extends Table {
+       public function initialize(array $config): void {
+           parent::initialize($config);
+
+           $this->setTable('usuarios');
+           $this->setDisplayField('nome');
+           $this->setPrimaryKey('id');
+
+           $this->addBehavior('Timestamp');
+       }
+   }
+   ```
+
+3. **Criando o Controller** (`src/Controller/UsuariosController.php`):
+
+   ```php
+   namespace App\Controller;
+
+   use App\Controller\AppController;
+
+   class UsuariosController extends AppController {
+       public function index() {
+           $usuarios = $this->paginate($this->Usuarios);
+           $this->set(compact('usuarios'));
+       }
+
+       public function view($id = null) {
+           $usuario = $this->Usuarios->get($id);
+           $this->set(compact('usuario'));
+       }
+
+       public function add() {
+           $usuario = $this->Usuarios->newEmptyEntity();
+           if ($this->request->is('post')) {
+               $usuario = $this->Usuarios->patchEntity($usuario, $this->request->getData());
+               if ($this->Usuarios->save($usuario)) {
+                   $this->Flash->success(__('O usuário foi salvo.'));
+                   return $this->redirect(['action' => 'index']);
+               }
+               $this->Flash->error(__('Não foi possível salvar o usuário.'));
+           }
+           $this->set(compact('usuario'));
+       }
+   }
+   ```
+
+4. **Criando Views** (`templates/Usuarios/index.php`, `view.php`, `add.php`):
+
+   ```php
+   <!-- templates/Usuarios/index.php -->
+   <h1>Usuários</h1>
+   <table>
+       <tr>
+           <th>ID</th>
+           <th>Nome</th>
+           <th>Ações</th>
+       </tr>
+       <?php foreach ($usuarios as $usuario): ?>
+       <tr>
+           <td><?= h($usuario->id) ?></td>
+           <td><?= h($usuario->nome) ?></td>
+           <td><?= $this->Html->link('Ver', ['action' => 'view', $usuario->id]) ?></td>
+       </tr>
+       <?php endforeach; ?>
+   </table>
+   ```
+
 # 🟧 Laravel
 <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="77" align="right">
 
