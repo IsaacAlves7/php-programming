@@ -31,7 +31,35 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 <div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
 
 # ⬛ Bitnami
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
+
+**Bitnami** é uma empresa que oferece soluções de implantação e gerenciamento de aplicativos de software, especialmente focada em fornecer pacotes de aplicativos prontos para uso em várias plataformas, como máquinas virtuais, contêineres, instalações nativas e nuvem. Bitnami oferece soluções prontas para uso para implantação rápida e fácil de aplicativos de software em uma variedade de plataformas e ambientes. Com uma ampla variedade de pacotes de aplicativos disponíveis e suporte para várias plataformas, o Bitnami é uma escolha popular para desenvolvedores e empresas que buscam simplificar o processo de implantação e gerenciamento de aplicativos de software.
+
+Principais Características do Bitnami:
+
+1. **Pacotes Prontos para Uso**: Bitnami oferece uma ampla variedade de pacotes de aplicativos prontos para uso, pré-configurados e empacotados com todas as dependências necessárias para executar o aplicativo de forma rápida e fácil.
+
+2. **Compatibilidade com Diferentes Plataformas**: Os aplicativos Bitnami estão disponíveis para várias plataformas, incluindo máquinas virtuais para VMware, VirtualBox e outros, contêineres Docker, instalações nativas para Windows, macOS e Linux, bem como serviços de nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e outras.
+
+3. **Facilidade de Implantação**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos com apenas alguns cliques, economizando tempo e esforço no processo de configuração e instalação.
+
+4. **Segurança e Manutenção**: Bitnami fornece atualizações regulares de segurança e patches para os aplicativos empacotados, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+
+5. **Suporte e Comunidade**: Bitnami oferece suporte técnico profissional para seus produtos, bem como uma comunidade ativa onde os usuários podem compartilhar conhecimentos, solucionar problemas e trocar experiências.
+
+Exemplo de Uso do Bitnami:
+
+Um exemplo comum de uso do Bitnami seria implantar um servidor web Apache com WordPress em uma instância da AWS. Os usuários podem simplesmente selecionar o pacote Bitnami do WordPress para AWS na AWS Marketplace, especificar os detalhes da instância (como tamanho, região etc.) e iniciar a implantação. O Bitnami cuidará da configuração do servidor web, banco de dados e WordPress, tornando o processo de implantação rápido e fácil.
+
+Benefícios do Uso do Bitnami:
+
+1. **Economia de Tempo e Esforço**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos em minutos, economizando tempo e esforço no processo de configuração e instalação.
+
+2. **Confiabilidade e Segurança**: Os aplicativos Bitnami são empacotados com todas as dependências necessárias e recebem atualizações regulares de segurança, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+
+3. **Flexibilidade e Escalabilidade**: Bitnami oferece suporte para uma variedade de plataformas e ambientes de implantação, permitindo que os usuários escolham a melhor opção para suas necessidades específicas.
+
+4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
 
 # ⓦ WordPress
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
@@ -396,7 +424,7 @@ Considerações:
 # 🧨 LNPP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
 
-# 🍰 CakePHP
+# 🍰 [PHP] CakePHP
 <img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="77" align="right">
 
 **CakePHP** é um framework de desenvolvimento rápido (RAD) para a linguagem PHP, projetado para facilitar a criação de aplicativos web robustos e escaláveis. Ele segue o padrão de design Model-View-Controller (MVC), o que ajuda a separar a lógica da aplicação da apresentação e dos dados, tornando o desenvolvimento mais organizado e manutenível. CakePHP é um framework poderoso e estruturado que facilita o desenvolvimento de aplicações web em PHP. Ele oferece diversas funcionalidades out-of-the-box que ajudam a acelerar o desenvolvimento, mantendo o código organizado e seguro. É uma excelente escolha para desenvolvedores que buscam uma abordagem estruturada e eficiente para construir suas aplicações web.
@@ -538,7 +566,7 @@ Criando um Modelo, Controlador e View
    </table>
    ```
 
-# 🟧 Laravel
+# 🟧 [PHP] Laravel
 <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="77" align="right">
 
 O **Laravel** é um framework PHP de código aberto, elegante e expressivo, que oferece uma sintaxe simples e uma grande variedade de ferramentas poderosas para desenvolver aplicações web modernas e escaláveis. Ele foi criado por Taylor Otwell em 2011 e desde então tem ganhado popularidade rapidamente devido à sua facilidade de uso, documentação abrangente e robustez. O Laravel é um framework PHP moderno e robusto que oferece uma ampla gama de recursos e ferramentas poderosas para desenvolver aplicações web elegantes e escaláveis. Sua sintaxe expressiva, arquitetura MVC e ampla gama de funcionalidades integradas o tornam uma escolha popular para desenvolvedores de todos os níveis de habilidade.
@@ -616,14 +644,181 @@ Benefícios do Uso do Laravel:
 3. **Segurança**: Laravel inclui várias funcionalidades de segurança, como proteção contra ataques CSRF, SQL injection, XSS e autenticação integrada.
 4. **Manutenção Simples**: A estrutura organizada do Laravel e suas ferramentas integradas facilitam a manutenção e o crescimento contínuo da aplicação.
 
-# 🔥 CodeIgniter
+# 🔥 [PHP] CodeIgniter
 <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="77" align="right">
 
-# 🟩 Zend
+**CodeIgniter** é um framework PHP de código aberto e leve, projetado para desenvolver rapidamente aplicações web simples e elegantes. Ele foi criado por EllisLab Inc. e lançado pela primeira vez em 2006. Desde então, o CodeIgniter tem sido amplamente adotado devido à sua facilidade de uso, velocidade e ampla documentação. CodeIgniter é um framework PHP simples, leve e eficiente, adequado para o desenvolvimento rápido de aplicações web simples e elegantes. Sua simplicidade, velocidade e documentação abrangente o tornam uma excelente escolha para desenvolvedores que buscam uma solução fácil de usar e rápida para criar aplicações web de alta qualidade.
+
+Principais Características do CodeIgniter:
+
+1. **Leve e Rápido**: CodeIgniter é conhecido por sua simplicidade e desempenho rápido, o que o torna uma ótima escolha para desenvolver aplicações web de alto desempenho.
+
+2. **Arquitetura MVC**: CodeIgniter segue o padrão de design Model-View-Controller (MVC), que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
+
+3. **Sem Requisitos de Configuração**: CodeIgniter não requer nenhuma configuração especial do servidor web ou do PHP, tornando-o fácil de instalar e configurar em praticamente qualquer ambiente de hospedagem.
+
+4. **Documentação Abrangente**: CodeIgniter possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework, desde a instalação e configuração até o desenvolvimento avançado e as melhores práticas.
+
+5. **Facilidade de Aprendizado**: CodeIgniter é conhecido por sua curva de aprendizado suave e sua sintaxe simples, o que o torna uma excelente escolha para desenvolvedores iniciantes e experientes.
+
+6. **Segurança Integrada**: CodeIgniter inclui várias funcionalidades de segurança integradas, como proteção contra ataques CSRF, XSS e SQL injection, ajudando a proteger as aplicações contra vulnerabilidades comuns.
+
+Exemplo de Uso do CodeIgniter:
+
+Instalação do CodeIgniter:
+
+A maneira mais comum de instalar o CodeIgniter é baixar o arquivo ZIP do site oficial e extrair os arquivos em seu servidor web. Não é necessário instalação adicional, pois o CodeIgniter não possui dependências externas.
+
+Criando um Controlador:
+
+Crie um controlador em `application/controllers/Welcome.php`:
+
+```php
+// application/controllers/Welcome.php
+
+<?php
+class Welcome extends CI_Controller {
+
+    public function index()
+    {
+        $this->load->view('welcome_message');
+    }
+}
+?>
+```
+
+Criando uma View:
+
+Crie uma view em `application/views/welcome_message.php`:
+
+```php
+<!-- application/views/welcome_message.php -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to CodeIgniter</title>
+</head>
+<body>
+    <h1>Welcome to CodeIgniter!</h1>
+</body>
+</html>
+```
+
+Configurando as Rotas:
+
+O roteamento no CodeIgniter é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
+
+Executando o Servidor Web:
+
+Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
+
+```bash
+php -S localhost:8000
+```
+
+Acesse a aplicação no navegador em `http://localhost:8000`.
+
+Benefícios do Uso do CodeIgniter:
+
+1. **Simplicidade**: CodeIgniter é conhecido por sua simplicidade e facilidade de uso, tornando-o uma ótima escolha para desenvolvedores iniciantes e experientes.
+
+2. **Desempenho Rápido**: Devido à sua leveza e eficiência, o CodeIgniter oferece um desempenho rápido e responsivo, mesmo em servidores compartilhados e ambientes de hospedagem de baixo custo.
+
+3. **Documentação Abundante**: CodeIgniter possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework e fornece exemplos práticos para ajudar os desenvolvedores a começar rapidamente.
+
+4. **Comunidade Ativa**: CodeIgniter possui uma grande comunidade de desenvolvedores ativos que contribuem com pacotes, tutoriais e suporte online, tornando-o fácil de aprender e usar.
+
+# 🟩 [PHP] Zend (Laminas Project)
 <img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="77" align="right">
 
+**Zend Framework**, agora conhecido como **Laminas Project**, é um framework PHP de código aberto que oferece uma biblioteca robusta e escalável para o desenvolvimento de aplicações web e serviços RESTful. Foi inicialmente desenvolvido pela Zend Technologies, uma empresa conhecida por sua contribuição para o desenvolvimento do PHP. O framework foi lançado pela primeira vez em 2006 e tornou-se rapidamente uma das opções preferidas para desenvolvedores que buscam criar aplicações web profissionais e de alta qualidade. Zend Framework, agora conhecido como Laminas Project, é um framework PHP de código aberto que oferece uma biblioteca robusta e escalável para o desenvolvimento de aplicações web e serviços RESTful. Sua arquitetura modular, sua documentação abrangente e sua ampla gama de funcionalidades integradas o tornam uma excelente escolha para desenvolvedores que buscam uma solução flexível e poderosa para criar aplicações web de alta qualidade.
+
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/b0c31f74-61ae-487a-a765-d968a2d9d72b" align="right" height="77">
+
+Principais Características do Zend Framework (Laminas Project):
+
+1. **Componentes Reutilizáveis**: Zend Framework é construído com base em um conjunto de mais de 60 componentes PHP independentes, que podem ser usados de forma independente ou combinados para criar aplicações web complexas.
+
+2. **Arquitetura MVC**: Zend Framework segue o padrão de design Model-View-Controller (MVC), que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
+
+3. **Inversão de Controle (IoC)**: Zend Framework utiliza o padrão de design de Injeção de Dependência e Inversão de Controle (IoC) para promover a reutilização de código e a separação de preocupações.
+
+4. **Extensibilidade**: Zend Framework é altamente extensível e oferece suporte para plug-ins, eventos e filtros, permitindo que os desenvolvedores personalizem facilmente o comportamento do framework de acordo com as necessidades do projeto.
+
+5. **Documentação Abrangente**: Zend Framework possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework, desde a instalação e configuração até o desenvolvimento avançado e as melhores práticas.
+
+6. **Segurança Integrada**: Zend Framework inclui várias funcionalidades de segurança integradas, como proteção contra ataques CSRF, XSS e SQL injection, ajudando a proteger as aplicações contra vulnerabilidades comuns.
+
+7. **Desempenho e Escalabilidade**: Zend Framework é conhecido por seu desempenho rápido e escalabilidade, sendo uma escolha popular para o desenvolvimento de aplicações web de alto tráfego e missão crítica.
+
+Exemplo de Uso do Zend Framework (Laminas Project):
+
+Instalação do Zend Framework (Laminas Project):
+
+A maneira mais comum de instalar o Zend Framework (Laminas Project) é usando o Composer. Execute o seguinte comando no terminal:
+
+```bash
+composer create-project laminas/laminas-mvc-skeleton nome-do-projeto
+```
+
+Criando um Controlador:
+
+Crie um controlador em `module/Application/src/Controller/IndexController.php`:
+
+```php
+// module/Application/src/Controller/IndexController.php
+
+namespace Application\Controller;
+
+use Laminas\Mvc\Controller\AbstractActionController;
+use Laminas\View\Model\ViewModel;
+
+class IndexController extends AbstractActionController
+{
+    public function indexAction()
+    {
+        return new ViewModel();
+    }
+}
+```
+
+Criando uma View:
+
+Crie uma view em `module/Application/view/application/index/index.phtml`:
+
+```php
+<!-- module/Application/view/application/index/index.phtml -->
+
+<h1>Welcome to Zend Framework (Laminas Project)!</h1>
+```
+
+#### Configurando as Rotas
+
+O roteamento no Zend Framework (Laminas Project) é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
+
+#### Executando o Servidor Web
+
+Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
+
+```bash
+php -S localhost:8000 -t public
+```
+
+Acesse a aplicação no navegador em `http://localhost:8000`.
+
+### Benefícios do Uso do Zend Framework (Laminas Project)
+
+1. **Componentes Reutilizáveis**: Zend Framework (Laminas Project) oferece uma ampla gama de componentes reutilizáveis que podem ser usados em diferentes projetos, reduzindo a duplicação de código e promovendo a reutilização.
+
+2. **Documentação Abrangente**: Zend Framework (Laminas Project) possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework e fornece exemplos práticos para ajudar os desenvolvedores a começar rapidamente.
+
+3. **Segurança Integrada**: Zend Framework (Laminas Project) inclui várias funcionalidades de segurança integradas, ajudando a proteger as aplicações contra vulnerabilidades comuns, como ataques CSRF, XSS e SQL injection.
+
+4. **Desempenho e Escalabilidade**: Zend Framework (Laminas Project) é conhecido por seu desempenho rápido e escalabilidade, sendo uma escolha popular para o desenvolvimento de aplicações web de alto tráfego e missão crítica.
+
 # ⚫ Symfony
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/c1fee442-cbf8-4b1a-a547-27610df659c1" height="77" align="right">
+<img src="https://iconape.com/wp-content/png_logo_vector/symfony.png" height="77" align="right">
 
 **Symfony** é um framework PHP de código aberto que segue os padrões de design e desenvolvimento web mais recentes. Lançado pela primeira vez em 2005, o Symfony se tornou uma das estruturas mais populares e amplamente adotadas para o desenvolvimento de aplicações web em PHP. Ele foi desenvolvido por Fabien Potencier e é mantido pela Symfony SAS, uma empresa francesa dedicada ao desenvolvimento e suporte do Symfony. Symfony é um framework PHP robusto e flexível, amplamente utilizado para o desenvolvimento de aplicações web modernas e escaláveis. Sua arquitetura modular, sua configuração flexível e sua vasta gama de funcionalidades integradas o tornam uma escolha popular entre os desenvolvedores que buscam criar aplicações web de alta qualidade.
 
