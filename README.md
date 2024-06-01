@@ -38,11 +38,96 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
 
 # 📦 `composer`
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="277"></div>
+<a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
-## Instalação do Composer:
-- https://getcomposer.org/doc/00-intro.md
-- https://youtu.be/XO5VFfiqOPI
+O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
+
+Principais Funcionalidades do Composer:
+
+1. **Gerenciamento de Dependências**: Composer permite que você defina as dependências do seu projeto em um arquivo chamado `composer.json`. Ele resolve automaticamente as dependências, baixa e instala as bibliotecas necessárias.
+
+2. **Autoloading**: Composer gera automaticamente um autoloader que permite carregar as classes das bibliotecas instaladas sem a necessidade de manualmente incluir os arquivos PHP, facilitando a organização e estruturação do código.
+
+3. **Repositório Packagist**: Composer utiliza o Packagist, um repositório público onde desenvolvedores podem compartilhar e encontrar bibliotecas PHP. Você pode facilmente buscar e instalar pacotes do Packagist em seu projeto.
+
+4. **Versões e Restrições de Versão**: Composer permite especificar versões específicas ou intervalos de versões para suas dependências, garantindo que o seu projeto use versões compatíveis e estáveis das bibliotecas.
+
+5. **Scripts**: Composer permite definir scripts que podem ser executados em certos momentos do ciclo de vida do projeto, como antes ou depois da instalação de pacotes.
+
+Como Usar o Composer:
+
+Aqui está um guia básico sobre como instalar e usar o Composer em um projeto PHP.
+
+Instalação do Composer:
+
+Você pode instalar o <a href="https://youtu.be/XO5VFfiqOPI">Composer</a> globalmente no seu sistema ou localmente no seu projeto. Aqui está um exemplo de instalação global:
+
+```sh
+# Download e instalação do Composer
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+# Movendo o Composer para um diretório acessível globalmente
+mv composer.phar /usr/local/bin/composer
+```
+
+Inicializando um Projeto com Composer:
+
+1. **Criar um Arquivo `composer.json`**: Você pode criar este arquivo manualmente ou usando o comando `composer init`, que guia você na criação do arquivo.
+
+```sh
+composer init
+```
+
+2. **Adicionar Dependências**: Adicione dependências ao seu projeto. Por exemplo, para adicionar a biblioteca `monolog/monolog`:
+
+```sh
+composer require monolog/monolog
+```
+
+Este comando atualiza o arquivo `composer.json` e cria (ou atualiza) o arquivo `composer.lock`, além de baixar e instalar as bibliotecas necessárias na pasta `vendor`.
+
+3. **Atualizar Dependências**: Para atualizar todas as dependências para as versões mais recentes permitidas pelo `composer.json`:
+
+```sh
+composer update
+```
+
+4. **Instalar Dependências**: Para instalar todas as dependências definidas no `composer.json` (útil quando você clona um projeto):
+
+```sh
+composer install
+```
+
+Exemplo de Arquivo `composer.json`:
+
+Aqui está um exemplo simples de um arquivo `composer.json`:
+
+```json
+{
+    "name": "meuprojeto/exemplo",
+    "description": "Um projeto de exemplo usando Composer",
+    "require": {
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeuProjeto\\": "src/"
+        }
+    }
+}
+```
+
+Usando o Autoload do Composer:
+
+Para usar o autoloader gerado pelo Composer, inclua o seguinte em seu arquivo principal PHP:
+
+```php
+require 'vendor/autoload.php';
+```
+
+Isso permite que você utilize as classes das bibliotecas instaladas sem precisar manualmente incluir cada arquivo.
 
 # 📦 Packagist
 <div align="center"><img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="277"></div>
