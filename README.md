@@ -424,7 +424,108 @@ Criando um Modelo, Controlador e View
 # 🌱 Yii Framework
 <img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="77" align="right">
 
-# Linguagem Hack
+O **Yii Framework** é um framework PHP de alto desempenho, componentizado e baseado no padrão Model-View-Controller (MVC). É conhecido por sua eficiência, flexibilidade e facilidade de uso, tornando-o uma escolha popular para desenvolvedores que buscam criar aplicações web robustas e escaláveis. O nome "Yii" significa "Yes It Is!", representando a simplicidade e facilidade de uso do framework.
+
+Principais Características do Yii Framework:
+
+1. **Alto Desempenho**: Yii é conhecido por ser um dos frameworks PHP mais rápidos disponíveis, otimizado para proporcionar um desempenho excelente.
+
+2. **Componentização**: Yii é altamente componentizado, permitindo que os desenvolvedores usem apenas os componentes de que precisam e facilmente integrem novos componentes.
+
+3. **Baseado em MVC**: Segue o padrão de design MVC, que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
+
+4. **Gii (Gerador de Código)**: Yii inclui uma poderosa ferramenta de geração de código chamada Gii, que pode gerar automaticamente o código para modelos, controladores, formulários, módulos, extensões e muito mais.
+
+5. **Integração de Banco de Dados**: Yii suporta Active Record para interação com bancos de dados relacionais, facilitando o trabalho com dados sem escrever SQL manualmente.
+
+6. **Segurança**: Oferece funcionalidades de segurança embutidas, como prevenção de SQL injection, XSS, CSRF, autenticação e autorização.
+
+7. **Internacionalização (i18n)**: Suporte completo para internacionalização e localização, facilitando a criação de aplicações multilingues.
+
+8. **Teste Automatizado**: Integrado com PHPUnit e Codeception, facilitando a criação de testes automatizados para garantir a qualidade do código.
+
+Exemplo de Uso do Yii Framework:
+
+Instalação do Yii:
+
+A maneira mais comum de instalar o Yii é através do Composer. Aqui está como você pode criar um novo projeto Yii:
+
+```sh
+composer create-project --prefer-dist yiisoft/yii2-app-basic myproject
+```
+
+Estrutura Básica do Projeto:
+
+A estrutura de diretórios de uma aplicação Yii típica inclui:
+
+- `controllers/`: Contém os controladores.
+- `models/`: Contém os modelos.
+- `views/`: Contém as views.
+- `config/`: Arquivos de configuração da aplicação.
+- `web/`: Raiz do documento web, contendo o arquivo de entrada `index.php`.
+
+Criando um Controlador:
+
+```php
+namespace app\controllers;
+
+use yii\web\Controller;
+
+class SiteController extends Controller
+{
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
+}
+```
+
+Criando uma View:
+
+```php
+// views/site/index.php
+
+echo "Olá, Mundo!";
+```
+
+Criando um Modelo:
+
+```php
+namespace app\models;
+
+use yii\db\ActiveRecord;
+
+class User extends ActiveRecord
+{
+    public static function tableName()
+    {
+        return 'user';
+    }
+}
+```
+
+Configurando o Banco de Dados:
+
+No arquivo `config/db.php`, configure a conexão com o banco de dados:
+
+```php
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8',
+];
+```
+
+Benefícios do Uso do Yii Framework:
+
+1. **Rapidez no Desenvolvimento**: Ferramentas como o Gii ajudam a gerar código automaticamente, acelerando o desenvolvimento.
+2. **Flexibilidade**: A arquitetura componentizada permite a fácil integração e personalização.
+3. **Alta Performance**: Projetado para ser rápido, o Yii é uma excelente escolha para aplicações de alto desempenho.
+4. **Segurança**: Funcionalidades embutidas de segurança ajudam a proteger a aplicação contra ameaças comuns.
+
+# ◢◤ Linguagem Hack
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
 
 A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
