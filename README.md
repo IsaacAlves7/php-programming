@@ -6,7 +6,7 @@
 
 <!-- https://madewithlaravel.com/boilerplate -->
 
-<div align="center"><img src="" height="177"></div>
+<div align="center"><img src="https://github.com/IsaacAlves7/php/assets/61624336/215301da-3059-4ddc-a24d-74992c1e4aa8" height="177"></div>
 
 # 🐒 Paradigmas de desenvolvimento de software
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
@@ -26,7 +26,6 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 PHP é uma linguagem de programação poderosa e versátil que desempenha um papel crucial no desenvolvimento web moderno. Sua simplicidade, suporte extensivo e comunidade ativa fazem dele uma escolha popular para uma ampla gama de aplicações, desde pequenos sites pessoais até grandes aplicações web corporativas. Seja para criar websites dinâmicos, sistemas de gerenciamento de conteúdo (CMS), plataformas de e-commerce ou APIs, PHP continua sendo uma ferramenta indispensável para desenvolvedores web em todo o mundo.
 
 <img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="77" align="right">
-
 
 Características do PHP:
 
@@ -133,6 +132,54 @@ echo 'Erro: ' . $e->getMessage();
 ```
 
 Neste exemplo, a conexão com o banco de dados é estabelecida usando o Data Source Name (DSN), o nome de usuário e a senha. Uma consulta SQL é preparada com um marcador de posição (`:id`), que é seguro contra injeções de SQL. A consulta é executada e os resultados são obtidos.
+
+## ⛵ [PHP] phpMyAdmin
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg" height="77" align="right">
+
+O **phpMyAdmin** é uma ferramenta de administração de bancos de dados MySQL e MariaDB baseada na web. Desenvolvida em PHP, ela oferece uma interface gráfica amigável para gerenciar e interagir com bancos de dados, facilitando tarefas que de outra forma exigiriam comandos SQL no terminal. phpMyAdmin é uma ferramenta poderosa e amplamente utilizada para a administração de bancos de dados MySQL e MariaDB. Sua interface gráfica acessível facilita tarefas administrativas complexas, tornando a gestão de bancos de dados mais eficiente e acessível para desenvolvedores e administradores de sistemas.
+
+Principais Características do phpMyAdmin:
+
+1. **Interface Gráfica**: Proporciona uma interface web intuitiva para a administração de bancos de dados, o que torna a gestão de dados mais acessível para usuários que não têm familiaridade com a linha de comando.
+
+2. **Gestão de Bancos de Dados**: Permite criar, modificar e excluir bancos de dados, tabelas, colunas, índices, e relacionamentos. Facilita também a importação e exportação de dados em vários formatos (SQL, CSV, XML, etc.).
+
+3. **Execução de Consultas SQL**: Oferece um editor SQL onde os usuários podem escrever e executar consultas SQL, visualizar resultados e depurar erros.
+
+4. **Gerenciamento de Usuários e Permissões**: Permite adicionar, modificar e remover usuários, bem como definir permissões de acesso aos bancos de dados.
+
+5. **Visualização de Estruturas e Dados**: Facilita a navegação e visualização das estruturas dos bancos de dados e dos dados armazenados neles.
+
+6. **Backup e Restauração**: Suporta a exportação de bancos de dados para backups e a importação de arquivos de backup para restauração.
+
+7. **Ferramentas de Pesquisa**: Oferece funcionalidades avançadas de pesquisa para encontrar rapidamente dados específicos em grandes bancos de dados.
+
+ Benefícios do phpMyAdmin
+
+- **Acessibilidade**: Como é uma aplicação web, pode ser acessada de qualquer lugar através de um navegador, facilitando o gerenciamento remoto de bancos de dados.
+- **Facilidade de Uso**: A interface gráfica simplifica a realização de tarefas complexas de administração de bancos de dados.
+- **Ampla Adoção**: Amplamente utilizado e suportado pela comunidade, com extensa documentação e recursos disponíveis.
+- **Flexibilidade**: Suporta múltiplos servidores de banco de dados e pode ser configurado para gerenciar diversos bancos de dados simultaneamente.
+
+ Exemplo de Uso do phpMyAdmin
+
+1. **Instalação**: Em sistemas baseados em Debian, pode ser instalado com o comando:
+ ```bash
+ sudo apt-get install phpmyadmin
+ ```
+ Durante a instalação, será solicitado para escolher o servidor web (Apache ou Nginx) e configurar o usuário administrador do MySQL.
+
+2. **Acesso**: Após a instalação, pode ser acessado via navegador web, geralmente em um URL como `http://localhost/phpmyadmin` ou `http://yourdomain.com/phpmyadmin`.
+
+3. **Login**: Os usuários fazem login com suas credenciais do MySQL para acessar a interface de administração.
+
+4. **Gerenciamento de Dados**: Através da interface, usuários podem:
+ - Criar um novo banco de dados.
+ - Criar e modificar tabelas e colunas.
+ - Inserir, atualizar e deletar registros.
+ - Executar consultas SQL.
+ - Importar e exportar dados.
+ - Gerenciar usuários e permissões.
 
 ## ◢◤ [PHP] Linguagem Hack
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
@@ -265,54 +312,6 @@ Considerações:
 
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
-
-## ⛵ [PHP] phpMyAdmin
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg" height="77" align="right">
-
-O **phpMyAdmin** é uma ferramenta de administração de bancos de dados MySQL e MariaDB baseada na web. Desenvolvida em PHP, ela oferece uma interface gráfica amigável para gerenciar e interagir com bancos de dados, facilitando tarefas que de outra forma exigiriam comandos SQL no terminal. phpMyAdmin é uma ferramenta poderosa e amplamente utilizada para a administração de bancos de dados MySQL e MariaDB. Sua interface gráfica acessível facilita tarefas administrativas complexas, tornando a gestão de bancos de dados mais eficiente e acessível para desenvolvedores e administradores de sistemas.
-
-Principais Características do phpMyAdmin:
-
-1. **Interface Gráfica**: Proporciona uma interface web intuitiva para a administração de bancos de dados, o que torna a gestão de dados mais acessível para usuários que não têm familiaridade com a linha de comando.
-
-2. **Gestão de Bancos de Dados**: Permite criar, modificar e excluir bancos de dados, tabelas, colunas, índices, e relacionamentos. Facilita também a importação e exportação de dados em vários formatos (SQL, CSV, XML, etc.).
-
-3. **Execução de Consultas SQL**: Oferece um editor SQL onde os usuários podem escrever e executar consultas SQL, visualizar resultados e depurar erros.
-
-4. **Gerenciamento de Usuários e Permissões**: Permite adicionar, modificar e remover usuários, bem como definir permissões de acesso aos bancos de dados.
-
-5. **Visualização de Estruturas e Dados**: Facilita a navegação e visualização das estruturas dos bancos de dados e dos dados armazenados neles.
-
-6. **Backup e Restauração**: Suporta a exportação de bancos de dados para backups e a importação de arquivos de backup para restauração.
-
-7. **Ferramentas de Pesquisa**: Oferece funcionalidades avançadas de pesquisa para encontrar rapidamente dados específicos em grandes bancos de dados.
-
- Benefícios do phpMyAdmin
-
-- **Acessibilidade**: Como é uma aplicação web, pode ser acessada de qualquer lugar através de um navegador, facilitando o gerenciamento remoto de bancos de dados.
-- **Facilidade de Uso**: A interface gráfica simplifica a realização de tarefas complexas de administração de bancos de dados.
-- **Ampla Adoção**: Amplamente utilizado e suportado pela comunidade, com extensa documentação e recursos disponíveis.
-- **Flexibilidade**: Suporta múltiplos servidores de banco de dados e pode ser configurado para gerenciar diversos bancos de dados simultaneamente.
-
- Exemplo de Uso do phpMyAdmin
-
-1. **Instalação**: Em sistemas baseados em Debian, pode ser instalado com o comando:
- ```bash
- sudo apt-get install phpmyadmin
- ```
- Durante a instalação, será solicitado para escolher o servidor web (Apache ou Nginx) e configurar o usuário administrador do MySQL.
-
-2. **Acesso**: Após a instalação, pode ser acessado via navegador web, geralmente em um URL como `http://localhost/phpmyadmin` ou `http://yourdomain.com/phpmyadmin`.
-
-3. **Login**: Os usuários fazem login com suas credenciais do MySQL para acessar a interface de administração.
-
-4. **Gerenciamento de Dados**: Através da interface, usuários podem:
- - Criar um novo banco de dados.
- - Criar e modificar tabelas e colunas.
- - Inserir, atualizar e deletar registros.
- - Executar consultas SQL.
- - Importar e exportar dados.
- - Gerenciar usuários e permissões.
 
 # ⬛ [PHP] Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
