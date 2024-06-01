@@ -1306,7 +1306,7 @@ Benefícios do Uso do Zend Framework (Laminas Project)
 
 4. **Desempenho e Escalabilidade**: Zend Framework (Laminas Project) é conhecido por seu desempenho rápido e escalabilidade, sendo uma escolha popular para o desenvolvimento de aplicações web de alto tráfego e missão crítica.
 
-# ⚫ Symfony
+# ⚫ [PHP] Symfony
 <img src="https://iconape.com/wp-content/png_logo_vector/symfony.png" height="77" align="right">
 
 **Symfony** é um framework PHP de código aberto que segue os padrões de design e desenvolvimento web mais recentes. Lançado pela primeira vez em 2005, o Symfony se tornou uma das estruturas mais populares e amplamente adotadas para o desenvolvimento de aplicações web em PHP. Ele foi desenvolvido por Fabien Potencier e é mantido pela Symfony SAS, uma empresa francesa dedicada ao desenvolvimento e suporte do Symfony. Symfony é um framework PHP robusto e flexível, amplamente utilizado para o desenvolvimento de aplicações web modernas e escaláveis. Sua arquitetura modular, sua configuração flexível e sua vasta gama de funcionalidades integradas o tornam uma escolha popular entre os desenvolvedores que buscam criar aplicações web de alta qualidade.
@@ -1392,7 +1392,7 @@ Benefícios do Uso do Symfony:
 
 4. **Segurança e Confiabilidade**: Symfony é conhecido por sua segurança e confiabilidade, com funcionalidades integradas para proteger as aplicações contra vulnerabilidades comuns.
 
-# 🌱 Yii Framework
+# 🌱 [PHP] Yii Framework
 <img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="77" align="right">
 
 O **Yii Framework** é um framework PHP de alto desempenho, componentizado e baseado no padrão Model-View-Controller (MVC). É conhecido por sua eficiência, flexibilidade e facilidade de uso, tornando-o uma escolha popular para desenvolvedores que buscam criar aplicações web robustas e escaláveis. O nome "Yii" significa "Yes It Is!", representando a simplicidade e facilidade de uso do framework.
