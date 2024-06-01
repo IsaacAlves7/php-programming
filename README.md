@@ -18,7 +18,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
-# 🐘 PHP - Hypertext Preprocessor 
+# 🐘 [PHP] PHP - Hypertext Preprocessor 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" height="77" align="right">
 
 O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome **P**age) é uma linguagem de alto-nível de programação Web, criada por <a href="https://github.com/rlerdorf">Rasmus Lerdorf</a> em 1994, focada no desenvolvimento back-end para banco de dados. PHP é uma linguagem de script de código aberto amplamente utilizada, especialmente adequada para o desenvolvimento web e que pode ser embutida no HTML. PHP é conhecido por sua simplicidade, velocidade e flexibilidade.
