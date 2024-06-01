@@ -820,7 +820,7 @@ Exemplo de Uso do XAMPP
 6. **Gerenciamento de Banco de Dados**: Use o phpMyAdmin, que vem integrado com o XAMPP, acessando `http://localhost/phpmyadmin` para gerenciar seus bancos de dados MariaDB/MySQL.
 
 # 🧨 LNPP stack
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/b0397152-d5fe-4a43-a79c-7d08f8e559bb" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/b0397152-d5fe-4a43-a79c-7d08f8e559bb" height="177" align="right">
 
 O **LNPP stack** é um conjunto de tecnologias usadas para desenvolver e implantar aplicações web dinâmicas. 
 
