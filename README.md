@@ -504,10 +504,204 @@ Considerações:
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
 
 # 💡 LAMP stack
-<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/light-bulb_1f4a1.png" height="177"></div><br \>
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/f1c3a634-c7f5-47fe-abea-74d844be6044" height="177" align="right">
+
+O **LAMP stack** é um conjunto de software utilizado para criar e gerenciar aplicações web dinâmicas. A sigla LAMP representa os quatro componentes principais da stack:
+
+- **L**: Linux - o sistema operacional.
+- **A**: Apache - o servidor web.
+- **M**: MySQL ou MariaDB - o sistema de gerenciamento de banco de dados relacional.
+- **P**: PHP, Python, ou Perl - a linguagem de programação do lado do servidor.
+
+O LAMP stack é uma combinação robusta e flexível de software de código aberto que oferece uma base sólida para o desenvolvimento e a implantação de aplicações web dinâmicas. Com Linux, Apache, MySQL/MariaDB e PHP, você tem um ambiente de desenvolvimento poderoso que é fácil de configurar, seguro e amplamente suportado pela comunidade de desenvolvedores.
+
+Componentes do LAMP Stack
+
+1. **Linux**:
+   - O sistema operacional sobre o qual o restante da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
+
+2. **Apache**:
+   - Um dos servidores web mais populares e amplamente utilizados. Apache é conhecido por sua flexibilidade, potência e extensibilidade através de módulos.
+
+3. **MySQL ou MariaDB**:
+   - Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
+
+4. **PHP, Python ou Perl**:
+   - Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LAMP, mas Python e Perl também são suportados.
+
+Benefícios do LAMP Stack
+
+1. **Popularidade e Ampla Utilização**:
+   - O LAMP stack é uma das combinações de software mais utilizadas para desenvolvimento web, com uma vasta base de usuários e uma grande quantidade de documentação e suporte disponível.
+
+2. **Flexibilidade e Customização**:
+   - Cada componente do LAMP pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, oferecendo grande flexibilidade na arquitetura da aplicação.
+
+3. **Código Aberto**:
+   - Todos os componentes do LAMP stack são de código aberto, o que significa que são gratuitos para usar e podem ser modificados conforme necessário.
+
+4. **Estabilidade e Segurança**:
+   - Linux é conhecido por sua estabilidade e segurança, enquanto Apache, MySQL/MariaDB e PHP têm configurações e práticas recomendadas para manter a segurança.
+
+Exemplo de Configuração do LAMP Stack
+
+#1. Instalação do Linux
+- Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+
+#2. Instalação do Apache
+- No terminal, use comandos como `sudo apt-get install apache2` (para sistemas baseados em Debian) para instalar o Apache.
+- Inicie e habilite o Apache:
+  ```bash
+  sudo systemctl start apache2
+  sudo systemctl enable apache2
+  ```
+
+#3. Instalação do MySQL ou MariaDB
+- Para MySQL:
+  ```bash
+  sudo apt-get install mysql-server
+  ```
+- Para MariaDB:
+  ```bash
+  sudo apt-get install mariadb-server
+  ```
+- Configure o banco de dados:
+  ```bash
+  sudo mysql_secure_installation
+  ```
+
+#4. Instalação do PHP
+- Instale PHP e os módulos necessários para interação com Apache e MySQL/MariaDB:
+  ```bash
+  sudo apt-get install php libapache2-mod-php php-mysql
+  ```
+
+#5. Configuração do Apache para Trabalhar com PHP
+- Edite o arquivo de configuração do Apache (por exemplo, `/etc/apache2/sites-available/000-default.conf`) para definir o diretório raiz e permitir a execução de arquivos PHP:
+  ```apache
+  <VirtualHost *:80>
+      ServerAdmin webmaster@localhost
+      DocumentRoot /var/www/html
+
+      <Directory /var/www/html>
+          Options Indexes FollowSymLinks
+          AllowOverride All
+          Require all granted
+      </Directory>
+
+      ErrorLog ${APACHE_LOG_DIR}/error.log
+      CustomLog ${APACHE_LOG_DIR}/access.log combined
+  </VirtualHost>
+  ```
+
+- Reinicie o Apache para aplicar as mudanças:
+  ```bash
+  sudo systemctl restart apache2
+  ```
 
 # 🕯️ LEMP stack
-<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/candle_1f56f-fe0f.png" height="177"></div><br \>
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/7fd7aabf-3f5e-4dd6-beef-95c69aa37b44" height="177" align="right">
+
+O **LEMP stack** é um conjunto de software usado para implantar e gerenciar aplicações web dinâmicas. A sigla LEMP representa os quatro componentes principais da stack:
+
+- **L**: Linux - o sistema operacional.
+- **E**: Nginx (pronunciado "Engine-X") - o servidor web.
+- **M**: MySQL ou MariaDB - o sistema de gerenciamento de banco de dados relacional.
+- **P**: PHP, Python, ou Perl - a linguagem de programação do lado do servidor.
+
+O LEMP stack é uma combinação poderosa e flexível de software de código aberto que oferece uma base robusta para o desenvolvimento e a implantação de aplicações web dinâmicas. Com Linux, Nginx, MySQL/MariaDB e PHP, você tem um ambiente de alta performance, seguro e facilmente configurável, adequado tanto para pequenos sites pessoais quanto para grandes aplicações corporativas.
+
+Componentes do LEMP Stack:
+
+1. **Linux**:
+   - O sistema operacional sobre o qual o resto da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
+
+2. **Nginx**:
+   - Um servidor web de alto desempenho conhecido por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos. Nginx também pode ser usado como um proxy reverso e balanceador de carga.
+
+3. **MySQL ou MariaDB**:
+   - Sistemas de gerenciamento de banco de dados relacionais (RDBMS) que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
+
+4. **PHP, Python ou Perl**:
+   - Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LEMP, mas Python e Perl também são suportados.
+
+Benefícios do LEMP Stack
+
+1. **Desempenho e Escalabilidade**:
+   - Nginx é conhecido por sua eficiência e capacidade de lidar com alto tráfego, tornando o LEMP stack adequado para aplicações web de alto desempenho.
+
+2. **Flexibilidade**:
+   - Cada componente pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, permitindo uma grande flexibilidade na arquitetura da aplicação.
+
+3. **Compatibilidade**:
+   - Linux, Nginx, MySQL/MariaDB e PHP são todos de código aberto e amplamente suportados, com vastas comunidades de desenvolvedores e recursos disponíveis.
+
+4. **Segurança**:
+   - Linux oferece um ambiente seguro e estável, enquanto Nginx, MySQL/MariaDB e PHP podem ser configurados para minimizar vulnerabilidades e proteger a aplicação.
+
+Exemplo de Configuração do LEMP Stack
+
+1. Instalação do Linux
+- Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+
+2. Instalação do Nginx
+- No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
+- Inicie e habilite o Nginx:
+  ```bash
+  sudo systemctl start nginx
+  sudo systemctl enable nginx
+  ```
+
+3. Instalação do MySQL ou MariaDB
+- Para MySQL:
+  ```bash
+  sudo apt-get install mysql-server
+  ```
+- Para MariaDB:
+  ```bash
+  sudo apt-get install mariadb-server
+  ```
+- Configure o banco de dados:
+  ```bash
+  sudo mysql_secure_installation
+  ```
+
+4. Instalação do PHP
+- Instale PHP e os módulos necessários para interação com Nginx e MySQL/MariaDB:
+  ```bash
+  sudo apt-get install php-fpm php-mysql
+  ```
+
+5. Configuração do Nginx para Trabalhar com PHP
+- Edite o arquivo de configuração do Nginx (por exemplo, `/etc/nginx/sites-available/default`) para incluir a configuração de PHP-FPM:
+  ```nginx
+  server {
+      listen 80;
+      server_name example.com;
+      root /var/www/html;
+
+      index index.php index.html index.htm;
+
+      location / {
+          try_files $uri $uri/ =404;
+      }
+
+      location ~ \.php$ {
+          include snippets/fastcgi-php.conf;
+          fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;  # Verifique a versão do PHP instalada
+      }
+
+      location ~ /\.ht {
+          deny all;
+      }
+  }
+  ```
+
+- Teste a configuração do Nginx e reinicie o serviço:
+  ```bash
+  sudo nginx -t
+  sudo systemctl restart nginx
+  ```
 
 # 🦴 XAMPP stack
 <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="77" align="right">
