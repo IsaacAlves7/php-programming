@@ -468,7 +468,66 @@ Considerações:
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
 
 # 🧨 LNPP stack
-<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
+<img src="" height="177">
+
+O **LNPP stack** é um conjunto de tecnologias usadas para desenvolver e implantar aplicações web dinâmicas. 
+
+A sigla LNPP significa:
+
+- **Linux**: O sistema operacional.
+- **Nginx**: O servidor web.
+- **PostgreSQL**: O sistema de gerenciamento de banco de dados relacional.
+- **PHP**: A linguagem de programação do lado do servidor.
+
+O LNPP stack combina a robustez do Linux, a eficiência do Nginx, a confiabilidade do PostgreSQL e a flexibilidade do PHP para criar um ambiente de desenvolvimento e produção poderoso para aplicações web. É uma escolha popular para desenvolvedores que buscam uma solução de código aberto e altamente eficiente para seus projetos web.
+
+  Componentes do LNPP Stack
+
+1. **Linux**: 
+   - É o sistema operacional que fornece a base para a pilha. É conhecido por sua estabilidade, segurança e desempenho.
+   
+2. **Nginx**:
+   - Um servidor web de alta performance que também pode ser usado como um proxy reverso, balanceador de carga e cache HTTP. É popular por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos.
+   
+3. **PostgreSQL**:
+   - Um sistema de gerenciamento de banco de dados relacional avançado e de código aberto. É conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. PostgreSQL é uma escolha comum para aplicações que requerem integridade de dados e complexidade em consultas.
+
+4. **PHP**:
+   - Uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente conhecida por sua capacidade de ser embutida em HTML. PHP é a linguagem do lado do servidor que processa a lógica do negócio e interage com o banco de dados.
+
+  Benefícios do LNPP Stack
+
+1. **Desempenho e Escalabilidade**:
+   - Nginx é conhecido por sua eficiência em servir um grande número de requisições simultâneas, tornando o stack LNPP adequado para aplicações de alto tráfego.
+
+2. **Robustez e Confiabilidade**:
+   - PostgreSQL é reconhecido por sua robustez e conformidade com os padrões SQL, oferecendo integridade transacional e suporte a operações complexas.
+
+3. **Flexibilidade e Personalização**:
+   - Cada componente do LNPP é altamente configurável e pode ser ajustado para atender às necessidades específicas da aplicação.
+
+4. **Segurança**:
+   - Linux oferece um ambiente seguro e estável. Com as configurações adequadas, Nginx e PostgreSQL também podem ser fortemente protegidos contra vulnerabilidades comuns.
+
+5. **Comunidade e Suporte**:
+   - Todos os componentes do LNPP stack são de código aberto e têm grandes comunidades de suporte, o que facilita a obtenção de ajuda e recursos para desenvolvimento e resolução de problemas.
+
+Exemplo de Configuração do LNPP Stack
+
+1. **Instalação do Linux**:
+   - Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+
+2. **Instalação do Nginx**:
+   - No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
+   - Configure Nginx para servir sua aplicação PHP editando o arquivo de configuração em `/etc/nginx/sites-available/default`.
+
+3. **Instalação do PostgreSQL**:
+   - Instale o PostgreSQL usando comandos como `sudo apt-get install postgresql`.
+   - Configure o PostgreSQL para aceitar conexões e criar um banco de dados para sua aplicação.
+
+4. **Instalação do PHP**:
+   - Instale o PHP e os módulos necessários para interação com Nginx e PostgreSQL usando `sudo apt-get install php-fpm php-pgsql`.
+   - Configure o PHP-FPM (FastCGI Process Manager) para trabalhar com Nginx editando o arquivo de configuração PHP-FPM em `/etc/php/7.4/fpm/pool.d/www.conf` (ajuste a versão conforme necessário).
 
 # 🍰 [PHP] CakePHP
 <img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="77" align="right">
@@ -839,11 +898,11 @@ Crie uma view em `module/Application/view/application/index/index.phtml`:
 <h1>Welcome to Zend Framework (Laminas Project)!</h1>
 ```
 
-#### Configurando as Rotas
+ # Configurando as Rotas
 
 O roteamento no Zend Framework (Laminas Project) é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
 
-#### Executando o Servidor Web
+ # Executando o Servidor Web
 
 Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
 
@@ -853,7 +912,7 @@ php -S localhost:8000 -t public
 
 Acesse a aplicação no navegador em `http://localhost:8000`.
 
-### Benefícios do Uso do Zend Framework (Laminas Project)
+  Benefícios do Uso do Zend Framework (Laminas Project)
 
 1. **Componentes Reutilizáveis**: Zend Framework (Laminas Project) oferece uma ampla gama de componentes reutilizáveis que podem ser usados em diferentes projetos, reduzindo a duplicação de código e promovendo a reutilização.
 
