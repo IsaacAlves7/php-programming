@@ -219,29 +219,26 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 # 🧨 LNPP stack
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/firecracker_1f9e8.png" height="177"></div>
 
-# 💓 PHP Frameworks
-<div align="center"><img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/06/phplinguagem1.png" height="377"></div><br \>
-
 # 🍰 CakePHP
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="77" align="right">
 
 # 🟧 Laravel
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="77" align="right">
 
 # 🔥 CodeIgniter
 <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="77" align="right">
 
 # 🟩 Zend
-<img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="77">
+<img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="77" align="right">
 
 # ⚫ Symfony
-<img src="" height="77">
+<img src="" height="77" align="right">
 
 # 💧 Drupal
-<img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77">
+<img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
 
 # 🌱 Yii Framework
-<div align="center"><img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="277"></div>
+<img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="77" align="right">
 
 # Linguagem Hack
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
