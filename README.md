@@ -313,120 +313,8 @@ Considerações:
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
 
-# ⬛ [PHP] Bitnami
-<img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
 
-**Bitnami** é uma empresa que oferece soluções de implantação e gerenciamento de aplicativos de software, especialmente focada em fornecer pacotes de aplicativos prontos para uso em várias plataformas, como máquinas virtuais, contêineres, instalações nativas e nuvem. Bitnami oferece soluções prontas para uso para implantação rápida e fácil de aplicativos de software em uma variedade de plataformas e ambientes. Com uma ampla variedade de pacotes de aplicativos disponíveis e suporte para várias plataformas, o Bitnami é uma escolha popular para desenvolvedores e empresas que buscam simplificar o processo de implantação e gerenciamento de aplicativos de software.
-
-Principais Características do Bitnami:
-
-1. **Pacotes Prontos para Uso**: Bitnami oferece uma ampla variedade de pacotes de aplicativos prontos para uso, pré-configurados e empacotados com todas as dependências necessárias para executar o aplicativo de forma rápida e fácil.
-
-2. **Compatibilidade com Diferentes Plataformas**: Os aplicativos Bitnami estão disponíveis para várias plataformas, incluindo máquinas virtuais para VMware, VirtualBox e outros, contêineres Docker, instalações nativas para Windows, macOS e Linux, bem como serviços de nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e outras.
-
-3. **Facilidade de Implantação**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos com apenas alguns cliques, economizando tempo e esforço no processo de configuração e instalação.
-
-4. **Segurança e Manutenção**: Bitnami fornece atualizações regulares de segurança e patches para os aplicativos empacotados, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
-
-5. **Suporte e Comunidade**: Bitnami oferece suporte técnico profissional para seus produtos, bem como uma comunidade ativa onde os usuários podem compartilhar conhecimentos, solucionar problemas e trocar experiências.
-
-Exemplo de Uso do Bitnami:
-
-Um exemplo comum de uso do Bitnami seria implantar um servidor web Apache com WordPress em uma instância da AWS. Os usuários podem simplesmente selecionar o pacote Bitnami do WordPress para AWS na AWS Marketplace, especificar os detalhes da instância (como tamanho, região etc.) e iniciar a implantação. O Bitnami cuidará da configuração do servidor web, banco de dados e WordPress, tornando o processo de implantação rápido e fácil.
-
-Benefícios do Uso do Bitnami:
-
-1. **Economia de Tempo e Esforço**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos em minutos, economizando tempo e esforço no processo de configuração e instalação.
-
-2. **Confiabilidade e Segurança**: Os aplicativos Bitnami são empacotados com todas as dependências necessárias e recebem atualizações regulares de segurança, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
-
-3. **Flexibilidade e Escalabilidade**: Bitnami oferece suporte para uma variedade de plataformas e ambientes de implantação, permitindo que os usuários escolham a melhor opção para suas necessidades específicas.
-
-4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
-
-# ⓦ [PHP] WordPress
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
-
-**WordPress** é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e gerenciar sites e blogs. Inicialmente lançado em 2003 por Matt Mullenweg e Mike Little, o WordPress começou como uma plataforma de blogs, mas evoluiu para se tornar um dos CMS mais populares e poderosos do mundo, capaz de suportar uma ampla variedade de sites, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. WordPress é uma plataforma poderosa e versátil que facilita a criação e o gerenciamento de sites e blogs. Com sua interface amigável, extensibilidade através de temas e plugins, e uma grande comunidade de suporte, WordPress é uma excelente escolha para qualquer pessoa ou empresa que deseja estabelecer uma presença online eficaz e profissional.
-
-Principais Características do WordPress:
-
-1. **Fácil de Usar**: WordPress é conhecido por sua interface amigável e facilidade de uso, permitindo que até mesmo usuários sem conhecimentos técnicos criem e gerenciem sites com facilidade.
-
-2. **Extensível**: Com milhares de plugins e temas disponíveis, os usuários podem facilmente estender as funcionalidades e personalizar a aparência de seus sites sem a necessidade de programar.
-
-3. **SEO-Friendly**: WordPress é otimizado para motores de busca (SEO) desde o início, ajudando os sites a obterem melhores classificações nos resultados de busca. Plugins adicionais de SEO podem melhorar ainda mais a visibilidade do site.
-
-4. **Comunidade Ativa**: WordPress possui uma grande comunidade de desenvolvedores e usuários que contribuem com plugins, temas, tutoriais e suporte, tornando a plataforma rica em recursos e constantemente atualizada.
-
-5. **Gestão de Conteúdo**: Oferece um sistema robusto de gerenciamento de conteúdo, com suporte para publicações de blog, páginas estáticas, galerias de mídia, e muito mais.
-
-6. **Segurança**: Embora seja alvo frequente de ataques devido à sua popularidade, WordPress possui medidas de segurança robustas e uma equipe dedicada para lançar atualizações e patches de segurança. Plugins adicionais de segurança podem ser instalados para reforçar ainda mais a proteção.
-
-7. **Multilinguagem**: WordPress oferece suporte para a criação de sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência localizada para visitantes de todo o mundo.
-
-Exemplo de Uso do WordPress:
-
-Instalação do WordPress:
-
-1. **Download**: Baixe o WordPress do site oficial (wordpress.org) e extraia os arquivos no diretório do seu servidor web.
-
-2. **Configuração**: Acesse o instalador do WordPress através do navegador (geralmente `http://seudominio.com/wp-admin/install.php`) e siga as instruções para configurar o banco de dados e o usuário administrador.
-
-3. **Instalação de Temas e Plugins**: Após a instalação, você pode instalar temas e plugins diretamente do painel administrativo (`http://seudominio.com/wp-admin`).
-
-Criando Conteúdo
-
-1. **Postagens e Páginas**: No painel de administração, você pode criar novas postagens de blog e páginas estáticas através das opções "Posts" e "Pages".
-
-2. **Personalização de Temas**: Use o "Customizador" de temas para ajustar a aparência do seu site conforme desejado.
-
-3. **Instalação de Plugins**: Navegue até "Plugins" e adicione novas funcionalidades ao seu site, como galerias de imagem, formulários de contato, ferramentas de SEO, etc.
-
-Benefícios do Uso do WordPress
-
-1. **Facilidade de Uso**: Interface intuitiva e amigável que permite fácil gerenciamento de conteúdo.
-2. **Flexibilidade e Personalização**: Grande variedade de temas e plugins para personalização sem necessidade de codificação.
-3. **SEO Integrado**: Recursos e plugins que ajudam na otimização para motores de busca.
-4. **Grande Comunidade e Suporte**: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
-5. **Segurança**: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
-
-# 💧 [PHP] Drupal
-<img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
-
-**Drupal** é um sistema de gerenciamento de conteúdo (CMS) de código aberto e altamente flexível, usado para criar uma ampla variedade de sites e aplicações web, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. Lançado pela primeira vez em 2001 por Dries Buytaert, Drupal se tornou uma das plataformas CMS mais populares e amplamente utilizadas no mundo. Drupal é um sistema de gerenciamento de conteúdo (CMS) poderoso e flexível, usado para criar uma ampla variedade de sites e aplicações web. Com sua arquitetura modular, suporte multilíngue e poderoso conjunto de ferramentas de gerenciamento de conteúdo, Drupal é uma escolha popular para empresas e organizações que buscam uma plataforma robusta e altamente personalizável para suas necessidades online.
-
-Principais Características do Drupal:
-
-1. **Flexibilidade e Escalabilidade**: Drupal é altamente flexível e escalável, permitindo que os desenvolvedores construam uma ampla variedade de sites e aplicações web, desde simples sites estáticos até complexos portais corporativos.
-
-2. **Arquitetura Modular**: Drupal possui uma arquitetura modular que permite aos desenvolvedores estender e personalizar facilmente o sistema, adicionando ou removendo módulos conforme necessário para atender aos requisitos específicos do projeto.
-
-3. **Controle de Acesso Avançado**: Drupal oferece recursos avançados de controle de acesso, permitindo que os administradores definam permissões detalhadas para usuários e grupos de usuários com base em funções e contextos específicos.
-
-4. **Suporte Multilíngue**: Drupal tem suporte integrado para sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência de usuário localizada para visitantes de todo o mundo.
-
-5. **Gerenciamento de Conteúdo Poderoso**: Drupal oferece um conjunto abrangente de ferramentas para criar, editar, revisar e publicar conteúdo de forma colaborativa, tornando-o ideal para equipes de conteúdo grandes e distribuídas.
-
-6. **Comunidade Ativa**: Drupal possui uma grande comunidade de desenvolvedores e usuários ativos que contribuem com módulos, temas, documentação e suporte técnico, tornando-o uma plataforma dinâmica e em constante evolução.
-
-7. **Segurança e Confiabilidade**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
-
-Exemplo de Uso do Drupal:
-
-Um exemplo comum de uso do Drupal seria criar um site corporativo para uma empresa multinacional que precisa de suporte para múltiplos idiomas, múltiplas equipes de conteúdo e uma variedade de tipos de conteúdo, como notícias, blogs, eventos e páginas de produto. Usando Drupal, os desenvolvedores podem criar um site altamente personalizado com funcionalidades avançadas de gerenciamento de conteúdo, controle de acesso e localização.
-
-Benefícios do Uso do Drupal:
-
-1. **Flexibilidade**: Drupal é altamente flexível e pode ser adaptado para atender a uma ampla variedade de requisitos de projeto, desde simples blogs até portais corporativos complexos.
-
-2. **Escala**: Drupal é escalável e pode lidar com grandes volumes de tráfego e conteúdo, tornando-o adequado para empresas de todos os tamanhos.
-
-3. **Comunidade Ativa**: Drupal possui uma grande comunidade de desenvolvedores e usuários ativos que contribuem com módulos, temas e suporte técnico, garantindo que os usuários tenham acesso a recursos e assistência sempre que precisarem.
-
-4. **Segurança**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
-
-# 📦 [PHP] `composer`
+# 📦 `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
 O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
@@ -593,6 +481,119 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 "license": "MIT"
 }
 ```
+
+# ⬛ [PHP] Bitnami
+<img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
+
+**Bitnami** é uma empresa que oferece soluções de implantação e gerenciamento de aplicativos de software, especialmente focada em fornecer pacotes de aplicativos prontos para uso em várias plataformas, como máquinas virtuais, contêineres, instalações nativas e nuvem. Bitnami oferece soluções prontas para uso para implantação rápida e fácil de aplicativos de software em uma variedade de plataformas e ambientes. Com uma ampla variedade de pacotes de aplicativos disponíveis e suporte para várias plataformas, o Bitnami é uma escolha popular para desenvolvedores e empresas que buscam simplificar o processo de implantação e gerenciamento de aplicativos de software.
+
+Principais Características do Bitnami:
+
+1. **Pacotes Prontos para Uso**: Bitnami oferece uma ampla variedade de pacotes de aplicativos prontos para uso, pré-configurados e empacotados com todas as dependências necessárias para executar o aplicativo de forma rápida e fácil.
+
+2. **Compatibilidade com Diferentes Plataformas**: Os aplicativos Bitnami estão disponíveis para várias plataformas, incluindo máquinas virtuais para VMware, VirtualBox e outros, contêineres Docker, instalações nativas para Windows, macOS e Linux, bem como serviços de nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e outras.
+
+3. **Facilidade de Implantação**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos com apenas alguns cliques, economizando tempo e esforço no processo de configuração e instalação.
+
+4. **Segurança e Manutenção**: Bitnami fornece atualizações regulares de segurança e patches para os aplicativos empacotados, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+
+5. **Suporte e Comunidade**: Bitnami oferece suporte técnico profissional para seus produtos, bem como uma comunidade ativa onde os usuários podem compartilhar conhecimentos, solucionar problemas e trocar experiências.
+
+Exemplo de Uso do Bitnami:
+
+Um exemplo comum de uso do Bitnami seria implantar um servidor web Apache com WordPress em uma instância da AWS. Os usuários podem simplesmente selecionar o pacote Bitnami do WordPress para AWS na AWS Marketplace, especificar os detalhes da instância (como tamanho, região etc.) e iniciar a implantação. O Bitnami cuidará da configuração do servidor web, banco de dados e WordPress, tornando o processo de implantação rápido e fácil.
+
+Benefícios do Uso do Bitnami:
+
+1. **Economia de Tempo e Esforço**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos em minutos, economizando tempo e esforço no processo de configuração e instalação.
+
+2. **Confiabilidade e Segurança**: Os aplicativos Bitnami são empacotados com todas as dependências necessárias e recebem atualizações regulares de segurança, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+
+3. **Flexibilidade e Escalabilidade**: Bitnami oferece suporte para uma variedade de plataformas e ambientes de implantação, permitindo que os usuários escolham a melhor opção para suas necessidades específicas.
+
+4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
+
+# ⓦ [PHP] WordPress
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
+
+**WordPress** é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e gerenciar sites e blogs. Inicialmente lançado em 2003 por Matt Mullenweg e Mike Little, o WordPress começou como uma plataforma de blogs, mas evoluiu para se tornar um dos CMS mais populares e poderosos do mundo, capaz de suportar uma ampla variedade de sites, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. WordPress é uma plataforma poderosa e versátil que facilita a criação e o gerenciamento de sites e blogs. Com sua interface amigável, extensibilidade através de temas e plugins, e uma grande comunidade de suporte, WordPress é uma excelente escolha para qualquer pessoa ou empresa que deseja estabelecer uma presença online eficaz e profissional.
+
+Principais Características do WordPress:
+
+1. **Fácil de Usar**: WordPress é conhecido por sua interface amigável e facilidade de uso, permitindo que até mesmo usuários sem conhecimentos técnicos criem e gerenciem sites com facilidade.
+
+2. **Extensível**: Com milhares de plugins e temas disponíveis, os usuários podem facilmente estender as funcionalidades e personalizar a aparência de seus sites sem a necessidade de programar.
+
+3. **SEO-Friendly**: WordPress é otimizado para motores de busca (SEO) desde o início, ajudando os sites a obterem melhores classificações nos resultados de busca. Plugins adicionais de SEO podem melhorar ainda mais a visibilidade do site.
+
+4. **Comunidade Ativa**: WordPress possui uma grande comunidade de desenvolvedores e usuários que contribuem com plugins, temas, tutoriais e suporte, tornando a plataforma rica em recursos e constantemente atualizada.
+
+5. **Gestão de Conteúdo**: Oferece um sistema robusto de gerenciamento de conteúdo, com suporte para publicações de blog, páginas estáticas, galerias de mídia, e muito mais.
+
+6. **Segurança**: Embora seja alvo frequente de ataques devido à sua popularidade, WordPress possui medidas de segurança robustas e uma equipe dedicada para lançar atualizações e patches de segurança. Plugins adicionais de segurança podem ser instalados para reforçar ainda mais a proteção.
+
+7. **Multilinguagem**: WordPress oferece suporte para a criação de sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência localizada para visitantes de todo o mundo.
+
+Exemplo de Uso do WordPress:
+
+Instalação do WordPress:
+
+1. **Download**: Baixe o WordPress do site oficial (wordpress.org) e extraia os arquivos no diretório do seu servidor web.
+
+2. **Configuração**: Acesse o instalador do WordPress através do navegador (geralmente `http://seudominio.com/wp-admin/install.php`) e siga as instruções para configurar o banco de dados e o usuário administrador.
+
+3. **Instalação de Temas e Plugins**: Após a instalação, você pode instalar temas e plugins diretamente do painel administrativo (`http://seudominio.com/wp-admin`).
+
+Criando Conteúdo
+
+1. **Postagens e Páginas**: No painel de administração, você pode criar novas postagens de blog e páginas estáticas através das opções "Posts" e "Pages".
+
+2. **Personalização de Temas**: Use o "Customizador" de temas para ajustar a aparência do seu site conforme desejado.
+
+3. **Instalação de Plugins**: Navegue até "Plugins" e adicione novas funcionalidades ao seu site, como galerias de imagem, formulários de contato, ferramentas de SEO, etc.
+
+Benefícios do Uso do WordPress
+
+1. **Facilidade de Uso**: Interface intuitiva e amigável que permite fácil gerenciamento de conteúdo.
+2. **Flexibilidade e Personalização**: Grande variedade de temas e plugins para personalização sem necessidade de codificação.
+3. **SEO Integrado**: Recursos e plugins que ajudam na otimização para motores de busca.
+4. **Grande Comunidade e Suporte**: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
+5. **Segurança**: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
+
+# 💧 [PHP] Drupal
+<img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
+
+**Drupal** é um sistema de gerenciamento de conteúdo (CMS) de código aberto e altamente flexível, usado para criar uma ampla variedade de sites e aplicações web, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. Lançado pela primeira vez em 2001 por Dries Buytaert, Drupal se tornou uma das plataformas CMS mais populares e amplamente utilizadas no mundo. Drupal é um sistema de gerenciamento de conteúdo (CMS) poderoso e flexível, usado para criar uma ampla variedade de sites e aplicações web. Com sua arquitetura modular, suporte multilíngue e poderoso conjunto de ferramentas de gerenciamento de conteúdo, Drupal é uma escolha popular para empresas e organizações que buscam uma plataforma robusta e altamente personalizável para suas necessidades online.
+
+Principais Características do Drupal:
+
+1. **Flexibilidade e Escalabilidade**: Drupal é altamente flexível e escalável, permitindo que os desenvolvedores construam uma ampla variedade de sites e aplicações web, desde simples sites estáticos até complexos portais corporativos.
+
+2. **Arquitetura Modular**: Drupal possui uma arquitetura modular que permite aos desenvolvedores estender e personalizar facilmente o sistema, adicionando ou removendo módulos conforme necessário para atender aos requisitos específicos do projeto.
+
+3. **Controle de Acesso Avançado**: Drupal oferece recursos avançados de controle de acesso, permitindo que os administradores definam permissões detalhadas para usuários e grupos de usuários com base em funções e contextos específicos.
+
+4. **Suporte Multilíngue**: Drupal tem suporte integrado para sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência de usuário localizada para visitantes de todo o mundo.
+
+5. **Gerenciamento de Conteúdo Poderoso**: Drupal oferece um conjunto abrangente de ferramentas para criar, editar, revisar e publicar conteúdo de forma colaborativa, tornando-o ideal para equipes de conteúdo grandes e distribuídas.
+
+6. **Comunidade Ativa**: Drupal possui uma grande comunidade de desenvolvedores e usuários ativos que contribuem com módulos, temas, documentação e suporte técnico, tornando-o uma plataforma dinâmica e em constante evolução.
+
+7. **Segurança e Confiabilidade**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
+
+Exemplo de Uso do Drupal:
+
+Um exemplo comum de uso do Drupal seria criar um site corporativo para uma empresa multinacional que precisa de suporte para múltiplos idiomas, múltiplas equipes de conteúdo e uma variedade de tipos de conteúdo, como notícias, blogs, eventos e páginas de produto. Usando Drupal, os desenvolvedores podem criar um site altamente personalizado com funcionalidades avançadas de gerenciamento de conteúdo, controle de acesso e localização.
+
+Benefícios do Uso do Drupal:
+
+1. **Flexibilidade**: Drupal é altamente flexível e pode ser adaptado para atender a uma ampla variedade de requisitos de projeto, desde simples blogs até portais corporativos complexos.
+
+2. **Escala**: Drupal é escalável e pode lidar com grandes volumes de tráfego e conteúdo, tornando-o adequado para empresas de todos os tamanhos.
+
+3. **Comunidade Ativa**: Drupal possui uma grande comunidade de desenvolvedores e usuários ativos que contribuem com módulos, temas e suporte técnico, garantindo que os usuários tenham acesso a recursos e assistência sempre que precisarem.
+
+4. **Segurança**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
 
 # 💡 LAMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/f1c3a634-c7f5-47fe-abea-74d844be6044" height="177" align="right">
