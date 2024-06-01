@@ -623,7 +623,90 @@ Benefícios do Uso do Laravel:
 <img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="77" align="right">
 
 # ⚫ Symfony
-<img src="" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/c1fee442-cbf8-4b1a-a547-27610df659c1" height="77" align="right">
+
+**Symfony** é um framework PHP de código aberto que segue os padrões de design e desenvolvimento web mais recentes. Lançado pela primeira vez em 2005, o Symfony se tornou uma das estruturas mais populares e amplamente adotadas para o desenvolvimento de aplicações web em PHP. Ele foi desenvolvido por Fabien Potencier e é mantido pela Symfony SAS, uma empresa francesa dedicada ao desenvolvimento e suporte do Symfony. Symfony é um framework PHP robusto e flexível, amplamente utilizado para o desenvolvimento de aplicações web modernas e escaláveis. Sua arquitetura modular, sua configuração flexível e sua vasta gama de funcionalidades integradas o tornam uma escolha popular entre os desenvolvedores que buscam criar aplicações web de alta qualidade.
+
+Principais Características do Symfony:
+
+1. **Componentes Reutilizáveis**: Symfony é construído com base em um conjunto de mais de 50 componentes PHP independentes, que podem ser usados de forma independente ou combinados para criar aplicações web complexas.
+
+2. **Arquitetura MVC**: Symfony segue o padrão de design Model-View-Controller (MVC), que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
+
+3. **Configuração Flexível**: Symfony oferece uma configuração flexível e extensível que permite aos desenvolvedores adaptar a estrutura às necessidades específicas do projeto.
+
+4. **Ferramentas de Linha de Comando**: Symfony inclui uma variedade de ferramentas de linha de comando (CLI) que ajudam os desenvolvedores a gerar código, executar tarefas comuns e realizar operações de manutenção de forma eficiente.
+
+5. **Ferramentas de Teste**: Symfony oferece suporte integrado para testes automatizados, incluindo testes unitários, testes de integração e testes funcionais, facilitando a criação de código testável e a garantia da qualidade do software.
+
+6. **Documentação Completa**: Symfony possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework, desde a instalação e configuração até o desenvolvimento avançado e as melhores práticas.
+
+7. **Segurança Integrada**: Symfony inclui várias funcionalidades de segurança integradas, como proteção contra ataques CSRF, XSS e SQL injection, ajudando a proteger as aplicações contra vulnerabilidades comuns.
+
+Exemplo de Uso do Symfony:
+
+Instalação do Symfony:
+
+A maneira mais comum de instalar o Symfony é usando o Composer. Execute o seguinte comando no terminal:
+
+```bash
+composer create-project symfony/skeleton nome-do-projeto
+```
+
+Criando um Controlador:
+
+Crie um controlador em `src/Controller/HelloController.php`:
+
+```php
+// src/Controller/HelloController.php
+
+namespace App\Controller;
+
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
+
+class HelloController
+{
+    /**
+     * @Route("/hello")
+     */
+    public function hello(): Response
+    {
+        return new Response('<html><body>Hello, World!</body></html>');
+    }
+}
+```
+
+Configurando as Rotas:
+
+Defina uma rota no arquivo `config/routes.yaml`:
+
+```yaml
+# config/routes.yaml
+hello:
+    path: /hello
+    controller: App\Controller\HelloController::hello
+```
+
+Executando o Servidor Web:
+
+Execute o servidor web embutido usando o seguinte comando:
+
+```bash
+php -S localhost:8000 -t public
+```
+
+Acesse a aplicação no navegador em `http://localhost:8000/hello`.
+
+Benefícios do Uso do Symfony:
+
+1. **Flexibilidade e Escalabilidade**: Symfony oferece uma arquitetura flexível que pode ser adaptada a uma ampla gama de projetos, desde pequenos sites até grandes sistemas empresariais.
+
+2. **Desenvolvimento Rápido**: Graças à sua configuração flexível e ao uso de componentes reutilizáveis, Symfony permite um desenvolvimento rápido e eficiente de aplicações web.
+
+3. **Comunidade Ativa**: Symfony tem uma grande comunidade de desenvolvedores ativos e uma vasta quantidade de recursos, incluindo documentação oficial, fóruns, pacotes de terceiros e muito mais.
+
+4. **Segurança e Confiabilidade**: Symfony é conhecido por sua segurança e confiabilidade, com funcionalidades integradas para proteger as aplicações contra vulnerabilidades comuns.
 
 # 💧 Drupal
 <img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
