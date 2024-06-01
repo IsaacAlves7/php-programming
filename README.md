@@ -594,9 +594,6 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 }
 ```
 
-# 🪟 WAMP stack
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
-
 # 💡 LAMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/f1c3a634-c7f5-47fe-abea-74d844be6044" height="177" align="right">
 
@@ -743,6 +740,56 @@ Exemplo de Uso do XAMPP: Instalação e Configuração Básica:
 5. **Acesso ao Projeto**: Abra o navegador web e acesse `http://localhost/meuprojeto` para visualizar seu projeto em execução.
 
 6. **Gerenciamento de Banco de Dados**: Use o phpMyAdmin, que vem integrado com o XAMPP, acessando `http://localhost/phpmyadmin` para gerenciar seus bancos de dados MariaDB/MySQL.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="77" align="right">
+
+Além do XAMPP, temos o **WAMP Server** que é um ambiente de desenvolvimento web para sistemas Windows que permite a criação e teste de aplicações web localmente. O nome "WAMP" é um acrônimo que descreve seus principais componentes: 
+
+- **W**: Windows - o sistema operacional.
+- **A**: Apache - o servidor web.
+- **M**: MySQL ou MariaDB - o sistema de gerenciamento de banco de dados relacional.
+- **P**: PHP - a linguagem de programação do lado do servidor.
+
+O WAMP Server é uma ferramenta valiosa para desenvolvedores web que trabalham em sistemas Windows, oferecendo um ambiente de desenvolvimento local conveniente e poderoso. Com Apache, MySQL/MariaDB e PHP integrados em um único pacote, o WAMP Server simplifica o processo de criação e teste de aplicações web, tornando-o ideal para desenvolvedores de todos os níveis de habilidade.
+
+Componentes do WAMP Server:
+
+1. **Windows**:
+   - O sistema operacional sobre o qual o resto da stack é executado. O WAMP Server é projetado especificamente para funcionar em sistemas Windows.
+
+2. **Apache**:
+   - Um dos servidores web mais populares e amplamente utilizados. O Apache é conhecido por sua estabilidade, flexibilidade e segurança.
+
+3. **MySQL ou MariaDB**:
+   - Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. O MySQL é frequentemente usado, mas o WAMP Server também suporta o MariaDB, uma bifurcação compatível com o MySQL.
+
+4. **PHP**:
+   - Linguagem de programação do lado do servidor que processa a lógica de negócios e interage com o banco de dados para gerar conteúdo dinâmico. PHP é amplamente utilizado no desenvolvimento web e é altamente integrado com o Apache.
+
+Características do WAMP Server:
+
+1. **Fácil Instalação e Configuração**:
+   - O WAMP Server fornece um instalador simples que configura automaticamente todos os componentes necessários, tornando o processo de configuração de um ambiente de desenvolvimento local rápido e fácil.
+
+2. **Ambiente de Desenvolvimento Local**:
+   - Permite que os desenvolvedores criem e testem aplicações web em seus computadores locais antes de implantá-las em um servidor de produção.
+
+3. **Compatibilidade com Ferramentas de Desenvolvimento**:
+   - O WAMP Server é compatível com muitas ferramentas de desenvolvimento populares, como IDEs (Integrated Development Environments) e editores de texto, facilitando o desenvolvimento e a depuração de código.
+
+4. **Personalização e Extensibilidade**:
+   - Os usuários podem personalizar e estender o WAMP Server instalando e configurando módulos adicionais, como extensões PHP e bibliotecas MySQL/MariaDB.
+
+Benefícios do WAMP Server:
+
+1. **Conveniência e Rapidez**:
+   - Com apenas alguns cliques, os desenvolvedores podem ter um ambiente de desenvolvimento web totalmente funcional pronto para uso, sem a necessidade de configurar cada componente individualmente.
+
+2. **Aprendizado e Experimentação**:
+   - O WAMP Server é uma escolha popular para iniciantes que desejam aprender e experimentar desenvolvimento web, pois oferece um ambiente local seguro e controlado para explorar.
+
+3. **Desenvolvimento Ágil**:
+   - Ao permitir que os desenvolvedores testem rapidamente suas aplicações localmente, o WAMP Server facilita o desenvolvimento ágil e iterativo.
 
 # 🕯️ LEMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/7fd7aabf-3f5e-4dd6-beef-95c69aa37b44" height="177" align="right">
