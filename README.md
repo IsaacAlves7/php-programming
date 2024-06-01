@@ -6,7 +6,7 @@
 
 <!-- https://madewithlaravel.com/boilerplate -->
 
-<div align="center"><img src="https://poster.keepcalmandposters.com/5502447.jpg" height="177"></div>
+<div align="center"><img src="" height="177"></div>
 
 # 🐒 Paradigmas de desenvolvimento de software
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
@@ -266,12 +266,12 @@ Considerações:
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
 
-## ⛵ phpMyAdmin
+## ⛵ [PHP] phpMyAdmin
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg" height="77" align="right">
 
 O **phpMyAdmin** é uma ferramenta de administração de bancos de dados MySQL e MariaDB baseada na web. Desenvolvida em PHP, ela oferece uma interface gráfica amigável para gerenciar e interagir com bancos de dados, facilitando tarefas que de outra forma exigiriam comandos SQL no terminal. phpMyAdmin é uma ferramenta poderosa e amplamente utilizada para a administração de bancos de dados MySQL e MariaDB. Sua interface gráfica acessível facilita tarefas administrativas complexas, tornando a gestão de bancos de dados mais eficiente e acessível para desenvolvedores e administradores de sistemas.
 
-Principais Características do phpMyAdmin
+Principais Características do phpMyAdmin:
 
 1. **Interface Gráfica**: Proporciona uma interface web intuitiva para a administração de bancos de dados, o que torna a gestão de dados mais acessível para usuários que não têm familiaridade com a linha de comando.
 
@@ -314,7 +314,7 @@ Principais Características do phpMyAdmin
  - Importar e exportar dados.
  - Gerenciar usuários e permissões.
 
-# ⬛ Bitnami
+# ⬛ [PHP] Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
 
 **Bitnami** é uma empresa que oferece soluções de implantação e gerenciamento de aplicativos de software, especialmente focada em fornecer pacotes de aplicativos prontos para uso em várias plataformas, como máquinas virtuais, contêineres, instalações nativas e nuvem. Bitnami oferece soluções prontas para uso para implantação rápida e fácil de aplicativos de software em uma variedade de plataformas e ambientes. Com uma ampla variedade de pacotes de aplicativos disponíveis e suporte para várias plataformas, o Bitnami é uma escolha popular para desenvolvedores e empresas que buscam simplificar o processo de implantação e gerenciamento de aplicativos de software.
@@ -345,7 +345,7 @@ Benefícios do Uso do Bitnami:
 
 4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
 
-# ⓦ WordPress
+# ⓦ [PHP] WordPress
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
 
 **WordPress** é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e gerenciar sites e blogs. Inicialmente lançado em 2003 por Matt Mullenweg e Mike Little, o WordPress começou como uma plataforma de blogs, mas evoluiu para se tornar um dos CMS mais populares e poderosos do mundo, capaz de suportar uma ampla variedade de sites, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. WordPress é uma plataforma poderosa e versátil que facilita a criação e o gerenciamento de sites e blogs. Com sua interface amigável, extensibilidade através de temas e plugins, e uma grande comunidade de suporte, WordPress é uma excelente escolha para qualquer pessoa ou empresa que deseja estabelecer uma presença online eficaz e profissional.
@@ -392,7 +392,7 @@ Benefícios do Uso do WordPress
 4. **Grande Comunidade e Suporte**: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
 5. **Segurança**: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
 
-# 💧 Drupal
+# 💧 [PHP] Drupal
 <img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
 
 **Drupal** é um sistema de gerenciamento de conteúdo (CMS) de código aberto e altamente flexível, usado para criar uma ampla variedade de sites e aplicações web, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. Lançado pela primeira vez em 2001 por Dries Buytaert, Drupal se tornou uma das plataformas CMS mais populares e amplamente utilizadas no mundo. Drupal é um sistema de gerenciamento de conteúdo (CMS) poderoso e flexível, usado para criar uma ampla variedade de sites e aplicações web. Com sua arquitetura modular, suporte multilíngue e poderoso conjunto de ferramentas de gerenciamento de conteúdo, Drupal é uma escolha popular para empresas e organizações que buscam uma plataforma robusta e altamente personalizável para suas necessidades online.
@@ -427,7 +427,7 @@ Benefícios do Uso do Drupal:
 
 4. **Segurança**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
 
-# 📦 `composer`
+# 📦 [PHP] `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
 O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
@@ -594,8 +594,6 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 "license": "MIT"
 }
 ```
-
-# 🔋 Web Stacks
 
 # 🪟 WAMP stack
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/WampServer-logo.svg" height="277"></div>
