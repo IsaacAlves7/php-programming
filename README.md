@@ -74,33 +74,127 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="277"></div>
 
 # 🔥 CodeIgniter
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="77" align="right">
 
 # 🟩 Zend
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/zend-framework.svg" height="77">
 
 # ⚫ Symfony
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/symfony.svg" height="277"></div>
+<img src="" height="77">
 
 # 💧 Drupal
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77">
 
 # 🌱 Yii Framework
 <div align="center"><img src="https://www.yiiframework.com/image/design/logo/yii3_sign.svg" height="277"></div>
 
 # Linguagem Hack
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="277"></div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
 
+A linguagem Hack é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
 
-# Arquitetura MVC
+Aqui estão algumas das principais características da linguagem Hack:
 
+1. **Tipagem Estática**: Hack suporta tipagem estática opcional, permitindo que os desenvolvedores definam explicitamente os tipos de variáveis, parâmetros de funções e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de tempo de execução.
 
-# PDO
+2. **Inferência de Tipos**: Mesmo que a tipagem estática seja opcional, Hack pode inferir os tipos de muitas expressões automaticamente, reduzindo a necessidade de anotações explícitas.
 
+3. **Coleções**: Hack introduz coleções modernas (como `Vector`, `Map` e `Set`) que são mais consistentes e eficientes do que as arrays tradicionais do PHP.
+
+4. **Generics**: A linguagem suporta tipos genéricos, permitindo que as coleções e funções sejam definidas de maneira a trabalhar com qualquer tipo de dado, aumentando a reutilização de código e a segurança de tipos.
+
+5. **Async/Await**: Hack possui suporte nativo para programação assíncrona com `async` e `await`, facilitando a escrita de código assíncrono de maneira mais clara e menos propensa a erros.
+
+6. **Shapes**: Shapes são uma estrutura de dados flexível que permite definir e usar arrays associativos com uma verificação de tipos mais rigorosa.
+
+7. **Lambda Expressions**: Hack suporta funções anônimas (lambdas) que podem capturar variáveis do escopo externo, oferecendo uma maneira concisa de definir funções de curto prazo.
+
+8. **Modo Estrito**: O modo estrito (`strict mode`) do Hack exige que todas as variáveis e funções sejam anotadas com tipos, proporcionando um nível adicional de segurança e rigor na verificação de tipos.
+
+Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito em Hack:
+
+```hack
+<?hh // strict
+
+// Função que soma dois inteiros
+function soma(int $a, int $b): int {
+    return $a + $b;
+}
+
+// Função que retorna uma mensagem de saudação
+function saudacao(string $nome): string {
+    return "Olá, " . $nome;
+}
+
+// Exemplo de uso de coleções
+function exemploColecao(): void {
+    $vec = Vector {1, 2, 3};
+    foreach ($vec as $valor) {
+        echo $valor . "\n";
+    }
+}
+
+// Chamada das funções
+<<__EntryPoint>>
+function main(): void {
+    echo soma(5, 10) . "\n";
+    echo saudacao("Mundo") . "\n";
+    exemploColecao();
+}
+```
+
+Neste exemplo:
+- A função `soma` aceita dois inteiros e retorna um inteiro.
+- A função `saudacao` aceita uma string e retorna uma string.
+- A função `exemploColecao` demonstra o uso de uma coleção `Vector`.
+- A anotação `<<__EntryPoint>>` define o ponto de entrada do script.
+
+# PDO - PHP Data Objects
+O **PDO** (PHP Data Objects) é uma extensão da linguagem PHP que fornece uma interface para acessar bancos de dados. A principal vantagem do PDO é sua capacidade de trabalhar com múltiplos sistemas de gerenciamento de banco de dados (SGBD) de forma consistente e segura, sem que o desenvolvedor precise modificar o código de sua aplicação ao trocar de SGBD. PDO é uma ferramenta poderosa para desenvolvedores PHP que precisam de flexibilidade e segurança ao interagir com bancos de dados.
+
+Aqui estão algumas características importantes do PDO:
+
+1. **Abstração de Banco de Dados**: PDO permite que você use a mesma interface para interagir com diferentes bancos de dados, como MySQL, PostgreSQL, SQLite, entre outros. Isso facilita a portabilidade da aplicação.
+
+2. **Preparação e Execução de Declarações**: PDO suporta declarações preparadas, que são úteis para proteger contra ataques de injeção SQL. Você pode preparar uma declaração com marcadores de posição e executá-la várias vezes com diferentes valores.
+
+3. **Segurança**: Com declarações preparadas, PDO ajuda a evitar injeções de SQL. Os parâmetros são vinculados à declaração preparada de forma segura, o que reduz significativamente os riscos.
+
+4. **Manejo de Erros**: PDO oferece uma forma elegante de lidar com erros através de exceções. Isso facilita a depuração e a manipulação de falhas na execução de consultas.
+
+5. **Transações**: PDO fornece suporte a transações, permitindo que você execute múltiplas operações de banco de dados como uma única unidade de trabalho. Isso é essencial para garantir a consistência dos dados.
+
+Exemplo de Uso: Aqui está um exemplo básico de como usar PDO para conectar-se a um banco de dados MySQL e realizar uma consulta:
+
+```php
+<?php
+// Configuração da conexão
+$dsn = 'mysql:host=localhost;dbname=teste';
+$usuario = 'root';
+$senha = '';
+
+// Criando uma nova instância de PDO
+try {
+    $pdo = new PDO($dsn, $usuario, $senha);
+    // Configurando o modo de erro do PDO para exceções
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    // Preparando uma declaração SQL
+    $stmt = $pdo->prepare('SELECT * FROM usuarios WHERE id = :id');
+    $stmt->execute(['id' => 1]);
+    
+    // Obtendo os resultados
+    $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
+    print_r($usuario);
+} catch (PDOException $e) {
+    echo 'Erro: ' . $e->getMessage();
+}
+?>
+```
+
+Neste exemplo, a conexão com o banco de dados é estabelecida usando o Data Source Name (DSN), o nome de usuário e a senha. Uma consulta SQL é preparada com um marcador de posição (`:id`), que é seguro contra injeções de SQL. A consulta é executada e os resultados são obtidos.
 
 # Design Patterns
-
-# Clean Code
 
 # XHP
 <div align="center"><img src="https://camo.githubusercontent.com/b788fc3cc9e4d36a567f8c218e099f6e89a7840348f5d7755b51639081f222a8/68747470733a2f2f6868766d2e6769746875622e696f2f7868702d6c69622f696d616765732f7868705f6c6f676f2e706e67" height="177"></div>
