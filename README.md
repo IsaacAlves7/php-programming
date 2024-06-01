@@ -247,6 +247,138 @@ try {
 
 Neste exemplo, a conexão com o banco de dados é estabelecida usando o Data Source Name (DSN), o nome de usuário e a senha. Uma consulta SQL é preparada com um marcador de posição (`:id`), que é seguro contra injeções de SQL. A consulta é executada e os resultados são obtidos.
 
+# ◢◤ [PHP] Linguagem Hack
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
+
+A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
+
+Aqui estão algumas das principais características da linguagem Hack:
+
+1. **Tipagem Estática**: Hack suporta tipagem estática opcional, permitindo que os desenvolvedores definam explicitamente os tipos de variáveis, parâmetros de funções e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de tempo de execução.
+
+2. **Inferência de Tipos**: Mesmo que a tipagem estática seja opcional, Hack pode inferir os tipos de muitas expressões automaticamente, reduzindo a necessidade de anotações explícitas.
+
+3. **Coleções**: Hack introduz coleções modernas (como `Vector`, `Map` e `Set`) que são mais consistentes e eficientes do que as arrays tradicionais do PHP.
+
+4. **Generics**: A linguagem suporta tipos genéricos, permitindo que as coleções e funções sejam definidas de maneira a trabalhar com qualquer tipo de dado, aumentando a reutilização de código e a segurança de tipos.
+
+5. **Async/Await**: Hack possui suporte nativo para programação assíncrona com `async` e `await`, facilitando a escrita de código assíncrono de maneira mais clara e menos propensa a erros.
+
+6. **Shapes**: Shapes são uma estrutura de dados flexível que permite definir e usar arrays associativos com uma verificação de tipos mais rigorosa.
+
+7. **Lambda Expressions**: Hack suporta funções anônimas (lambdas) que podem capturar variáveis do escopo externo, oferecendo uma maneira concisa de definir funções de curto prazo.
+
+8. **Modo Estrito**: O modo estrito (`strict mode`) do Hack exige que todas as variáveis e funções sejam anotadas com tipos, proporcionando um nível adicional de segurança e rigor na verificação de tipos.
+
+Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito em Hack:
+
+```hack
+<?hh // strict
+
+// Função que soma dois inteiros
+function soma(int $a, int $b): int {
+    return $a + $b;
+}
+
+// Função que retorna uma mensagem de saudação
+function saudacao(string $nome): string {
+    return "Olá, " . $nome;
+}
+
+// Exemplo de uso de coleções
+function exemploColecao(): void {
+    $vec = Vector {1, 2, 3};
+    foreach ($vec as $valor) {
+        echo $valor . "\n";
+    }
+}
+
+// Chamada das funções
+<<__EntryPoint>>
+function main(): void {
+    echo soma(5, 10) . "\n";
+    echo saudacao("Mundo") . "\n";
+    exemploColecao();
+}
+```
+
+Neste exemplo:
+- A função `soma` aceita dois inteiros e retorna um inteiro.
+- A função `saudacao` aceita uma string e retorna uma string.
+- A função `exemploColecao` demonstra o uso de uma coleção `Vector`.
+- A anotação `<<__EntryPoint>>` define o ponto de entrada do script.
+
+## [PHP] XHP
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/3fb6735f-42fc-4719-af56-cd762008d309" height="77" align="right">
+
+O **XHP** é uma extensão da linguagem PHP desenvolvida originalmente pelo Facebook. Ela permite que os desenvolvedores escrevam interfaces de usuário usando uma sintaxe similar ao HTML diretamente no código PHP. Isso facilita a criação e a manutenção de componentes de UI, proporcionando uma maneira mais segura e eficiente de lidar com a manipulação de HTML. XHP é uma poderosa extensão que traz a sintaxe de componentes HTML para o PHP, melhorando a segurança e a organização do código. Embora a extensão original não seja mais mantida, a ideia por trás do XHP continua relevante e influente, especialmente em projetos que adotam Hack, a linguagem que continua a evoluir com essas capacidades integradas.
+
+Principais Características do XHP:
+
+1. **Sintaxe Similar ao HTML**: XHP permite que você escreva código HTML diretamente no PHP de uma maneira que parece natural. Isso ajuda a manter o código mais legível e organizado.
+
+2. **Segurança Contra XSS**: XHP faz a sanitização automática do conteúdo, ajudando a prevenir ataques de Cross-Site Scripting (XSS). Isso significa que o conteúdo dinâmico é escapado de maneira segura antes de ser renderizado.
+
+3. **Componentes Reutilizáveis**: XHP facilita a criação de componentes reutilizáveis de UI, permitindo que você crie elementos complexos de maneira modular e reutilize-os em diferentes partes da aplicação.
+
+4. **Integração com PHP**: Como uma extensão do PHP, XHP se integra perfeitamente com o ecossistema do PHP, aproveitando todo o poder e as bibliotecas da linguagem.
+
+Exemplo de Uso do XHP:
+
+Aqui está um exemplo básico de como você pode usar XHP em um projeto PHP:
+
+Instalação do XHP:
+
+Antes de começar a usar XHP, é necessário instalar a extensão. No entanto, a extensão XHP original não é mais mantida. Para projetos novos, considere usar [Hack](https://hacklang.org/), uma linguagem desenvolvida pelo Facebook que incorpora XHP.
+
+Se você ainda deseja usar XHP com PHP, você pode buscar por forks ou versões mantidas pela comunidade ou considerar o uso de [vários polyfills disponíveis](https://github.com/hhvm/xhp-lib).
+
+Exemplo de Código:
+
+1. **Definindo um Componente XHP**:
+
+```php
+<?php
+require_once 'vendor/autoload.php';
+
+class :my:button extends :x:element {
+  attribute string type = "button", string label;
+
+  protected function render(): XHPRoot {
+    return
+      <button type={$this->:type}>
+        {$this->:label}
+      </button>;
+  }
+}
+```
+
+2. **Usando o Componente no PHP**:
+
+```php
+<?php
+require_once 'vendor/autoload.php';
+
+echo
+  <html>
+    <body>
+      <h1>Olá, Mundo!</h1>
+      <my:button type="submit" label="Clique Aqui" />
+    </body>
+  </html>;
+```
+
+Benefícios do Uso do XHP:
+
+1. **Maior Legibilidade**: O código que mistura HTML e PHP se torna mais legível e organizado.
+2. **Reutilização de Componentes**: Componentes de UI podem ser definidos uma vez e reutilizados, promovendo a consistência e reduzindo a duplicação de código.
+3. **Segurança**: A sanitização automática de conteúdo ajuda a prevenir vulnerabilidades de XSS, aumentando a segurança da aplicação.
+
+Considerações:
+
+- **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
+- **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
+
 # 🔋 Web Stacks
 
 # 🪟 WAMP stack
@@ -599,135 +731,3 @@ Benefícios do Uso do Yii Framework:
 2. **Flexibilidade**: A arquitetura componentizada permite a fácil integração e personalização.
 3. **Alta Performance**: Projetado para ser rápido, o Yii é uma excelente escolha para aplicações de alto desempenho.
 4. **Segurança**: Funcionalidades embutidas de segurança ajudam a proteger a aplicação contra ameaças comuns.
-
-# ◢◤ Linguagem Hack
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
-
-A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
-
-Aqui estão algumas das principais características da linguagem Hack:
-
-1. **Tipagem Estática**: Hack suporta tipagem estática opcional, permitindo que os desenvolvedores definam explicitamente os tipos de variáveis, parâmetros de funções e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de tempo de execução.
-
-2. **Inferência de Tipos**: Mesmo que a tipagem estática seja opcional, Hack pode inferir os tipos de muitas expressões automaticamente, reduzindo a necessidade de anotações explícitas.
-
-3. **Coleções**: Hack introduz coleções modernas (como `Vector`, `Map` e `Set`) que são mais consistentes e eficientes do que as arrays tradicionais do PHP.
-
-4. **Generics**: A linguagem suporta tipos genéricos, permitindo que as coleções e funções sejam definidas de maneira a trabalhar com qualquer tipo de dado, aumentando a reutilização de código e a segurança de tipos.
-
-5. **Async/Await**: Hack possui suporte nativo para programação assíncrona com `async` e `await`, facilitando a escrita de código assíncrono de maneira mais clara e menos propensa a erros.
-
-6. **Shapes**: Shapes são uma estrutura de dados flexível que permite definir e usar arrays associativos com uma verificação de tipos mais rigorosa.
-
-7. **Lambda Expressions**: Hack suporta funções anônimas (lambdas) que podem capturar variáveis do escopo externo, oferecendo uma maneira concisa de definir funções de curto prazo.
-
-8. **Modo Estrito**: O modo estrito (`strict mode`) do Hack exige que todas as variáveis e funções sejam anotadas com tipos, proporcionando um nível adicional de segurança e rigor na verificação de tipos.
-
-Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito em Hack:
-
-```hack
-<?hh // strict
-
-// Função que soma dois inteiros
-function soma(int $a, int $b): int {
-    return $a + $b;
-}
-
-// Função que retorna uma mensagem de saudação
-function saudacao(string $nome): string {
-    return "Olá, " . $nome;
-}
-
-// Exemplo de uso de coleções
-function exemploColecao(): void {
-    $vec = Vector {1, 2, 3};
-    foreach ($vec as $valor) {
-        echo $valor . "\n";
-    }
-}
-
-// Chamada das funções
-<<__EntryPoint>>
-function main(): void {
-    echo soma(5, 10) . "\n";
-    echo saudacao("Mundo") . "\n";
-    exemploColecao();
-}
-```
-
-Neste exemplo:
-- A função `soma` aceita dois inteiros e retorna um inteiro.
-- A função `saudacao` aceita uma string e retorna uma string.
-- A função `exemploColecao` demonstra o uso de uma coleção `Vector`.
-- A anotação `<<__EntryPoint>>` define o ponto de entrada do script.
-
-# XHP
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/3fb6735f-42fc-4719-af56-cd762008d309" height="77" align="right">
-
-O **XHP** é uma extensão da linguagem PHP desenvolvida originalmente pelo Facebook. Ela permite que os desenvolvedores escrevam interfaces de usuário usando uma sintaxe similar ao HTML diretamente no código PHP. Isso facilita a criação e a manutenção de componentes de UI, proporcionando uma maneira mais segura e eficiente de lidar com a manipulação de HTML. XHP é uma poderosa extensão que traz a sintaxe de componentes HTML para o PHP, melhorando a segurança e a organização do código. Embora a extensão original não seja mais mantida, a ideia por trás do XHP continua relevante e influente, especialmente em projetos que adotam Hack, a linguagem que continua a evoluir com essas capacidades integradas.
-
-Principais Características do XHP:
-
-1. **Sintaxe Similar ao HTML**: XHP permite que você escreva código HTML diretamente no PHP de uma maneira que parece natural. Isso ajuda a manter o código mais legível e organizado.
-
-2. **Segurança Contra XSS**: XHP faz a sanitização automática do conteúdo, ajudando a prevenir ataques de Cross-Site Scripting (XSS). Isso significa que o conteúdo dinâmico é escapado de maneira segura antes de ser renderizado.
-
-3. **Componentes Reutilizáveis**: XHP facilita a criação de componentes reutilizáveis de UI, permitindo que você crie elementos complexos de maneira modular e reutilize-os em diferentes partes da aplicação.
-
-4. **Integração com PHP**: Como uma extensão do PHP, XHP se integra perfeitamente com o ecossistema do PHP, aproveitando todo o poder e as bibliotecas da linguagem.
-
-Exemplo de Uso do XHP:
-
-Aqui está um exemplo básico de como você pode usar XHP em um projeto PHP:
-
-Instalação do XHP:
-
-Antes de começar a usar XHP, é necessário instalar a extensão. No entanto, a extensão XHP original não é mais mantida. Para projetos novos, considere usar [Hack](https://hacklang.org/), uma linguagem desenvolvida pelo Facebook que incorpora XHP.
-
-Se você ainda deseja usar XHP com PHP, você pode buscar por forks ou versões mantidas pela comunidade ou considerar o uso de [vários polyfills disponíveis](https://github.com/hhvm/xhp-lib).
-
-Exemplo de Código:
-
-1. **Definindo um Componente XHP**:
-
-```php
-<?php
-require_once 'vendor/autoload.php';
-
-class :my:button extends :x:element {
-  attribute string type = "button", string label;
-
-  protected function render(): XHPRoot {
-    return
-      <button type={$this->:type}>
-        {$this->:label}
-      </button>;
-  }
-}
-```
-
-2. **Usando o Componente no PHP**:
-
-```php
-<?php
-require_once 'vendor/autoload.php';
-
-echo
-  <html>
-    <body>
-      <h1>Olá, Mundo!</h1>
-      <my:button type="submit" label="Clique Aqui" />
-    </body>
-  </html>;
-```
-
-Benefícios do Uso do XHP:
-
-1. **Maior Legibilidade**: O código que mistura HTML e PHP se torna mais legível e organizado.
-2. **Reutilização de Componentes**: Componentes de UI podem ser definidos uma vez e reutilizados, promovendo a consistência e reduzindo a duplicação de código.
-3. **Segurança**: A sanitização automática de conteúdo ajuda a prevenir vulnerabilidades de XSS, aumentando a segurança da aplicação.
-
-Considerações:
-
-- **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
-- **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
