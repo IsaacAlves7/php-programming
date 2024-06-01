@@ -510,10 +510,61 @@ Considerações:
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/candle_1f56f-fe0f.png" height="177"></div><br \>
 
 # 🦴 XAMPP stack
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="277"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="77" align="right">
+
+**XAMPP** é um pacote de software livre e de código aberto que oferece uma solução completa para desenvolvedores que desejam criar e testar aplicações web localmente. XAMPP é uma ferramenta poderosa e conveniente para desenvolvedores web, fornecendo um ambiente de desenvolvimento local completo que inclui servidor web, banco de dados e suporte para linguagens de script. Sua facilidade de uso e ampla compatibilidade com diferentes sistemas operacionais o tornam uma escolha popular para iniciantes e desenvolvedores experientes que buscam um ambiente de desenvolvimento rápido e eficiente.
+
+O nome XAMPP é um acrônimo que descreve seus principais componentes:
+
+- **X**: Representa a possibilidade de ser usado em qualquer sistema operacional (Windows, Linux, macOS).
+- **A**: Apache HTTP Server, o servidor web.
+- **M**: MariaDB ou MySQL, o sistema de gerenciamento de banco de dados.
+- **P**: PHP, a linguagem de programação do lado do servidor.
+- **P**: Perl, outra linguagem de programação frequentemente utilizada para tarefas administrativas e scripts.
+
+Principais Características do XAMPP
+
+1. **Fácil Instalação**: XAMPP simplifica o processo de instalação de um ambiente de desenvolvimento web. Basta baixar e executar o instalador para ter todos os componentes configurados e prontos para uso.
+
+2. **Plataforma Multissistema**: Está disponível para Windows, Linux e macOS, oferecendo flexibilidade para desenvolvedores que trabalham em diferentes sistemas operacionais.
+
+3. **Ambiente Completo de Desenvolvimento**: Inclui todas as ferramentas necessárias para desenvolver, testar e depurar aplicações web, como servidor web (Apache), banco de dados (MariaDB/MySQL), e interpretadores de linguagens de script (PHP e Perl).
+
+4. **Painel de Controle**: XAMPP fornece um painel de controle intuitivo para gerenciar os serviços, facilitando o início, parada e configuração dos servidores Apache e MySQL/MariaDB, entre outros.
+
+5. **Segurança**: Inclui ferramentas de segurança básicas para proteger o ambiente de desenvolvimento, embora não seja recomendado para ambientes de produção devido a algumas configurações padrão menos seguras.
+
+6. **Extensível**: Permite a instalação de módulos adicionais para expandir suas funcionalidades, como servidores de FTP, mail, e outros.
+
+Benefícios do XAMPP
+
+1. **Simplicidade e Conveniência**: Facilita a criação de um ambiente de desenvolvimento completo com apenas alguns cliques, sem a necessidade de instalar e configurar cada componente individualmente.
+
+2. **Ambiente de Testes Local**: Permite aos desenvolvedores criar e testar suas aplicações localmente antes de implantá-las em um servidor de produção, o que pode melhorar a qualidade e reduzir o tempo de desenvolvimento.
+
+3. **Educação e Aprendizado**: É uma ferramenta popular para iniciantes que desejam aprender desenvolvimento web, pois fornece um ambiente de desenvolvimento integrado e fácil de usar.
+
+4. **Comunidade e Suporte**: Como uma ferramenta amplamente utilizada, possui uma grande comunidade de usuários que podem oferecer suporte, tutoriais, e recursos adicionais.
+
+Exemplo de Uso do XAMPP
+
+#Instalação e Configuração Básica
+
+1. **Download**: Baixe o instalador do XAMPP no site oficial (https://www.apachefriends.org/index.html).
+
+2. **Instalação**: Execute o instalador e siga as instruções na tela para instalar o XAMPP no seu sistema.
+
+3. **Início dos Serviços**: Abra o painel de controle do XAMPP e inicie os serviços Apache e MySQL/MariaDB.
+
+4. **Criação de um Projeto PHP**:
+   - Coloque os arquivos do seu projeto PHP na pasta `htdocs` dentro do diretório de instalação do XAMPP (por exemplo, `C:\xampp\htdocs\meuprojeto`).
+
+5. **Acesso ao Projeto**: Abra o navegador web e acesse `http://localhost/meuprojeto` para visualizar seu projeto em execução.
+
+6. **Gerenciamento de Banco de Dados**: Use o phpMyAdmin, que vem integrado com o XAMPP, acessando `http://localhost/phpmyadmin` para gerenciar seus bancos de dados MariaDB/MySQL.
 
 # 🧨 LNPP stack
-<img src="" height="177">
+<img src="" height="77" align="right">
 
 O **LNPP stack** é um conjunto de tecnologias usadas para desenvolver e implantar aplicações web dinâmicas. 
 
