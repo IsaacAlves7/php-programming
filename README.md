@@ -62,12 +62,58 @@ Benefícios do Uso do Bitnami:
 4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
 
 # ⓦ WordPress
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" height="277"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
+
+**WordPress** é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e gerenciar sites e blogs. Inicialmente lançado em 2003 por Matt Mullenweg e Mike Little, o WordPress começou como uma plataforma de blogs, mas evoluiu para se tornar um dos CMS mais populares e poderosos do mundo, capaz de suportar uma ampla variedade de sites, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. WordPress é uma plataforma poderosa e versátil que facilita a criação e o gerenciamento de sites e blogs. Com sua interface amigável, extensibilidade através de temas e plugins, e uma grande comunidade de suporte, WordPress é uma excelente escolha para qualquer pessoa ou empresa que deseja estabelecer uma presença online eficaz e profissional.
+
+Principais Características do WordPress:
+
+1. **Fácil de Usar**: WordPress é conhecido por sua interface amigável e facilidade de uso, permitindo que até mesmo usuários sem conhecimentos técnicos criem e gerenciem sites com facilidade.
+
+2. **Extensível**: Com milhares de plugins e temas disponíveis, os usuários podem facilmente estender as funcionalidades e personalizar a aparência de seus sites sem a necessidade de programar.
+
+3. **SEO-Friendly**: WordPress é otimizado para motores de busca (SEO) desde o início, ajudando os sites a obterem melhores classificações nos resultados de busca. Plugins adicionais de SEO podem melhorar ainda mais a visibilidade do site.
+
+4. **Comunidade Ativa**: WordPress possui uma grande comunidade de desenvolvedores e usuários que contribuem com plugins, temas, tutoriais e suporte, tornando a plataforma rica em recursos e constantemente atualizada.
+
+5. **Gestão de Conteúdo**: Oferece um sistema robusto de gerenciamento de conteúdo, com suporte para publicações de blog, páginas estáticas, galerias de mídia, e muito mais.
+
+6. **Segurança**: Embora seja alvo frequente de ataques devido à sua popularidade, WordPress possui medidas de segurança robustas e uma equipe dedicada para lançar atualizações e patches de segurança. Plugins adicionais de segurança podem ser instalados para reforçar ainda mais a proteção.
+
+7. **Multilinguagem**: WordPress oferece suporte para a criação de sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência localizada para visitantes de todo o mundo.
+
+Exemplo de Uso do WordPress
+
+Instalação do WordPress
+
+1. **Download**: Baixe o WordPress do site oficial (wordpress.org) e extraia os arquivos no diretório do seu servidor web.
+
+2. **Configuração**: Acesse o instalador do WordPress através do navegador (geralmente `http://seudominio.com/wp-admin/install.php`) e siga as instruções para configurar o banco de dados e o usuário administrador.
+
+3. **Instalação de Temas e Plugins**: Após a instalação, você pode instalar temas e plugins diretamente do painel administrativo (`http://seudominio.com/wp-admin`).
+
+Criando Conteúdo
+
+1. **Postagens e Páginas**: No painel de administração, você pode criar novas postagens de blog e páginas estáticas através das opções "Posts" e "Pages".
+
+2. **Personalização de Temas**: Use o "Customizador" de temas para ajustar a aparência do seu site conforme desejado.
+
+3. **Instalação de Plugins**: Navegue até "Plugins" e adicione novas funcionalidades ao seu site, como galerias de imagem, formulários de contato, ferramentas de SEO, etc.
+
+Benefícios do Uso do WordPress
+
+1. **Facilidade de Uso**: Interface intuitiva e amigável que permite fácil gerenciamento de conteúdo.
+2. **Flexibilidade e Personalização**: Grande variedade de temas e plugins para personalização sem necessidade de codificação.
+3. **SEO Integrado**: Recursos e plugins que ajudam na otimização para motores de busca.
+4. **Grande Comunidade e Suporte**: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
+5. **Segurança**: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
 
 # 📦 `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
 O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
+
+> Composer é similar ao NPM. Ambos são gerenciadores de pacotes: Composer é usado para gerenciar dependências em projetos PHP, enquanto NPM (Node Package Manager) é utilizado para projetos JavaScript. Eles facilitam a instalação, atualização e gestão de bibliotecas e pacotes de software, garantindo que as dependências de um projeto estejam corretamente configuradas e atualizadas. NPM pode ser utilizado junto com Composer. Embora NPM seja destinado a gerenciar pacotes JavaScript e Composer a pacotes PHP, ambos podem coexistir no mesmo projeto, especialmente em aplicações web onde você pode ter uma combinação de back-end PHP e front-end JavaScript. No back-end, em uma arquitetura N-Tier (Arquitetura em Camadas), é perfeitamente viável ter uma API em PHP gerenciada pelo Composer coexistindo ao lado de uma API em Node.js gerenciada pelo NPM. Cada camada ou serviço na arquitetura pode ser implementado usando diferentes tecnologias e gerenciadores de pacotes, contanto que eles se comuniquem de maneira eficiente e mantenham a separação de responsabilidades.
 
 Principais Funcionalidades do Composer:
 
