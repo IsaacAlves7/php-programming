@@ -1250,11 +1250,11 @@ Crie uma view em `module/Application/view/application/index/index.phtml`:
 <h1>Welcome to Zend Framework (Laminas Project)!</h1>
 ```
 
- # Configurando as Rotas
+Configurando as Rotas:
 
 O roteamento no Zend Framework (Laminas Project) é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
 
- # Executando o Servidor Web
+Executando o Servidor Web:
 
 Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
 
