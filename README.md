@@ -28,7 +28,52 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de **cliente** (não confunda com Client-Side). O principal papel de um servidor é fornecer algo de maneira centralizada, acabando com a necessidade de se ter um programa ou sistema instalado em cada equipamento de cada um dos usuários de uma empresa. Atualmente servidores são adotados para fornecer praticamente tudo que se consiga imaginar e esteja relacionado com computação.
 
 # ⛵ phpMyAdmin
-<div align="center"><img src="https://symbols.getvecta.com/stencil_91/64_phpmyadmin.7ca31c1e28.svg" height="207"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg" height="77" align="right">
+
+O **phpMyAdmin** é uma ferramenta de administração de bancos de dados MySQL e MariaDB baseada na web. Desenvolvida em PHP, ela oferece uma interface gráfica amigável para gerenciar e interagir com bancos de dados, facilitando tarefas que de outra forma exigiriam comandos SQL no terminal. phpMyAdmin é uma ferramenta poderosa e amplamente utilizada para a administração de bancos de dados MySQL e MariaDB. Sua interface gráfica acessível facilita tarefas administrativas complexas, tornando a gestão de bancos de dados mais eficiente e acessível para desenvolvedores e administradores de sistemas.
+
+Principais Características do phpMyAdmin
+
+1. **Interface Gráfica**: Proporciona uma interface web intuitiva para a administração de bancos de dados, o que torna a gestão de dados mais acessível para usuários que não têm familiaridade com a linha de comando.
+
+2. **Gestão de Bancos de Dados**: Permite criar, modificar e excluir bancos de dados, tabelas, colunas, índices, e relacionamentos. Facilita também a importação e exportação de dados em vários formatos (SQL, CSV, XML, etc.).
+
+3. **Execução de Consultas SQL**: Oferece um editor SQL onde os usuários podem escrever e executar consultas SQL, visualizar resultados e depurar erros.
+
+4. **Gerenciamento de Usuários e Permissões**: Permite adicionar, modificar e remover usuários, bem como definir permissões de acesso aos bancos de dados.
+
+5. **Visualização de Estruturas e Dados**: Facilita a navegação e visualização das estruturas dos bancos de dados e dos dados armazenados neles.
+
+6. **Backup e Restauração**: Suporta a exportação de bancos de dados para backups e a importação de arquivos de backup para restauração.
+
+7. **Ferramentas de Pesquisa**: Oferece funcionalidades avançadas de pesquisa para encontrar rapidamente dados específicos em grandes bancos de dados.
+
+ Benefícios do phpMyAdmin
+
+- **Acessibilidade**: Como é uma aplicação web, pode ser acessada de qualquer lugar através de um navegador, facilitando o gerenciamento remoto de bancos de dados.
+- **Facilidade de Uso**: A interface gráfica simplifica a realização de tarefas complexas de administração de bancos de dados.
+- **Ampla Adoção**: Amplamente utilizado e suportado pela comunidade, com extensa documentação e recursos disponíveis.
+- **Flexibilidade**: Suporta múltiplos servidores de banco de dados e pode ser configurado para gerenciar diversos bancos de dados simultaneamente.
+
+ Exemplo de Uso do phpMyAdmin
+
+1. **Instalação**: Em sistemas baseados em Debian, pode ser instalado com o comando:
+ ```bash
+ sudo apt-get install phpmyadmin
+ ```
+ Durante a instalação, será solicitado para escolher o servidor web (Apache ou Nginx) e configurar o usuário administrador do MySQL.
+
+2. **Acesso**: Após a instalação, pode ser acessado via navegador web, geralmente em um URL como `http://localhost/phpmyadmin` ou `http://yourdomain.com/phpmyadmin`.
+
+3. **Login**: Os usuários fazem login com suas credenciais do MySQL para acessar a interface de administração.
+
+4. **Gerenciamento de Dados**: Através da interface, usuários podem:
+ - Criar um novo banco de dados.
+ - Criar e modificar tabelas e colunas.
+ - Inserir, atualizar e deletar registros.
+ - Executar consultas SQL.
+ - Importar e exportar dados.
+ - Gerenciar usuários e permissões.
 
 # ⬛ Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
@@ -113,7 +158,7 @@ Benefícios do Uso do WordPress
 
 O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
 
-> Composer é similar ao NPM. Ambos são gerenciadores de pacotes: Composer é usado para gerenciar dependências em projetos PHP, enquanto NPM (Node Package Manager) é utilizado para projetos JavaScript. Eles facilitam a instalação, atualização e gestão de bibliotecas e pacotes de software, garantindo que as dependências de um projeto estejam corretamente configuradas e atualizadas. NPM pode ser utilizado junto com Composer. Embora NPM seja destinado a gerenciar pacotes JavaScript e Composer a pacotes PHP, ambos podem coexistir no mesmo projeto, especialmente em aplicações web onde você pode ter uma combinação de back-end PHP e front-end JavaScript. No back-end, em uma arquitetura N-Tier (Arquitetura em Camadas), é perfeitamente viável ter uma API em PHP gerenciada pelo Composer coexistindo ao lado de uma API em Node.js gerenciada pelo NPM. Cada camada ou serviço na arquitetura pode ser implementado usando diferentes tecnologias e gerenciadores de pacotes, contanto que eles se comuniquem de maneira eficiente e mantenham a separação de responsabilidades.
+O Composer é similar ao NPM, PIP ou Gem, ambos são gerenciadores de pacotes: Composer é usado para gerenciar dependências em projetos PHP, enquanto NPM (Node Package Manager) é utilizado para projetos JavaScript. Eles facilitam a instalação, atualização e gestão de bibliotecas e pacotes de software, garantindo que as dependências de um projeto estejam corretamente configuradas e atualizadas. NPM pode ser utilizado junto com Composer. Embora NPM seja destinado a gerenciar pacotes JavaScript e Composer a pacotes PHP, ambos podem coexistir no mesmo projeto, especialmente em aplicações web onde você pode ter uma combinação de back-end PHP e front-end JavaScript. No back-end, em uma arquitetura N-Tier (Arquitetura em Camadas), é perfeitamente viável ter uma API em PHP gerenciada pelo Composer coexistindo ao lado de uma API em Node.js gerenciada pelo NPM. Cada camada ou serviço na arquitetura pode ser implementado usando diferentes tecnologias e gerenciadores de pacotes, contanto que eles se comuniquem de maneira eficiente e mantenham a separação de responsabilidades.
 
 Principais Funcionalidades do Composer:
 
@@ -179,16 +224,16 @@ Aqui está um exemplo simples de um arquivo `composer.json`:
 
 ```json
 {
-    "name": "meuprojeto/exemplo",
-    "description": "Um projeto de exemplo usando Composer",
-    "require": {
-        "monolog/monolog": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "MeuProjeto\\": "src/"
-        }
-    }
+"name": "meuprojeto/exemplo",
+"description": "Um projeto de exemplo usando Composer",
+"require": {
+"monolog/monolog": "^2.0"
+},
+"autoload": {
+"psr-4": {
+"MeuProjeto\\": "src/"
+}
+}
 }
 ```
 
@@ -221,58 +266,58 @@ Principais Características do Packagist:
 Aqui está um guia básico sobre como usar o Packagist junto com o Composer:
 
 1. **Buscar um Pacote no Packagist**:
-   - Acesse o [site do Packagist](https://packagist.org/).
-   - Use a barra de busca para encontrar pacotes por nome ou palavras-chave.
+ - Acesse o [site do Packagist](https://packagist.org/).
+ - Use a barra de busca para encontrar pacotes por nome ou palavras-chave.
 
 2. **Adicionar um Pacote ao seu Projeto**:
-   - Após encontrar o pacote desejado, você verá instruções de instalação que podem ser usadas com Composer. Por exemplo, para instalar o pacote `monolog/monolog`:
-     ```sh
-     composer require monolog/monolog
-     ```
+ - Após encontrar o pacote desejado, você verá instruções de instalação que podem ser usadas com Composer. Por exemplo, para instalar o pacote `monolog/monolog`:
+ ```sh
+ composer require monolog/monolog
+ ```
 
 3. **Configurar o Autoloading**:
-   - Após a instalação, você deve incluir o autoloader do Composer no seu arquivo PHP principal:
-     ```php
-     require 'vendor/autoload.php';
-     ```
+ - Após a instalação, você deve incluir o autoloader do Composer no seu arquivo PHP principal:
+ ```php
+ require 'vendor/autoload.php';
+ ```
 
 Para publicar seu próprio pacote no Packagist, siga estes passos:
 
 1. **Preparar o Projeto**:
-   - Certifique-se de que seu projeto possui um arquivo `composer.json` devidamente configurado.
-   - Empurre seu projeto para um repositório público no GitHub, GitLab, Bitbucket ou outro VCS suportado.
+ - Certifique-se de que seu projeto possui um arquivo `composer.json` devidamente configurado.
+ - Empurre seu projeto para um repositório público no GitHub, GitLab, Bitbucket ou outro VCS suportado.
 
 2. **Registrar o Pacote no Packagist**:
-   - Acesse o [site do Packagist](https://packagist.org/).
-   - Faça login (ou crie uma conta, se necessário).
-   - Vá até a seção "Submit" e forneça a URL do repositório do seu projeto.
-   - Packagist irá buscar seu `composer.json` e registrar o pacote.
+ - Acesse o [site do Packagist](https://packagist.org/).
+ - Faça login (ou crie uma conta, se necessário).
+ - Vá até a seção "Submit" e forneça a URL do repositório do seu projeto.
+ - Packagist irá buscar seu `composer.json` e registrar o pacote.
 
 3. **Manter o Pacote Atualizado**:
-   - Sempre que você lançar uma nova versão do seu pacote, o Packagist será automaticamente atualizado se você configurar hooks do GitHub/GitLab/Bitbucket. Caso contrário, você pode atualizar manualmente através do Packagist.
+ - Sempre que você lançar uma nova versão do seu pacote, o Packagist será automaticamente atualizado se você configurar hooks do GitHub/GitLab/Bitbucket. Caso contrário, você pode atualizar manualmente através do Packagist.
 
 Exemplo de um Arquivo `composer.json` para um Projeto:
 
 ```json
 {
-    "name": "meuusuario/meupacote",
-    "description": "Um pacote de exemplo",
-    "type": "library",
-    "require": {
-        "php": "^7.4 || ^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "MeuNamespace\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Seu Nome",
-            "email": "seuemail@example.com"
-        }
-    ],
-    "license": "MIT"
+"name": "meuusuario/meupacote",
+"description": "Um pacote de exemplo",
+"type": "library",
+"require": {
+"php": "^7.4 || ^8.0"
+},
+"autoload": {
+"psr-4": {
+"MeuNamespace\\": "src/"
+}
+},
+"authors": [
+{
+"name": "Seu Nome",
+"email": "seuemail@example.com"
+}
+],
+"license": "MIT"
 }
 ```
 
@@ -302,19 +347,19 @@ $senha = '';
 
 // Criando uma nova instância de PDO
 try {
-    $pdo = new PDO($dsn, $usuario, $senha);
-    // Configurando o modo de erro do PDO para exceções
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
-    // Preparando uma declaração SQL
-    $stmt = $pdo->prepare('SELECT * FROM usuarios WHERE id = :id');
-    $stmt->execute(['id' => 1]);
-    
-    // Obtendo os resultados
-    $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
-    print_r($usuario);
+$pdo = new PDO($dsn, $usuario, $senha);
+// Configurando o modo de erro do PDO para exceções
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+// Preparando uma declaração SQL
+$stmt = $pdo->prepare('SELECT * FROM usuarios WHERE id = :id');
+$stmt->execute(['id' => 1]);
+
+// Obtendo os resultados
+$usuario = $stmt->fetch(PDO::FETCH_ASSOC);
+print_r($usuario);
 } catch (PDOException $e) {
-    echo 'Erro: ' . $e->getMessage();
+echo 'Erro: ' . $e->getMessage();
 }
 ?>
 ```
@@ -351,28 +396,28 @@ Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito e
 
 // Função que soma dois inteiros
 function soma(int $a, int $b): int {
-    return $a + $b;
+return $a + $b;
 }
 
 // Função que retorna uma mensagem de saudação
 function saudacao(string $nome): string {
-    return "Olá, " . $nome;
+return "Olá, " . $nome;
 }
 
 // Exemplo de uso de coleções
 function exemploColecao(): void {
-    $vec = Vector {1, 2, 3};
-    foreach ($vec as $valor) {
-        echo $valor . "\n";
-    }
+$vec = Vector {1, 2, 3};
+foreach ($vec as $valor) {
+echo $valor . "\n";
+}
 }
 
 // Chamada das funções
 <<__EntryPoint>>
 function main(): void {
-    echo soma(5, 10) . "\n";
-    echo saudacao("Mundo") . "\n";
-    exemploColecao();
+echo soma(5, 10) . "\n";
+echo saudacao("Mundo") . "\n";
+exemploColecao();
 }
 ```
 
@@ -416,14 +461,14 @@ Exemplo de Código:
 require_once 'vendor/autoload.php';
 
 class :my:button extends :x:element {
-  attribute string type = "button", string label;
+attribute string type = "button", string label;
 
-  protected function render(): XHPRoot {
-    return
-      <button type={$this->:type}>
-        {$this->:label}
-      </button>;
-  }
+protected function render(): XHPRoot {
+return
+<button type={$this->:type}>
+{$this->:label}
+</button>;
+}
 }
 ```
 
@@ -434,12 +479,12 @@ class :my:button extends :x:element {
 require_once 'vendor/autoload.php';
 
 echo
-  <html>
-    <body>
-      <h1>Olá, Mundo!</h1>
-      <my:button type="submit" label="Clique Aqui" />
-    </body>
-  </html>;
+<html>
+<body>
+<h1>Olá, Mundo!</h1>
+<my:button type="submit" label="Clique Aqui" />
+</body>
+</html>;
 ```
 
 Benefícios do Uso do XHP:
@@ -481,53 +526,53 @@ A sigla LNPP significa:
 
 O LNPP stack combina a robustez do Linux, a eficiência do Nginx, a confiabilidade do PostgreSQL e a flexibilidade do PHP para criar um ambiente de desenvolvimento e produção poderoso para aplicações web. É uma escolha popular para desenvolvedores que buscam uma solução de código aberto e altamente eficiente para seus projetos web.
 
-  Componentes do LNPP Stack
+Componentes do LNPP Stack
 
 1. **Linux**: 
-   - É o sistema operacional que fornece a base para a pilha. É conhecido por sua estabilidade, segurança e desempenho.
-   
+ - É o sistema operacional que fornece a base para a pilha. É conhecido por sua estabilidade, segurança e desempenho.
+ 
 2. **Nginx**:
-   - Um servidor web de alta performance que também pode ser usado como um proxy reverso, balanceador de carga e cache HTTP. É popular por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos.
-   
+ - Um servidor web de alta performance que também pode ser usado como um proxy reverso, balanceador de carga e cache HTTP. É popular por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos.
+ 
 3. **PostgreSQL**:
-   - Um sistema de gerenciamento de banco de dados relacional avançado e de código aberto. É conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. PostgreSQL é uma escolha comum para aplicações que requerem integridade de dados e complexidade em consultas.
+ - Um sistema de gerenciamento de banco de dados relacional avançado e de código aberto. É conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. PostgreSQL é uma escolha comum para aplicações que requerem integridade de dados e complexidade em consultas.
 
 4. **PHP**:
-   - Uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente conhecida por sua capacidade de ser embutida em HTML. PHP é a linguagem do lado do servidor que processa a lógica do negócio e interage com o banco de dados.
+ - Uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente conhecida por sua capacidade de ser embutida em HTML. PHP é a linguagem do lado do servidor que processa a lógica do negócio e interage com o banco de dados.
 
-  Benefícios do LNPP Stack
+Benefícios do LNPP Stack
 
 1. **Desempenho e Escalabilidade**:
-   - Nginx é conhecido por sua eficiência em servir um grande número de requisições simultâneas, tornando o stack LNPP adequado para aplicações de alto tráfego.
+ - Nginx é conhecido por sua eficiência em servir um grande número de requisições simultâneas, tornando o stack LNPP adequado para aplicações de alto tráfego.
 
 2. **Robustez e Confiabilidade**:
-   - PostgreSQL é reconhecido por sua robustez e conformidade com os padrões SQL, oferecendo integridade transacional e suporte a operações complexas.
+ - PostgreSQL é reconhecido por sua robustez e conformidade com os padrões SQL, oferecendo integridade transacional e suporte a operações complexas.
 
 3. **Flexibilidade e Personalização**:
-   - Cada componente do LNPP é altamente configurável e pode ser ajustado para atender às necessidades específicas da aplicação.
+ - Cada componente do LNPP é altamente configurável e pode ser ajustado para atender às necessidades específicas da aplicação.
 
 4. **Segurança**:
-   - Linux oferece um ambiente seguro e estável. Com as configurações adequadas, Nginx e PostgreSQL também podem ser fortemente protegidos contra vulnerabilidades comuns.
+ - Linux oferece um ambiente seguro e estável. Com as configurações adequadas, Nginx e PostgreSQL também podem ser fortemente protegidos contra vulnerabilidades comuns.
 
 5. **Comunidade e Suporte**:
-   - Todos os componentes do LNPP stack são de código aberto e têm grandes comunidades de suporte, o que facilita a obtenção de ajuda e recursos para desenvolvimento e resolução de problemas.
+ - Todos os componentes do LNPP stack são de código aberto e têm grandes comunidades de suporte, o que facilita a obtenção de ajuda e recursos para desenvolvimento e resolução de problemas.
 
 Exemplo de Configuração do LNPP Stack
 
 1. **Instalação do Linux**:
-   - Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+ - Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
 
 2. **Instalação do Nginx**:
-   - No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
-   - Configure Nginx para servir sua aplicação PHP editando o arquivo de configuração em `/etc/nginx/sites-available/default`.
+ - No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
+ - Configure Nginx para servir sua aplicação PHP editando o arquivo de configuração em `/etc/nginx/sites-available/default`.
 
 3. **Instalação do PostgreSQL**:
-   - Instale o PostgreSQL usando comandos como `sudo apt-get install postgresql`.
-   - Configure o PostgreSQL para aceitar conexões e criar um banco de dados para sua aplicação.
+ - Instale o PostgreSQL usando comandos como `sudo apt-get install postgresql`.
+ - Configure o PostgreSQL para aceitar conexões e criar um banco de dados para sua aplicação.
 
 4. **Instalação do PHP**:
-   - Instale o PHP e os módulos necessários para interação com Nginx e PostgreSQL usando `sudo apt-get install php-fpm php-pgsql`.
-   - Configure o PHP-FPM (FastCGI Process Manager) para trabalhar com Nginx editando o arquivo de configuração PHP-FPM em `/etc/php/7.4/fpm/pool.d/www.conf` (ajuste a versão conforme necessário).
+ - Instale o PHP e os módulos necessários para interação com Nginx e PostgreSQL usando `sudo apt-get install php-fpm php-pgsql`.
+ - Configure o PHP-FPM (FastCGI Process Manager) para trabalhar com Nginx editando o arquivo de configuração PHP-FPM em `/etc/php/7.4/fpm/pool.d/www.conf` (ajuste a versão conforme necessário).
 
 # 🍰 [PHP] CakePHP
 <img src="https://cdn.worldvectorlogo.com/logos/cakephp-1.svg" height="77" align="right">
@@ -555,121 +600,121 @@ Aqui está um exemplo básico de como começar com CakePHP, incluindo a criaçã
 Instalação do CakePHP
 
 1. **Usando Composer**:
-   ```sh
-   composer create-project --prefer-dist cakephp/app meuprojeto
-   ```
+ ```sh
+ composer create-project --prefer-dist cakephp/app meuprojeto
+ ```
 
 2. **Configuração do Banco de Dados**:
-   Após criar o projeto, configure seu banco de dados no arquivo `config/app.php`:
+ Após criar o projeto, configure seu banco de dados no arquivo `config/app.php`:
 
-   ```php
-   'Datasources' => [
-       'default' => [
-           'host' => 'localhost',
-           'username' => 'root',
-           'password' => '',
-           'database' => 'meubanco',
-           'driver' => 'Cake\Database\Driver\Mysql',
-           // Outros parâmetros de configuração...
-       ],
-   ],
-   ```
+ ```php
+ 'Datasources' => [
+ 'default' => [
+ 'host' => 'localhost',
+ 'username' => 'root',
+ 'password' => '',
+ 'database' => 'meubanco',
+ 'driver' => 'Cake\Database\Driver\Mysql',
+ // Outros parâmetros de configuração...
+ ],
+ ],
+ ```
 
 Criando um Modelo, Controlador e View
 
 1. **Gerando Código com Bake**:
-   ```sh
-   bin/cake bake model Usuarios
-   bin/cake bake controller Usuarios
-   bin/cake bake template Usuarios
-   ```
+ ```sh
+ bin/cake bake model Usuarios
+ bin/cake bake controller Usuarios
+ bin/cake bake template Usuarios
+ ```
 
 2. **Definindo o Modelo** (`src/Model/Entity/Usuario.php` e `src/Model/Table/UsuariosTable.php`):
 
-   ```php
-   namespace App\Model\Entity;
+ ```php
+ namespace App\Model\Entity;
 
-   use Cake\ORM\Entity;
+ use Cake\ORM\Entity;
 
-   class Usuario extends Entity {
-       protected $_accessible = [
-           '*' => true,
-           'id' => false,
-       ];
-   }
-   ```
+ class Usuario extends Entity {
+ protected $_accessible = [
+ '*' => true,
+ 'id' => false,
+ ];
+ }
+ ```
 
-   ```php
-   namespace App\Model\Table;
+ ```php
+ namespace App\Model\Table;
 
-   use Cake\ORM\Table;
+ use Cake\ORM\Table;
 
-   class UsuariosTable extends Table {
-       public function initialize(array $config): void {
-           parent::initialize($config);
+ class UsuariosTable extends Table {
+ public function initialize(array $config): void {
+ parent::initialize($config);
 
-           $this->setTable('usuarios');
-           $this->setDisplayField('nome');
-           $this->setPrimaryKey('id');
+ $this->setTable('usuarios');
+ $this->setDisplayField('nome');
+ $this->setPrimaryKey('id');
 
-           $this->addBehavior('Timestamp');
-       }
-   }
-   ```
+ $this->addBehavior('Timestamp');
+ }
+ }
+ ```
 
 3. **Criando o Controller** (`src/Controller/UsuariosController.php`):
 
-   ```php
-   namespace App\Controller;
+ ```php
+ namespace App\Controller;
 
-   use App\Controller\AppController;
+ use App\Controller\AppController;
 
-   class UsuariosController extends AppController {
-       public function index() {
-           $usuarios = $this->paginate($this->Usuarios);
-           $this->set(compact('usuarios'));
-       }
+ class UsuariosController extends AppController {
+ public function index() {
+ $usuarios = $this->paginate($this->Usuarios);
+ $this->set(compact('usuarios'));
+ }
 
-       public function view($id = null) {
-           $usuario = $this->Usuarios->get($id);
-           $this->set(compact('usuario'));
-       }
+ public function view($id = null) {
+ $usuario = $this->Usuarios->get($id);
+ $this->set(compact('usuario'));
+ }
 
-       public function add() {
-           $usuario = $this->Usuarios->newEmptyEntity();
-           if ($this->request->is('post')) {
-               $usuario = $this->Usuarios->patchEntity($usuario, $this->request->getData());
-               if ($this->Usuarios->save($usuario)) {
-                   $this->Flash->success(__('O usuário foi salvo.'));
-                   return $this->redirect(['action' => 'index']);
-               }
-               $this->Flash->error(__('Não foi possível salvar o usuário.'));
-           }
-           $this->set(compact('usuario'));
-       }
-   }
-   ```
+ public function add() {
+ $usuario = $this->Usuarios->newEmptyEntity();
+ if ($this->request->is('post')) {
+ $usuario = $this->Usuarios->patchEntity($usuario, $this->request->getData());
+ if ($this->Usuarios->save($usuario)) {
+ $this->Flash->success(__('O usuário foi salvo.'));
+ return $this->redirect(['action' => 'index']);
+ }
+ $this->Flash->error(__('Não foi possível salvar o usuário.'));
+ }
+ $this->set(compact('usuario'));
+ }
+ }
+ ```
 
 4. **Criando Views** (`templates/Usuarios/index.php`, `view.php`, `add.php`):
 
-   ```php
-   <!-- templates/Usuarios/index.php -->
-   <h1>Usuários</h1>
-   <table>
-       <tr>
-           <th>ID</th>
-           <th>Nome</th>
-           <th>Ações</th>
-       </tr>
-       <?php foreach ($usuarios as $usuario): ?>
-       <tr>
-           <td><?= h($usuario->id) ?></td>
-           <td><?= h($usuario->nome) ?></td>
-           <td><?= $this->Html->link('Ver', ['action' => 'view', $usuario->id]) ?></td>
-       </tr>
-       <?php endforeach; ?>
-   </table>
-   ```
+ ```php
+ <!-- templates/Usuarios/index.php -->
+ <h1>Usuários</h1>
+ <table>
+ <tr>
+ <th>ID</th>
+ <th>Nome</th>
+ <th>Ações</th>
+ </tr>
+ <?php foreach ($usuarios as $usuario): ?>
+ <tr>
+ <td><?= h($usuario->id) ?></td>
+ <td><?= h($usuario->nome) ?></td>
+ <td><?= $this->Html->link('Ver', ['action' => 'view', $usuario->id]) ?></td>
+ </tr>
+ <?php endforeach; ?>
+ </table>
+ ```
 
 # 🟧 [PHP] Laravel
 <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="77" align="right">
@@ -712,7 +757,7 @@ Defina uma rota no arquivo `routes/web.php`:
 
 ```php
 Route::get('/', function () {
-    return view('welcome');
+return view('welcome');
 });
 ```
 
@@ -724,10 +769,10 @@ Crie uma view em `resources/views/welcome.blade.php`:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laravel</title>
+<title>Laravel</title>
 </head>
 <body>
-    <h1>Bem-vindo ao Laravel!</h1>
+<h1>Bem-vindo ao Laravel!</h1>
 </body>
 </html>
 ```
@@ -784,10 +829,10 @@ Crie um controlador em `application/controllers/Welcome.php`:
 <?php
 class Welcome extends CI_Controller {
 
-    public function index()
-    {
-        $this->load->view('welcome_message');
-    }
+public function index()
+{
+$this->load->view('welcome_message');
+}
 }
 ?>
 ```
@@ -802,10 +847,10 @@ Crie uma view em `application/views/welcome_message.php`:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to CodeIgniter</title>
+<title>Welcome to CodeIgniter</title>
 </head>
 <body>
-    <h1>Welcome to CodeIgniter!</h1>
+<h1>Welcome to CodeIgniter!</h1>
 </body>
 </html>
 ```
@@ -881,10 +926,10 @@ use Laminas\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
-    public function indexAction()
-    {
-        return new ViewModel();
-    }
+public function indexAction()
+{
+return new ViewModel();
+}
 }
 ```
 
@@ -912,7 +957,7 @@ php -S localhost:8000 -t public
 
 Acesse a aplicação no navegador em `http://localhost:8000`.
 
-  Benefícios do Uso do Zend Framework (Laminas Project)
+Benefícios do Uso do Zend Framework (Laminas Project)
 
 1. **Componentes Reutilizáveis**: Zend Framework (Laminas Project) oferece uma ampla gama de componentes reutilizáveis que podem ser usados em diferentes projetos, reduzindo a duplicação de código e promovendo a reutilização.
 
@@ -967,13 +1012,13 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HelloController
 {
-    /**
-     * @Route("/hello")
-     */
-    public function hello(): Response
-    {
-        return new Response('<html><body>Hello, World!</body></html>');
-    }
+/**
+ * @Route("/hello")
+ */
+public function hello(): Response
+{
+return new Response('<html><body>Hello, World!</body></html>');
+}
 }
 ```
 
@@ -984,8 +1029,8 @@ Defina uma rota no arquivo `config/routes.yaml`:
 ```yaml
 # config/routes.yaml
 hello:
-    path: /hello
-    controller: App\Controller\HelloController::hello
+path: /hello
+controller: App\Controller\HelloController::hello
 ```
 
 Executando o Servidor Web:
@@ -1095,10 +1140,10 @@ use yii\web\Controller;
 
 class SiteController extends Controller
 {
-    public function actionIndex()
-    {
-        return $this->render('index');
-    }
+public function actionIndex()
+{
+return $this->render('index');
+}
 }
 ```
 
@@ -1119,10 +1164,10 @@ use yii\db\ActiveRecord;
 
 class User extends ActiveRecord
 {
-    public static function tableName()
-    {
-        return 'user';
-    }
+public static function tableName()
+{
+return 'user';
+}
 }
 ```
 
@@ -1132,11 +1177,11 @@ No arquivo `config/db.php`, configure a conexão com o banco de dados:
 
 ```php
 return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=mydatabase',
-    'username' => 'root',
-    'password' => '',
-    'charset' => 'utf8',
+'class' => 'yii\db\Connection',
+'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+'username' => 'root',
+'password' => '',
+'charset' => 'utf8',
 ];
 ```
 
