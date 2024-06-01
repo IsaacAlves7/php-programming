@@ -409,6 +409,81 @@ Criando um Modelo, Controlador e View
 # 🟧 Laravel
 <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" height="77" align="right">
 
+O **Laravel** é um framework PHP de código aberto, elegante e expressivo, que oferece uma sintaxe simples e uma grande variedade de ferramentas poderosas para desenvolver aplicações web modernas e escaláveis. Ele foi criado por Taylor Otwell em 2011 e desde então tem ganhado popularidade rapidamente devido à sua facilidade de uso, documentação abrangente e robustez. O Laravel é um framework PHP moderno e robusto que oferece uma ampla gama de recursos e ferramentas poderosas para desenvolver aplicações web elegantes e escaláveis. Sua sintaxe expressiva, arquitetura MVC e ampla gama de funcionalidades integradas o tornam uma escolha popular para desenvolvedores de todos os níveis de habilidade.
+
+Principais Características do Laravel:
+
+1. **Expressivo e Elegante**: Laravel apresenta uma sintaxe limpa e expressiva que permite aos desenvolvedores escrever código de forma mais legível e produtiva.
+
+2. **Arquitetura MVC**: Laravel segue o padrão de design Model-View-Controller (MVC), o que ajuda a organizar o código de forma clara e separar a lógica de negócios da apresentação.
+
+3. **ORM Eloquent**: Laravel vem com Eloquent, um ORM (Object-Relational Mapping) intuitivo e fácil de usar, que simplifica a interação com o banco de dados, permitindo que os desenvolvedores trabalhem com bancos de dados usando objetos PHP.
+
+4. **Sistema de Rotas Simples**: O sistema de roteamento do Laravel permite definir rotas de maneira simples e intuitiva, tornando fácil direcionar URLs para controladores e métodos específicos.
+
+5. **Ferramentas de Migração de Banco de Dados**: Laravel oferece um sistema de migração de banco de dados que permite versionar facilmente o banco de dados da aplicação, permitindo que as alterações no esquema do banco de dados sejam controladas e compartilhadas com outros membros da equipe.
+
+6. **Ferramenta de Paginação**: O Laravel inclui uma poderosa ferramenta de paginação que permite dividir grandes conjuntos de dados em várias páginas para facilitar a navegação e melhorar o desempenho da aplicação.
+
+7. **Sistema de Cache**: Laravel oferece suporte a várias opções de cache, como cache de arquivo, cache de banco de dados, cache de memória e cache de Redis, o que pode ajudar a melhorar significativamente o desempenho da aplicação.
+
+8. **Autenticação e Autorização**: Laravel simplifica a implementação de autenticação e autorização, fornecendo um sistema completo de autenticação com suporte a registro de usuários, login, recuperação de senha e muito mais.
+
+9. **Notificações**: Laravel inclui um sistema de notificação flexível que permite enviar e-mails, SMS, notificações de push e outros tipos de notificações de forma fácil e intuitiva.
+
+Exemplo de Uso do Laravel:
+
+Instalação do Laravel:
+
+Para criar um novo projeto Laravel, você pode usar o Composer. Execute o seguinte comando no terminal:
+
+```bash
+composer create-project --prefer-dist laravel/laravel nome-do-projeto
+```
+
+Criando uma Rota:
+
+Defina uma rota no arquivo `routes/web.php`:
+
+```php
+Route::get('/', function () {
+    return view('welcome');
+});
+```
+
+Criando uma View:
+
+Crie uma view em `resources/views/welcome.blade.php`:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laravel</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Laravel!</h1>
+</body>
+</html>
+```
+
+Executando o Servidor de Desenvolvimento:
+
+Execute o servidor de desenvolvimento embutido usando o comando Artisan:
+
+```bash
+php artisan serve
+```
+
+Acesse a aplicação no navegador em `http://localhost:8000`.
+
+Benefícios do Uso do Laravel:
+
+1. **Produtividade**: Laravel simplifica muitas tarefas comuns do desenvolvimento web, permitindo que os desenvolvedores sejam mais produtivos e eficientes.
+2. **Comunidade Ativa**: Laravel tem uma grande comunidade de desenvolvedores ativos e uma vasta quantidade de recursos, incluindo documentação oficial, fóruns, pacotes de terceiros e muito mais.
+3. **Segurança**: Laravel inclui várias funcionalidades de segurança, como proteção contra ataques CSRF, SQL injection, XSS e autenticação integrada.
+4. **Manutenção Simples**: A estrutura organizada do Laravel e suas ferramentas integradas facilitam a manutenção e o crescimento contínuo da aplicação.
+
 # 🔥 CodeIgniter
 <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="77" align="right">
 
