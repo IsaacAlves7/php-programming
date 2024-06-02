@@ -123,10 +123,12 @@ echo 'Erro: ' . $e->getMessage();
 
 Neste exemplo, a conexão com o banco de dados é estabelecida usando o Data Source Name (DSN), o nome de usuário e a senha. Uma consulta SQL é preparada com um marcador de posição (`:id`), que é seguro contra injeções de SQL. A consulta é executada e os resultados são obtidos.
 
-## ⛵ [PHP] phpMyAdmin
+## [PHP] phpMyAdmin
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg" height="77" align="right">
 
 O **phpMyAdmin** é uma ferramenta de administração de bancos de dados MySQL e MariaDB baseada na web. Desenvolvida em PHP, ela oferece uma interface gráfica amigável para gerenciar e interagir com bancos de dados, facilitando tarefas que de outra forma exigiriam comandos SQL no terminal. phpMyAdmin é uma ferramenta poderosa e amplamente utilizada para a administração de bancos de dados MySQL e MariaDB. Sua interface gráfica acessível facilita tarefas administrativas complexas, tornando a gestão de bancos de dados mais eficiente e acessível para desenvolvedores e administradores de sistemas.
+
+> ⛵ Enquanto phpMyAdmin e pgAdmin têm funcionalidades muito semelhantes em termos de gerenciamento de banco de dados e execução de consultas SQL, cada uma é especializada em um DBMS diferente: phpMyAdmin para MySQL/MariaDB e pgAdmin para PostgreSQL. A escolha entre as duas ferramentas dependerá principalmente do sistema de gerenciamento de banco de dados que você está usando.
 
 Principais Características do phpMyAdmin:
 
