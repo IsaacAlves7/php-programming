@@ -171,10 +171,12 @@ Principais Características do phpMyAdmin:
  - Importar e exportar dados.
  - Gerenciar usuários e permissões.
 
-## ◢◤ [PHP] Linguagem Hack
+## [PHP] Linguagem Hack
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
 
 A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
+
+> ◢◤ Hack é uma linguagem poderosa desenvolvida para atender as necessidades de aplicações web de grande escala, oferecendo melhorias significativas em termos de tipagem, desempenho e manutenção de código. Grandes empresas de tecnologia como Facebook, Instagram, Slack, Wikimedia Foundation, e Automattic adotaram Hack para diversas partes de seus sistemas, aproveitando suas vantagens para criar aplicações mais robustas e escaláveis.
 
 Aqui estão algumas das principais características da linguagem Hack:
 
