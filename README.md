@@ -307,7 +307,99 @@ Considerações:
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
 
-# 📦 `composer`
+## [PHP] PECL - PHP Extension Community Library 
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/fa0048c4-fe29-4e2a-952e-6791d0ea944f" align="right" height="77">
+
+O **PECL - PHP Extension Community Library** é um repositório para extensões de PHP que são desenvolvidas em C, o que permite a extensão das funcionalidades do PHP além do que é fornecido pela instalação padrão. Aqui estão alguns pontos importantes sobre PECL:
+
+1. **Repositório de Extensões**: PECL é uma biblioteca centralizada onde desenvolvedores podem encontrar e instalar extensões PHP adicionais. Estas extensões podem fornecer funcionalidades diversas, desde melhorias de desempenho até integrações com bibliotecas e serviços externos.
+
+2. **Instalação de Extensões**: As extensões do PECL podem ser instaladas facilmente usando o comando `pecl`. Por exemplo, para instalar a extensão Swoole, você pode usar o seguinte comando:
+
+```bash
+pecl install swoole
+```
+
+3. **Gerenciamento de Extensões**: PECL facilita o gerenciamento de extensões PHP, permitindo que você instale, atualize e remova extensões conforme necessário. Algumas extensões populares disponíveis no PECL incluem:
+
+- **APCu**: Cache de usuário para PHP.
+- **Imagick**: Uma interface para a biblioteca de manipulação de imagens ImageMagick.
+- **Redis**: Cliente PHP para o banco de dados em memória Redis.
+
+4. **Configuração das Extensões**: Após instalar uma extensão via PECL, geralmente é necessário habilitá-la no arquivo de configuração do PHP (`php.ini`). Por exemplo, para habilitar a extensão Swoole, você adicionaria:
+
+```ini
+extension=swoole
+```
+
+5. **Exemplos de Uso do PECL**
+
+Instalação de Extensões: Para instalar uma extensão específica, como o `xdebug` para depuração:
+
+```bash
+pecl install xdebug
+```
+
+Listar Extensões Instaladas:
+
+Para listar todas as extensões instaladas via PECL:
+
+```bash
+pecl list
+```
+
+Atualizar Extensões:
+
+Para atualizar uma extensão instalada via PECL:
+
+```bash
+pecl upgrade swoole
+```
+
+Remover Extensões:
+
+Para desinstalar uma extensão:
+
+```bash
+pecl uninstall swoole
+```
+
+6. **Documentação e Suporte**:
+
+PECL fornece documentação abrangente e exemplos para cada extensão disponível, facilitando o processo de instalação e uso. Você pode visitar o site oficial do PECL para explorar todas as extensões disponíveis e suas respectivas documentações: [PECL](https://pecl.php.net/).
+
+## [PHP] Swoole
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/79f358b3-11f5-4749-a7ab-20bfd9f43c09" align="right" height="77">
+
+**Swoole** é uma extensão de PHP de alto desempenho que possibilita a criação de aplicativos web, APIs e serviços que podem lidar com um grande número de conexões simultâneas de forma eficiente. Aqui estão alguns dos principais aspectos e funcionalidades do Swoole:
+
+1. **Desempenho e Concurrência**:
+   - Swoole oferece uma arquitetura de I/O assíncrona e não bloqueante, similar ao Node.js, o que permite um manuseio eficiente de múltiplas conexões simultâneas.
+   - Ele utiliza corrotinas para facilitar a escrita de código assíncrono, tornando-o mais legível e mantendo um desempenho alto.
+
+2. **Servidor Web Integrado**:
+   - Swoole vem com um servidor web embutido que pode substituir servidores como Apache ou Nginx, permitindo que as aplicações PHP tratem solicitações diretamente.
+   - Isso reduz a latência e melhora a performance, já que elimina a necessidade de um intermediário entre o servidor web e o interpretador PHP.
+
+3. **Recursos Avançados**:
+   - **WebSockets**: Suporte nativo para comunicação WebSocket, permitindo a criação de aplicações em tempo real como chats e jogos multiplayer.
+   - **TCP/UDP**: Suporte a protocolos TCP e UDP, permitindo a construção de servidores personalizados e aplicações de rede.
+   - **Timers**: Suporte para temporizadores e tarefas agendadas, facilitando a execução de tarefas periódicas.
+   - **Processos e Threads**: Facilita a criação e gestão de processos e threads, útil para tarefas paralelas ou distribuídas.
+
+4. **Uso em Ambientes de Produção**:
+   - Swoole é amplamente utilizado em produção, suportando grandes sistemas de empresas como Alibaba, Tencent, e outras grandes corporações.
+   - Ele é conhecido por sua estabilidade e desempenho, mesmo em ambientes de alta carga.
+
+5. **Facilidade de Integração**:
+   - Swoole pode ser integrado a frameworks PHP existentes, como Laravel e Lumen, para melhorar o desempenho de APIs e serviços web.
+   - Existem pacotes e bibliotecas que facilitam essa integração, permitindo que os desenvolvedores aproveitem os benefícios do Swoole sem grandes mudanças na base de código existente.
+
+6. **Ecosistema Rico**:
+   - Swoole tem uma comunidade ativa e um conjunto crescente de bibliotecas e ferramentas que estendem sua funcionalidade.
+   - Ferramentas para depuração, monitoramento e gestão de corrotinas estão disponíveis para facilitar o desenvolvimento e a manutenção de aplicativos Swoole.
+
+# 📦 [PHP] `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
 O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
@@ -478,37 +570,6 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 "license": "MIT"
 }
 ```
-
-# [PHP] Swoole
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/79f358b3-11f5-4749-a7ab-20bfd9f43c09" align="right" height="77">
-
-**Swoole** é uma extensão de PHP de alto desempenho que possibilita a criação de aplicativos web, APIs e serviços que podem lidar com um grande número de conexões simultâneas de forma eficiente. Aqui estão alguns dos principais aspectos e funcionalidades do Swoole:
-
-1. **Desempenho e Concurrência**:
-   - Swoole oferece uma arquitetura de I/O assíncrona e não bloqueante, similar ao Node.js, o que permite um manuseio eficiente de múltiplas conexões simultâneas.
-   - Ele utiliza corrotinas para facilitar a escrita de código assíncrono, tornando-o mais legível e mantendo um desempenho alto.
-
-2. **Servidor Web Integrado**:
-   - Swoole vem com um servidor web embutido que pode substituir servidores como Apache ou Nginx, permitindo que as aplicações PHP tratem solicitações diretamente.
-   - Isso reduz a latência e melhora a performance, já que elimina a necessidade de um intermediário entre o servidor web e o interpretador PHP.
-
-3. **Recursos Avançados**:
-   - **WebSockets**: Suporte nativo para comunicação WebSocket, permitindo a criação de aplicações em tempo real como chats e jogos multiplayer.
-   - **TCP/UDP**: Suporte a protocolos TCP e UDP, permitindo a construção de servidores personalizados e aplicações de rede.
-   - **Timers**: Suporte para temporizadores e tarefas agendadas, facilitando a execução de tarefas periódicas.
-   - **Processos e Threads**: Facilita a criação e gestão de processos e threads, útil para tarefas paralelas ou distribuídas.
-
-4. **Uso em Ambientes de Produção**:
-   - Swoole é amplamente utilizado em produção, suportando grandes sistemas de empresas como Alibaba, Tencent, e outras grandes corporações.
-   - Ele é conhecido por sua estabilidade e desempenho, mesmo em ambientes de alta carga.
-
-5. **Facilidade de Integração**:
-   - Swoole pode ser integrado a frameworks PHP existentes, como Laravel e Lumen, para melhorar o desempenho de APIs e serviços web.
-   - Existem pacotes e bibliotecas que facilitam essa integração, permitindo que os desenvolvedores aproveitem os benefícios do Swoole sem grandes mudanças na base de código existente.
-
-6. **Ecosistema Rico**:
-   - Swoole tem uma comunidade ativa e um conjunto crescente de bibliotecas e ferramentas que estendem sua funcionalidade.
-   - Ferramentas para depuração, monitoramento e gestão de corrotinas estão disponíveis para facilitar o desenvolvimento e a manutenção de aplicativos Swoole.
 
 # ⬛ [PHP] Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
