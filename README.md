@@ -188,6 +188,67 @@ Aqui está um exemplo simples de código PHP que exibe "Hello, World!" em uma p�
 </html>
 ```
 
+## [PHP] PECL - PHP Extension Community Library 
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/fa0048c4-fe29-4e2a-952e-6791d0ea944f" align="right" height="77">
+
+O **PECL - PHP Extension Community Library** é um repositório para extensões de PHP que são desenvolvidas em C, o que permite a extensão das funcionalidades do PHP além do que é fornecido pela instalação padrão. Aqui estão alguns pontos importantes sobre PECL:
+
+1. **Repositório de Extensões**: PECL é uma biblioteca centralizada onde desenvolvedores podem encontrar e instalar extensões PHP adicionais. Estas extensões podem fornecer funcionalidades diversas, desde melhorias de desempenho até integrações com bibliotecas e serviços externos.
+
+2. **Instalação de Extensões**: As extensões do PECL podem ser instaladas facilmente usando o comando `pecl`. Por exemplo, para instalar a extensão Swoole, você pode usar o seguinte comando:
+
+```bash
+pecl install swoole
+```
+
+3. **Gerenciamento de Extensões**: PECL facilita o gerenciamento de extensões PHP, permitindo que você instale, atualize e remova extensões conforme necessário. Algumas extensões populares disponíveis no PECL incluem:
+
+- **APCu**: Cache de usuário para PHP.
+- **Imagick**: Uma interface para a biblioteca de manipulação de imagens ImageMagick.
+- **Redis**: Cliente PHP para o banco de dados em memória Redis.
+
+4. **Configuração das Extensões**: Após instalar uma extensão via PECL, geralmente é necessário habilitá-la no arquivo de configuração do PHP (`php.ini`). Por exemplo, para habilitar a extensão Swoole, você adicionaria:
+
+```ini
+extension=swoole
+```
+
+5. **Exemplos de Uso do PECL**
+
+Instalação de Extensões: Para instalar uma extensão específica, como o `xdebug` para depuração:
+
+```bash
+pecl install xdebug
+```
+
+Listar Extensões Instaladas:
+
+Para listar todas as extensões instaladas via PECL:
+
+```bash
+pecl list
+```
+
+Atualizar Extensões:
+
+Para atualizar uma extensão instalada via PECL:
+
+```bash
+pecl upgrade swoole
+```
+
+Remover Extensões:
+
+Para desinstalar uma extensão:
+
+```bash
+pecl uninstall swoole
+```
+
+6. **Documentação e Suporte**:
+
+PECL fornece documentação abrangente e exemplos para cada extensão disponível, facilitando o processo de instalação e uso. Você pode visitar o site oficial do PECL para explorar todas as extensões disponíveis e suas respectivas documentações: [PECL](https://pecl.php.net/).
+
 # 📦 [PHP] `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
@@ -588,67 +649,6 @@ Considerações:
 
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
-
-## [PHP] PECL - PHP Extension Community Library 
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/fa0048c4-fe29-4e2a-952e-6791d0ea944f" align="right" height="77">
-
-O **PECL - PHP Extension Community Library** é um repositório para extensões de PHP que são desenvolvidas em C, o que permite a extensão das funcionalidades do PHP além do que é fornecido pela instalação padrão. Aqui estão alguns pontos importantes sobre PECL:
-
-1. **Repositório de Extensões**: PECL é uma biblioteca centralizada onde desenvolvedores podem encontrar e instalar extensões PHP adicionais. Estas extensões podem fornecer funcionalidades diversas, desde melhorias de desempenho até integrações com bibliotecas e serviços externos.
-
-2. **Instalação de Extensões**: As extensões do PECL podem ser instaladas facilmente usando o comando `pecl`. Por exemplo, para instalar a extensão Swoole, você pode usar o seguinte comando:
-
-```bash
-pecl install swoole
-```
-
-3. **Gerenciamento de Extensões**: PECL facilita o gerenciamento de extensões PHP, permitindo que você instale, atualize e remova extensões conforme necessário. Algumas extensões populares disponíveis no PECL incluem:
-
-- **APCu**: Cache de usuário para PHP.
-- **Imagick**: Uma interface para a biblioteca de manipulação de imagens ImageMagick.
-- **Redis**: Cliente PHP para o banco de dados em memória Redis.
-
-4. **Configuração das Extensões**: Após instalar uma extensão via PECL, geralmente é necessário habilitá-la no arquivo de configuração do PHP (`php.ini`). Por exemplo, para habilitar a extensão Swoole, você adicionaria:
-
-```ini
-extension=swoole
-```
-
-5. **Exemplos de Uso do PECL**
-
-Instalação de Extensões: Para instalar uma extensão específica, como o `xdebug` para depuração:
-
-```bash
-pecl install xdebug
-```
-
-Listar Extensões Instaladas:
-
-Para listar todas as extensões instaladas via PECL:
-
-```bash
-pecl list
-```
-
-Atualizar Extensões:
-
-Para atualizar uma extensão instalada via PECL:
-
-```bash
-pecl upgrade swoole
-```
-
-Remover Extensões:
-
-Para desinstalar uma extensão:
-
-```bash
-pecl uninstall swoole
-```
-
-6. **Documentação e Suporte**:
-
-PECL fornece documentação abrangente e exemplos para cada extensão disponível, facilitando o processo de instalação e uso. Você pode visitar o site oficial do PECL para explorar todas as extensões disponíveis e suas respectivas documentações: [PECL](https://pecl.php.net/).
 
 ## [PHP] Swoole
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/79f358b3-11f5-4749-a7ab-20bfd9f43c09" align="right" height="77">
