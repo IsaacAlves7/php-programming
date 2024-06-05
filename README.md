@@ -682,6 +682,8 @@ PECL fornece documentação abrangente e exemplos para cada extensão disponíve
    - Ferramentas para depuração, monitoramento e gestão de corrotinas estão disponíveis para facilitar o desenvolvimento e a manutenção de aplicativos Swoole.
 
 ## [PHP] HyperF
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/dd378f17-338b-49d9-b61f-0c6586be455b" align="right" height="77">
+
 O **HyperF** é um framework PHP de alta performance projetado para construir serviços de microserviços, APIs RESTful e aplicações web de grande escala. Ele utiliza corrotinas (também conhecidas como "green threads" ou "lightweight threads") para lidar com operações de I/O assíncronas de maneira eficiente. Aqui estão alguns pontos-chave sobre o HyperF:
 
 1. **Desempenho e Escalabilidade**:
