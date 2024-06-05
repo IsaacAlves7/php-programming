@@ -78,6 +78,178 @@ Aqui está um exemplo simples de código PHP que exibe "Hello, World!" em uma p�
 </html>
 ```
 
+# 📦 [PHP] `composer`
+<a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
+
+O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
+
+O Composer é similar ao NPM, PIP ou Gem, ambos são gerenciadores de pacotes: Composer é usado para gerenciar dependências em projetos PHP, enquanto NPM (Node Package Manager) é utilizado para projetos JavaScript. Eles facilitam a instalação, atualização e gestão de bibliotecas e pacotes de software, garantindo que as dependências de um projeto estejam corretamente configuradas e atualizadas. 
+
+NPM pode ser utilizado junto com Composer, embora NPM seja destinado a gerenciar pacotes JavaScript e Composer a pacotes PHP, ambos podem coexistir no mesmo projeto, especialmente em aplicações web onde você pode ter uma combinação de back-end PHP e front-end JavaScript. No back-end, em uma arquitetura N-Tier (Arquitetura em Camadas), é perfeitamente viável ter uma API em PHP gerenciada pelo Composer coexistindo ao lado de uma API em Node.js gerenciada pelo NPM. Cada camada ou serviço na arquitetura pode ser implementado usando diferentes tecnologias e gerenciadores de pacotes, contanto que eles se comuniquem de maneira eficiente e mantenham a separação de responsabilidades.
+
+Principais Funcionalidades do Composer:
+
+1. **Gerenciamento de Dependências**: Composer permite que você defina as dependências do seu projeto em um arquivo chamado `composer.json`. Ele resolve automaticamente as dependências, baixa e instala as bibliotecas necessárias.
+
+2. **Autoloading**: Composer gera automaticamente um autoloader que permite carregar as classes das bibliotecas instaladas sem a necessidade de manualmente incluir os arquivos PHP, facilitando a organização e estruturação do código.
+
+3. **Repositório Packagist**: Composer utiliza o Packagist, um repositório público onde desenvolvedores podem compartilhar e encontrar bibliotecas PHP. Você pode facilmente buscar e instalar pacotes do Packagist em seu projeto.
+
+4. **Versões e Restrições de Versão**: Composer permite especificar versões específicas ou intervalos de versões para suas dependências, garantindo que o seu projeto use versões compatíveis e estáveis das bibliotecas.
+
+5. **Scripts**: Composer permite definir scripts que podem ser executados em certos momentos do ciclo de vida do projeto, como antes ou depois da instalação de pacotes.
+
+Como Usar o Composer:
+
+Aqui está um guia básico sobre como instalar e usar o Composer em um projeto PHP.
+
+Instalação do Composer:
+
+Você pode instalar o <a href="https://youtu.be/XO5VFfiqOPI">Composer</a> globalmente no seu sistema ou localmente no seu projeto. Aqui está um exemplo de instalação global:
+
+```sh
+# Download e instalação do Composer
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+# Movendo o Composer para um diretório acessível globalmente
+mv composer.phar /usr/local/bin/composer
+```
+
+Inicializando um Projeto com Composer:
+
+1. **Criar um Arquivo `composer.json`**: Você pode criar este arquivo manualmente ou usando o comando `composer init`, que guia você na criação do arquivo.
+
+```sh
+composer init
+```
+
+2. **Adicionar Dependências**: Adicione dependências ao seu projeto. Por exemplo, para adicionar a biblioteca `monolog/monolog`:
+
+```sh
+composer require monolog/monolog
+```
+
+Este comando atualiza o arquivo `composer.json` e cria (ou atualiza) o arquivo `composer.lock`, além de baixar e instalar as bibliotecas necessárias na pasta `vendor`.
+
+3. **Atualizar Dependências**: Para atualizar todas as dependências para as versões mais recentes permitidas pelo `composer.json`:
+
+```sh
+composer update
+```
+
+4. **Instalar Dependências**: Para instalar todas as dependências definidas no `composer.json` (útil quando você clona um projeto):
+
+```sh
+composer install
+```
+
+Exemplo de Arquivo `composer.json`:
+
+Aqui está um exemplo simples de um arquivo `composer.json`:
+
+```json
+{
+"name": "meuprojeto/exemplo",
+"description": "Um projeto de exemplo usando Composer",
+"require": {
+"monolog/monolog": "^2.0"
+},
+"autoload": {
+"psr-4": {
+"MeuProjeto\\": "src/"
+}
+}
+}
+```
+
+Usando o Autoload do Composer:
+
+Para usar o autoloader gerado pelo Composer, inclua o seguinte em seu arquivo principal PHP:
+
+```php
+require 'vendor/autoload.php';
+```
+
+Isso permite que você utilize as classes das bibliotecas instaladas sem precisar manualmente incluir cada arquivo.
+
+<img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="77" align="right">
+
+O **Packagist** é o principal repositório de pacotes para o gerenciador de dependências Composer, usado na linguagem PHP. Ele serve como um diretório central onde os desenvolvedores podem publicar, compartilhar e encontrar bibliotecas PHP que podem ser facilmente integradas em seus projetos através do Composer.
+
+Principais Características do Packagist:
+
+1. **Repositório Central**: Packagist é o repositório padrão que o Composer usa para buscar pacotes. Ele contém milhares de pacotes PHP disponíveis para uso.
+
+2. **Busca e Descoberta**: Através do site do Packagist, os desenvolvedores podem procurar pacotes por nome, descrição ou outros critérios, facilitando a descoberta de bibliotecas úteis para seus projetos.
+
+3. **Informações dos Pacotes**: Cada pacote no Packagist possui uma página dedicada com informações detalhadas, incluindo a descrição, versão, dependências, instruções de instalação e links para o código-fonte (geralmente hospedado no GitHub).
+
+4. **Automação de Atualizações**: Quando um novo release de um pacote é publicado em seu repositório de origem, o Packagist é automaticamente atualizado, garantindo que os desenvolvedores tenham acesso às versões mais recentes.
+
+5. **Integração com VCS**: Packagist se integra com sistemas de controle de versão (VCS) como GitHub, Bitbucket e GitLab, permitindo que os pacotes sejam atualizados automaticamente quando novas versões são lançadas.
+
+Aqui está um guia básico sobre como usar o Packagist junto com o Composer:
+
+1. **Buscar um Pacote no Packagist**:
+ - Acesse o [site do Packagist](https://packagist.org/).
+ - Use a barra de busca para encontrar pacotes por nome ou palavras-chave.
+
+2. **Adicionar um Pacote ao seu Projeto**:
+ - Após encontrar o pacote desejado, você verá instruções de instalação que podem ser usadas com Composer. Por exemplo, para instalar o pacote `monolog/monolog`:
+ ```sh
+ composer require monolog/monolog
+ ```
+
+3. **Configurar o Autoloading**:
+ 
+ - Após a instalação, você deve incluir o autoloader do Composer no seu arquivo PHP principal:
+
+ ```php
+ require 'vendor/autoload.php';
+ ```
+
+Para publicar seu próprio pacote no Packagist, siga estes passos:
+
+1. **Preparar o Projeto**:
+ - Certifique-se de que seu projeto possui um arquivo `composer.json` devidamente configurado.
+ - Empurre seu projeto para um repositório público no GitHub, GitLab, Bitbucket ou outro VCS suportado.
+
+2. **Registrar o Pacote no Packagist**:
+ - Acesse o [site do Packagist](https://packagist.org/).
+ - Faça login (ou crie uma conta, se necessário).
+ - Vá até a seção "Submit" e forneça a URL do repositório do seu projeto.
+ - Packagist irá buscar seu `composer.json` e registrar o pacote.
+
+3. **Manter o Pacote Atualizado**:
+ - Sempre que você lançar uma nova versão do seu pacote, o Packagist será automaticamente atualizado se você configurar hooks do GitHub/GitLab/Bitbucket. Caso contrário, você pode atualizar manualmente através do Packagist.
+
+Exemplo de um Arquivo `composer.json` para um Projeto:
+
+```json
+{
+"name": "meuusuario/meupacote",
+"description": "Um pacote de exemplo",
+"type": "library",
+"require": {
+"php": "^7.4 || ^8.0"
+},
+"autoload": {
+"psr-4": {
+"MeuNamespace\\": "src/"
+}
+},
+"authors": [
+{
+"name": "Seu Nome",
+"email": "seuemail@example.com"
+}
+],
+"license": "MIT"
+}
+```
+
 ## [PHP] PDO - PHP Data Objects
 O **PDO** (PHP Data Objects) é uma extensão da linguagem PHP que fornece uma interface para acessar bancos de dados. A principal vantagem do PDO é sua capacidade de trabalhar com múltiplos sistemas de gerenciamento de banco de dados (SGBD) de forma consistente e segura, sem que o desenvolvedor precise modificar o código de sua aplicação ao trocar de SGBD. PDO é uma ferramenta poderosa para desenvolvedores PHP que precisam de flexibilidade e segurança ao interagir com bancos de dados.
 
@@ -399,177 +571,73 @@ PECL fornece documentação abrangente e exemplos para cada extensão disponíve
    - Swoole tem uma comunidade ativa e um conjunto crescente de bibliotecas e ferramentas que estendem sua funcionalidade.
    - Ferramentas para depuração, monitoramento e gestão de corrotinas estão disponíveis para facilitar o desenvolvimento e a manutenção de aplicativos Swoole.
 
-# 📦 [PHP] `composer`
-<a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
+## [PHP] HyperF
+O **HyperF** é um framework PHP de alta performance projetado para construir serviços de microserviços, APIs RESTful e aplicações web de grande escala. Ele utiliza corrotinas (também conhecidas como "green threads" ou "lightweight threads") para lidar com operações de I/O assíncronas de maneira eficiente. Aqui estão alguns pontos-chave sobre o HyperF:
 
-O **Composer** é um gerenciador de dependências para a linguagem PHP. Ele permite que você declare as bibliotecas das quais o seu projeto depende e as gerencia (instala e atualiza) para você. Composer é amplamente utilizado na comunidade PHP para facilitar a inclusão e o gerenciamento de pacotes e bibliotecas de terceiros em projetos. Composer é uma ferramenta essencial para desenvolvedores PHP modernos, simplificando a gestão de dependências e promovendo melhores práticas de desenvolvimento. Ele facilita a integração de bibliotecas externas e ajuda a manter o projeto organizado e fácil de manter.
+1. **Desempenho e Escalabilidade**:
 
-O Composer é similar ao NPM, PIP ou Gem, ambos são gerenciadores de pacotes: Composer é usado para gerenciar dependências em projetos PHP, enquanto NPM (Node Package Manager) é utilizado para projetos JavaScript. Eles facilitam a instalação, atualização e gestão de bibliotecas e pacotes de software, garantindo que as dependências de um projeto estejam corretamente configuradas e atualizadas. 
+- **Corrotinas**: HyperF utiliza corrotinas para permitir operações assíncronas, que são mais eficientes em termos de desempenho em comparação com operações síncronas tradicionais. Isso permite ao HyperF manipular muitas conexões simultâneas sem sobrecarregar os recursos do servidor.
+- **Baseado no Swoole**: HyperF é construído sobre o Swoole, uma extensão PHP que proporciona capacidades de servidor assíncrono de alto desempenho. Isso permite ao HyperF herdar a eficiência e escalabilidade do Swoole.
 
-NPM pode ser utilizado junto com Composer, embora NPM seja destinado a gerenciar pacotes JavaScript e Composer a pacotes PHP, ambos podem coexistir no mesmo projeto, especialmente em aplicações web onde você pode ter uma combinação de back-end PHP e front-end JavaScript. No back-end, em uma arquitetura N-Tier (Arquitetura em Camadas), é perfeitamente viável ter uma API em PHP gerenciada pelo Composer coexistindo ao lado de uma API em Node.js gerenciada pelo NPM. Cada camada ou serviço na arquitetura pode ser implementado usando diferentes tecnologias e gerenciadores de pacotes, contanto que eles se comuniquem de maneira eficiente e mantenham a separação de responsabilidades.
+2. **Desenvolvimento Orientado a Microserviços**:
 
-Principais Funcionalidades do Composer:
+- **Modularidade**: HyperF é projetado para ser modular, facilitando a construção e manutenção de sistemas de microserviços. Cada componente ou serviço pode ser desenvolvido, testado e implantado independentemente.
+- **Comunicação Inter-serviços**: O framework oferece suporte para várias formas de comunicação entre serviços, incluindo RPC (Remote Procedure Call), RESTful APIs, e WebSockets.
 
-1. **Gerenciamento de Dependências**: Composer permite que você defina as dependências do seu projeto em um arquivo chamado `composer.json`. Ele resolve automaticamente as dependências, baixa e instala as bibliotecas necessárias.
+3. **Ferramentas e Funcionalidades Avançadas**:
 
-2. **Autoloading**: Composer gera automaticamente um autoloader que permite carregar as classes das bibliotecas instaladas sem a necessidade de manualmente incluir os arquivos PHP, facilitando a organização e estruturação do código.
+- **Dependency Injection (DI)**: HyperF possui um container de injeção de dependência robusto, que facilita a gestão de dependências e promove um código mais limpo e modular.
+- **Middleware**: Suporte para middleware, permitindo a implementação de funcionalidades transversais como autenticação, autorização, logging, etc.
+- **Task Workers**: Suporte para tarefas assíncronas e jobs em background, permitindo a execução de tarefas demoradas fora do fluxo principal de execução.
 
-3. **Repositório Packagist**: Composer utiliza o Packagist, um repositório público onde desenvolvedores podem compartilhar e encontrar bibliotecas PHP. Você pode facilmente buscar e instalar pacotes do Packagist em seu projeto.
+4. **Suporte a Múltiplos Protocolos**:
 
-4. **Versões e Restrições de Versão**: Composer permite especificar versões específicas ou intervalos de versões para suas dependências, garantindo que o seu projeto use versões compatíveis e estáveis das bibliotecas.
+- **HTTP/HTTPS**: Suporte nativo para servidores HTTP/HTTPS, facilitando a construção de APIs RESTful.
+- **WebSockets**: Suporte para WebSockets, permitindo a construção de aplicações em tempo real como chats, jogos multiplayer, etc.
+- **gRPC**: Suporte para gRPC, facilitando a comunicação eficiente entre serviços em diferentes linguagens.
 
-5. **Scripts**: Composer permite definir scripts que podem ser executados em certos momentos do ciclo de vida do projeto, como antes ou depois da instalação de pacotes.
+5. **Facilidade de Integração**:
 
-Como Usar o Composer:
+- **Compatibilidade**: HyperF pode ser facilmente integrado com bibliotecas e frameworks PHP existentes. Isso permite a reutilização de componentes existentes e uma transição suave para projetos já em andamento.
+- **Ecosistema**: O HyperF tem um ecossistema crescente com suporte a várias bibliotecas e ferramentas que estendem suas funcionalidades, como bibliotecas de ORM, clientes de cache, e ferramentas de monitoramento.
 
-Aqui está um guia básico sobre como instalar e usar o Composer em um projeto PHP.
+6. **Instalação e Uso Básico**:
 
-Instalação do Composer:
+Você pode instalar o HyperF utilizando o Composer:
 
-Você pode instalar o <a href="https://youtu.be/XO5VFfiqOPI">Composer</a> globalmente no seu sistema ou localmente no seu projeto. Aqui está um exemplo de instalação global:
-
-```sh
-# Download e instalação do Composer
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-
-# Movendo o Composer para um diretório acessível globalmente
-mv composer.phar /usr/local/bin/composer
+```bash
+composer create-project hyperf/hyperf-skeleton my_project
 ```
 
-Inicializando um Projeto com Composer:
-
-1. **Criar um Arquivo `composer.json`**: Você pode criar este arquivo manualmente ou usando o comando `composer init`, que guia você na criação do arquivo.
-
-```sh
-composer init
-```
-
-2. **Adicionar Dependências**: Adicione dependências ao seu projeto. Por exemplo, para adicionar a biblioteca `monolog/monolog`:
-
-```sh
-composer require monolog/monolog
-```
-
-Este comando atualiza o arquivo `composer.json` e cria (ou atualiza) o arquivo `composer.lock`, além de baixar e instalar as bibliotecas necessárias na pasta `vendor`.
-
-3. **Atualizar Dependências**: Para atualizar todas as dependências para as versões mais recentes permitidas pelo `composer.json`:
-
-```sh
-composer update
-```
-
-4. **Instalar Dependências**: Para instalar todas as dependências definidas no `composer.json` (útil quando você clona um projeto):
-
-```sh
-composer install
-```
-
-Exemplo de Arquivo `composer.json`:
-
-Aqui está um exemplo simples de um arquivo `composer.json`:
-
-```json
-{
-"name": "meuprojeto/exemplo",
-"description": "Um projeto de exemplo usando Composer",
-"require": {
-"monolog/monolog": "^2.0"
-},
-"autoload": {
-"psr-4": {
-"MeuProjeto\\": "src/"
-}
-}
-}
-```
-
-Usando o Autoload do Composer:
-
-Para usar o autoloader gerado pelo Composer, inclua o seguinte em seu arquivo principal PHP:
+Aqui está um exemplo básico de um servidor HTTP com HyperF:
 
 ```php
-require 'vendor/autoload.php';
+<?php
+
+declare(strict_types=1);
+
+use Hyperf\HttpServer\Router\Router;
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+Router::get('/', function () {
+    return 'Hello, HyperF!';
+});
+
+Router::get('/user/{id}', 'App\Controller\UserController@show');
+
+Hyperf\Di\ClassLoader::init();
+Hyperf\HttpServer\Server::init();
 ```
 
-Isso permite que você utilize as classes das bibliotecas instaladas sem precisar manualmente incluir cada arquivo.
+Executar o Servidor:
 
-<img src="https://www.pngkey.com/png/full/178-1787579_in-this-section-we-will-create-a-php.png" height="77" align="right">
+Para iniciar o servidor HyperF, você pode usar o comando:
 
-O **Packagist** é o principal repositório de pacotes para o gerenciador de dependências Composer, usado na linguagem PHP. Ele serve como um diretório central onde os desenvolvedores podem publicar, compartilhar e encontrar bibliotecas PHP que podem ser facilmente integradas em seus projetos através do Composer.
-
-Principais Características do Packagist:
-
-1. **Repositório Central**: Packagist é o repositório padrão que o Composer usa para buscar pacotes. Ele contém milhares de pacotes PHP disponíveis para uso.
-
-2. **Busca e Descoberta**: Através do site do Packagist, os desenvolvedores podem procurar pacotes por nome, descrição ou outros critérios, facilitando a descoberta de bibliotecas úteis para seus projetos.
-
-3. **Informações dos Pacotes**: Cada pacote no Packagist possui uma página dedicada com informações detalhadas, incluindo a descrição, versão, dependências, instruções de instalação e links para o código-fonte (geralmente hospedado no GitHub).
-
-4. **Automação de Atualizações**: Quando um novo release de um pacote é publicado em seu repositório de origem, o Packagist é automaticamente atualizado, garantindo que os desenvolvedores tenham acesso às versões mais recentes.
-
-5. **Integração com VCS**: Packagist se integra com sistemas de controle de versão (VCS) como GitHub, Bitbucket e GitLab, permitindo que os pacotes sejam atualizados automaticamente quando novas versões são lançadas.
-
-Aqui está um guia básico sobre como usar o Packagist junto com o Composer:
-
-1. **Buscar um Pacote no Packagist**:
- - Acesse o [site do Packagist](https://packagist.org/).
- - Use a barra de busca para encontrar pacotes por nome ou palavras-chave.
-
-2. **Adicionar um Pacote ao seu Projeto**:
- - Após encontrar o pacote desejado, você verá instruções de instalação que podem ser usadas com Composer. Por exemplo, para instalar o pacote `monolog/monolog`:
- ```sh
- composer require monolog/monolog
- ```
-
-3. **Configurar o Autoloading**:
- 
- - Após a instalação, você deve incluir o autoloader do Composer no seu arquivo PHP principal:
-
- ```php
- require 'vendor/autoload.php';
- ```
-
-Para publicar seu próprio pacote no Packagist, siga estes passos:
-
-1. **Preparar o Projeto**:
- - Certifique-se de que seu projeto possui um arquivo `composer.json` devidamente configurado.
- - Empurre seu projeto para um repositório público no GitHub, GitLab, Bitbucket ou outro VCS suportado.
-
-2. **Registrar o Pacote no Packagist**:
- - Acesse o [site do Packagist](https://packagist.org/).
- - Faça login (ou crie uma conta, se necessário).
- - Vá até a seção "Submit" e forneça a URL do repositório do seu projeto.
- - Packagist irá buscar seu `composer.json` e registrar o pacote.
-
-3. **Manter o Pacote Atualizado**:
- - Sempre que você lançar uma nova versão do seu pacote, o Packagist será automaticamente atualizado se você configurar hooks do GitHub/GitLab/Bitbucket. Caso contrário, você pode atualizar manualmente através do Packagist.
-
-Exemplo de um Arquivo `composer.json` para um Projeto:
-
-```json
-{
-"name": "meuusuario/meupacote",
-"description": "Um pacote de exemplo",
-"type": "library",
-"require": {
-"php": "^7.4 || ^8.0"
-},
-"autoload": {
-"psr-4": {
-"MeuNamespace\\": "src/"
-}
-},
-"authors": [
-{
-"name": "Seu Nome",
-"email": "seuemail@example.com"
-}
-],
-"license": "MIT"
-}
+```bash
+php bin/hyperf.php start
 ```
+
 
 # ⬛ [PHP] Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
