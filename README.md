@@ -1174,6 +1174,25 @@ Benefícios do Uso do Laravel:
 3. **Segurança**: Laravel inclui várias funcionalidades de segurança, como proteção contra ataques CSRF, SQL injection, XSS e autenticação integrada.
 4. **Manutenção Simples**: A estrutura organizada do Laravel e suas ferramentas integradas facilitam a manutenção e o crescimento contínuo da aplicação.
 
+## [PHP] Laradock
+
+## [PHP] Lumen
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/30ff36eb-9402-43a6-9f9a-48daf6d8f1c1" align="right" height="77">
+
+**Lumen** é um micro framework PHP desenvolvido pela equipe do Laravel. Ele é projetado para ser rápido e leve, focado em fornecer uma base eficiente para a criação de APIs e micro serviços. Em resumo, Lumen é uma excelente escolha para desenvolvedores que precisam construir APIs rápidas e eficientes sem a sobrecarga de um framework completo como o Laravel. Ele oferece a flexibilidade e a simplicidade necessárias para pequenos projetos ou micro serviços, com a vantagem de poder escalar facilmente para Laravel conforme as necessidades evoluem.
+
+Aqui estão alguns pontos chave sobre Lumen:
+
+1. **Baseado no Laravel**: Lumen é essencialmente uma versão simplificada do Laravel, projetada para desempenho e simplicidade. Ele compartilha a maior parte do código base com o Laravel, o que facilita a migração de um projeto Lumen para Laravel se necessidades mais complexas surgirem.
+
+2. **Performance**: Lumen é otimizado para velocidade, sendo uma escolha ideal para aplicativos que requerem alta performance, como APIs RESTful. Sua estrutura minimalista reduz a sobrecarga, permitindo tempos de resposta mais rápidos.
+
+3. **Fácil de usar**: Apesar de ser mais leve, Lumen mantém a filosofia do Laravel de proporcionar uma experiência de desenvolvimento agradável e produtiva. Ele utiliza componentes familiares do Laravel, como Eloquent ORM, Middleware, e roteamento, mas de uma maneira mais simplificada.
+
+4. **Componentes e Funcionalidades**: Lumen vem com os componentes essenciais necessários para construir APIs e micro serviços, incluindo roteamento, middleware, filas de trabalho, e autenticação básica. No entanto, algumas funcionalidades mais avançadas do Laravel, como a interface gráfica do Artisan, não estão presentes por padrão.
+
+5. **Migração para Laravel**: Se um projeto começar em Lumen e, eventualmente, precisar de funcionalidades mais robustas, a migração para o Laravel é relativamente simples devido à sua compatibilidade e arquitetura compartilhada.
+
 # 🔥 [PHP] CodeIgniter
 <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" height="77" align="right">
 
