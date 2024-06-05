@@ -307,7 +307,6 @@ Considerações:
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
 
-
 # 📦 `composer`
 <a href="https://getcomposer.org/doc/00-intro.md"><img src="https://cdn.worldvectorlogo.com/logos/composer.svg" height="77" align="right"></a>
 
@@ -433,7 +432,9 @@ Aqui está um guia básico sobre como usar o Packagist junto com o Composer:
  ```
 
 3. **Configurar o Autoloading**:
+ 
  - Após a instalação, você deve incluir o autoloader do Composer no seu arquivo PHP principal:
+
  ```php
  require 'vendor/autoload.php';
  ```
@@ -477,6 +478,37 @@ Exemplo de um Arquivo `composer.json` para um Projeto:
 "license": "MIT"
 }
 ```
+
+# [PHP] Swoole
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/79f358b3-11f5-4749-a7ab-20bfd9f43c09" align="right" height="77">
+
+**Swoole** é uma extensão de PHP de alto desempenho que possibilita a criação de aplicativos web, APIs e serviços que podem lidar com um grande número de conexões simultâneas de forma eficiente. Aqui estão alguns dos principais aspectos e funcionalidades do Swoole:
+
+1. **Desempenho e Concurrência**:
+   - Swoole oferece uma arquitetura de I/O assíncrona e não bloqueante, similar ao Node.js, o que permite um manuseio eficiente de múltiplas conexões simultâneas.
+   - Ele utiliza corrotinas para facilitar a escrita de código assíncrono, tornando-o mais legível e mantendo um desempenho alto.
+
+2. **Servidor Web Integrado**:
+   - Swoole vem com um servidor web embutido que pode substituir servidores como Apache ou Nginx, permitindo que as aplicações PHP tratem solicitações diretamente.
+   - Isso reduz a latência e melhora a performance, já que elimina a necessidade de um intermediário entre o servidor web e o interpretador PHP.
+
+3. **Recursos Avançados**:
+   - **WebSockets**: Suporte nativo para comunicação WebSocket, permitindo a criação de aplicações em tempo real como chats e jogos multiplayer.
+   - **TCP/UDP**: Suporte a protocolos TCP e UDP, permitindo a construção de servidores personalizados e aplicações de rede.
+   - **Timers**: Suporte para temporizadores e tarefas agendadas, facilitando a execução de tarefas periódicas.
+   - **Processos e Threads**: Facilita a criação e gestão de processos e threads, útil para tarefas paralelas ou distribuídas.
+
+4. **Uso em Ambientes de Produção**:
+   - Swoole é amplamente utilizado em produção, suportando grandes sistemas de empresas como Alibaba, Tencent, e outras grandes corporações.
+   - Ele é conhecido por sua estabilidade e desempenho, mesmo em ambientes de alta carga.
+
+5. **Facilidade de Integração**:
+   - Swoole pode ser integrado a frameworks PHP existentes, como Laravel e Lumen, para melhorar o desempenho de APIs e serviços web.
+   - Existem pacotes e bibliotecas que facilitam essa integração, permitindo que os desenvolvedores aproveitem os benefícios do Swoole sem grandes mudanças na base de código existente.
+
+6. **Ecosistema Rico**:
+   - Swoole tem uma comunidade ativa e um conjunto crescente de bibliotecas e ferramentas que estendem sua funcionalidade.
+   - Ferramentas para depuração, monitoramento e gestão de corrotinas estão disponíveis para facilitar o desenvolvimento e a manutenção de aplicativos Swoole.
 
 # ⬛ [PHP] Bitnami
 <img src="https://cdn.worldvectorlogo.com/logos/bitnami.svg" height="77" align="right">
