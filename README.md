@@ -516,69 +516,6 @@ Principais Características do phpMyAdmin:
  - Importar e exportar dados.
  - Gerenciar usuários e permissões.
 
-## [PHP] Linguagem Hack
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
-
-A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
-
-> ◢◤ Hack é uma linguagem poderosa desenvolvida para atender as necessidades de aplicações web de grande escala, oferecendo melhorias significativas em termos de tipagem, desempenho e manutenção de código. Grandes empresas de tecnologia como Facebook, Instagram, Slack, Wikimedia Foundation, e Automattic adotaram Hack para diversas partes de seus sistemas, aproveitando suas vantagens para criar aplicações mais robustas e escaláveis.
-
-Aqui estão algumas das principais características da linguagem Hack:
-
-1. **Tipagem Estática**: Hack suporta tipagem estática opcional, permitindo que os desenvolvedores definam explicitamente os tipos de variáveis, parâmetros de funções e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de tempo de execução.
-
-2. **Inferência de Tipos**: Mesmo que a tipagem estática seja opcional, Hack pode inferir os tipos de muitas expressões automaticamente, reduzindo a necessidade de anotações explícitas.
-
-3. **Coleções**: Hack introduz coleções modernas (como `Vector`, `Map` e `Set`) que são mais consistentes e eficientes do que as arrays tradicionais do PHP.
-
-4. **Generics**: A linguagem suporta tipos genéricos, permitindo que as coleções e funções sejam definidas de maneira a trabalhar com qualquer tipo de dado, aumentando a reutilização de código e a segurança de tipos.
-
-5. **Async/Await**: Hack possui suporte nativo para programação assíncrona com `async` e `await`, facilitando a escrita de código assíncrono de maneira mais clara e menos propensa a erros.
-
-6. **Shapes**: Shapes são uma estrutura de dados flexível que permite definir e usar arrays associativos com uma verificação de tipos mais rigorosa.
-
-7. **Lambda Expressions**: Hack suporta funções anônimas (lambdas) que podem capturar variáveis do escopo externo, oferecendo uma maneira concisa de definir funções de curto prazo.
-
-8. **Modo Estrito**: O modo estrito (`strict mode`) do Hack exige que todas as variáveis e funções sejam anotadas com tipos, proporcionando um nível adicional de segurança e rigor na verificação de tipos.
-
-Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito em Hack:
-
-```hack
-<?hh // strict
-
-// Função que soma dois inteiros
-function soma(int $a, int $b): int {
-return $a + $b;
-}
-
-// Função que retorna uma mensagem de saudação
-function saudacao(string $nome): string {
-return "Olá, " . $nome;
-}
-
-// Exemplo de uso de coleções
-function exemploColecao(): void {
-$vec = Vector {1, 2, 3};
-foreach ($vec as $valor) {
-echo $valor . "\n";
-}
-}
-
-// Chamada das funções
-<<__EntryPoint>>
-function main(): void {
-echo soma(5, 10) . "\n";
-echo saudacao("Mundo") . "\n";
-exemploColecao();
-}
-```
-
-Neste exemplo:
-- A função `soma` aceita dois inteiros e retorna um inteiro.
-- A função `saudacao` aceita uma string e retorna uma string.
-- A função `exemploColecao` demonstra o uso de uma coleção `Vector`.
-- A anotação `<<__EntryPoint>>` define o ponto de entrada do script.
-
 ## [PHP] XHP
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/3fb6735f-42fc-4719-af56-cd762008d309" height="77" align="right">
 
@@ -649,6 +586,69 @@ Considerações:
 
 - **Manutenção**: A extensão XHP original não é mais mantida. Para projetos novos, considere usar Hack ou procurar por versões mantidas pela comunidade.
 - **Curva de Aprendizado**: Para desenvolvedores acostumados com a mistura tradicional de PHP e HTML, a adoção de XHP pode requerer uma curva de aprendizado inicial.
+
+## [PHP] Linguagem Hack
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" height="77" align="right">
+
+A linguagem **Hack** é uma linguagem de programação desenvolvida pela equipe do Facebook como uma extensão do PHP. Ela foi criada para melhorar a performance, a segurança e a produtividade do desenvolvimento em PHP, mantendo uma sintaxe familiar para os desenvolvedores PHP. Hack introduz várias características modernas e eficientes que não são nativas do PHP, oferecendo uma experiência de desenvolvimento mais robusta. Hack é uma linguagem poderosa que traz muitas melhorias em relação ao PHP tradicional, oferecendo um ambiente de desenvolvimento mais seguro e eficiente.
+
+> ◢◤ Hack é uma linguagem poderosa desenvolvida para atender as necessidades de aplicações web de grande escala, oferecendo melhorias significativas em termos de tipagem, desempenho e manutenção de código. Grandes empresas de tecnologia como Facebook, Instagram, Slack, Wikimedia Foundation, e Automattic adotaram Hack para diversas partes de seus sistemas, aproveitando suas vantagens para criar aplicações mais robustas e escaláveis.
+
+Aqui estão algumas das principais características da linguagem Hack:
+
+1. **Tipagem Estática**: Hack suporta tipagem estática opcional, permitindo que os desenvolvedores definam explicitamente os tipos de variáveis, parâmetros de funções e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de tempo de execução.
+
+2. **Inferência de Tipos**: Mesmo que a tipagem estática seja opcional, Hack pode inferir os tipos de muitas expressões automaticamente, reduzindo a necessidade de anotações explícitas.
+
+3. **Coleções**: Hack introduz coleções modernas (como `Vector`, `Map` e `Set`) que são mais consistentes e eficientes do que as arrays tradicionais do PHP.
+
+4. **Generics**: A linguagem suporta tipos genéricos, permitindo que as coleções e funções sejam definidas de maneira a trabalhar com qualquer tipo de dado, aumentando a reutilização de código e a segurança de tipos.
+
+5. **Async/Await**: Hack possui suporte nativo para programação assíncrona com `async` e `await`, facilitando a escrita de código assíncrono de maneira mais clara e menos propensa a erros.
+
+6. **Shapes**: Shapes são uma estrutura de dados flexível que permite definir e usar arrays associativos com uma verificação de tipos mais rigorosa.
+
+7. **Lambda Expressions**: Hack suporta funções anônimas (lambdas) que podem capturar variáveis do escopo externo, oferecendo uma maneira concisa de definir funções de curto prazo.
+
+8. **Modo Estrito**: O modo estrito (`strict mode`) do Hack exige que todas as variáveis e funções sejam anotadas com tipos, proporcionando um nível adicional de segurança e rigor na verificação de tipos.
+
+Exemplo de Código em Hack: Aqui está um exemplo simples de um script escrito em Hack:
+
+```hack
+<?hh // strict
+
+// Função que soma dois inteiros
+function soma(int $a, int $b): int {
+return $a + $b;
+}
+
+// Função que retorna uma mensagem de saudação
+function saudacao(string $nome): string {
+return "Olá, " . $nome;
+}
+
+// Exemplo de uso de coleções
+function exemploColecao(): void {
+$vec = Vector {1, 2, 3};
+foreach ($vec as $valor) {
+echo $valor . "\n";
+}
+}
+
+// Chamada das funções
+<<__EntryPoint>>
+function main(): void {
+echo soma(5, 10) . "\n";
+echo saudacao("Mundo") . "\n";
+exemploColecao();
+}
+```
+
+Neste exemplo:
+- A função `soma` aceita dois inteiros e retorna um inteiro.
+- A função `saudacao` aceita uma string e retorna uma string.
+- A função `exemploColecao` demonstra o uso de uma coleção `Vector`.
+- A anotação `<<__EntryPoint>>` define o ponto de entrada do script.
 
 ## [PHP] Swoole
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/79f358b3-11f5-4749-a7ab-20bfd9f43c09" align="right" height="77">
