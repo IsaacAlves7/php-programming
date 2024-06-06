@@ -750,7 +750,7 @@ Para iniciar o servidor HyperF, você pode usar o comando:
 php bin/hyperf.php start
 ```
 
-# 💡 LAMP stack
+# 💡 [PHP] LAMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/f1c3a634-c7f5-47fe-abea-74d844be6044" height="177" align="right">
 
 O **LAMP stack** é um conjunto de software utilizado para criar e gerenciar aplicações web dinâmicas. A sigla LAMP representa os quatro componentes principais da stack:
@@ -947,7 +947,7 @@ Benefícios do WAMP Server:
 3. **Desenvolvimento Ágil**:
    - Ao permitir que os desenvolvedores testem rapidamente suas aplicações localmente, o WAMP Server facilita o desenvolvimento ágil e iterativo.
 
-# 🕯️ LEMP stack
+# 🕯️ [PHP] LEMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/7fd7aabf-3f5e-4dd6-beef-95c69aa37b44" height="177" align="right">
 
 O **LEMP stack** é um conjunto de software usado para implantar e gerenciar aplicações web dinâmicas. A sigla LEMP representa os quatro componentes principais da stack:
@@ -1051,7 +1051,7 @@ Exemplo de Configuração do LEMP Stack
   sudo systemctl restart nginx
   ```
 
-# 🧨 LNPP stack
+# 🧨 [PHP] LNPP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/b0397152-d5fe-4a43-a79c-7d08f8e559bb" height="177" align="right">
 
 O **LNPP stack** é um conjunto de tecnologias usadas para desenvolver e implantar aplicações web dinâmicas. 
