@@ -1333,6 +1333,8 @@ Benefícios do Uso do Laravel:
 3. **Segurança**: Laravel inclui várias funcionalidades de segurança, como proteção contra ataques CSRF, SQL injection, XSS e autenticação integrada.
 4. **Manutenção Simples**: A estrutura organizada do Laravel e suas ferramentas integradas facilitam a manutenção e o crescimento contínuo da aplicação.
 
+## [PHP] Filament
+
 ## [PHP] Laradock
 
 ## [PHP] Lumen
