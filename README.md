@@ -1407,37 +1407,33 @@ Benefícios do Uso do CodeIgniter:
 
 **Zend Framework**, agora conhecido como **Laminas Project**, é um framework PHP de código aberto que oferece uma biblioteca robusta e escalável para o desenvolvimento de aplicações web e serviços RESTful. Foi inicialmente desenvolvido pela Zend Technologies, uma empresa conhecida por sua contribuição para o desenvolvimento do PHP. O framework foi lançado pela primeira vez em 2006 e tornou-se rapidamente uma das opções preferidas para desenvolvedores que buscam criar aplicações web profissionais e de alta qualidade. Zend Framework, agora conhecido como Laminas Project, é um framework PHP de código aberto que oferece uma biblioteca robusta e escalável para o desenvolvimento de aplicações web e serviços RESTful. Sua arquitetura modular, sua documentação abrangente e sua ampla gama de funcionalidades integradas o tornam uma excelente escolha para desenvolvedores que buscam uma solução flexível e poderosa para criar aplicações web de alta qualidade.
 
-<img src="https://github.com/IsaacAlves7/php/assets/61624336/b0c31f74-61ae-487a-a765-d968a2d9d72b" align="right" height="77">
-
 Principais Características do Zend Framework (Laminas Project):
 
-1. **Componentes Reutilizáveis**: Zend Framework é construído com base em um conjunto de mais de 60 componentes PHP independentes, que podem ser usados de forma independente ou combinados para criar aplicações web complexas.
+<img src="https://github.com/IsaacAlves7/php/assets/61624336/b0c31f74-61ae-487a-a765-d968a2d9d72b" align="right" height="77">
 
-2. **Arquitetura MVC**: Zend Framework segue o padrão de design Model-View-Controller (MVC), que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
+1. Componentes Reutilizáveis: Zend Framework é construído com base em um conjunto de mais de 60 componentes PHP independentes, que podem ser usados de forma independente ou combinados para criar aplicações web complexas.
 
-3. **Inversão de Controle (IoC)**: Zend Framework utiliza o padrão de design de Injeção de Dependência e Inversão de Controle (IoC) para promover a reutilização de código e a separação de preocupações.
+2. Arquitetura MVC: Zend Framework segue o padrão de design Model-View-Controller (MVC), que ajuda a organizar o código de maneira clara, separando a lógica de negócios (Model), a lógica de controle (Controller) e a apresentação (View).
 
-4. **Extensibilidade**: Zend Framework é altamente extensível e oferece suporte para plug-ins, eventos e filtros, permitindo que os desenvolvedores personalizem facilmente o comportamento do framework de acordo com as necessidades do projeto.
+3. Inversão de Controle (IoC): Zend Framework utiliza o padrão de design de Injeção de Dependência e Inversão de Controle (IoC) para promover a reutilização de código e a separação de preocupações.
 
-5. **Documentação Abrangente**: Zend Framework possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework, desde a instalação e configuração até o desenvolvimento avançado e as melhores práticas.
+4. Extensibilidade: Zend Framework é altamente extensível e oferece suporte para plug-ins, eventos e filtros, permitindo que os desenvolvedores personalizem facilmente o comportamento do framework de acordo com as necessidades do projeto.
 
-6. **Segurança Integrada**: Zend Framework inclui várias funcionalidades de segurança integradas, como proteção contra ataques CSRF, XSS e SQL injection, ajudando a proteger as aplicações contra vulnerabilidades comuns.
+5. Documentação Abrangente: Zend Framework possui uma documentação abrangente e bem escrita, que cobre todos os aspectos do framework, desde a instalação e configuração até o desenvolvimento avançado e as melhores práticas.
 
-7. **Desempenho e Escalabilidade**: Zend Framework é conhecido por seu desempenho rápido e escalabilidade, sendo uma escolha popular para o desenvolvimento de aplicações web de alto tráfego e missão crítica.
+6. Segurança Integrada: Zend Framework inclui várias funcionalidades de segurança integradas, como proteção contra ataques CSRF, XSS e SQL injection, ajudando a proteger as aplicações contra vulnerabilidades comuns.
+
+7. Desempenho e Escalabilidade: Zend Framework é conhecido por seu desempenho rápido e escalabilidade, sendo uma escolha popular para o desenvolvimento de aplicações web de alto tráfego e missão crítica.
 
 Exemplo de Uso do Zend Framework (Laminas Project):
 
-Instalação do Zend Framework (Laminas Project):
-
-A maneira mais comum de instalar o Zend Framework (Laminas Project) é usando o Composer. Execute o seguinte comando no terminal:
+1. Instalação do Zend Framework (Laminas Project): A maneira mais comum de instalar o Zend Framework (Laminas Project) é usando o Composer. Execute o seguinte comando no terminal:
 
 ```bash
 composer create-project laminas/laminas-mvc-skeleton nome-do-projeto
 ```
 
-Criando um Controlador:
-
-Crie um controlador em `module/Application/src/Controller/IndexController.php`:
+2. Criando um Controlador: Crie um controlador em `module/Application/src/Controller/IndexController.php`:
 
 ```php
 // module/Application/src/Controller/IndexController.php
@@ -1456,7 +1452,7 @@ return new ViewModel();
 }
 ```
 
-Criando uma View:
+3. Criando uma View:
 
 Crie uma view em `module/Application/view/application/index/index.phtml`:
 
@@ -1466,13 +1462,9 @@ Crie uma view em `module/Application/view/application/index/index.phtml`:
 <h1>Welcome to Zend Framework (Laminas Project)!</h1>
 ```
 
-Configurando as Rotas:
+4. Configurando as Rotas: O roteamento no Zend Framework (Laminas Project) é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
 
-O roteamento no Zend Framework (Laminas Project) é feito automaticamente com base no nome dos controladores e métodos. Não é necessário configurar rotas manualmente.
-
-Executando o Servidor Web:
-
-Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
+5. Executando o Servidor Web: Execute o servidor web embutido usando o seguinte comando na raiz do projeto:
 
 ```bash
 php -S localhost:8000 -t public
@@ -1480,7 +1472,7 @@ php -S localhost:8000 -t public
 
 Acesse a aplicação no navegador em `http://localhost:8000`.
 
-Benefícios do Uso do Zend Framework (Laminas Project)
+Benefícios do Uso do Zend Framework (Laminas Project):
 
 1. **Componentes Reutilizáveis**: Zend Framework (Laminas Project) oferece uma ampla gama de componentes reutilizáveis que podem ser usados em diferentes projetos, reduzindo a duplicação de código e promovendo a reutilização.
 
