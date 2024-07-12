@@ -19,43 +19,31 @@ PHP é uma linguagem de programação poderosa e versátil que desempenha um pap
 
 Características do PHP:
 
-1. **Simplicidade e Facilidade de Uso**:
-   - PHP é fácil de aprender e usar, especialmente para iniciantes. A sintaxe é simples e intuitiva.
+1. Simplicidade e Facilidade de Uso: PHP é fácil de aprender e usar, especialmente para iniciantes. A sintaxe é simples e intuitiva.
 
-2. **Código Aberto**:
-   - PHP é gratuito e tem uma vasta comunidade de desenvolvedores que contribuem para o seu desenvolvimento contínuo e suporte.
+2. Código Aberto: PHP é gratuito e tem uma vasta comunidade de desenvolvedores que contribuem para o seu desenvolvimento contínuo e suporte.
 
-3. **Integração com HTML**:
-   - PHP pode ser embutido diretamente no código HTML, o que facilita a criação de páginas web dinâmicas.
+3. Integração com HTML: PHP pode ser embutido diretamente no código HTML, o que facilita a criação de páginas web dinâmicas.
 
-4. **Compatibilidade Multiplataforma**:
-   - PHP é compatível com a maioria dos sistemas operacionais, incluindo Linux, Windows e macOS, e funciona com muitos servidores web, como Apache e Nginx.
+4. Compatibilidade Multiplataforma: PHP é compatível com a maioria dos sistemas operacionais, incluindo Linux, Windows e macOS, e funciona com muitos servidores web, como Apache e Nginx.
 
-5. **Ampla Compatibilidade de Bancos de Dados**:
-   - PHP oferece suporte a uma ampla variedade de bancos de dados, como MySQL, PostgreSQL, Oracle, SQLite, entre outros.
+6. Ampla Compatibilidade de Bancos de Dados: PHP oferece suporte a uma ampla variedade de bancos de dados, como MySQL, PostgreSQL, Oracle, SQLite, entre outros.
 
-6. **Bibliotecas e Frameworks**:
-   - PHP possui uma rica coleção de bibliotecas e frameworks, como Laravel, Symfony, CodeIgniter, e CakePHP, que facilitam e aceleram o desenvolvimento de aplicações.
+7. Bibliotecas e Frameworks: PHP possui uma rica coleção de bibliotecas e frameworks, como Laravel, Symfony, CodeIgniter, e CakePHP, que facilitam e aceleram o desenvolvimento de aplicações.
 
 Casos de Uso Importantes do PHP:
 
-1. **Desenvolvimento de Websites Dinâmicos**:
-   - PHP é amplamente utilizado para desenvolver websites dinâmicos e interativos. Ele pode gerar conteúdo dinâmico, manipular formulários, rastrear sessões e construir sistemas de gerenciamento de conteúdo (CMS).
+1. Desenvolvimento de Websites Dinâmicos: PHP é amplamente utilizado para desenvolver websites dinâmicos e interativos. Ele pode gerar conteúdo dinâmico, manipular formulários, rastrear sessões e construir sistemas de gerenciamento de conteúdo (CMS).
 
-2. **Sistemas de Gerenciamento de Conteúdo (CMS)**:
-   - Muitos dos CMS mais populares, como WordPress, Joomla e Drupal, são construídos em PHP. Eles permitem que os usuários criem e gerenciem facilmente sites com pouco ou nenhum conhecimento de programação.
+2. Sistemas de Gerenciamento de Conteúdo (CMS): Muitos dos CMS mais populares, como WordPress, Joomla e Drupal, são construídos em PHP. Eles permitem que os usuários criem e gerenciem facilmente sites com pouco ou nenhum conhecimento de programação.
 
-3. **E-commerce**:
-   - Plataformas de comércio eletrônico como Magento, OpenCart e PrestaShop são desenvolvidas em PHP, fornecendo ferramentas robustas para criar e gerenciar lojas online.
+3. E-commerce: Plataformas de comércio eletrônico como Magento, OpenCart e PrestaShop são desenvolvidas em PHP, fornecendo ferramentas robustas para criar e gerenciar lojas online.
 
-4. **Aplicações Web**:
-   - PHP é usado para desenvolver uma ampla gama de aplicações web, desde pequenos sites pessoais até grandes plataformas corporativas e redes sociais. Exemplo notável é o Facebook, que originalmente foi desenvolvido em PHP.
+4. Aplicações Web: PHP é usado para desenvolver uma ampla gama de aplicações web, desde pequenos sites pessoais até grandes plataformas corporativas e redes sociais. Exemplo notável é o Facebook, que originalmente foi desenvolvido em PHP.
 
-5. **APIs e Serviços Web**:
-   - PHP pode ser usado para criar APIs RESTful e serviços web, permitindo que diferentes aplicações se comuniquem e compartilhem dados.
+5. APIs e Serviços Web: PHP pode ser usado para criar APIs RESTful e serviços web, permitindo que diferentes aplicações se comuniquem e compartilhem dados.
 
-6. **Blogs e Fóruns**:
-   - PHP é a base de muitos sistemas de blog e fóruns, como WordPress (o sistema de blog mais popular do mundo) e phpBB.
+6. Blogs e Fóruns: PHP é a base de muitos sistemas de blog e fóruns, como WordPress (o sistema de blog mais popular do mundo) e phpBB.
 
 Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de **cliente** (não confunda com Client-Side). O principal papel de um servidor é fornecer algo de maneira centralizada, acabando com a necessidade de se ter um programa ou sistema instalado em cada equipamento de cada um dos usuários de uma empresa. Atualmente servidores são adotados para fornecer praticamente tudo que se consiga imaginar e esteja relacionado com computação.
 
