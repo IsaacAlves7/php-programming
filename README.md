@@ -15,9 +15,9 @@ O **PHP** (**H**ypertext **P**reprocessor, originalmente **P**ersonal **H**ome *
 
 PHP é uma linguagem de programação poderosa e versátil que desempenha um papel crucial no desenvolvimento web moderno. Sua simplicidade, suporte extensivo e comunidade ativa fazem dele uma escolha popular para uma ampla gama de aplicações, desde pequenos sites pessoais até grandes aplicações web corporativas. Seja para criar websites dinâmicos, sistemas de gerenciamento de conteúdo (CMS), plataformas de e-commerce ou APIs, PHP continua sendo uma ferramenta indispensável para desenvolvedores web em todo o mundo.
 
-<img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="77" align="right">
-
 Características do PHP:
+
+<img src="https://d1zviajkun9gxg.cloudfront.net/user/prod/2020/01/05/fastpages-892f9602-fc52-42e6-9e81-2ea8f1477f89.png" height="77" align="right">
 
 1. Simplicidade e Facilidade de Uso: PHP é fácil de aprender e usar, especialmente para iniciantes. A sintaxe é simples e intuitiva.
 
@@ -53,15 +53,15 @@ Como já aprendemos em sistemas distribuídos, um **servidor** é um software ou
 
 Principais Características do Bitnami:
 
-1. **Pacotes Prontos para Uso**: Bitnami oferece uma ampla variedade de pacotes de aplicativos prontos para uso, pré-configurados e empacotados com todas as dependências necessárias para executar o aplicativo de forma rápida e fácil.
+1. Pacotes Prontos para Uso: Bitnami oferece uma ampla variedade de pacotes de aplicativos prontos para uso, pré-configurados e empacotados com todas as dependências necessárias para executar o aplicativo de forma rápida e fácil.
 
-2. **Compatibilidade com Diferentes Plataformas**: Os aplicativos Bitnami estão disponíveis para várias plataformas, incluindo máquinas virtuais para VMware, VirtualBox e outros, contêineres Docker, instalações nativas para Windows, macOS e Linux, bem como serviços de nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e outras.
+2. Compatibilidade com Diferentes Plataformas: Os aplicativos Bitnami estão disponíveis para várias plataformas, incluindo máquinas virtuais para VMware, VirtualBox e outros, contêineres Docker, instalações nativas para Windows, macOS e Linux, bem como serviços de nuvem, como Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) e outras.
 
-3. **Facilidade de Implantação**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos com apenas alguns cliques, economizando tempo e esforço no processo de configuração e instalação.
+3. Facilidade de Implantação: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos com apenas alguns cliques, economizando tempo e esforço no processo de configuração e instalação.
 
-4. **Segurança e Manutenção**: Bitnami fornece atualizações regulares de segurança e patches para os aplicativos empacotados, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+4. Segurança e Manutenção: Bitnami fornece atualizações regulares de segurança e patches para os aplicativos empacotados, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
 
-5. **Suporte e Comunidade**: Bitnami oferece suporte técnico profissional para seus produtos, bem como uma comunidade ativa onde os usuários podem compartilhar conhecimentos, solucionar problemas e trocar experiências.
+5. Suporte e Comunidade: Bitnami oferece suporte técnico profissional para seus produtos, bem como uma comunidade ativa onde os usuários podem compartilhar conhecimentos, solucionar problemas e trocar experiências.
 
 Exemplo de Uso do Bitnami:
 
@@ -69,13 +69,13 @@ Um exemplo comum de uso do Bitnami seria implantar um servidor web Apache com Wo
 
 Benefícios do Uso do Bitnami:
 
-1. **Economia de Tempo e Esforço**: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos em minutos, economizando tempo e esforço no processo de configuração e instalação.
+1. Economia de Tempo e Esforço: Com os pacotes Bitnami, os usuários podem implantar aplicativos complexos em minutos, economizando tempo e esforço no processo de configuração e instalação.
 
-2. **Confiabilidade e Segurança**: Os aplicativos Bitnami são empacotados com todas as dependências necessárias e recebem atualizações regulares de segurança, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
+2. Confiabilidade e Segurança: Os aplicativos Bitnami são empacotados com todas as dependências necessárias e recebem atualizações regulares de segurança, garantindo que os usuários tenham acesso às versões mais recentes e seguras do software.
 
-3. **Flexibilidade e Escalabilidade**: Bitnami oferece suporte para uma variedade de plataformas e ambientes de implantação, permitindo que os usuários escolham a melhor opção para suas necessidades específicas.
+3. Flexibilidade e Escalabilidade: Bitnami oferece suporte para uma variedade de plataformas e ambientes de implantação, permitindo que os usuários escolham a melhor opção para suas necessidades específicas.
 
-4. **Suporte Profissional**: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
+4. Suporte Profissional: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
 
@@ -83,19 +83,19 @@ Benefícios do Uso do Bitnami:
 
 Principais Características do WordPress:
 
-1. **Fácil de Usar**: WordPress é conhecido por sua interface amigável e facilidade de uso, permitindo que até mesmo usuários sem conhecimentos técnicos criem e gerenciem sites com facilidade.
+1. Fácil de Usar: WordPress é conhecido por sua interface amigável e facilidade de uso, permitindo que até mesmo usuários sem conhecimentos técnicos criem e gerenciem sites com facilidade.
 
-2. **Extensível**: Com milhares de plugins e temas disponíveis, os usuários podem facilmente estender as funcionalidades e personalizar a aparência de seus sites sem a necessidade de programar.
+2. Extensível: Com milhares de plugins e temas disponíveis, os usuários podem facilmente estender as funcionalidades e personalizar a aparência de seus sites sem a necessidade de programar.
 
-3. **SEO-Friendly**: WordPress é otimizado para motores de busca (SEO) desde o início, ajudando os sites a obterem melhores classificações nos resultados de busca. Plugins adicionais de SEO podem melhorar ainda mais a visibilidade do site.
+3. SEO-Friendly: WordPress é otimizado para motores de busca (SEO) desde o início, ajudando os sites a obterem melhores classificações nos resultados de busca. Plugins adicionais de SEO podem melhorar ainda mais a visibilidade do site.
 
-4. **Comunidade Ativa**: WordPress possui uma grande comunidade de desenvolvedores e usuários que contribuem com plugins, temas, tutoriais e suporte, tornando a plataforma rica em recursos e constantemente atualizada.
+4. Comunidade Ativa: WordPress possui uma grande comunidade de desenvolvedores e usuários que contribuem com plugins, temas, tutoriais e suporte, tornando a plataforma rica em recursos e constantemente atualizada.
 
-5. **Gestão de Conteúdo**: Oferece um sistema robusto de gerenciamento de conteúdo, com suporte para publicações de blog, páginas estáticas, galerias de mídia, e muito mais.
+5. Gestão de Conteúdo: Oferece um sistema robusto de gerenciamento de conteúdo, com suporte para publicações de blog, páginas estáticas, galerias de mídia, e muito mais.
 
-6. **Segurança**: Embora seja alvo frequente de ataques devido à sua popularidade, WordPress possui medidas de segurança robustas e uma equipe dedicada para lançar atualizações e patches de segurança. Plugins adicionais de segurança podem ser instalados para reforçar ainda mais a proteção.
+6. Segurança: Embora seja alvo frequente de ataques devido à sua popularidade, WordPress possui medidas de segurança robustas e uma equipe dedicada para lançar atualizações e patches de segurança. Plugins adicionais de segurança podem ser instalados para reforçar ainda mais a proteção.
 
-7. **Multilinguagem**: WordPress oferece suporte para a criação de sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência localizada para visitantes de todo o mundo.
+7. Multilinguagem: WordPress oferece suporte para a criação de sites multilíngues, permitindo que os administradores criem conteúdo em vários idiomas e forneçam uma experiência localizada para visitantes de todo o mundo.
 
 Exemplo de Uso do WordPress:
 
@@ -117,11 +117,11 @@ Criando Conteúdo
 
 Benefícios do Uso do WordPress
 
-1. **Facilidade de Uso**: Interface intuitiva e amigável que permite fácil gerenciamento de conteúdo.
-2. **Flexibilidade e Personalização**: Grande variedade de temas e plugins para personalização sem necessidade de codificação.
-3. **SEO Integrado**: Recursos e plugins que ajudam na otimização para motores de busca.
-4. **Grande Comunidade e Suporte**: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
-5. **Segurança**: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
+1. Facilidade de Uso: Interface intuitiva e amigável que permite fácil gerenciamento de conteúdo.
+2. Flexibilidade e Personalização: Grande variedade de temas e plugins para personalização sem necessidade de codificação.
+3. SEO Integrado: Recursos e plugins que ajudam na otimização para motores de busca.
+4. Grande Comunidade e Suporte: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
+5. Segurança: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
 
 <img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
 
