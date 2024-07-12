@@ -752,68 +752,64 @@ O LAMP stack é uma combinação robusta e flexível de software de código aber
 
 Componentes do LAMP Stack:
 
-1. **Linux**:
-   - O sistema operacional sobre o qual o restante da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
+1. **L**inux: O sistema operacional sobre o qual o restante da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
 
-2. **Apache**:
-   - Um dos servidores web mais populares e amplamente utilizados. Apache é conhecido por sua flexibilidade, potência e extensibilidade através de módulos.
+2. **A**pache: Um dos servidores web mais populares e amplamente utilizados. Apache é conhecido por sua flexibilidade, potência e extensibilidade através de módulos.
 
-3. **MySQL ou MariaDB**:
-   - Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
+3. **M**ySQL ou **M**ariaDB: Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
 
-4. **PHP, Python ou Perl**:
-   - Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LAMP, mas Python e Perl também são suportados.
+4. **P**HP, **P**ython ou **P**erl: Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LAMP, mas Python e Perl também são suportados.
 
 Benefícios do LAMP Stack
 
-1. **Popularidade e Ampla Utilização**:
-   - O LAMP stack é uma das combinações de software mais utilizadas para desenvolvimento web, com uma vasta base de usuários e uma grande quantidade de documentação e suporte disponível.
+1. **Popularidade e Ampla Utilização**: O LAMP stack é uma das combinações de software mais utilizadas para desenvolvimento web, com uma vasta base de usuários e uma grande quantidade de documentação e suporte disponível.
 
-2. **Flexibilidade e Customização**:
-   - Cada componente do LAMP pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, oferecendo grande flexibilidade na arquitetura da aplicação.
+2. **Flexibilidade e Customização**: Cada componente do LAMP pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, oferecendo grande flexibilidade na arquitetura da aplicação.
 
-3. **Código Aberto**:
-   - Todos os componentes do LAMP stack são de código aberto, o que significa que são gratuitos para usar e podem ser modificados conforme necessário.
+3. **Código Aberto**: Todos os componentes do LAMP stack são de código aberto, o que significa que são gratuitos para usar e podem ser modificados conforme necessário.
 
-4. **Estabilidade e Segurança**:
-   - Linux é conhecido por sua estabilidade e segurança, enquanto Apache, MySQL/MariaDB e PHP têm configurações e práticas recomendadas para manter a segurança.
+4. **Estabilidade e Segurança**: Linux é conhecido por sua estabilidade e segurança, enquanto Apache, MySQL/MariaDB e PHP têm configurações e práticas recomendadas para manter a segurança.
 
 Exemplo de Configuração do LAMP Stack
 
-#1. Instalação do Linux
-- Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+#1. Instalação do Linux: Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
 
-#2. Instalação do Apache
-- No terminal, use comandos como `sudo apt-get install apache2` (para sistemas baseados em Debian) para instalar o Apache.
-- Inicie e habilite o Apache:
-  ```bash
-  sudo systemctl start apache2
-  sudo systemctl enable apache2
-  ```
+#2. Instalação do Apache: No terminal, use comandos como `sudo apt-get install apache2` (para sistemas baseados em Debian) para instalar o Apache. Inicie e habilite o Apache:
+
+```bash
+sudo systemctl start apache2
+sudo systemctl enable apache2
+```
 
 #3. Instalação do MySQL ou MariaDB
-- Para MySQL:
-  ```bash
-  sudo apt-get install mysql-server
-  ```
-- Para MariaDB:
-  ```bash
-  sudo apt-get install mariadb-server
-  ```
-- Configure o banco de dados:
-  ```bash
-  sudo mysql_secure_installation
-  ```
 
-#4. Instalação do PHP
-- Instale PHP e os módulos necessários para interação com Apache e MySQL/MariaDB:
-  ```bash
-  sudo apt-get install php libapache2-mod-php php-mysql
-  ```
+Para MySQL:
 
-#5. Configuração do Apache para Trabalhar com PHP
-- Edite o arquivo de configuração do Apache (por exemplo, `/etc/apache2/sites-available/000-default.conf`) para definir o diretório raiz e permitir a execução de arquivos PHP:
-  ```apache
+```bash
+sudo apt-get install mysql-server
+```
+
+Para MariaDB:
+  
+```bash
+sudo apt-get install mariadb-server
+```
+
+Configure o banco de dados:
+
+```bash
+sudo mysql_secure_installation
+```
+
+#4. Instalação do PHP. Instale PHP e os módulos necessários para interação com Apache e MySQL/MariaDB:
+
+```bash
+sudo apt-get install php libapache2-mod-php php-mysql
+```
+
+#5. Configuração do Apache para Trabalhar com PHP. Edite o arquivo de configuração do Apache (por exemplo, `/etc/apache2/sites-available/000-default.conf`) para definir o diretório raiz e permitir a execução de arquivos PHP:
+
+```apache
   <VirtualHost *:80>
       ServerAdmin webmaster@localhost
       DocumentRoot /var/www/html
@@ -827,12 +823,13 @@ Exemplo de Configuração do LAMP Stack
       ErrorLog ${APACHE_LOG_DIR}/error.log
       CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
-  ```
+```
 
-- Reinicie o Apache para aplicar as mudanças:
-  ```bash
-  sudo systemctl restart apache2
-  ```
+Reinicie o Apache para aplicar as mudanças:
+
+```bash
+sudo systemctl restart apache2
+```
 
 <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" height="77" align="right">
 
@@ -878,8 +875,7 @@ Exemplo de Uso do XAMPP: Instalação e Configuração Básica:
 
 3. **Início dos Serviços**: Abra o painel de controle do XAMPP e inicie os serviços Apache e MySQL/MariaDB.
 
-4. **Criação de um Projeto PHP**:
-   - Coloque os arquivos do seu projeto PHP na pasta `htdocs` dentro do diretório de instalação do XAMPP (por exemplo, `C:\xampp\htdocs\meuprojeto`).
+4. **Criação de um Projeto PHP**: Coloque os arquivos do seu projeto PHP na pasta `htdocs` dentro do diretório de instalação do XAMPP (por exemplo, `C:\xampp\htdocs\meuprojeto`).
 
 5. **Acesso ao Projeto**: Abra o navegador web e acesse `http://localhost/meuprojeto` para visualizar seu projeto em execução.
 
@@ -898,42 +894,31 @@ O WAMP Server é uma ferramenta valiosa para desenvolvedores web que trabalham e
 
 Componentes do WAMP Server:
 
-1. **Windows**:
-   - O sistema operacional sobre o qual o resto da stack é executado. O WAMP Server é projetado especificamente para funcionar em sistemas Windows.
+1. **Windows**: O sistema operacional sobre o qual o resto da stack é executado. O WAMP Server é projetado especificamente para funcionar em sistemas Windows.
 
-2. **Apache**:
-   - Um dos servidores web mais populares e amplamente utilizados. O Apache é conhecido por sua estabilidade, flexibilidade e segurança.
+2. **Apache**: Um dos servidores web mais populares e amplamente utilizados. O Apache é conhecido por sua estabilidade, flexibilidade e segurança.
 
-3. **MySQL ou MariaDB**:
-   - Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. O MySQL é frequentemente usado, mas o WAMP Server também suporta o MariaDB, uma bifurcação compatível com o MySQL.
+3. **MySQL ou MariaDB**: Sistemas de gerenciamento de banco de dados relacionais que armazenam e gerenciam dados. O MySQL é frequentemente usado, mas o WAMP Server também suporta o MariaDB, uma bifurcação compatível com o MySQL.
 
-4. **PHP**:
-   - Linguagem de programação do lado do servidor que processa a lógica de negócios e interage com o banco de dados para gerar conteúdo dinâmico. PHP é amplamente utilizado no desenvolvimento web e é altamente integrado com o Apache.
+4. **PHP**: Linguagem de programação do lado do servidor que processa a lógica de negócios e interage com o banco de dados para gerar conteúdo dinâmico. PHP é amplamente utilizado no desenvolvimento web e é altamente integrado com o Apache.
 
 Características do WAMP Server:
 
-1. **Fácil Instalação e Configuração**:
-   - O WAMP Server fornece um instalador simples que configura automaticamente todos os componentes necessários, tornando o processo de configuração de um ambiente de desenvolvimento local rápido e fácil.
+1. **Fácil Instalação e Configuração**: O WAMP Server fornece um instalador simples que configura automaticamente todos os componentes necessários, tornando o processo de configuração de um ambiente de desenvolvimento local rápido e fácil.
 
-2. **Ambiente de Desenvolvimento Local**:
-   - Permite que os desenvolvedores criem e testem aplicações web em seus computadores locais antes de implantá-las em um servidor de produção.
+2. **Ambiente de Desenvolvimento Local**: Permite que os desenvolvedores criem e testem aplicações web em seus computadores locais antes de implantá-las em um servidor de produção.
 
-3. **Compatibilidade com Ferramentas de Desenvolvimento**:
-   - O WAMP Server é compatível com muitas ferramentas de desenvolvimento populares, como IDEs (Integrated Development Environments) e editores de texto, facilitando o desenvolvimento e a depuração de código.
+3. **Compatibilidade com Ferramentas de Desenvolvimento**: O WAMP Server é compatível com muitas ferramentas de desenvolvimento populares, como IDEs (Integrated Development Environments) e editores de texto, facilitando o desenvolvimento e a depuração de código.
 
-4. **Personalização e Extensibilidade**:
-   - Os usuários podem personalizar e estender o WAMP Server instalando e configurando módulos adicionais, como extensões PHP e bibliotecas MySQL/MariaDB.
+4. **Personalização e Extensibilidade**: Os usuários podem personalizar e estender o WAMP Server instalando e configurando módulos adicionais, como extensões PHP e bibliotecas MySQL/MariaDB.
 
 Benefícios do WAMP Server:
 
-1. **Conveniência e Rapidez**:
-   - Com apenas alguns cliques, os desenvolvedores podem ter um ambiente de desenvolvimento web totalmente funcional pronto para uso, sem a necessidade de configurar cada componente individualmente.
+1. **Conveniência e Rapidez**: Com apenas alguns cliques, os desenvolvedores podem ter um ambiente de desenvolvimento web totalmente funcional pronto para uso, sem a necessidade de configurar cada componente individualmente.
 
-2. **Aprendizado e Experimentação**:
-   - O WAMP Server é uma escolha popular para iniciantes que desejam aprender e experimentar desenvolvimento web, pois oferece um ambiente local seguro e controlado para explorar.
+2. **Aprendizado e Experimentação**: O WAMP Server é uma escolha popular para iniciantes que desejam aprender e experimentar desenvolvimento web, pois oferece um ambiente local seguro e controlado para explorar.
 
-3. **Desenvolvimento Ágil**:
-   - Ao permitir que os desenvolvedores testem rapidamente suas aplicações localmente, o WAMP Server facilita o desenvolvimento ágil e iterativo.
+3. **Desenvolvimento Ágil**: Ao permitir que os desenvolvedores testem rapidamente suas aplicações localmente, o WAMP Server facilita o desenvolvimento ágil e iterativo.
 
 # 🕯️ [PHP] LEMP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/7fd7aabf-3f5e-4dd6-beef-95c69aa37b44" height="177" align="right">
@@ -949,68 +934,66 @@ O LEMP stack é uma combinação poderosa e flexível de software de código abe
 
 Componentes do LEMP Stack:
 
-1. **Linux**:
-   - O sistema operacional sobre o qual o resto da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
+1. **Linux**: O sistema operacional sobre o qual o resto da stack é executado. Linux é escolhido por sua estabilidade, segurança e flexibilidade.
 
-2. **Nginx**:
-   - Um servidor web de alto desempenho conhecido por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos. Nginx também pode ser usado como um proxy reverso e balanceador de carga.
+2. **Nginx**: Um servidor web de alto desempenho conhecido por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos. Nginx também pode ser usado como um proxy reverso e balanceador de carga.
 
-3. **MySQL ou MariaDB**:
-   - Sistemas de gerenciamento de banco de dados relacionais (RDBMS) que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
+3. **MySQL ou MariaDB**: Sistemas de gerenciamento de banco de dados relacionais (RDBMS) que armazenam e gerenciam dados. MySQL é amplamente utilizado e MariaDB é uma bifurcação compatível que oferece melhorias de desempenho e funcionalidades adicionais.
 
-4. **PHP, Python ou Perl**:
-   - Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LEMP, mas Python e Perl também são suportados.
+4. **PHP, Python ou Perl**: Linguagens de programação do lado do servidor que processam a lógica de negócios e interagem com o banco de dados para gerar conteúdo dinâmico. PHP é a escolha mais comum no contexto LEMP, mas Python e Perl também são suportados.
 
 Benefícios do LEMP Stack
 
-1. **Desempenho e Escalabilidade**:
-   - Nginx é conhecido por sua eficiência e capacidade de lidar com alto tráfego, tornando o LEMP stack adequado para aplicações web de alto desempenho.
+1. **Desempenho e Escalabilidade**: Nginx é conhecido por sua eficiência e capacidade de lidar com alto tráfego, tornando o LEMP stack adequado para aplicações web de alto desempenho.
 
-2. **Flexibilidade**:
-   - Cada componente pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, permitindo uma grande flexibilidade na arquitetura da aplicação.
+2. **Flexibilidade**: Cada componente pode ser configurado e ajustado de acordo com as necessidades específicas da aplicação, permitindo uma grande flexibilidade na arquitetura da aplicação.
 
-3. **Compatibilidade**:
-   - Linux, Nginx, MySQL/MariaDB e PHP são todos de código aberto e amplamente suportados, com vastas comunidades de desenvolvedores e recursos disponíveis.
+3. **Compatibilidade**: Linux, Nginx, MySQL/MariaDB e PHP são todos de código aberto e amplamente suportados, com vastas comunidades de desenvolvedores e recursos disponíveis.
 
-4. **Segurança**:
-   - Linux oferece um ambiente seguro e estável, enquanto Nginx, MySQL/MariaDB e PHP podem ser configurados para minimizar vulnerabilidades e proteger a aplicação.
+4. **Segurança**: Linux oferece um ambiente seguro e estável, enquanto Nginx, MySQL/MariaDB e PHP podem ser configurados para minimizar vulnerabilidades e proteger a aplicação.
 
 Exemplo de Configuração do LEMP Stack
 
-1. Instalação do Linux
-- Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+1. Instalação do Linux: Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
 
-2. Instalação do Nginx
-- No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
-- Inicie e habilite o Nginx:
-  ```bash
-  sudo systemctl start nginx
-  sudo systemctl enable nginx
-  ```
+2. Instalação do Nginx: No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
+
+Inicie e habilite o Nginx:
+
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
 
 3. Instalação do MySQL ou MariaDB
-- Para MySQL:
-  ```bash
-  sudo apt-get install mysql-server
-  ```
-- Para MariaDB:
-  ```bash
-  sudo apt-get install mariadb-server
-  ```
-- Configure o banco de dados:
-  ```bash
-  sudo mysql_secure_installation
-  ```
 
-4. Instalação do PHP
-- Instale PHP e os módulos necessários para interação com Nginx e MySQL/MariaDB:
-  ```bash
-  sudo apt-get install php-fpm php-mysql
-  ```
+Para MySQL:
 
-5. Configuração do Nginx para Trabalhar com PHP
-- Edite o arquivo de configuração do Nginx (por exemplo, `/etc/nginx/sites-available/default`) para incluir a configuração de PHP-FPM:
-  ```nginx
+```bash
+sudo apt-get install mysql-server
+```
+
+Para MariaDB:
+
+```bash
+sudo apt-get install mariadb-server
+```
+
+Configure o banco de dados:
+
+```bash
+sudo mysql_secure_installation
+```
+
+4. Instalação do PHP: Instale PHP e os módulos necessários para interação com Nginx e MySQL/MariaDB:
+
+```bash
+sudo apt-get install php-fpm php-mysql
+```
+
+5. Configuração do Nginx para Trabalhar com PHP: Edite o arquivo de configuração do Nginx (por exemplo, `/etc/nginx/sites-available/default`) para incluir a configuração de PHP-FPM:
+
+```nginx
   server {
       listen 80;
       server_name example.com;
@@ -1031,13 +1014,14 @@ Exemplo de Configuração do LEMP Stack
           deny all;
       }
   }
-  ```
+```
 
-- Teste a configuração do Nginx e reinicie o serviço:
-  ```bash
-  sudo nginx -t
-  sudo systemctl restart nginx
-  ```
+Teste a configuração do Nginx e reinicie o serviço:
+  
+```bash
+sudo nginx -t
+sudo systemctl restart nginx
+```
 
 # 🧨 [PHP] LNPP stack
 <img src="https://github.com/IsaacAlves7/php/assets/61624336/b0397152-d5fe-4a43-a79c-7d08f8e559bb" height="177" align="right">
@@ -1055,49 +1039,39 @@ O LNPP stack combina a robustez do Linux, a eficiência do Nginx, a confiabilida
 
 Componentes do LNPP Stack
 
-1. **Linux**: 
- - É o sistema operacional que fornece a base para a pilha. É conhecido por sua estabilidade, segurança e desempenho.
+1. **Linux**: É o sistema operacional que fornece a base para a pilha. É conhecido por sua estabilidade, segurança e desempenho.
  
-2. **Nginx**:
- - Um servidor web de alta performance que também pode ser usado como um proxy reverso, balanceador de carga e cache HTTP. É popular por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos.
+2. **Nginx**: Um servidor web de alta performance que também pode ser usado como um proxy reverso, balanceador de carga e cache HTTP. É popular por sua capacidade de lidar com um grande número de conexões simultâneas com uso eficiente de recursos.
  
-3. **PostgreSQL**:
- - Um sistema de gerenciamento de banco de dados relacional avançado e de código aberto. É conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. PostgreSQL é uma escolha comum para aplicações que requerem integridade de dados e complexidade em consultas.
+3. **PostgreSQL**: Um sistema de gerenciamento de banco de dados relacional avançado e de código aberto. É conhecido por sua robustez, extensibilidade e conformidade com os padrões SQL. PostgreSQL é uma escolha comum para aplicações que requerem integridade de dados e complexidade em consultas.
 
-4. **PHP**:
- - Uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente conhecida por sua capacidade de ser embutida em HTML. PHP é a linguagem do lado do servidor que processa a lógica do negócio e interage com o banco de dados.
+4. **PHP**: Uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente conhecida por sua capacidade de ser embutida em HTML. PHP é a linguagem do lado do servidor que processa a lógica do negócio e interage com o banco de dados.
 
 Benefícios do LNPP Stack
 
-1. **Desempenho e Escalabilidade**:
- - Nginx é conhecido por sua eficiência em servir um grande número de requisições simultâneas, tornando o stack LNPP adequado para aplicações de alto tráfego.
+1. Desempenho e Escalabilidade: Nginx é conhecido por sua eficiência em servir um grande número de requisições simultâneas, tornando o stack LNPP adequado para aplicações de alto tráfego.
 
-2. **Robustez e Confiabilidade**:
- - PostgreSQL é reconhecido por sua robustez e conformidade com os padrões SQL, oferecendo integridade transacional e suporte a operações complexas.
+2. Robustez e Confiabilidade: PostgreSQL é reconhecido por sua robustez e conformidade com os padrões SQL, oferecendo integridade transacional e suporte a operações complexas.
 
-3. **Flexibilidade e Personalização**:
- - Cada componente do LNPP é altamente configurável e pode ser ajustado para atender às necessidades específicas da aplicação.
+3. Flexibilidade e Personalização: Cada componente do LNPP é altamente configurável e pode ser ajustado para atender às necessidades específicas da aplicação.
 
-4. **Segurança**:
- - Linux oferece um ambiente seguro e estável. Com as configurações adequadas, Nginx e PostgreSQL também podem ser fortemente protegidos contra vulnerabilidades comuns.
+4. Segurança: Linux oferece um ambiente seguro e estável. Com as configurações adequadas, Nginx e PostgreSQL também podem ser fortemente protegidos contra vulnerabilidades comuns.
 
-5. **Comunidade e Suporte**:
- - Todos os componentes do LNPP stack são de código aberto e têm grandes comunidades de suporte, o que facilita a obtenção de ajuda e recursos para desenvolvimento e resolução de problemas.
+5. Comunidade e Suporte: Todos os componentes do LNPP stack são de código aberto e têm grandes comunidades de suporte, o que facilita a obtenção de ajuda e recursos para desenvolvimento e resolução de problemas.
 
 Exemplo de Configuração do LNPP Stack
 
-1. **Instalação do Linux**:
- - Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
+1. Instalação do Linux: Escolha uma distribuição Linux (como Ubuntu, CentOS ou Debian) e instale-a no servidor.
 
-2. **Instalação do Nginx**:
+2. Instalação do Nginx:
  - No terminal, use comandos como `sudo apt-get install nginx` (para sistemas baseados em Debian) para instalar o Nginx.
  - Configure Nginx para servir sua aplicação PHP editando o arquivo de configuração em `/etc/nginx/sites-available/default`.
 
-3. **Instalação do PostgreSQL**:
+3. Instalação do PostgreSQL:
  - Instale o PostgreSQL usando comandos como `sudo apt-get install postgresql`.
  - Configure o PostgreSQL para aceitar conexões e criar um banco de dados para sua aplicação.
 
-4. **Instalação do PHP**:
+4. Instalação do PHP:
  - Instale o PHP e os módulos necessários para interação com Nginx e PostgreSQL usando `sudo apt-get install php-fpm php-pgsql`.
  - Configure o PHP-FPM (FastCGI Process Manager) para trabalhar com Nginx editando o arquivo de configuração PHP-FPM em `/etc/php/7.4/fpm/pool.d/www.conf` (ajuste a versão conforme necessário).
 
@@ -1126,15 +1100,15 @@ Aqui está um exemplo básico de como começar com CakePHP, incluindo a criaçã
 
 Instalação do CakePHP
 
-1. **Usando Composer**:
- ```sh
- composer create-project --prefer-dist cakephp/app meuprojeto
- ```
+1. Usando Composer:
+   
+```sh
+composer create-project --prefer-dist cakephp/app meuprojeto
+```
 
-2. **Configuração do Banco de Dados**:
- Após criar o projeto, configure seu banco de dados no arquivo `config/app.php`:
+2. Configuração do Banco de Dados: Após criar o projeto, configure seu banco de dados no arquivo `config/app.php`:
 
- ```php
+```php
  'Datasources' => [
  'default' => [
  'host' => 'localhost',
@@ -1145,20 +1119,21 @@ Instalação do CakePHP
  // Outros parâmetros de configuração...
  ],
  ],
- ```
+```
 
 Criando um Modelo, Controlador e View
 
-1. **Gerando Código com Bake**:
- ```sh
- bin/cake bake model Usuarios
- bin/cake bake controller Usuarios
- bin/cake bake template Usuarios
- ```
+1. Gerando Código com Bake:
 
-2. **Definindo o Modelo** (`src/Model/Entity/Usuario.php` e `src/Model/Table/UsuariosTable.php`):
+```sh
+bin/cake bake model Usuarios
+bin/cake bake controller Usuarios
+bin/cake bake template Usuarios
+```
 
- ```php
+2. Definindo o Modelo (`src/Model/Entity/Usuario.php` e `src/Model/Table/UsuariosTable.php`):
+
+```php
  namespace App\Model\Entity;
 
  use Cake\ORM\Entity;
@@ -1169,7 +1144,7 @@ Criando um Modelo, Controlador e View
  'id' => false,
  ];
  }
- ```
+```
 
  ```php
  namespace App\Model\Table;
