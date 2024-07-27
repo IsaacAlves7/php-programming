@@ -77,6 +77,7 @@ Benefícios do Uso do Bitnami:
 
 4. Suporte Profissional: Bitnami oferece suporte técnico profissional para seus produtos, garantindo que os usuários tenham acesso a assistência especializada sempre que precisarem.
 
+## [PHP] Wordpress
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="77" align="right">
 
 **WordPress** é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e gerenciar sites e blogs. Inicialmente lançado em 2003 por Matt Mullenweg e Mike Little, o WordPress começou como uma plataforma de blogs, mas evoluiu para se tornar um dos CMS mais populares e poderosos do mundo, capaz de suportar uma ampla variedade de sites, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. WordPress é uma plataforma poderosa e versátil que facilita a criação e o gerenciamento de sites e blogs. Com sua interface amigável, extensibilidade através de temas e plugins, e uma grande comunidade de suporte, WordPress é uma excelente escolha para qualquer pessoa ou empresa que deseja estabelecer uma presença online eficaz e profissional.
@@ -123,6 +124,7 @@ Benefícios do Uso do WordPress
 4. Grande Comunidade e Suporte: Uma comunidade ativa que fornece uma vasta quantidade de recursos, suporte e atualizações.
 5. Segurança: Medidas de segurança integradas e plugins adicionais para proteção contra vulnerabilidades.
 
+## [PHP] Drupal
 <img src="https://cdn.worldvectorlogo.com/logos/drupal.svg" height="77" align="right">
 
 **Drupal** é um sistema de gerenciamento de conteúdo (CMS) de código aberto e altamente flexível, usado para criar uma ampla variedade de sites e aplicações web, desde blogs pessoais até grandes portais de notícias e sites de comércio eletrônico. Lançado pela primeira vez em 2001 por Dries Buytaert, Drupal se tornou uma das plataformas CMS mais populares e amplamente utilizadas no mundo. Drupal é um sistema de gerenciamento de conteúdo (CMS) poderoso e flexível, usado para criar uma ampla variedade de sites e aplicações web. Com sua arquitetura modular, suporte multilíngue e poderoso conjunto de ferramentas de gerenciamento de conteúdo, Drupal é uma escolha popular para empresas e organizações que buscam uma plataforma robusta e altamente personalizável para suas necessidades online.
@@ -157,6 +159,7 @@ Benefícios do Uso do Drupal:
 
 4. **Segurança**: Drupal é conhecido por sua segurança e confiabilidade, com uma equipe dedicada de segurança que fornece atualizações regulares e patches para proteger contra vulnerabilidades conhecidas.
 
+## [PHP] Shopify
 <img src="https://github.com/user-attachments/assets/a1184d6c-c61b-4719-b904-4ac56665dc49" align="right" height="77">
 
 **Shopify** é uma plataforma de comércio eletrônico (e-commerce) que permite a indivíduos e empresas criar, configurar e gerenciar suas próprias lojas online. Fundada em 2006, Shopify oferece uma ampla gama de ferramentas e recursos que facilitam a construção de sites de e-commerce sem a necessidade de habilidades avançadas em programação ou design. A plataforma fornece temas personalizáveis e uma interface intuitiva para que os usuários possam criar a aparência desejada para suas lojas. Além disso, Shopify oferece funcionalidades integradas para gerenciar produtos, processar pagamentos, realizar inventário, calcular impostos e acompanhar pedidos. 
