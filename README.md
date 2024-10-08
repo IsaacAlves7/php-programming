@@ -1342,7 +1342,7 @@ Aqui estão algumas das principais características:
 5. **SEO-friendly**: Por ser baseado em servidor, ele mantém as páginas amigáveis para motores de busca, ao contrário de soluções completamente em JavaScript, que às vezes podem ter dificuldades com SEO.
 
 ## [PHP] Filament
-<img src="https://github.com/user-attachments/assets/0db0c310-ec97-452b-9b6e-c6b95d4068ee" align="right" height="77">
+<img src="https://github.com/user-attachments/assets/c002367e-8be6-4b30-81e3-c04d7fbbffb6" align="right" height="77">
 
 **Filament** é um conjunto de ferramentas e um framework de interface administrativa construído para Laravel. Ele permite que desenvolvedores criem rapidamente interfaces administrativas modernas e customizadas com o mínimo de esforço. Filament é projetado para ser simples de usar, flexível e extensível, sendo especialmente útil para aplicações baseadas em Laravel que precisam de um painel administrativo robusto. Filament é uma solução ideal para projetos que precisam de um painel administrativo rápido e eficiente, mas que também precisam de flexibilidade para customizar e estender as funcionalidades fornecidas.
 
@@ -1361,6 +1361,10 @@ Aqui estão alguns dos principais recursos do Filament:
 6. **Design Responsivo**: A interface administrativa criada com Filament é responsiva, funcionando bem tanto em dispositivos móveis quanto em desktops.
 
 7. **Personalização**: Ele oferece um alto nível de personalização, permitindo que você ajuste o estilo e o comportamento do painel administrativo conforme as necessidades da sua aplicação.
+
+<img src="https://github.com/user-attachments/assets/d5db2d37-ec6f-46f1-aa8f-2402f29ea7ff" align="right" height="177">
+
+
 
 ## [PHP] Laradock
 
