@@ -1322,6 +1322,11 @@ Benefícios do Uso do Laravel:
 3. **Segurança**: Laravel inclui várias funcionalidades de segurança, como proteção contra ataques CSRF, SQL injection, XSS e autenticação integrada.
 4. **Manutenção Simples**: A estrutura organizada do Laravel e suas ferramentas integradas facilitam a manutenção e o crescimento contínuo da aplicação.
 
+## [PHP] Livewire
+<img src="https://github.com/user-attachments/assets/75962645-be59-4475-9ad1-d2b43b8e462e" align="right" height="77">
+
+O **Livewire** 3 é uma biblioteca PHP que transforma a forma como você cria aplicações web interativas. 
+
 ## [PHP] Filament
 
 ## [PHP] Laradock
