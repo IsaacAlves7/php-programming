@@ -1325,9 +1325,42 @@ Benefícios do Uso do Laravel:
 ## [PHP] Livewire
 <img src="https://github.com/user-attachments/assets/75962645-be59-4475-9ad1-d2b43b8e462e" align="right" height="77">
 
-O **Livewire** 3 é uma biblioteca PHP que transforma a forma como você cria aplicações web interativas. 
+O **Livewire** 3 é uma biblioteca PHP que transforma a forma como você cria aplicações web interativas. Em vez de se preocupar com JavaScript complicado, o Livewire faz o trabalho pesado para você. Ele atualiza a interface do usuário com base nas ações feitas, tudo isso renderizando o HTML no servidor e enviando de volta para o cliente através de requisições AJAX.
+
+Livewire é um framework full-stack para o Laravel que facilita a construção de interfaces dinâmicas sem a necessidade de usar JavaScript diretamente. Ele permite que você crie componentes interativos em PHP e tenha o frontend e backend trabalhando juntos de forma eficiente. Livewire atualiza automaticamente partes do DOM ao invés de recarregar a página inteira, usando AJAX em segundo plano. Livewire é útil quando você precisa criar aplicações interativas com Laravel, mas quer minimizar o uso de JavaScript ou preferir manter a lógica no servidor.
+
+Aqui estão algumas das principais características:
+
+1. **Componentes baseados em PHP**: Com Livewire, você escreve a maior parte da lógica em PHP. Não é necessário ter um profundo conhecimento de JavaScript para criar interatividade.
+
+2. **Atualizações dinâmicas**: Livewire permite atualizações dinâmicas do conteúdo da página sem recarregar o browser, semelhante ao que frameworks como Vue.js fazem, mas com muito menos JavaScript.
+
+3. **Backend reativo**: A interação entre o frontend e o backend ocorre automaticamente, pois o Livewire lida com a comunicação AJAX, mantendo a lógica do lado do servidor e gerenciando a UI no lado do cliente.
+
+4. **Integração com Blade**: Ele se integra perfeitamente com o Blade (motor de templates do Laravel), o que torna fácil reutilizar e organizar os componentes da interface.
+
+5. **SEO-friendly**: Por ser baseado em servidor, ele mantém as páginas amigáveis para motores de busca, ao contrário de soluções completamente em JavaScript, que às vezes podem ter dificuldades com SEO.
 
 ## [PHP] Filament
+<img src="https://github.com/user-attachments/assets/0db0c310-ec97-452b-9b6e-c6b95d4068ee" align="right" height="77">
+
+**Filament** é um conjunto de ferramentas e um framework de interface administrativa construído para Laravel. Ele permite que desenvolvedores criem rapidamente interfaces administrativas modernas e customizadas com o mínimo de esforço. Filament é projetado para ser simples de usar, flexível e extensível, sendo especialmente útil para aplicações baseadas em Laravel que precisam de um painel administrativo robusto. Filament é uma solução ideal para projetos que precisam de um painel administrativo rápido e eficiente, mas que também precisam de flexibilidade para customizar e estender as funcionalidades fornecidas.
+
+Aqui estão alguns dos principais recursos do Filament:
+
+1. **Admin Panel**: O Filament oferece um painel administrativo out-of-the-box, permitindo a criação rápida de dashboards administrativos para gerenciar recursos, usuários, permissões e mais. Ele fornece componentes pré-construídos como tabelas, formulários e gráficos.
+
+2. **CRUD Generator**: Um dos recursos mais populares do Filament é o seu gerador de CRUD, que facilita a criação de interfaces de gerenciamento para recursos como usuários, produtos ou qualquer entidade da aplicação. Ele gera automaticamente views para listar, criar, editar e excluir dados.
+
+3. **Formulários e Validações**: O Filament simplifica a criação de formulários dinâmicos e complexos, com suporte a validações e manipulação de dados. Ele permite a criação de formulários com campos customizáveis e validadores integrados do Laravel.
+
+4. **Integração com Laravel Policies e Roles**: Para gerenciar permissões de acesso, o Filament se integra diretamente com o sistema de policies e roles do Laravel, facilitando a configuração de regras de autorização.
+
+5. **Plugins e Extensões**: O Filament é altamente extensível e conta com uma comunidade ativa que desenvolve plugins para adicionar funcionalidades extras ao painel, como geradores de relatórios, integração com serviços externos, etc.
+
+6. **Design Responsivo**: A interface administrativa criada com Filament é responsiva, funcionando bem tanto em dispositivos móveis quanto em desktops.
+
+7. **Personalização**: Ele oferece um alto nível de personalização, permitindo que você ajuste o estilo e o comportamento do painel administrativo conforme as necessidades da sua aplicação.
 
 ## [PHP] Laradock
 
